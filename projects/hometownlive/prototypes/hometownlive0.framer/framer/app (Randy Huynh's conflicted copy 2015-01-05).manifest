@@ -1,0 +1,103 @@
+CACHE MANIFEST
+# 1420067174.312065
+CACHE:
+/_server/server.js
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/.DS_Store
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/.temp.html
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/app.coffee
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/framer/.bowerrc
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/framer/app.manifest
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/framer/backup.coffee
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/framer/coffee-script.js
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/framer/config.json
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/framer/framer.generated.js
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/framer/framer.js
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/framer/framer.js.map
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/framer/images/background.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/framer/images/cursor.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/framer/images/cursor@2x.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/framer/images/icon-120.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/framer/images/icon-152.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/framer/images/icon-76.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/framer/images/icon-arrow.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/framer/images/icon-arrow@2x.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/framer/images/icon-close.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/framer/images/icon-close@2x.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/framer/images/icon-framer.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/framer/images/icon-framer@2x.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/framer/images/icon-share.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/framer/images/icon-share@2x.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/framer/init.js
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/framer/mirror.css
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/framer/style.css
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/framer/version
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/images/framer-icon.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/.DS_Store
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer/framerps.log
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer/images/Background.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer/images/Battery-2.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer/images/Battery.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer/images/Bluetooth-2.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer/images/Bluetooth.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer/images/Duration-10.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer/images/Duration-6.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer/images/Duration-7.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer/images/Duration-8.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer/images/Duration-9.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer/images/Duration.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer/images/FloridaBG.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer/images/Header.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer/images/Location.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer/images/Menu.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer/images/MenuBG.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer/images/MenuHeader.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer/images/MenuOptions.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer/images/Recommended.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer/images/Search.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer/images/SeattleBG.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer/images/Signal & Carrier-2.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer/images/Signal & Carrier.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer/images/Signal-2.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer/images/Signal.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer/images/Thumbnail-6.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer/images/Thumbnail-7.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer/images/Thumbnail-8.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer/images/Thumbnail-9.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer/images/Thumbnail.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer/images/TopStories.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer/images/Trending.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer/layers.json
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer/layers.json.js
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer 2/framerps.log
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer 2/images/Background.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer 2/images/Battery-2.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer 2/images/Bluetooth-2.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer 2/images/FloridaBG.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer 2/images/Header.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer 2/images/Menu.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer 2/images/Search.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer 2/images/SeattleBG.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer 2/images/Signal & Carrier-2.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer 2/images/Signal-2.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer 2/images/TopStories.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer 2/images/Trending.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer 2/layers.json
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-framer 2/layers.json.js
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-trending-framer/framerps.log
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-trending-framer/images/Duration-6.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-trending-framer/images/Duration-7.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-trending-framer/images/Recommended.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-trending-framer/images/RecommendedTitle.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-trending-framer/images/Thumbnail-6.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-trending-framer/images/Thumbnail-7.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-trending-framer/layers.json
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-trending-framer/layers.json.js
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-trending-framer 2/framerps.log
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-trending-framer 2/images/Recommended.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-trending-framer 2/images/RecommendedTitle.png
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-trending-framer 2/layers.json
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/imported/hometownlive-trending-framer 2/layers.json.js
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/index.html
+..//Users/rhuynh/Dropbox (Sinclair)/sinclair digital/Hometown Live/04_Prototypes/02_FramerJS/hometimelive.framer/offline.html
+SETTINGS:
+prefer-online
