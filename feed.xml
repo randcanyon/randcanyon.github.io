@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-01-23T10:07:06-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Randy Huynh</title><subtitle>Portfolio of Randy Huynh, a visual designer a visual designer at Clockwork Labs working on BitCraft in Seattle.</subtitle><entry><title type="html">SpacetimeDB</title><link href="http://localhost:4000/2024/08/01/spacetimedb.html" rel="alternate" type="text/html" title="SpacetimeDB" /><published>2024-08-01T10:48:31-07:00</published><updated>2024-08-01T10:48:31-07:00</updated><id>http://localhost:4000/2024/08/01/spacetimedb</id><content type="html" xml:base="http://localhost:4000/2024/08/01/spacetimedb.html"><![CDATA[<!--- Content Captures --->
+
+<!--- Includes --->
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+			<div class="box">
+				<video class="responsive rounded" loop="" muted="" autoplay="autoplay">
+					<source alt="" src="/assets/images/boss-fight/boss-fight-render.mp4" />
+				</video>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  <div class="row">
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+	  	<div class="box">
+			<p>Given a starter template, using the 3D program of our choice, we were tasked with creating an animation featuring a hero against a towering villain. The challenge was a valuable way for me to practice modeling, texturing, rigging, and animation with a goal in mind.</p>
+	  	</div>
+	  </div>
+  </div>
+</section>
+
+<section class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
+	  <hr /><div class="box"></div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
+	  <div class="box"></div>
+	  </div>
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
+	  <div class="box"><p class="label">Press</p></div>
+	  </div>
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7">
+	  <div class="box">
+		
+<p><a href="https://www.youtube.com/watch?v=wgiRK8_iKdg">Top 100 renders montage</a></p>
+
+	  </div>
+	  </div>
+  </div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+			<div class="box">
+				<video class="responsive rounded" loop="" muted="" autoplay="autoplay">
+					<source alt="" src="/assets/images/boss-fight/boss-fight-playblast.mp4" />
+				</video>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/boss-fight/boss-fight-thumb.png" /></div>
+		</div>
+	</div>
+</section>]]></content><author><name></name></author><category term="three-d" /><category term="motion" /><summary type="html"><![CDATA[I created an entry for the Boss Fight run by Clint Jones.]]></summary></entry><entry><title type="html">BitCraft</title><link href="http://localhost:4000/2024/08/01/bitcraft.html" rel="alternate" type="text/html" title="BitCraft" /><published>2024-08-01T10:48:31-07:00</published><updated>2024-08-01T10:48:31-07:00</updated><id>http://localhost:4000/2024/08/01/bitcraft</id><content type="html" xml:base="http://localhost:4000/2024/08/01/bitcraft.html"><![CDATA[<!--- Content Captures --->
+
+<!--- Includes --->
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+			<div class="box">
+				<video class="responsive rounded" loop="" muted="" autoplay="autoplay">
+					<source alt="" src="/assets/images/boss-fight/boss-fight-render.mp4" />
+				</video>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  <div class="row">
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+	  	<div class="box">
+			<p>Given a starter template, using the 3D program of our choice, we were tasked with creating an animation featuring a hero against a towering villain. The challenge was a valuable way for me to practice modeling, texturing, rigging, and animation with a goal in mind.</p>
+	  	</div>
+	  </div>
+  </div>
+</section>
+
+<section class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
+	  <hr /><div class="box"></div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
+	  <div class="box"></div>
+	  </div>
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
+	  <div class="box"><p class="label">Press</p></div>
+	  </div>
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7">
+	  <div class="box">
+		
+<p><a href="https://www.youtube.com/watch?v=wgiRK8_iKdg">Top 100 renders montage</a></p>
+
+	  </div>
+	  </div>
+  </div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+			<div class="box">
+				<video class="responsive rounded" loop="" muted="" autoplay="autoplay">
+					<source alt="" src="/assets/images/boss-fight/boss-fight-playblast.mp4" />
+				</video>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/boss-fight/boss-fight-thumb.png" /></div>
+		</div>
+	</div>
+</section>]]></content><author><name></name></author><category term="branding" /><category term="ui-ux" /><category term="visual-design" /><summary type="html"><![CDATA[I created an entry for the Boss Fight run by Clint Jones.]]></summary></entry><entry><title type="html">Boss Fight</title><link href="http://localhost:4000/2023/09/09/boss-fight.html" rel="alternate" type="text/html" title="Boss Fight" /><published>2023-09-09T10:48:31-07:00</published><updated>2023-09-09T10:48:31-07:00</updated><id>http://localhost:4000/2023/09/09/boss-fight</id><content type="html" xml:base="http://localhost:4000/2023/09/09/boss-fight.html"><![CDATA[<!--- Content Captures --->
+
+<!--- Includes --->
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+			<div class="box">
+				<video class="responsive rounded" loop="" muted="" autoplay="autoplay">
+					<source alt="" src="/assets/images/boss-fight/boss-fight-render.mp4" />
+				</video>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  <div class="row">
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+	  	<div class="box">
+			<p>Given a starter template, using the 3D program of our choice, we were tasked with creating an animation featuring a hero against a towering villain. The challenge was a valuable way for me to practice modeling, texturing, rigging, and animation with a goal in mind.</p>
+	  	</div>
+	  </div>
+  </div>
+</section>
+
+<section class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
+	  <hr /><div class="box"></div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
+	  <div class="box"></div>
+	  </div>
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
+	  <div class="box"><p class="label">Press</p></div>
+	  </div>
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7">
+	  <div class="box">
+		
+<p><a href="https://www.youtube.com/watch?v=wgiRK8_iKdg">Top 100 renders montage</a></p>
+
+	  </div>
+	  </div>
+  </div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+			<div class="box">
+				<video class="responsive rounded" loop="" muted="" autoplay="autoplay">
+					<source alt="" src="/assets/images/boss-fight/boss-fight-playblast.mp4" />
+				</video>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/boss-fight/boss-fight-thumb.png" /></div>
+		</div>
+	</div>
+</section>]]></content><author><name></name></author><category term="three-d" /><category term="motion" /><summary type="html"><![CDATA[I created an entry for the Boss Fight run by Clint Jones.]]></summary></entry><entry><title type="html">Silent Hill Ascension</title><link href="http://localhost:4000/2023/06/01/silenthill-ascension.html" rel="alternate" type="text/html" title="Silent Hill Ascension" /><published>2023-06-01T10:48:31-07:00</published><updated>2023-06-01T10:48:31-07:00</updated><id>http://localhost:4000/2023/06/01/silenthill-ascension</id><content type="html" xml:base="http://localhost:4000/2023/06/01/silenthill-ascension.html"><![CDATA[<!--- Content Captures --->
+
+<!--- Includes --->
+
+<section class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
+	  <hr /><div class="box"></div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
+	  <div class="box"></div>
+	  </div>
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
+	  	<div class="box"><h4>Team</h4></div>
+	  </div>
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7">
+	  <div class="box">
+		
+<p><a href="https://www.linkedin.com/in/nicholasrobinson/">Nick Robinson</a> (Design Manager)</p>
+
+	  </div>
+	  </div>
+  </div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+			<div class="box">
+				<video class="responsive rounded" loop="" muted="" autoplay="autoplay">
+					<source alt="" src="/assets/images/microsoft-azure-playfab/playfab-trophy-animated.mp4" />
+				</video>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  <div class="row">
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+	  	<div class="box">
+			<p>
+<p>Microsoft Game Stack sought to provide an answer to the question, "What can Microsoft do for you?" if you're a game developer. And the answer to that question is, "A lot. Tell us what you need, and we'll point you in the right direction." Our goal was to embody that answer in both our online and physical presence for GDC 2019.</p>
+</p>
+	  	</div>
+	  </div>
+  </div>
+</section>
+
+<section data-aos="fade-up" class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  <div class="row">
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+	  	<div class="box">
+			<p>The challenge from a brand perspective was to present an identity that game developers would resonate with and one that reflects technical expertise, creative outcomes, and Microsoft's legacy in gaming.</p>
+	  	</div>
+	  </div>
+  </div>
+</section>
+
+<section class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
+	  <hr /><div class="box"></div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
+	  <div class="box"></div>
+	  </div>
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
+	  <div class="box"><p class="label">Press</p></div>
+	  </div>
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7">
+	  <div class="box">
+		
+<p><a href="https://www.forbes.com/sites/kevinmurnane/2019/07/07/game-stack-turns-microsofts-data-centers-into-game-development-platforms/#6499324637eb">Game Stack Turns Microsoft's Data Centers Into Game Development Platforms</a></p>
+<p><a href="https://stevivor.com/features/interviews/james-gwertzman-microsoft-game-stack-benefits/">Microsoft’s James Gwertzman on the benefits of Game Stack</a></p>
+
+	  </div>
+	  </div>
+  </div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-color.png" /></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-icons.png" /></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-website.png" /></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-gdc.png" /></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-showfloor.png" /></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-brand-social.png" /></div>
+		</div>
+	</div>
+</section>]]></content><author><name></name></author><category term="ui-ux" /><category term="visual-design" /><summary type="html"><![CDATA[I was a visual and brand designer for Microsoft Game Stack 2019 at Microsoft]]></summary></entry><entry><title type="html">Apartments</title><link href="http://localhost:4000/2022/03/05/apartments.html" rel="alternate" type="text/html" title="Apartments" /><published>2022-03-05T09:48:31-08:00</published><updated>2022-03-05T09:48:31-08:00</updated><id>http://localhost:4000/2022/03/05/apartments</id><content type="html" xml:base="http://localhost:4000/2022/03/05/apartments.html"><![CDATA[<!--- Content Captures --->
+
+<!--- Includes --->
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/apartment/apartment-livingroom.png" /></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  <div class="row">
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+	  	<div class="box">
+			<p>
+<p>Game Jams are an enormous challenge to create from scratch under a specific time limit. For the Brackeys Game Jam 2021.2, the challenges were to create a game, in under a week, themed around the phase, "Let there be chaos." After completing my game with 1 day and 9 hours to spare, I placed 109th out of 1,735 entries. You can play my game <a href="https://randyhuynh.itch.io/chaos-rains">here</a>.</p>
+</p>
+	  	</div>
+	  </div>
+  </div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/apartment/apartment-balcony.png" /></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/apartment/apartment-kitchen.png" /></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/apartment/apartment-bathroom.png" /></div>
+		</div>
+	</div>
+</section>]]></content><author><name></name></author><category term="three-d" /><summary type="html"><![CDATA[I modeled my sections of my apartment in Blender during COVID]]></summary></entry><entry><title type="html">Chaos Rains</title><link href="http://localhost:4000/2022/02/12/chaos-rains.html" rel="alternate" type="text/html" title="Chaos Rains" /><published>2022-02-12T09:48:31-08:00</published><updated>2022-02-12T09:48:31-08:00</updated><id>http://localhost:4000/2022/02/12/chaos-rains</id><content type="html" xml:base="http://localhost:4000/2022/02/12/chaos-rains.html"><![CDATA[<!--- Content Captures --->
+
+<!--- Includes --->
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/chaos-rains/chaos-rains-hero.png" /></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  <div class="row">
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+	  	<div class="box">
+			<p>
+<p>Game Jams are an enormous challenge to create from scratch under a specific time limit. For the Brackeys Game Jam 2021.2, the challenges were to create a game, in under a week, themed around the phase, "Let there be chaos." After completing my game with 1 day and 9 hours to spare, I placed 109th out of 1,735 entries. You can play my game <a href="https://randyhuynh.itch.io/chaos-rains">here</a>.</p>
+</p>
+	  	</div>
+	  </div>
+  </div>
+</section>
+
+<section class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
+	  <hr /><div class="box"></div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
+	  <div class="box"></div>
+	  </div>
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
+	  <div class="box"><p class="label">Press</p></div>
+	  </div>
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7">
+	  <div class="box">
+		
+<p><a href="https://www.youtube.com/watch?v=wgiRK8_iKdg">Top 100 renders montage</a></p>
+
+	  </div>
+	  </div>
+  </div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/chaos-rains/chaos-rains-01.png" /></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/chaos-rains/chaos-rains-02.png" /></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/chaos-rains/chaos-rains-03.png" /></div>
+		</div>
+	</div>
+</section>]]></content><author><name></name></author><category term="gamejam" /><summary type="html"><![CDATA[I designed and developed Chaos Rains for a the Brackeys Game Jam 2021.2]]></summary></entry><entry><title type="html">Endless Engines</title><link href="http://localhost:4000/2021/08/06/endless-engines.html" rel="alternate" type="text/html" title="Endless Engines" /><published>2021-08-06T10:48:31-07:00</published><updated>2021-08-06T10:48:31-07:00</updated><id>http://localhost:4000/2021/08/06/endless-engines</id><content type="html" xml:base="http://localhost:4000/2021/08/06/endless-engines.html"><![CDATA[<!--- Content Captures --->
+
+<!--- Includes --->
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+			<div class="box">
+				<video class="responsive rounded" loop="" muted="" autoplay="autoplay">
+					<source alt="" src="/assets/images/endless-engines/endless-engines-render.mp4" />
+				</video>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  <div class="row">
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+	  	<div class="box">
+			<p>
+<p>Given a starter template, using the 3D program of our choice, we were tasked with creating an animation featuring a setting and vehicle of our imagination. I chose to go the scifi route, depicting a scene of a futuristic freeway featuring car chase with a drone as the center piece. The challenge was a valuable way for me to practice modeling, texturing, and animation with a goal in mind.</p>
+</p>
+	  	</div>
+	  </div>
+  </div>
+</section>
+
+<section class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
+	  <hr /><div class="box"></div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
+	  <div class="box"></div>
+	  </div>
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
+	  <div class="box"><p class="label">Press</p></div>
+	  </div>
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7">
+	  <div class="box">
+		
+<p><a href="https://www.youtube.com/watch?v=mIDlU_sKto0">Top 100 3D Vehicle Montage | ENDLESS ENGINES</a></p>
+<p><a href="https://www.youtube.com/watch?v=7Tnv3eVsoM0">What 30 YEARS of communal 3D art looks like | ENDLESS ENGINES</a> My render at 2:36:54</p>
+
+	  </div>
+	  </div>
+  </div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+			<div class="box">
+				<video class="responsive rounded" loop="" muted="" autoplay="autoplay">
+					<source alt="" src="/assets/images/endless-engines/endless-engines-playblast.mp4" />
+				</video>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/endless-engines/endless-engines-front.png" /></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/endless-engines/endless-engines-angle.png" /></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/endless-engines/endless-engines-side.png" /></div>
+		</div>
+	</div>
+</section>]]></content><author><name></name></author><category term="three-d" /><category term="motion" /><summary type="html"><![CDATA[I created an entry for the Endless Engines run by Clint Jones.]]></summary></entry><entry><title type="html">Stream Pirates</title><link href="http://localhost:4000/2020/06/01/streampirates.html" rel="alternate" type="text/html" title="Stream Pirates" /><published>2020-06-01T10:48:31-07:00</published><updated>2020-06-01T10:48:31-07:00</updated><id>http://localhost:4000/2020/06/01/streampirates</id><content type="html" xml:base="http://localhost:4000/2020/06/01/streampirates.html"><![CDATA[<!--- Content Captures --->
+
+<!--- Includes --->
+
+<section class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
+	  <hr /><div class="box"></div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
+	  <div class="box"></div>
+	  </div>
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
+	  	<div class="box"><h4>Team</h4></div>
+	  </div>
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7">
+	  <div class="box">
+		
+<p><a href="https://www.linkedin.com/in/nicholasrobinson/">Nick Robinson</a> (Design Manager)</p>
+
+	  </div>
+	  </div>
+  </div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+			<div class="box">
+				<video class="responsive rounded" loop="" muted="" autoplay="autoplay">
+					<source alt="" src="/assets/images/microsoft-azure-playfab/playfab-trophy-animated.mp4" />
+				</video>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  <div class="row">
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+	  	<div class="box">
+			<p>
+<p>Microsoft Game Stack sought to provide an answer to the question, "What can Microsoft do for you?" if you're a game developer. And the answer to that question is, "A lot. Tell us what you need, and we'll point you in the right direction." Our goal was to embody that answer in both our online and physical presence for GDC 2019.</p>
+</p>
+	  	</div>
+	  </div>
+  </div>
+</section>
+
+<section data-aos="fade-up" class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  <div class="row">
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+	  	<div class="box">
+			<p>The challenge from a brand perspective was to present an identity that game developers would resonate with and one that reflects technical expertise, creative outcomes, and Microsoft's legacy in gaming.</p>
+	  	</div>
+	  </div>
+  </div>
+</section>
+
+<section class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
+	  <hr /><div class="box"></div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
+	  <div class="box"></div>
+	  </div>
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
+	  <div class="box"><p class="label">Press</p></div>
+	  </div>
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7">
+	  <div class="box">
+		
+<p><a href="https://www.forbes.com/sites/kevinmurnane/2019/07/07/game-stack-turns-microsofts-data-centers-into-game-development-platforms/#6499324637eb">Game Stack Turns Microsoft's Data Centers Into Game Development Platforms</a></p>
+<p><a href="https://stevivor.com/features/interviews/james-gwertzman-microsoft-game-stack-benefits/">Microsoft’s James Gwertzman on the benefits of Game Stack</a></p>
+
+	  </div>
+	  </div>
+  </div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-color.png" /></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-icons.png" /></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-website.png" /></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-gdc.png" /></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-showfloor.png" /></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-brand-social.png" /></div>
+		</div>
+	</div>
+</section>]]></content><author><name></name></author><category term="ui-ux" /><category term="visual-design" /><category term="branding" /><summary type="html"><![CDATA[I was a visual and brand designer for Microsoft Game Stack 2019 at Microsoft]]></summary></entry><entry><title type="html">Microsoft Azure Playfab Awards</title><link href="http://localhost:4000/2020/03/12/microsoft-azure-playfab.html" rel="alternate" type="text/html" title="Microsoft Azure Playfab Awards" /><published>2020-03-12T10:48:31-07:00</published><updated>2020-03-12T10:48:31-07:00</updated><id>http://localhost:4000/2020/03/12/microsoft-azure-playfab</id><content type="html" xml:base="http://localhost:4000/2020/03/12/microsoft-azure-playfab.html"><![CDATA[<!--- Content Captures --->
+
+<!--- Includes --->
+
+<section class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
+	  <hr /><div class="box"></div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
+	  <div class="box"></div>
+	  </div>
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
+	  	<div class="box"><h4>Team</h4></div>
+	  </div>
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7">
+	  <div class="box">
+		
+<p><a href="https://www.linkedin.com/in/nicholasrobinson/">Nick Robinson</a> (Design Manager)</p>
+<p><a href="https://www.linkedin.com/in/dalila-c-42b64871/">Dalila Copeland</a> (Visual Designer)</p>
+<p><a href="https://www.linkedin.com/in/jesse-o-1689629/">Jesse Overlin</a> (UX Designer)</p>
+
+	  </div>
+	  </div>
+  </div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-thumbnail.jpg" /></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  <div class="row">
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+	  	<div class="box">
+			<p>
+<p>Microsoft Game Stack sought to provide an answer to the question, "What can Microsoft do for you?" if you're a game developer. And the answer to that question is, "A lot. Tell us what you need, and we'll point you in the right direction." Our goal was to embody that answer in both our online and physical presence for GDC 2019.</p>
+</p>
+	  	</div>
+	  </div>
+  </div>
+</section>
+
+<section data-aos="fade-up" class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  <div class="row">
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+	  	<div class="box">
+			<p>The challenge from a brand perspective was to present an identity that game developers would resonate with and one that reflects technical expertise, creative outcomes, and Microsoft's legacy in gaming.</p>
+	  	</div>
+	  </div>
+  </div>
+</section>
+
+<section class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
+	  <hr /><div class="box"></div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
+	  <div class="box"></div>
+	  </div>
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
+	  <div class="box"><p class="label">Press</p></div>
+	  </div>
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7">
+	  <div class="box">
+		
+<p><a href="https://www.forbes.com/sites/kevinmurnane/2019/07/07/game-stack-turns-microsofts-data-centers-into-game-development-platforms/#6499324637eb">Game Stack Turns Microsoft's Data Centers Into Game Development Platforms</a></p>
+<p><a href="https://stevivor.com/features/interviews/james-gwertzman-microsoft-game-stack-benefits/">Microsoft’s James Gwertzman on the benefits of Game Stack</a></p>
+
+	  </div>
+	  </div>
+  </div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-color.png" /></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-icons.png" /></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-website.png" /></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-gdc.png" /></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-showfloor.png" /></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-brand-social.png" /></div>
+		</div>
+	</div>
+</section>]]></content><author><name></name></author><category term="ui-ux" /><category term="visual-design" /><summary type="html"><![CDATA[I was a visual and brand designer for Microsoft Game Stack 2019 at Microsoft]]></summary></entry><entry><title type="html">Microsoft Game Stack 2020</title><link href="http://localhost:4000/2020/03/10/microsoft-gamestack-2020.html" rel="alternate" type="text/html" title="Microsoft Game Stack 2020" /><published>2020-03-10T10:48:31-07:00</published><updated>2020-03-10T10:48:31-07:00</updated><id>http://localhost:4000/2020/03/10/microsoft-gamestack-2020</id><content type="html" xml:base="http://localhost:4000/2020/03/10/microsoft-gamestack-2020.html"><![CDATA[<!--- Content Captures --->
+
+<!--- Includes --->
+
+<section class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
+	  <hr /><div class="box"></div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
+	  <div class="box"></div>
+	  </div>
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
+	  	<div class="box"><h4>Team</h4></div>
+	  </div>
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7">
+	  <div class="box">
+		
+<p><a href="https://www.linkedin.com/in/nicholasrobinson/">Nick Robinson</a> (Design Manager)</p>
+<p><a href="https://www.linkedin.com/in/dalila-c-42b64871/">Dalila Copeland</a> (Visual Designer)</p>
+<p><a href="https://www.linkedin.com/in/jesse-o-1689629/">Jesse Overlin</a> (UX Designer)</p>
+
+	  </div>
+	  </div>
+  </div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-thumbnail.jpg" /></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  <div class="row">
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+	  	<div class="box">
+			<p>
+<p>Microsoft Game Stack sought to provide an answer to the question, "What can Microsoft do for you?" if you're a game developer. And the answer to that question is, "A lot. Tell us what you need, and we'll point you in the right direction." Our goal was to embody that answer in both our online and physical presence for GDC 2019.</p>
+</p>
+	  	</div>
+	  </div>
+  </div>
+</section>
+
+<section data-aos="fade-up" class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  <div class="row">
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+	  	<div class="box">
+			<p>The challenge from a brand perspective was to present an identity that game developers would resonate with and one that reflects technical expertise, creative outcomes, and Microsoft's legacy in gaming.</p>
+	  	</div>
+	  </div>
+  </div>
+</section>
+
+<section class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
+	  <hr /><div class="box"></div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
+	  <div class="box"></div>
+	  </div>
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
+	  <div class="box"><p class="label">Press</p></div>
+	  </div>
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7">
+	  <div class="box">
+		
+<p><a href="https://www.forbes.com/sites/kevinmurnane/2019/07/07/game-stack-turns-microsofts-data-centers-into-game-development-platforms/#6499324637eb">Game Stack Turns Microsoft's Data Centers Into Game Development Platforms</a></p>
+<p><a href="https://stevivor.com/features/interviews/james-gwertzman-microsoft-game-stack-benefits/">Microsoft’s James Gwertzman on the benefits of Game Stack</a></p>
+
+	  </div>
+	  </div>
+  </div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-color.png" /></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-icons.png" /></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-website.png" /></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-gdc.png" /></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-showfloor.png" /></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-brand-social.png" /></div>
+		</div>
+	</div>
+</section>]]></content><author><name></name></author><category term="branding" /><category term="visual-design" /><summary type="html"><![CDATA[I was a visual and brand designer for Microsoft Game Stack 2019 at Microsoft]]></summary></entry></feed>
