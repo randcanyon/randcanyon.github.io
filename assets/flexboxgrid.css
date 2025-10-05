@@ -3,8 +3,6 @@
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
-  padding-right: 2rem;
-  padding-left: 2rem;
 }
 
 .row {
@@ -681,6 +679,10 @@
 @media only screen and (min-width: 75em) {
   .container {
     width: 71rem;
+  }
+
+  .heropage-section h1 {
+    font-size: 5.5rem;
   }
 
   .col-lg,

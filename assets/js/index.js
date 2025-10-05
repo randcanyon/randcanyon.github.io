@@ -42,6 +42,45 @@ window.addEventListener('scroll', function() {
 });
 */
 
+window.addEventListener('scroll', function() {
+	const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+	const documentHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+	const scrollPercentage = (scrollTop / documentHeight) * 100;
+
+	const progress = document.getElementById('post-progress');
+	if (progress != null) progress.style.width = scrollPercentage + "%";
+});
+
+function copyURLToClipboard() {
+  navigator.clipboard.writeText(window.location.href)
+	.then(() => {
+	  confirmCopyURLToClipboard();
+	})
+	.catch(err => {
+	  // Optional: Handle errors
+	  console.error("Failed to copy: ", err);
+	});
+}
+
+function ResetCopyURLToClipboard() {
+	const shareConfirm = document.getElementById('share-confirm');
+	shareConfirm.classList.remove('animate__animated', 'animate__faster', 'animate__fadeOut', 'animate__fadeIn');
+	shareConfirm.classList.add('hidden');
+}
+
+function HideConfirmCopyURLToClipboard() {
+	const shareConfirm = document.getElementById('share-confirm');
+	shareConfirm.classList.add('animate__fadeOut');
+	setTimeout(ResetCopyURLToClipboard, 500);
+}
+
+function confirmCopyURLToClipboard() {
+	const shareConfirm = document.getElementById('share-confirm');
+	shareConfirm.classList.remove('hidden');
+	shareConfirm.classList.add('animate__animated', 'animate__faster', 'animate__fadeIn');
+	setTimeout(HideConfirmCopyURLToClipboard, 1000);
+}
+
 document.body.addEventListener("mouseover", function(e) {
 	if(e.target) {
 		if(e.target.nodeName == "A" || e.target.nodeName == "BUTTON") {
@@ -119,3 +158,14 @@ function setFilter(filter) {
 	  element.classList.remove('hidden');
 	});
 }
+
+function setHeaderHeightVar() {
+	const h = document.querySelector('header');
+	if (!h) return;
+	const safeTop = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('env(safe-area-inset-top)')) || 0;
+	const headerH = h.offsetHeight + safeTop;
+	document.documentElement.style.setProperty('--header-h', headerH + 'px');
+}
+
+window.addEventListener('load', setHeaderHeightVar);
+window.addEventListener('resize', setHeaderHeightVar);
