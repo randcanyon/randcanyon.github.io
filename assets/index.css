@@ -57,7 +57,7 @@ h1 {
 	overflow-wrap: break-word;
 	text-wrap: pretty; /* Modern browsers only */
 	-webkit-hyphens: auto;
-	 hyphens: auto;
+	hyphens: auto;
 }
 
 h2 {
@@ -192,6 +192,10 @@ header a {
 	padding-bottom: 6rem;
 }
 
+.page-hero {
+	padding-top: 64px;
+}
+
 /* Post */
 
 #post-title {
@@ -203,7 +207,7 @@ header a {
 
 #post-progress {
 	height: 4px;
-	background: #00A2FF;
+	background: #444;
 	position: relative;
 	bottom: 2px;
 	width: 0;
@@ -224,7 +228,7 @@ header a {
 /* Contact */
 
 #contact {
-	height: 3rem;
+	
 }
 
 /* Footer */
@@ -242,6 +246,8 @@ footer {
 
 .page-section {
 	margin: 3rem auto;
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 
 /* Filters */
@@ -395,6 +401,22 @@ footer {
 }
 
 .videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.video-container {
+	position: relative;
+	width: 100%;
+	padding-bottom: 56.25%; /* 16:9 aspect ratio */
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe {
 	position: absolute;
 	top: 0;
 	left: 0;

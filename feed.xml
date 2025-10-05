@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-10-04T17:08:44-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Randy Huynh</title><subtitle>Portfolio of Randy Huynh, a visual designer a visual designer at Clockwork Labs working on BitCraft in Seattle.</subtitle><entry><title type="html">BitCraft Online</title><link href="http://localhost:4000/2024/08/01/bitcraft.html" rel="alternate" type="text/html" title="BitCraft Online" /><published>2024-08-01T10:48:31-07:00</published><updated>2024-08-01T10:48:31-07:00</updated><id>http://localhost:4000/2024/08/01/bitcraft</id><content type="html" xml:base="http://localhost:4000/2024/08/01/bitcraft.html"><![CDATA[<!--- Content Captures --->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-10-05T00:53:02-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Randy Huynh</title><subtitle>Portfolio of Randy Huynh, a visual designer a visual designer at Clockwork Labs working on BitCraft in Seattle.</subtitle><entry><title type="html">BitCraft Online</title><link href="http://localhost:4000/2024/08/01/bitcraft.html" rel="alternate" type="text/html" title="BitCraft Online" /><published>2024-08-01T10:48:31-07:00</published><updated>2024-08-01T10:48:31-07:00</updated><id>http://localhost:4000/2024/08/01/bitcraft</id><content type="html" xml:base="http://localhost:4000/2024/08/01/bitcraft.html"><![CDATA[<!--- Content Captures --->
 
 <!--- Includes --->
 
@@ -75,6 +75,15 @@
 	  </div>
 	  </div>
   </div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-hero.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
 </section>
 
 <section data-aos="fade-up" class="page-section">
@@ -240,11 +249,8 @@
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
 		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-			<div class="box">
-				<video class="responsive rounded" loop="" muted="" autoplay="autoplay">
-					<source alt="" src="/assets/images/bladeblitz/bladeblitz-trailer.mp4" />
-				</video>
-			</div>
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-hero.png" /></div>
+			<div class="caption"></div>
 		</div>
 	</div>
 </section>
@@ -351,18 +357,6 @@
 	  </div>
 	  </div>
   </div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-			<div class="box">
-				<video class="responsive rounded" loop="" muted="" autoplay="autoplay">
-					<source alt="" src="/assets/images/boss-fight/boss-fight-render.mp4" />
-				</video>
-			</div>
-		</div>
-	</div>
 </section>
 
 <section data-aos="fade-up" class="page-section">
@@ -645,11 +639,8 @@
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
 		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-			<div class="box">
-				<video class="responsive rounded" loop="" muted="" autoplay="autoplay">
-					<source alt="" src="/assets/images/endless-engines/endless-engines-render.mp4" />
-				</video>
-			</div>
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/endless-engines/endless-engines-hero.png" /></div>
+			<div class="caption"></div>
 		</div>
 	</div>
 </section>
@@ -1004,18 +995,6 @@
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
 		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-			<div class="box">
-				<video class="responsive rounded" loop="" muted="" autoplay="autoplay">
-					<source alt="" src="/assets/images/microsoft-azure-playfab/playfab-trophy-animated.mp4" />
-				</video>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-azure-playfab/playfab-trophy-photo-01.png" /></div>
 			<div class="caption"></div>
 		</div>
@@ -1026,6 +1005,15 @@
 	<div class="row">
 		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-azure-playfab/playfab-trophy-photo-03.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-azure-playfab/playfab-trophy-render-03.png" /></div>
 			<div class="caption"></div>
 		</div>
 	</div>
@@ -1134,18 +1122,6 @@
 		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
 			<div class="box">
 				<video class="responsive rounded" loop="" muted="" autoplay="autoplay">
-					<source alt="" src="/assets/images/microsoft-gamestack-2020/mgs2020-live.mp4" />
-				</video>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-			<div class="box">
-				<video class="responsive rounded" loop="" muted="" autoplay="autoplay">
 					<source alt="" src="/assets/images/microsoft-gamestack-2020/mgs2020-motion-gameart.mp4" />
 				</video>
 			</div>
@@ -1161,6 +1137,15 @@
 					<source alt="" src="/assets/images/microsoft-gamestack-2020/mgs2020-motion-name.mp4" />
 				</video>
 			</div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2020/mgs2020-banners.png" /></div>
+			<div class="caption"></div>
 		</div>
 	</div>
 </section>
