@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-10-05T09:48:43-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Randy Huynh</title><subtitle>Portfolio of Randy Huynh, a visual designer a visual designer at Clockwork Labs working on BitCraft in Seattle.</subtitle><entry><title type="html">BitCraft Online</title><link href="http://localhost:4000/2024/08/01/bitcraft.html" rel="alternate" type="text/html" title="BitCraft Online" /><published>2024-08-01T10:48:31-07:00</published><updated>2024-08-01T10:48:31-07:00</updated><id>http://localhost:4000/2024/08/01/bitcraft</id><content type="html" xml:base="http://localhost:4000/2024/08/01/bitcraft.html"><![CDATA[<!--- Content Captures --->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-10-05T10:15:58-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Randy Huynh</title><subtitle>Portfolio of Randy Huynh, a visual designer a visual designer at Clockwork Labs working on BitCraft in Seattle.</subtitle><entry><title type="html">BitCraft Online</title><link href="http://localhost:4000/2024/08/01/bitcraft.html" rel="alternate" type="text/html" title="BitCraft Online" /><published>2024-08-01T10:48:31-07:00</published><updated>2024-08-01T10:48:31-07:00</updated><id>http://localhost:4000/2024/08/01/bitcraft</id><content type="html" xml:base="http://localhost:4000/2024/08/01/bitcraft.html"><![CDATA[<!--- Content Captures --->
 
 <!--- Includes --->
 
@@ -363,7 +363,7 @@
 	<div class="row">
 		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
 			<div class="box">
-				<video class="responsive rounded" loop="" muted="" autoplay="autoplay">
+				<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
 					<source alt="" src="/assets/images/boss-fight/boss-fight-playblast.mp4" />
 				</video>
 			</div>
@@ -559,7 +559,57 @@
 			<div class="caption"></div>
 		</div>
 	</div>
-</section>]]></content><author><name></name></author><category term="three-d" /><summary type="html"><![CDATA[During the COVID-19 pandemic, I challenged myself to learn Blender by modeling and rendering different sections of my apartment. Working in an orthographic perspective, I treated each room as both a design study and a storytelling canvas.]]></summary></entry><entry><title type="html">Chaos Rains</title><link href="http://localhost:4000/2022/02/12/chaos-rains.html" rel="alternate" type="text/html" title="Chaos Rains" /><published>2022-02-12T09:48:31-08:00</published><updated>2022-02-12T09:48:31-08:00</updated><id>http://localhost:4000/2022/02/12/chaos-rains</id><content type="html" xml:base="http://localhost:4000/2022/02/12/chaos-rains.html"><![CDATA[<!--- Content Captures --->
+</section>]]></content><author><name></name></author><category term="three-d" /><summary type="html"><![CDATA[During the COVID-19 pandemic, I challenged myself to learn Blender by modeling and rendering different sections of my apartment. Working in an orthographic perspective, I treated each room as both a design study and a storytelling canvas.]]></summary></entry><entry><title type="html">You’re Not Alone</title><link href="http://localhost:4000/2022/02/12/youre-not-alone.html" rel="alternate" type="text/html" title="You’re Not Alone" /><published>2022-02-12T09:48:31-08:00</published><updated>2022-02-12T09:48:31-08:00</updated><id>http://localhost:4000/2022/02/12/youre-not-alone</id><content type="html" xml:base="http://localhost:4000/2022/02/12/youre-not-alone.html"><![CDATA[<!--- Content Captures --->
+
+<!--- Includes --->
+
+<section class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
+	  <hr /><div class="box"></div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
+	  <div class="box"></div>
+	  </div>
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
+		  <div class="box"><h3>Links</h3></div>
+	  </div>
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-offset-1 col-lg-6">
+	  <div class="box">
+		
+<span class="text"><a href="https://randyhuynh.itch.io/youre-not-alone">Play You're Not Alone on Itch.io</a></span>
+
+	  </div>
+	  </div>
+  </div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/youre-not-alone/youre-not-alone-01.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/youre-not-alone/youre-not-alone-02.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/youre-not-alone/youre-not-alone-03.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>]]></content><author><name></name></author><category term="gamejam" /><summary type="html"><![CDATA[You're Not Alone is a short game I designed and developed for the Brackeys Game Jam 2022.2. Built in under a week around the theme “You’re Not Alone,” the project placed 58th out of 1,075 entries and served as an exercise in rapid prototyping and cohesive visual design under tight creative constraints.]]></summary></entry><entry><title type="html">Chaos Rains</title><link href="http://localhost:4000/2022/02/12/chaos-rains.html" rel="alternate" type="text/html" title="Chaos Rains" /><published>2022-02-12T09:48:31-08:00</published><updated>2022-02-12T09:48:31-08:00</updated><id>http://localhost:4000/2022/02/12/chaos-rains</id><content type="html" xml:base="http://localhost:4000/2022/02/12/chaos-rains.html"><![CDATA[<!--- Content Captures --->
 
 <!--- Includes --->
 
@@ -649,7 +699,7 @@
 	<div class="row">
 		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
 			<div class="box">
-				<video class="responsive rounded" loop="" muted="" autoplay="autoplay">
+				<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
 					<source alt="" src="/assets/images/endless-engines/endless-engines-playblast.mp4" />
 				</video>
 			</div>
@@ -1044,189 +1094,4 @@
 			<div class="caption"></div>
 		</div>
 	</div>
-</section>]]></content><author><name></name></author><category term="three-d" /><category term="branding" /><summary type="html"><![CDATA[I designed and prototyped a set of achievement trophies for Microsoft Azure PlayFab to celebrate customer milestones. The trophies marked user base growth at 100K, 1M, and 10M players, with each stage represented in a form that could stand alone or work as part of a cohesive set. My role was to envision how physical awards could embody digital success, using 3D modeling and rendering to communicate the concept and bring the recognition system to life.]]></summary></entry><entry><title type="html">Microsoft Game Stack 2020</title><link href="http://localhost:4000/2020/03/10/microsoft-gamestack-2020.html" rel="alternate" type="text/html" title="Microsoft Game Stack 2020" /><published>2020-03-10T10:48:31-07:00</published><updated>2020-03-10T10:48:31-07:00</updated><id>http://localhost:4000/2020/03/10/microsoft-gamestack-2020</id><content type="html" xml:base="http://localhost:4000/2020/03/10/microsoft-gamestack-2020.html"><![CDATA[<!--- Content Captures --->
-
-<!--- Includes --->
-
-<section class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  <div class="row">
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-	  <hr /><div class="box"></div>
-	</div>
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
-	  <div class="box"></div>
-	  </div>
-	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-	  	<div class="box"><h3>Role</h3></div>
-	  </div>
-	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-offset-1 col-lg-6">
-	  <div class="box">
-		
-<ul>
-  <li>Led the evolution of the Microsoft Game Stack brand identity, building on the 2019 foundation to create a more confident, scalable, and unified visual system.</li>
-  <li>Developed refreshed color, motion, and co-branding systems that highlighted Microsoft’s AAA portfolio while maintaining accessibility for indie developers.</li>
-  <li>Produced assets for digital, event, and motion applications, ensuring brand consistency across Game Stack Live, online platforms, and partner collaborations.</li>
-</ul>
-
-	  </div>
-	  </div>
-  </div>
-</section>
-
-<section class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  <div class="row">
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-	  <hr /><div class="box"></div>
-	</div>
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
-	  <div class="box"></div>
-	  </div>
-	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-	  	<div class="box"><h3>Team</h3></div>
-	  </div>
-	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-offset-1 col-lg-6">
-	  <div class="box">
-		
-<span class="text"><a href="https://www.linkedin.com/in/nicholasrobinson/">Nick Robinson</a> (Design Manager)</span>
-<span class="text"><a href="https://www.linkedin.com/in/dalila-c-42b64871/">Dalila Copeland</a> (Visual Designer)</span>
-<span class="text"><a href="https://www.linkedin.com/in/jesse-o-1689629/">Jesse Overlin</a> (UX Designer)</span>
-
-	  </div>
-	  </div>
-  </div>
-</section>
-
-<section class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  <div class="row">
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-	  <hr /><div class="box"></div>
-	</div>
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
-	  <div class="box"></div>
-	  </div>
-	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-		  <div class="box"><h3>Press</h3></div>
-	  </div>
-	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-offset-1 col-lg-6">
-	  <div class="box">
-		
-<span text="text"><a href="https://www.youtube.com/watch?v=V8trzpCDY6Q">What is Microsoft Game Stack? | Game Stack Live 2020</a></span>
-
-	  </div>
-	  </div>
-  </div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-			<div class="box">
-				<video class="responsive rounded" loop="" muted="" autoplay="autoplay">
-					<source alt="" src="/assets/images/microsoft-gamestack-2020/mgs2020-motion-gameart.mp4" />
-				</video>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-			<div class="box">
-				<video class="responsive rounded" loop="" muted="" autoplay="autoplay">
-					<source alt="" src="/assets/images/microsoft-gamestack-2020/mgs2020-motion-name.mp4" />
-				</video>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2020/mgs2020-banners.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2020/mgs2020-layers.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2020/mgs2020-cobranding-01.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2020/mgs2020-cobranding-02.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2020/mgs2020-home.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2020/mgs2020-badges.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2020/mgs2020-bag-black.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2020/mgs2020-bag-white.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2020/mgs2020-booth.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2020/mgs2020-poster.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>]]></content><author><name></name></author><category term="branding" /><category term="visual-design" /><summary type="html"><![CDATA[I was a visual and brand designer for Microsoft Game Stack 2020, building on the foundation established in 2019. My role was to help evolve the brand to be more streamlined, accessible, and confident, while highlighting Microsoft’s AAA titles and long history in gaming as proof of expertise. The updated identity extended across digital, motion, and physical assets, reinforcing Game Stack’s position as a trusted platform for both indie developers and large studios.]]></summary></entry></feed>
+</section>]]></content><author><name></name></author><category term="three-d" /><category term="branding" /><summary type="html"><![CDATA[I designed and prototyped a set of achievement trophies for Microsoft Azure PlayFab to celebrate customer milestones. The trophies marked user base growth at 100K, 1M, and 10M players, with each stage represented in a form that could stand alone or work as part of a cohesive set. My role was to envision how physical awards could embody digital success, using 3D modeling and rendering to communicate the concept and bring the recognition system to life.]]></summary></entry></feed>
