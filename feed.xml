@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-10-06T12:01:14-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Randy Huynh</title><subtitle>Portfolio of Randy Huynh, a visual designer a visual designer at Clockwork Labs working on BitCraft in Seattle.</subtitle><entry><title type="html">Blade Blitz</title><link href="http://localhost:4000/2024/08/01/blade-blitz.html" rel="alternate" type="text/html" title="Blade Blitz" /><published>2024-08-01T10:48:31-07:00</published><updated>2024-08-01T10:48:31-07:00</updated><id>http://localhost:4000/2024/08/01/blade-blitz</id><content type="html" xml:base="http://localhost:4000/2024/08/01/blade-blitz.html"><![CDATA[<!--- Content Captures --->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-10-06T12:05:09-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Randy Huynh</title><subtitle>Portfolio of Randy Huynh, a visual designer a visual designer at Clockwork Labs working on BitCraft in Seattle.</subtitle><entry><title type="html">Blade Blitz</title><link href="http://localhost:4000/2024/08/01/blade-blitz.html" rel="alternate" type="text/html" title="Blade Blitz" /><published>2024-08-01T10:48:31-07:00</published><updated>2024-08-01T10:48:31-07:00</updated><id>http://localhost:4000/2024/08/01/blade-blitz</id><content type="html" xml:base="http://localhost:4000/2024/08/01/blade-blitz.html"><![CDATA[<!--- Content Captures --->
 
 <!--- Includes --->
 
@@ -29,31 +29,13 @@
 	<div class="row">
 		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
 			<div class="box">
-				<div class="video-container" style="position: relative;">
-					<!-- Loading placeholder -->
-					<div class="video-placeholder" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #f0f0f0; display: flex; align-items: center; justify-content: center; border-radius: inherit;">
-						<div style="text-align: center;">
-							<div class="spinner" style="border: 3px solid #f3f3f3; border-top: 3px solid #3498db; border-radius: 50%; width: 40px; height: 40px; animation: spin 1s linear infinite; margin: 0 auto;"></div>
-							<p style="margin-top: 10px; color: #666;">Loading video...</p>
-						</div>
-					</div>
-					
-					<!-- Video element -->
-					<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="" onloadeddata="this.parentElement.querySelector('.video-placeholder').style.display='none'">
-						<source alt="/assets/images/bladeblitz/bladeblitz-hero.png" src="/assets/images/bladeblitz/bladeblitz-mainmenu.mp4" />
-					</video>
-				</div>
+				<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
+					<source alt="/assets/images/bladeblitz/bladeblitz-hero.png" src="/assets/images/bladeblitz/bladeblitz-mainmenu.mp4" />
+				</video>
 			</div>
 		</div>
 	</div>
 </section>
-
-<style>
-@keyframes spin {
-	0% { transform: rotate(0deg); }
-	100% { transform: rotate(360deg); }
-}
-</style>
 
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
@@ -77,31 +59,13 @@
 	<div class="row">
 		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
 			<div class="box">
-				<div class="video-container" style="position: relative;">
-					<!-- Loading placeholder -->
-					<div class="video-placeholder" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #f0f0f0; display: flex; align-items: center; justify-content: center; border-radius: inherit;">
-						<div style="text-align: center;">
-							<div class="spinner" style="border: 3px solid #f3f3f3; border-top: 3px solid #3498db; border-radius: 50%; width: 40px; height: 40px; animation: spin 1s linear infinite; margin: 0 auto;"></div>
-							<p style="margin-top: 10px; color: #666;">Loading video...</p>
-						</div>
-					</div>
-					
-					<!-- Video element -->
-					<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="" onloadeddata="this.parentElement.querySelector('.video-placeholder').style.display='none'">
-						<source alt="/assets/images/bladeblitz/bladeblitz-start.png" src="/assets/images/bladeblitz/bladeblitz-startmenu.mp4" />
-					</video>
-				</div>
+				<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
+					<source alt="/assets/images/bladeblitz/bladeblitz-start.png" src="/assets/images/bladeblitz/bladeblitz-startmenu.mp4" />
+				</video>
 			</div>
 		</div>
 	</div>
 </section>
-
-<style>
-@keyframes spin {
-	0% { transform: rotate(0deg); }
-	100% { transform: rotate(360deg); }
-}
-</style>
 
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
@@ -125,61 +89,25 @@
 	<div class="row">
 		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
 			<div class="box">
-				<div class="video-container" style="position: relative;">
-					<!-- Loading placeholder -->
-					<div class="video-placeholder" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #f0f0f0; display: flex; align-items: center; justify-content: center; border-radius: inherit;">
-						<div style="text-align: center;">
-							<div class="spinner" style="border: 3px solid #f3f3f3; border-top: 3px solid #3498db; border-radius: 50%; width: 40px; height: 40px; animation: spin 1s linear infinite; margin: 0 auto;"></div>
-							<p style="margin-top: 10px; color: #666;">Loading video...</p>
-						</div>
-					</div>
-					
-					<!-- Video element -->
-					<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="" onloadeddata="this.parentElement.querySelector('.video-placeholder').style.display='none'">
-						<source alt="/assets/images/bladeblitz/bladeblitz-faceoff.png" src="/assets/images/bladeblitz/bitcraft-matchstart.mp4" />
-					</video>
-				</div>
+				<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
+					<source alt="/assets/images/bladeblitz/bladeblitz-faceoff.png" src="/assets/images/bladeblitz/bitcraft-matchstart.mp4" />
+				</video>
 			</div>
 		</div>
 	</div>
 </section>
-
-<style>
-@keyframes spin {
-	0% { transform: rotate(0deg); }
-	100% { transform: rotate(360deg); }
-}
-</style>
 
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
 		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
 			<div class="box">
-				<div class="video-container" style="position: relative;">
-					<!-- Loading placeholder -->
-					<div class="video-placeholder" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #f0f0f0; display: flex; align-items: center; justify-content: center; border-radius: inherit;">
-						<div style="text-align: center;">
-							<div class="spinner" style="border: 3px solid #f3f3f3; border-top: 3px solid #3498db; border-radius: 50%; width: 40px; height: 40px; animation: spin 1s linear infinite; margin: 0 auto;"></div>
-							<p style="margin-top: 10px; color: #666;">Loading video...</p>
-						</div>
-					</div>
-					
-					<!-- Video element -->
-					<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="" onloadeddata="this.parentElement.querySelector('.video-placeholder').style.display='none'">
-						<source alt="/assets/images/bladeblitz/bladeblitz-blu.png" src="/assets/images/bladeblitz/bitcraft-changeover.mp4" />
-					</video>
-				</div>
+				<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
+					<source alt="/assets/images/bladeblitz/bladeblitz-blu.png" src="/assets/images/bladeblitz/bitcraft-changeover.mp4" />
+				</video>
 			</div>
 		</div>
 	</div>
 </section>
-
-<style>
-@keyframes spin {
-	0% { transform: rotate(0deg); }
-	100% { transform: rotate(360deg); }
-}
-</style>
 
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
@@ -538,31 +466,13 @@
 	<div class="row">
 		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
 			<div class="box">
-				<div class="video-container" style="position: relative;">
-					<!-- Loading placeholder -->
-					<div class="video-placeholder" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #f0f0f0; display: flex; align-items: center; justify-content: center; border-radius: inherit;">
-						<div style="text-align: center;">
-							<div class="spinner" style="border: 3px solid #f3f3f3; border-top: 3px solid #3498db; border-radius: 50%; width: 40px; height: 40px; animation: spin 1s linear infinite; margin: 0 auto;"></div>
-							<p style="margin-top: 10px; color: #666;">Loading video...</p>
-						</div>
-					</div>
-					
-					<!-- Video element -->
-					<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="" onloadeddata="this.parentElement.querySelector('.video-placeholder').style.display='none'">
-						<source alt="" src="/assets/images/spacetimedb/stdb-blender.mp4" />
-					</video>
-				</div>
+				<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
+					<source alt="" src="/assets/images/spacetimedb/stdb-blender.mp4" />
+				</video>
 			</div>
 		</div>
 	</div>
-</section>
-
-<style>
-@keyframes spin {
-	0% { transform: rotate(0deg); }
-	100% { transform: rotate(360deg); }
-}
-</style>]]></content><author><name></name></author><category term="branding" /><category term="three-d" /><category term="motion" /><summary type="html"><![CDATA[I designed and animated the logo reveal for SpacetimeDB, a distributed database technology project by Clockwork Labs. Using Blender and After Effects, I created a visual narrative inspired by gravitational lensing, light bending around a black hole, culminating in the reveal of the logo. The animation established a cinematic yet scientific tone that reflected the brand’s focus on scale, depth, and innovation.]]></summary></entry><entry><title type="html">Boss Fight</title><link href="http://localhost:4000/2023/09/09/boss-fight.html" rel="alternate" type="text/html" title="Boss Fight" /><published>2023-09-09T10:48:31-07:00</published><updated>2023-09-09T10:48:31-07:00</updated><id>http://localhost:4000/2023/09/09/boss-fight</id><content type="html" xml:base="http://localhost:4000/2023/09/09/boss-fight.html"><![CDATA[<!--- Content Captures --->
+</section>]]></content><author><name></name></author><category term="branding" /><category term="three-d" /><category term="motion" /><summary type="html"><![CDATA[I designed and animated the logo reveal for SpacetimeDB, a distributed database technology project by Clockwork Labs. Using Blender and After Effects, I created a visual narrative inspired by gravitational lensing, light bending around a black hole, culminating in the reveal of the logo. The animation established a cinematic yet scientific tone that reflected the brand’s focus on scale, depth, and innovation.]]></summary></entry><entry><title type="html">Boss Fight</title><link href="http://localhost:4000/2023/09/09/boss-fight.html" rel="alternate" type="text/html" title="Boss Fight" /><published>2023-09-09T10:48:31-07:00</published><updated>2023-09-09T10:48:31-07:00</updated><id>http://localhost:4000/2023/09/09/boss-fight</id><content type="html" xml:base="http://localhost:4000/2023/09/09/boss-fight.html"><![CDATA[<!--- Content Captures --->
 
 <!--- Includes --->
 
@@ -591,31 +501,13 @@
 	<div class="row">
 		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
 			<div class="box">
-				<div class="video-container" style="position: relative;">
-					<!-- Loading placeholder -->
-					<div class="video-placeholder" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #f0f0f0; display: flex; align-items: center; justify-content: center; border-radius: inherit;">
-						<div style="text-align: center;">
-							<div class="spinner" style="border: 3px solid #f3f3f3; border-top: 3px solid #3498db; border-radius: 50%; width: 40px; height: 40px; animation: spin 1s linear infinite; margin: 0 auto;"></div>
-							<p style="margin-top: 10px; color: #666;">Loading video...</p>
-						</div>
-					</div>
-					
-					<!-- Video element -->
-					<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="" onloadeddata="this.parentElement.querySelector('.video-placeholder').style.display='none'">
-						<source alt="" src="/assets/images/boss-fight/boss-fight-playblast.mp4" />
-					</video>
-				</div>
+				<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
+					<source alt="" src="/assets/images/boss-fight/boss-fight-playblast.mp4" />
+				</video>
 			</div>
 		</div>
 	</div>
-</section>
-
-<style>
-@keyframes spin {
-	0% { transform: rotate(0deg); }
-	100% { transform: rotate(360deg); }
-}
-</style>]]></content><author><name></name></author><category term="three-d" /><category term="motion" /><summary type="html"><![CDATA[I created an entry for the Boss Fight 3D challenge, where artists were given a starter template and tasked with animating a scene featuring a hero facing a towering villain. Similar to the Endless Engines challenge, this project pushed me to practice modeling, texturing, rigging, and animation within a focused brief, while experimenting with scale, character dynamics, and storytelling through motion.]]></summary></entry><entry><title type="html">Silent Hill Ascension</title><link href="http://localhost:4000/2023/06/01/silenthill-ascension.html" rel="alternate" type="text/html" title="Silent Hill Ascension" /><published>2023-06-01T10:48:31-07:00</published><updated>2023-06-01T10:48:31-07:00</updated><id>http://localhost:4000/2023/06/01/silenthill-ascension</id><content type="html" xml:base="http://localhost:4000/2023/06/01/silenthill-ascension.html"><![CDATA[<!--- Content Captures --->
+</section>]]></content><author><name></name></author><category term="three-d" /><category term="motion" /><summary type="html"><![CDATA[I created an entry for the Boss Fight 3D challenge, where artists were given a starter template and tasked with animating a scene featuring a hero facing a towering villain. Similar to the Endless Engines challenge, this project pushed me to practice modeling, texturing, rigging, and animation within a focused brief, while experimenting with scale, character dynamics, and storytelling through motion.]]></summary></entry><entry><title type="html">Silent Hill Ascension</title><link href="http://localhost:4000/2023/06/01/silenthill-ascension.html" rel="alternate" type="text/html" title="Silent Hill Ascension" /><published>2023-06-01T10:48:31-07:00</published><updated>2023-06-01T10:48:31-07:00</updated><id>http://localhost:4000/2023/06/01/silenthill-ascension</id><content type="html" xml:base="http://localhost:4000/2023/06/01/silenthill-ascension.html"><![CDATA[<!--- Content Captures --->
 
 <!--- Includes --->
 
@@ -945,31 +837,13 @@
 	<div class="row">
 		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
 			<div class="box">
-				<div class="video-container" style="position: relative;">
-					<!-- Loading placeholder -->
-					<div class="video-placeholder" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #f0f0f0; display: flex; align-items: center; justify-content: center; border-radius: inherit;">
-						<div style="text-align: center;">
-							<div class="spinner" style="border: 3px solid #f3f3f3; border-top: 3px solid #3498db; border-radius: 50%; width: 40px; height: 40px; animation: spin 1s linear infinite; margin: 0 auto;"></div>
-							<p style="margin-top: 10px; color: #666;">Loading video...</p>
-						</div>
-					</div>
-					
-					<!-- Video element -->
-					<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="" onloadeddata="this.parentElement.querySelector('.video-placeholder').style.display='none'">
-						<source alt="" src="/assets/images/endless-engines/endless-engines-playblast.mp4" />
-					</video>
-				</div>
+				<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
+					<source alt="" src="/assets/images/endless-engines/endless-engines-playblast.mp4" />
+				</video>
 			</div>
 		</div>
 	</div>
 </section>
-
-<style>
-@keyframes spin {
-	0% { transform: rotate(0deg); }
-	100% { transform: rotate(360deg); }
-}
-</style>
 
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
