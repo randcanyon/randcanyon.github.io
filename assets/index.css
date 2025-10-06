@@ -340,7 +340,7 @@ footer {
 .thumbnail img {
 	margin-bottom: 8px;
 	transition: 0.2s ease;
-	filter: grayscale(0) contrast(1) brightness(1);
+	filter: saturate(1) contrast(1) brightness(1);
 	z-index: 1;
 }
 
@@ -366,9 +366,9 @@ footer {
 }
 
 .thumbnail:hover img {
-	scale: 1.02;
+	scale: 1.05;
 	transition: 0.2s ease;
-	filter: grayscale(0) contrast(1) brightness(1);
+	filter: saturate(1) contrast(1) brightness(1);
 	z-index: 1;
 }
 
@@ -548,7 +548,7 @@ footer {
 	.thumbnail img {
 		margin-bottom: 8px;
 		transition: 0.2s ease;
-		filter: grayscale(1) contrast(.5) brightness(1.5);
+		filter: saturate(0.15) contrast(0.8) brightness(1.2);
 		z-index: 1;
 	}
 	
