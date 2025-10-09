@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-10-06T16:07:48-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Randy Huynh</title><subtitle>Portfolio of Randy Huynh, a visual designer a visual designer at Clockwork Labs working on BitCraft in Seattle.</subtitle><entry><title type="html">Blade Blitz</title><link href="http://localhost:4000/2024/08/01/blade-blitz.html" rel="alternate" type="text/html" title="Blade Blitz" /><published>2024-08-01T10:48:31-07:00</published><updated>2024-08-01T10:48:31-07:00</updated><id>http://localhost:4000/2024/08/01/blade-blitz</id><content type="html" xml:base="http://localhost:4000/2024/08/01/blade-blitz.html"><![CDATA[<!--- Content Captures --->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-10-08T17:37:09-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Randy Huynh</title><subtitle>Portfolio of Randy Huynh, a visual designer a visual designer at Clockwork Labs working on BitCraft in Seattle.</subtitle><entry><title type="html">Blade Blitz</title><link href="http://localhost:4000/2024/08/01/blade-blitz.html" rel="alternate" type="text/html" title="Blade Blitz" /><published>2024-08-01T10:48:31-07:00</published><updated>2024-08-01T10:48:31-07:00</updated><id>http://localhost:4000/2024/08/01/blade-blitz</id><content type="html" xml:base="http://localhost:4000/2024/08/01/blade-blitz.html"><![CDATA[<!--- Content Captures --->
 
 <!--- Includes --->
 
@@ -770,6 +770,15 @@
 	  </div>
 	  </div>
   </div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/chaos-rains/chaos-rains-hero.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
 </section>
 
 <section data-aos="fade-up" class="page-section">
