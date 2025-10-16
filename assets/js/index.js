@@ -189,3 +189,31 @@ function setHeaderHeightVar() {
 
 window.addEventListener('load', setHeaderHeightVar);
 window.addEventListener('resize', setHeaderHeightVar);
+
+// Fade out on link click
+document.addEventListener('DOMContentLoaded', function() {
+	const links = document.querySelectorAll('a:not([target="_blank"])');
+	const page = document.querySelector('.page');
+	
+	links.forEach(link => {
+		link.addEventListener('click', function(e) {
+			// Only fade for internal links
+			if (this.hostname === window.location.hostname) {
+				e.preventDefault();
+				const href = this.getAttribute('href');
+				
+				page.classList.add('fade-out');
+				
+				setTimeout(() => {
+					window.location.href = href;
+				}, 300); // Match CSS transition duration
+			}
+		});
+	});
+});
+
+// Fade in on page load
+window.addEventListener('pageshow', function() {
+	const page = document.querySelector('.page');
+	page.classList.remove('fade-out');
+});
