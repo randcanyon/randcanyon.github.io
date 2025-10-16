@@ -164,13 +164,14 @@ li {
 header {
 	box-sizing: border-box;
 	height: auto;
-	padding: 0;
+	padding: 0 1rem; /* Add some side padding */
 	position: fixed;
-	top: 24px;                    /* 40px from top */
-	left: 50%;                    /* Start at 50% of viewport width */
-	transform: translateX(-50%);  /* Shift back by half its own width to center */
+	top: 24px;
 	margin: 0;
-	z-index: 1000;                /* Keeps header above other content */
+	z-index: 1000;
+	width: 100%; /* Full width container */
+	display: flex;
+	justify-content: center; /* Center the content */
 }
 
 #header-bar {
@@ -185,6 +186,8 @@ header {
 	vertical-align: middle;
 	justify-content: center;
 	align-items: center;
+	width: auto; /* Let it size to content */
+	max-width: 100%; /* Don't overflow */
 }
 
 #header-links {
@@ -618,6 +621,8 @@ footer {
 	header {
 		box-sizing: border-box;
 		position: fixed;
+		left: 50%;
+		transform: translateX(-50%);
 	}
 	
 	header a {
@@ -625,7 +630,6 @@ footer {
 	}
 	
 	#header-bar {
-		line-height: 30px;
 		vertical-align: middle;
 	}
 	
