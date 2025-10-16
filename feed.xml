@@ -1,8 +1,155 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-10-11T15:59:05-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Randy Huynh</title><subtitle>Portfolio of Randy Huynh, a visual designer a visual designer at Clockwork Labs working on BitCraft in Seattle.</subtitle><entry><title type="html">Blade Blitz</title><link href="http://localhost:4000/2024/08/01/blade-blitz.html" rel="alternate" type="text/html" title="Blade Blitz" /><published>2024-08-01T10:48:31-07:00</published><updated>2024-08-01T10:48:31-07:00</updated><id>http://localhost:4000/2024/08/01/blade-blitz</id><content type="html" xml:base="http://localhost:4000/2024/08/01/blade-blitz.html"><![CDATA[<!--- Content Captures --->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-10-16T01:21:20-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Randy Huynh</title><subtitle>Portfolio of Randy Huynh, a visual designer a visual designer at Clockwork Labs working on BitCraft in Seattle.</subtitle><entry><title type="html">Blade Blitz</title><link href="http://localhost:4000/2024/08/01/blade-blitz.html" rel="alternate" type="text/html" title="Blade Blitz" /><published>2024-08-01T10:48:31-07:00</published><updated>2024-08-01T10:48:31-07:00</updated><id>http://localhost:4000/2024/08/01/blade-blitz</id><content type="html" xml:base="http://localhost:4000/2024/08/01/blade-blitz.html"><![CDATA[<!--- Content Captures --->
 
 <!--- Includes --->
 
-<section class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+			<div class="box">
+				<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
+					<source alt="/assets/images/bladeblitz/bladeblitz-hero.png" src="/assets/images/bladeblitz/bladeblitz-mainmenu.mp4" />
+				</video>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-components.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-model.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+			<div class="box">
+				<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
+					<source alt="/assets/images/bladeblitz/bladeblitz-start.png" src="/assets/images/bladeblitz/bladeblitz-startmenu.mp4" />
+				</video>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-characterselect.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-levelselect.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+			<div class="box">
+				<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
+					<source alt="/assets/images/bladeblitz/bladeblitz-faceoff.png" src="/assets/images/bladeblitz/bitcraft-matchstart.mp4" />
+				</video>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+			<div class="box">
+				<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
+					<source alt="/assets/images/bladeblitz/bladeblitz-blu.png" src="/assets/images/bladeblitz/bitcraft-changeover.mp4" />
+				</video>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-score.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-powerups.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-eccc-01.jpg" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-eccc-02.jpg" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-eccc-03.jpg" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-six-01.jpg" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-six-02.jpg" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
 	  <hr /><div class="box"></div>
@@ -23,158 +170,155 @@
 	  </div>
 	  </div>
   </div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-			<div class="box">
-				<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
-					<source alt="/assets/images/bladeblitz/bladeblitz-hero.png" src="/assets/images/bladeblitz/bladeblitz-mainmenu.mp4" />
-				</video>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-components.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-model.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-			<div class="box">
-				<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
-					<source alt="/assets/images/bladeblitz/bladeblitz-start.png" src="/assets/images/bladeblitz/bladeblitz-startmenu.mp4" />
-				</video>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-characterselect.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-levelselect.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-			<div class="box">
-				<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
-					<source alt="/assets/images/bladeblitz/bladeblitz-faceoff.png" src="/assets/images/bladeblitz/bitcraft-matchstart.mp4" />
-				</video>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-			<div class="box">
-				<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
-					<source alt="/assets/images/bladeblitz/bladeblitz-blu.png" src="/assets/images/bladeblitz/bitcraft-changeover.mp4" />
-				</video>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-score.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-powerups.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-eccc-01.jpg" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-eccc-02.jpg" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-eccc-03.jpg" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-six-01.jpg" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-six-02.jpg" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
 </section>]]></content><author><name></name></author><category term="branding" /><category term="ui-ux" /><category term="visual-design" /><category term="coding" /><summary type="html"><![CDATA[Blade Blitz is a fast-paced local multiplayer sword-fighting game I designed and developed under my indie studio, Hella Studios. Built in Unity, it explores momentum-based combat where timing, positioning, and environmental awareness create dynamic duels between players. I was responsible for every aspect of the project—from visual direction, UI, 3D modeling, texturing, animation, programming, UI design, and marketing.]]></summary></entry><entry><title type="html">BitCraft Online</title><link href="http://localhost:4000/2024/08/01/bitcraft.html" rel="alternate" type="text/html" title="BitCraft Online" /><published>2024-08-01T10:48:31-07:00</published><updated>2024-08-01T10:48:31-07:00</updated><id>http://localhost:4000/2024/08/01/bitcraft</id><content type="html" xml:base="http://localhost:4000/2024/08/01/bitcraft.html"><![CDATA[<!--- Content Captures --->
 
 <!--- Includes --->
 
-<section class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-hero.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-colors.png" /></div>
+			<div class="caption">Our color palette follows the harmony rule of split complementary colors which uses two colors across the color wheel, with those two colors lying on either side of the complementary color. For each primary color, we have subtle shifts in tone that provide a level of flexibility and utility for creating subtle patterns and segmentation of information.</div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-modal.png" /></div>
+			<div class="caption">The default color palette for Bitcraft with a high contrast, dark on light palette. The alternative color palette for BitCraft with a dark background color enabling a more comfortable gaming experience in low-light situations.</div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-typeramp-spacing.png" /></div>
+			<div class="caption">A type ramp establishes a range of font sizes, styles, and weights used for different elements within a composition. It helps create a visual hierarchy and guides readers through the content by emphasizing important information and structuring the text. The augmented 4th, 1.414, is a proportion that works well for more content dense interfaces that strike balance between complex information and breathability. A font size of 14 pixels ensures that the text is legible for most users without appearing too small. It provides comfortable reading for an average viewing distance of around 20-24 inches from the screen.</div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-spacing.png" /></div>
+			<div class="caption">Our art deco-inspired shape language grounds itself in highly geometric shapes. Our iconography maintains a consistent look and feel through the use of a combination of vertical, horizontal, and diagonal lines that intersect each other at 45 or 30 degree angles.</div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-angles.png" /></div>
+			<div class="caption">Spacing is used to create visual proximity between related information, grouping those elements together.</div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-rtl.png" /></div>
+			<div class="caption">A core part of our shape language includes stroke dividers and patterns that frame content. These strokes should only be used in only two weights: 4px and 8px.</div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-components.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-notifications.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-entities.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-cursors.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-HUD.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-booth.png" /></div>
+			<div class="caption">Designed and modeled a preview of our TwitchCon 2025 booth</div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-hoodie.png" /></div>
+			<div class="caption">Designed and mocked a preview of our TwitchCon 2025 hoodies</div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-wishlist.png" /></div>
+			<div class="caption">Created wishlist assets for our marketing team</div>
+		</div>
+	</div>
+</section>
+
+<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
 	  <hr /><div class="box"></div>
@@ -200,7 +344,7 @@
   </div>
 </section>
 
-<section class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
 	  <hr /><div class="box"></div>
@@ -225,7 +369,7 @@
   </div>
 </section>
 
-<section class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
 	  <hr /><div class="box"></div>
@@ -247,155 +391,23 @@
 	  </div>
 	  </div>
   </div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-hero.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-colors.png" /></div>
-			<div class="caption">Our color palette follows the harmony rule of split complementary colors which uses two colors across the color wheel, with those two colors lying on either side of the complementary color. For each primary color, we have subtle shifts in tone that provide a level of flexibility and utility for creating subtle patterns and segmentation of information.</div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-modal.png" /></div>
-			<div class="caption">The default color palette for Bitcraft with a high contrast, dark on light palette. The alternative color palette for BitCraft with a dark background color enabling a more comfortable gaming experience in low-light situations.</div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-typeramp-spacing.png" /></div>
-			<div class="caption">A type ramp establishes a range of font sizes, styles, and weights used for different elements within a composition. It helps create a visual hierarchy and guides readers through the content by emphasizing important information and structuring the text. The augmented 4th, 1.414, is a proportion that works well for more content dense interfaces that strike balance between complex information and breathability. A font size of 14 pixels ensures that the text is legible for most users without appearing too small. It provides comfortable reading for an average viewing distance of around 20-24 inches from the screen.</div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-spacing.png" /></div>
-			<div class="caption">Our art deco-inspired shape language grounds itself in highly geometric shapes. Our iconography maintains a consistent look and feel through the use of a combination of vertical, horizontal, and diagonal lines that intersect each other at 45 or 30 degree angles.</div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-angles.png" /></div>
-			<div class="caption">Spacing is used to create visual proximity between related information, grouping those elements together.</div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-rtl.png" /></div>
-			<div class="caption">A core part of our shape language includes stroke dividers and patterns that frame content. These strokes should only be used in only two weights: 4px and 8px.</div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-components.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-notifications.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-entities.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-cursors.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-HUD.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-booth.png" /></div>
-			<div class="caption">Designed and modeled a preview of our TwitchCon 2025 booth</div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-hoodie.png" /></div>
-			<div class="caption">Designed and mocked a preview of our TwitchCon 2025 hoodies</div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-wishlist.png" /></div>
-			<div class="caption">Created wishlist assets for our marketing team</div>
-		</div>
-	</div>
 </section>]]></content><author><name></name></author><category term="branding" /><category term="ui-ux" /><category term="visual-design" /><summary type="html"><![CDATA[BitCraft is an ambitious sandbox MMO in development, blending survival, exploration, and player-driven worldbuilding. As part of the core design team, I focused on shaping the UI systems and interaction patterns that support a massive, persistent online world.]]></summary></entry><entry><title type="html">SpacetimeDB</title><link href="http://localhost:4000/2024/08/01/spacetimedb.html" rel="alternate" type="text/html" title="SpacetimeDB" /><published>2024-08-01T10:48:31-07:00</published><updated>2024-08-01T10:48:31-07:00</updated><id>http://localhost:4000/2024/08/01/spacetimedb</id><content type="html" xml:base="http://localhost:4000/2024/08/01/spacetimedb.html"><![CDATA[<!--- Content Captures --->
 
 <!--- Includes --->
 
-<section class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+			<div class="box">
+				<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
+					<source alt="" src="/assets/images/spacetimedb/stdb-blender.mp4" />
+				</video>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
 	  <hr /><div class="box"></div>
@@ -420,7 +432,7 @@
   </div>
 </section>
 
-<section class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
 	  <hr /><div class="box"></div>
@@ -441,7 +453,7 @@
   </div>
 </section>
 
-<section class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
 	  <hr /><div class="box"></div>
@@ -460,23 +472,23 @@
 	  </div>
 	  </div>
   </div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-			<div class="box">
-				<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
-					<source alt="" src="/assets/images/spacetimedb/stdb-blender.mp4" />
-				</video>
-			</div>
-		</div>
-	</div>
 </section>]]></content><author><name></name></author><category term="branding" /><category term="three-d" /><category term="motion" /><summary type="html"><![CDATA[I designed and animated the logo reveal for SpacetimeDB, a distributed database technology project by Clockwork Labs. Using Blender and After Effects, I created a visual narrative inspired by gravitational lensing, light bending around a black hole, culminating in the reveal of the logo. The animation established a cinematic yet scientific tone that reflected the brand’s focus on scale, depth, and innovation.]]></summary></entry><entry><title type="html">Boss Fight</title><link href="http://localhost:4000/2023/09/09/boss-fight.html" rel="alternate" type="text/html" title="Boss Fight" /><published>2023-09-09T10:48:31-07:00</published><updated>2023-09-09T10:48:31-07:00</updated><id>http://localhost:4000/2023/09/09/boss-fight</id><content type="html" xml:base="http://localhost:4000/2023/09/09/boss-fight.html"><![CDATA[<!--- Content Captures --->
 
 <!--- Includes --->
 
-<section class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+			<div class="box">
+				<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
+					<source alt="" src="/assets/images/boss-fight/boss-fight-playblast.mp4" />
+				</video>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
 	  <hr /><div class="box"></div>
@@ -495,23 +507,92 @@
 	  </div>
 	  </div>
   </div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-			<div class="box">
-				<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
-					<source alt="" src="/assets/images/boss-fight/boss-fight-playblast.mp4" />
-				</video>
-			</div>
-		</div>
-	</div>
 </section>]]></content><author><name></name></author><category term="three-d" /><category term="motion" /><summary type="html"><![CDATA[I created an entry for the Boss Fight 3D challenge, where artists were given a starter template and tasked with animating a scene featuring a hero facing a towering villain. Similar to the Endless Engines challenge, this project pushed me to practice modeling, texturing, rigging, and animation within a focused brief, while experimenting with scale, character dynamics, and storytelling through motion.]]></summary></entry><entry><title type="html">Silent Hill Ascension</title><link href="http://localhost:4000/2023/06/01/silenthill-ascension.html" rel="alternate" type="text/html" title="Silent Hill Ascension" /><published>2023-06-01T10:48:31-07:00</published><updated>2023-06-01T10:48:31-07:00</updated><id>http://localhost:4000/2023/06/01/silenthill-ascension</id><content type="html" xml:base="http://localhost:4000/2023/06/01/silenthill-ascension.html"><![CDATA[<!--- Content Captures --->
 
 <!--- Includes --->
 
-<section class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/silenthill-ascension/sha-active-decisions.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/silenthill-ascension/sha-battlepass.webp" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/silenthill-ascension/sha-chat-overlay.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/silenthill-ascension/sha-chyron.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/silenthill-ascension/sha-mainhub.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/silenthill-ascension/sha-scene-select.webp" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/silenthill-ascension/sha-voting.webp" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/silenthill-ascension/sha-watch-01.webp" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/silenthill-ascension/sha-watch-02.webp" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
 	  <hr /><div class="box"></div>
@@ -535,7 +616,7 @@
   </div>
 </section>
 
-<section class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
 	  <hr /><div class="box"></div>
@@ -559,7 +640,7 @@
   </div>
 </section>
 
-<section class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
 	  <hr /><div class="box"></div>
@@ -578,94 +659,13 @@
 	  </div>
 	  </div>
   </div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/silenthill-ascension/sha-active-decisions.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/silenthill-ascension/sha-battlepass.webp" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/silenthill-ascension/sha-chat-overlay.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/silenthill-ascension/sha-chyron.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/silenthill-ascension/sha-mainhub.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/silenthill-ascension/sha-scene-select.webp" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/silenthill-ascension/sha-voting.webp" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/silenthill-ascension/sha-watch-01.webp" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/silenthill-ascension/sha-watch-02.webp" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
 </section>]]></content><author><name></name></author><category term="ui-ux" /><category term="visual-design" /><summary type="html"><![CDATA[I was a UI/UX Designer on Silent Hill Ascension, a new form of interactive entertainment developed by Genvid that blended television with gaming. The experience allowed viewers to participate in live storylines by playing minigames to earn points, which were then used to vote on key narrative decisions. Votes were tallied weekly, with the story progressing based on community input. My role was to design the user experience and interface systems that supported this hybrid format, ensuring gameplay, voting, and storytelling were intuitive and engaging for a global audience.]]></summary></entry><entry><title type="html">Room Renders</title><link href="http://localhost:4000/2022/03/05/room-renders.html" rel="alternate" type="text/html" title="Room Renders" /><published>2022-03-05T09:48:31-08:00</published><updated>2022-03-05T09:48:31-08:00</updated><id>http://localhost:4000/2022/03/05/room-renders</id><content type="html" xml:base="http://localhost:4000/2022/03/05/room-renders.html"><![CDATA[<!--- Content Captures --->
 
 <!--- Includes --->
 
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/apartment/apartment-livingroom.png" /></div>
 			<div class="caption"></div>
 		</div>
@@ -674,7 +674,7 @@
 
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/apartment/apartment-balcony.png" /></div>
 			<div class="caption"></div>
 		</div>
@@ -683,7 +683,7 @@
 
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/apartment/apartment-kitchen.png" /></div>
 			<div class="caption"></div>
 		</div>
@@ -692,7 +692,7 @@
 
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/apartment/apartment-bathroom.png" /></div>
 			<div class="caption"></div>
 		</div>
@@ -701,7 +701,34 @@
 
 <!--- Includes --->
 
-<section class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/youre-not-alone/youre-not-alone-01.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/youre-not-alone/youre-not-alone-02.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/youre-not-alone/youre-not-alone-03.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
 	  <hr /><div class="box"></div>
@@ -720,38 +747,47 @@
 	  </div>
 	  </div>
   </div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/youre-not-alone/youre-not-alone-01.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/youre-not-alone/youre-not-alone-02.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/youre-not-alone/youre-not-alone-03.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
 </section>]]></content><author><name></name></author><category term="gamejam" /><category term="coding" /><summary type="html"><![CDATA[You're Not Alone is a short game I designed and developed for the Brackeys Game Jam 2022.2. Built in under a week around the theme “You’re Not Alone,” the project placed 58th out of 1,075 entries and served as an exercise in rapid prototyping and cohesive visual design under tight creative constraints.]]></summary></entry><entry><title type="html">Chaos Rains</title><link href="http://localhost:4000/2022/02/12/chaos-rains.html" rel="alternate" type="text/html" title="Chaos Rains" /><published>2022-02-12T09:48:31-08:00</published><updated>2022-02-12T09:48:31-08:00</updated><id>http://localhost:4000/2022/02/12/chaos-rains</id><content type="html" xml:base="http://localhost:4000/2022/02/12/chaos-rains.html"><![CDATA[<!--- Content Captures --->
 
 <!--- Includes --->
 
-<section class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/chaos-rains/chaos-rains-hero.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/chaos-rains/chaos-rains-01.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/chaos-rains/chaos-rains-02.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/chaos-rains/chaos-rains-03.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
 	  <hr /><div class="box"></div>
@@ -770,47 +806,50 @@
 	  </div>
 	  </div>
   </div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/chaos-rains/chaos-rains-hero.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/chaos-rains/chaos-rains-01.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/chaos-rains/chaos-rains-02.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/chaos-rains/chaos-rains-03.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
 </section>]]></content><author><name></name></author><category term="gamejam" /><category term="coding" /><summary type="html"><![CDATA[I designed and developed Chaos Rains for the Brackeys Game Jam 2021.2, where the theme was “Let There Be Chaos.” Built in under a week, the game was a test of rapid ideation, design, and development under tight constraints. I created the concept, mechanics, and visuals, completing the project with over a day to spare. Out of 1,735 entries, Chaos Rains placed 109th overall.]]></summary></entry><entry><title type="html">Endless Engines</title><link href="http://localhost:4000/2021/08/06/endless-engines.html" rel="alternate" type="text/html" title="Endless Engines" /><published>2021-08-06T10:48:31-07:00</published><updated>2021-08-06T10:48:31-07:00</updated><id>http://localhost:4000/2021/08/06/endless-engines</id><content type="html" xml:base="http://localhost:4000/2021/08/06/endless-engines.html"><![CDATA[<!--- Content Captures --->
 
 <!--- Includes --->
 
-<section class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/endless-engines/endless-engines-hero.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+			<div class="box">
+				<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
+					<source alt="" src="/assets/images/endless-engines/endless-engines-playblast.mp4" />
+				</video>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/endless-engines/endless-engines-front.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/endless-engines/endless-engines-angle.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
 	  <hr /><div class="box"></div>
@@ -831,50 +870,209 @@
 	  </div>
 	  </div>
   </div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/endless-engines/endless-engines-hero.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-			<div class="box">
-				<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
-					<source alt="" src="/assets/images/endless-engines/endless-engines-playblast.mp4" />
-				</video>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/endless-engines/endless-engines-front.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/endless-engines/endless-engines-angle.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
 </section>]]></content><author><name></name></author><category term="three-d" /><category term="motion" /><summary type="html"><![CDATA[I created a submission for the Endless Engines community challenge run by Clint Jones, where artists built animated 3D vehicle scenes from a shared template. Using a sci-fi theme, I designed a futuristic freeway chase featuring a drone as the centerpiece. This project was an opportunity to strengthen my skills in modeling, texturing, and animation within a focused creative brief, culminating in a render showcased in the official community montage.]]></summary></entry><entry><title type="html">Stream Pirates</title><link href="http://localhost:4000/2020/06/01/streampirates.html" rel="alternate" type="text/html" title="Stream Pirates" /><published>2020-06-01T10:48:31-07:00</published><updated>2020-06-01T10:48:31-07:00</updated><id>http://localhost:4000/2020/06/01/streampirates</id><content type="html" xml:base="http://localhost:4000/2020/06/01/streampirates.html"><![CDATA[<!--- Content Captures --->
 
 <!--- Includes --->
 
-<section class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/01_explorations_01.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/01_explorations_02.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/01_explorations_03.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/01_explorations_04.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/01_explorations_05.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/02_elements_01_buttons.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/02_elements_02_containers.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/02_elements_03_parchment.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/02_elements_04_tooltips.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/02_elements_05_icons.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/02_elements_06_inputs.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/03_components_01_battlepass.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/03_components_02_modals.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/04_stream_pirate_screen_1.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/04_stream_pirate_screen_2.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/04_stream_pirate_screen_3.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/04_stream_pirate_screen_4.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/04_stream_pirate_screen_5.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/04_stream_pirate_screen_6.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/04_stream_pirate_screen_7.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/04_stream_pirate_screen_8.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/04_stream_pirate_screen_9.png" /></div>
+			<div class="caption"></div>
+		</div>
+	</div>
+</section>
+
+<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
 	  <hr /><div class="box"></div>
@@ -900,7 +1098,7 @@
   </div>
 </section>
 
-<section class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
 	  <hr /><div class="box"></div>
@@ -921,7 +1119,7 @@
   </div>
 </section>
 
-<section class="page-section col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
+<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
 	  <hr /><div class="box"></div>
@@ -941,202 +1139,4 @@
 	  </div>
 	  </div>
   </div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/01_explorations_01.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/01_explorations_02.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/01_explorations_03.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/01_explorations_04.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/01_explorations_05.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/02_elements_01_buttons.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/02_elements_02_containers.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/02_elements_03_parchment.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/02_elements_04_tooltips.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/02_elements_05_icons.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/02_elements_06_inputs.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/03_components_01_battlepass.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/03_components_02_modals.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/04_stream_pirate_screen_1.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/04_stream_pirate_screen_2.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/04_stream_pirate_screen_3.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/04_stream_pirate_screen_4.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/04_stream_pirate_screen_5.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/04_stream_pirate_screen_6.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/04_stream_pirate_screen_7.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/04_stream_pirate_screen_8.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-2 col-lg-offset-2 col-xs-12 col-sm-12 col-md-8 col-lg-8">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/04_stream_pirate_screen_9.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
 </section>]]></content><author><name></name></author><category term="ui-ux" /><category term="visual-design" /><category term="branding" /><summary type="html"><![CDATA[I was the senior UI/UX designer for Stream Pirates at Captain.tv, a startup creating interactive games designed to be played alongside live streams. Following the success of Stream Raiders, this was their second community-driven side game for streamers and viewers. My role included defining the visual language, creating UI elements and screens, and refining style directions that balanced resonance with the game’s key art and a more minimalist approach that let the artwork take focus.]]></summary></entry></feed>
