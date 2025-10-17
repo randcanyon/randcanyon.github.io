@@ -45,18 +45,18 @@ a:hover {
 
 h1 {
 	color: #444444;
-	font-size: clamp(3rem, 5vw, 5rem);
+	font-size: clamp(2.5rem, 5vw, 5rem);
 	font-weight: 300;
 	line-height: 1em;
 	font-family: "Cormorant Garamond", serif;
 	font-optical-sizing: auto;
 	font-style: normal;
 	margin-top: 0px;
-	word-wrap: break-word;
-	overflow-wrap: break-word;
-	text-wrap: pretty; /* Modern browsers only */
-	-webkit-hyphens: auto;
-	hyphens: auto;
+	white-space: normal;
+  	overflow-wrap: normal;
+  	word-break: normal;
+  	-webkit-hyphens: none;
+  	hyphens: none;
 }
 
 h2 {
@@ -183,6 +183,8 @@ header {
 	will-change: transform;
 }
 
+.page .wrap { overflow: auto; } 
+
 #header-bar {
 	background: rgba(255, 255, 255, 0.50);
 	line-height: 30px;
@@ -251,7 +253,7 @@ header {
 	flex-direction: column;
 	height: 100vh;
 	box-sizing: border-box;
-	padding-top: 10em;
+	padding-top: 4em;
 	padding-bottom: 4em;
 }
 
@@ -318,6 +320,7 @@ header {
 	width: 100px;
 	height: 100px;
 	border-radius: 100px;
+	margin: 2rem;
 }
 
 /* Post */
@@ -708,6 +711,16 @@ footer {
 	
 	.page-hero {
 		margin: 10rem auto;
+	}
+	
+	/* Hero */
+	
+	.hero  {
+		padding-top: 8em;
+	}
+	
+	#avatar {
+		margin: 0;
 	}
 	
 	/* Project */
