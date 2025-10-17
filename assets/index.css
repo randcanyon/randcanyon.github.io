@@ -530,10 +530,19 @@ footer {
 }
 
 .thumbnail:hover img {
-	scale: 1.05;
 	transition: 0.2s ease;
 	filter: saturate(1) contrast(1) brightness(1);
 	z-index: 1;
+}
+
+.thumbnail-image {
+	scale: 1;
+	transition: 0.2s ease;
+}
+
+.thumbnail-image:hover {
+	scale: 1.05;
+	transition: 0.2s ease;
 }
 
 /* State */
@@ -584,6 +593,77 @@ footer {
 	margin: 1rem;
 	color: #999999;
 }
+
+.status-pill {
+  --dot: #94a3b8; /* default (draft) */
+  --bg: rgba(255, 255, 255, 0.1);
+  --ring: color-mix(in oklab, var(--dot) 35%, transparent);
+  --text: #fff;
+  --border: rgba(255, 255, 255, 0.2);
+
+  display:inline-flex;
+  align-items:center;
+  gap: 0.5rem;
+  padding: 0.36rem 0.5rem;
+  border-radius:999px;
+  letter-spacing:.08em;
+  text-transform: uppercase;
+  color:var(--text);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.30) 0 0 1px;
+  backdrop-filter: blur(50px);
+  font-size: 0.64rem;
+}
+
+.status-dot {
+  position: relative;
+  width: .55rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: var(--dot);
+  box-shadow: 0 0 0 3px color-mix(in oklab, var(--dot) 30%, transparent) inset;
+}
+
+/* Base animation keyframes */
+@keyframes status-ping {
+  0%   { transform: scale(1); opacity: 0.45; }
+  60%  { transform: scale(2.6); opacity: 0.15; }
+  100% { transform: scale(3.2); opacity: 0; }
+}
+
+/* Apply ping ONLY for current role */
+.status-pill[data-status="current role"] .status-dot::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: var(--dot);
+  opacity: 0.45;
+  animation: status-ping 1.8s cubic-bezier(.2, .6, .4, 1) infinite;
+}
+
+/* Optional: define the dot color for this status */
+.status-pill[data-status="current role"] {
+  --dot: #22c55e; /* bright green or any color you prefer */
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .status-dot::after { animation: none !important; }
+}
+
+/* Per-status colors driven by the post's front matter */
+.status-pill[data-status="shipped"]     { --dot:#22c55e; } /* green */
+.status-pill[data-status="current role"]     { --dot:#22c55e; } /* green */
+.status-pill[data-status="concepted"]  { --dot:#eab308; } /* amber */
+.status-pill[data-status="delayed"],
+.status-pill[data-status="error"]       { --dot:#ef4444; } /* red */
+.status-pill[data-status="draft"]       { --dot:#94a3b8; } /* neutral */
 
 #share-confirm {
 	box-sizing: border-box;
