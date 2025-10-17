@@ -173,15 +173,16 @@ li {
 header {
 	box-sizing: border-box;
 	height: auto;
-	padding: 0 1rem; /* Add some side padding */
-	position: fixed;
+	padding: 0 1rem;
+	position: fixed; /* Keep fixed for mobile */
 	top: 24px;
 	margin: 0;
 	z-index: 1000;
-	width: 100%; /* Full width container */
+	width: 100%;
 	display: flex;
-	justify-content: center; /* Center the content */
-	position: relative;
+	justify-content: center;
+	-webkit-transform: translate3d(0, 0, 0); /* GPU acceleration for stability */
+	transform: translate3d(0, 0, 0);
 }
 
 #header-bar {
@@ -341,6 +342,10 @@ header {
 	transition: width 0.1s ease;
 	z-index: 0; /* Behind content */
 	backdrop-filter: blur(20px);
+}
+
+.post-description {
+	padding: 2em 0;
 }
 
 #back {
@@ -641,6 +646,7 @@ footer {
 	header {
 		box-sizing: border-box;
 		position: fixed;
+		top: 24px;
 		left: 50%;
 		transform: translateX(-50%);
 	}
