@@ -11,7 +11,6 @@ html {
 	background-attachment: fixed;
 	width: auto;
 	cursor: none;
-	scroll-behavior: smooth;
 }
 
 .page {
@@ -173,16 +172,15 @@ li {
 header {
 	box-sizing: border-box;
 	height: auto;
-	padding: 0 1rem;
-	position: fixed; /* Keep fixed for mobile */
-	top: 24px;
+	position: fixed;
+	top: 1rem; /* Smaller fixed value */
 	margin: 0;
 	z-index: 1000;
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	-webkit-transform: translate3d(0, 0, 0); /* GPU acceleration for stability */
-	transform: translate3d(0, 0, 0);
+	transform: translateZ(0);
+	will-change: transform;
 }
 
 #header-bar {
@@ -325,10 +323,14 @@ header {
 /* Post */
 
 #post-title {
-	margin: 0 24px;
+	padding: 0 24px;
+	box-sizing: border-box;
 	text-align: center;
 	color: #444;
 	overflow: hidden;
+	white-space: nowrap; /* Prevents wrapping */
+	text-overflow: ellipsis; /* Adds ... */
+	max-width: 200px; /* Adjust this value as needed */
 }
 
 #post-progress {
