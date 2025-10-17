@@ -181,6 +181,7 @@ header {
 	width: 100%; /* Full width container */
 	display: flex;
 	justify-content: center; /* Center the content */
+	position: relative;
 }
 
 #header-bar {
@@ -195,8 +196,15 @@ header {
 	vertical-align: middle;
 	justify-content: center;
 	align-items: center;
-	width: auto; /* Let it size to content */
-	max-width: 100%; /* Don't overflow */
+	width: auto;
+	max-width: 100%;
+	position: relative; /* Add this */
+	overflow: hidden; /* Add this - clips progress bar to rounded edges */
+}
+
+#header-bar > * {
+	position: relative; /* Makes sure content stays above progress bar */
+	z-index: 1;
 }
 
 #header-links {
@@ -323,13 +331,16 @@ header {
 }
 
 #post-progress {
-	height: 4px;
-	background: #444;
-	position: relative;
-	bottom: 2px;
-	width: 0;
+	height: 100%;
+	width: 0%;
+	background: rgba(255, 255, 255, 0.1); /* Semi-transparent so content is visible */
+	position: absolute;
+	top: 0;
+	left: 0;
 	box-sizing: border-box;
-	border-radius: 2px;
+	transition: width 0.1s ease;
+	z-index: 0; /* Behind content */
+	backdrop-filter: blur(20px);
 }
 
 #back {
