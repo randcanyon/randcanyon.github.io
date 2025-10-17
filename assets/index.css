@@ -143,9 +143,9 @@ button:hover {
 
 hr {
 	margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
 }
 
 /* Lists */
@@ -267,13 +267,13 @@ header {
 .hero-see-selected-works {
 	text-align: right;
 	display: flex;
-  	align-items: center; /* vertically centers */
-  	justify-content: flex-end; /* keeps right alignment */
-  	gap: 0.5rem; /* adds spacing between text and icon */
+	  align-items: center; /* vertically centers */
+	  justify-content: flex-end; /* keeps right alignment */
+	  gap: 0.5rem; /* adds spacing between text and icon */
 }
 
 .hero-see-selected-works .material-symbols-outlined {
-  	vertical-align: middle;
+	  vertical-align: middle;
 }
 
 .card-container {

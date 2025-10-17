@@ -13,26 +13,6 @@ document.body.onmousemove = function(e) {
   );
 }
 
-const card = document.getElementById('card');
-
-card.addEventListener('mousemove', (e) => {
-	const rect = card.getBoundingClientRect();
-	const centerX = rect.left + rect.width / 2;
-	const centerY = rect.top + rect.height / 2;
-	
-	const mouseX = e.clientX;
-	const mouseY = e.clientY;
-	
-	const rotateX = (mouseY - centerY) / 40;
-	const rotateY = (centerX - mouseX) / 40;
-	
-	card.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
-});
-
-card.addEventListener('mouseleave', () => {
-	card.style.transform = 'rotateX(0) rotateY(0)';
-});
-
 /* 
 window.addEventListener('scroll', function() {
   const projects = document.getElementById('projects');
