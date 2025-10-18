@@ -190,7 +190,6 @@ header {
 	line-height: 30px;
 	vertical-align: middle;
 	backdrop-filter: blur(50px);
-	z-index: 1000;
 	border: rgba(255, 255, 255, 0.20) 1px solid;
 	border-radius: 100px;
 	box-shadow: rgba(0, 0, 0, 0.30) 0 0 1px;
@@ -666,18 +665,22 @@ footer {
 .status-pill[data-status="draft"]       { --dot:#94a3b8; } /* neutral */
 
 #share-confirm {
-	box-sizing: border-box;
-	height: auto;
-	padding: 16px 32px;
+	padding: 8px 16px;
 	border-radius: 40px;
 	background: rgba(181, 219, 84, 0.85);
 	text-align: center;
 	color: #444;
 	backdrop-filter: blur(10px);
-	position: absolute;
-	margin: 1rem 48px;
-	left: 0;
-	right: 0;
+	gap: 1em;
+	width: auto;
+	box-sizing: border-box;
+	height: auto;
+	position: fixed;
+	top: 4rem; /* Smaller fixed value */
+	z-index: 1000;
+	justify-content: center;
+	transform: translateZ(0);
+	will-change: transform;
 }
 
 #prev-label {
