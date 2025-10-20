@@ -315,11 +315,10 @@
     once: true,
     offset: 50,
     anchorPlacement: 'top-bottom',
-    // Disable AOS on mobile devices
-    disable: 'mobile', // or 'phone' or 'tablet'
+    disable: 'mobile'
   });
 </script>
-<script src="https://unpkg.com/lenis@1.3.11/dist/lenis.min.js"></script> <header><div id="header-bar" class="row">
+<script src="https://unpkg.com/lenis@1.3.11/dist/lenis.min.js"></script> <header data-lenis-prevent><div id="header-bar" class="row">
     <div id="post-progress"></div>
     <a id="back" class="tab" href="/"><i class="fa-solid fa-caret-left"></i></a>
     <span id="post-title">
