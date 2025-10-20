@@ -447,6 +447,46 @@ footer {
 	padding-right: 0;
 }
 
+/* Skeleton loading states */
+.project.thumbnail {
+  position: relative;
+}
+
+.project.thumbnail.loading .thumbnail-image,
+.project.thumbnail.loading .thumbnail-title,
+.project.thumbnail.loading .thumbnail-tags {
+  background: linear-gradient(
+	90deg,
+	#f0f0f0 0px,
+	#f8f8f8 40px,
+	#f0f0f0 80px
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 8px;
+}
+
+.project.thumbnail.loading .thumbnail-image {
+  aspect-ratio: 16/9; /* Adjust to match your image ratio */
+  min-height: 200px;
+}
+
+.project.thumbnail.loading .thumbnail-title {
+  height: 24px;
+  width: 70%;
+  margin: 12px 0;
+}
+
+.project.thumbnail.loading .thumbnail-tags {
+  height: 16px;
+  width: 40%;
+}
+
+.project.thumbnail.loading img,
+.project.thumbnail.loading p {
+  opacity: 0;
+}
+
 /* Buttons */
 
 .primary-button {
@@ -837,4 +877,13 @@ footer {
 
 @media only screen and (min-width: 75em) {
 
+}
+
+@keyframes shimmer {
+  0% {
+	background-position: 200% 0;
+  }
+  100% {
+	background-position: -200% 0;
+  }
 }

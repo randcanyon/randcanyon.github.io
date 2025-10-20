@@ -23,35 +23,6 @@ lenis.on('scroll', (e) => {
   console.log(e);
 });
 
-/* 
-window.addEventListener('scroll', function() {
-  const projects = document.getElementById('projects');
-  const projectsTop = projects.getBoundingClientRect().top;
-  const projectsHeight = projects.getBoundingClientRect().height;
-  const projectsBottom = projects.getBoundingClientRect().bottom;
-  
-  const sidebar = document.getElementById('filters');
-  const sidebarHeight = sidebar.getBoundingClientRect().height;
-
-  console.log("side" + sidebarHeight);
-  console.log("project" + projectsHeight);
-
-  if (sidebarHeight < projectsHeight) {
-  	if (projectsTop <= 190) {
-		sidebar.style.paddingTop = 190 - projectsTop + "px";
-  	} else {
-		sidebar.style.paddingTop = 0;
-  	}
-  } else {
-    if (projectsBottom >= 190) {
-		sidebar.style.paddingTop = 190 - projectsTop + "px";
-	  } else {
-		sidebar.style.paddingTop = 0;
-	  }
-  }
-});
-*/
-
 window.addEventListener('scroll', function() {
 	const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 	const documentHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
