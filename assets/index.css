@@ -724,9 +724,14 @@ footer {
 	
 }
 
+.container-fluid {
+	display: flex;
+	flex-direction: column;
+	gap: var(--spacer-lg);
+}
+
 .page-section {
 	padding-inline: var(--spacer-base);
-	margin-bottom: var(--spacer-xl);
 }
 
 .page-hero {
@@ -811,7 +816,17 @@ footer {
 	margin-top: auto;
 }
 
+@media (min-width: 48em) {
+	.hero-bio {
+		text-align: left;
+	}
+}
+
 @media (max-width: 47.99em) {
+	.hero-bio {
+		text-align: center;
+	}
+
 	.hero-content {
 		padding-top: calc(var(--header-h) + var(--spacer-xl));
 	}
