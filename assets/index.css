@@ -685,7 +685,6 @@ header {
 
 .post-description {
 	padding-top: calc(var(--header-h) + var(--spacer-2xl));
-	padding-bottom: var(--spacer-2xl);
 }
 
 .post-description h1 {
@@ -727,6 +726,7 @@ footer {
 
 .page-section {
 	padding-inline: var(--spacer-base);
+	margin-bottom: var(--spacer-xl);
 }
 
 .page-hero {
