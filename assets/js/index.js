@@ -151,7 +151,6 @@ function fixHeaderForVisualViewport() {
 
 if (window.visualViewport) {
 	window.visualViewport.addEventListener('resize', fixHeaderForVisualViewport);
-	window.visualViewport.addEventListener('scroll', fixHeaderForVisualViewport);
 }
 
 // Fade out on link click
