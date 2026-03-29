@@ -1,16 +1,6 @@
 document.body.onmousemove = function(e) {
-  document.documentElement.style.setProperty (
-  '--x', (
-	e.clientX+window.scrollX
-  )
-  + 'px'
-  );
-  document.documentElement.style.setProperty (
-  '--y', (
-	e.clientY+window.scrollY
-  ) 
-  + 'px'
-  );
+  document.documentElement.style.setProperty('--x', e.clientX + 'px');
+  document.documentElement.style.setProperty('--y', e.clientY + 'px');
 }
 
 // Initialize Lenis
@@ -155,22 +145,42 @@ window.addEventListener('resize', setHeaderHeightVar);
 document.addEventListener('DOMContentLoaded', function() {
 	const links = document.querySelectorAll('a:not([target="_blank"])');
 	const page = document.querySelector('.page');
-	
+
 	links.forEach(link => {
 		link.addEventListener('click', function(e) {
-			// Only fade for internal links
+			const href = this.getAttribute('href');
+
+			// Smooth scroll for hash anchors
+			if (href && href.startsWith('#')) {
+				const target = document.querySelector(href);
+				if (target) {
+					e.preventDefault();
+					target.scrollIntoView({ behavior: 'smooth' });
+				}
+				return;
+			}
+
+			// Fade for internal page navigation
 			if (this.hostname === window.location.hostname) {
 				e.preventDefault();
-				const href = this.getAttribute('href');
-				
 				page.classList.add('fade-out');
-				
 				setTimeout(() => {
 					window.location.href = href;
-				}, 300); // Match CSS transition duration
+				}, 300);
 			}
 		});
 	});
+});
+
+// Color mode toggle
+const theme = localStorage.getItem('theme') || 'light';
+document.documentElement.setAttribute('data-theme', theme);
+
+document.getElementById('theme-toggle')?.addEventListener('click', () => {
+  const currentTheme = document.documentElement.getAttribute('data-theme');
+  const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+  document.documentElement.setAttribute('data-theme', newTheme);
+  localStorage.setItem('theme', newTheme);
 });
 
 // Fade in on page load
@@ -178,3 +188,70 @@ window.addEventListener('pageshow', function() {
 	const page = document.querySelector('.page');
 	page.classList.remove('fade-out');
 });
+
+// Parallax effect for hero images
+window.addEventListener('scroll', () => {
+	const scrolled = window.pageYOffset;
+	const parallaxElements = document.querySelectorAll('.hero-image-parallax');
+	
+	parallaxElements.forEach(element => {
+		const speed = 0.2; // Adjust for parallax intensity (0.5 = half speed)
+		element.style.transform = `translateY(${scrolled * speed}px)`;
+	});
+});
+
+// Slideshow
+(function() {
+	function initScrollFade() {
+		const scrollContainers = document.querySelectorAll('[data-scroll-fade]');
+		
+		if (scrollContainers.length === 0) {
+			console.log('No scroll containers found');
+			return;
+		}
+		
+		scrollContainers.forEach(container => {
+			function updateMask() {
+				const scrollLeft = container.scrollLeft;
+				const maxScroll = container.scrollWidth - container.clientWidth;
+				const fadeWidth = 24;
+				
+				if (maxScroll <= 0) {
+					// No scrolling needed, no mask
+					container.style.maskImage = 'none';
+					container.style.webkitMaskImage = 'none';
+					return;
+				}
+				
+				// Calculate fade amounts (0 to 1)
+				const leftFade = Math.min(scrollLeft / fadeWidth, 1);
+				const rightFade = Math.min((maxScroll - scrollLeft) / fadeWidth, 1);
+				
+				// Calculate pixel positions
+				const leftStop = fadeWidth * leftFade;
+				const rightStop = container.clientWidth - (fadeWidth * rightFade);
+				
+				const maskImage = `linear-gradient(to right, transparent 0, black ${leftStop}px, black ${rightStop}px, transparent 100%)`;
+				
+				container.style.maskImage = maskImage;
+				container.style.webkitMaskImage = maskImage;
+			}
+			
+			// Update on scroll
+			container.addEventListener('scroll', updateMask);
+			
+			// Update on resize
+			window.addEventListener('resize', updateMask);
+			
+			// Initial update with slight delay to ensure content is loaded
+			setTimeout(updateMask, 100);
+		});
+	}
+	
+	// Run on DOM ready
+	if (document.readyState === 'loading') {
+		document.addEventListener('DOMContentLoaded', initScrollFade);
+	} else {
+		initScrollFade();
+	}
+})();
