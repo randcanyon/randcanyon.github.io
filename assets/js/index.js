@@ -141,6 +141,19 @@ function setHeaderHeightVar() {
 window.addEventListener('load', setHeaderHeightVar);
 window.addEventListener('resize', setHeaderHeightVar);
 
+// Fix Chrome mobile: keep header anchored to the visual viewport
+// when the URL bar shows/hides and shifts the layout viewport.
+function fixHeaderForVisualViewport() {
+	const header = document.querySelector('header');
+	if (!header || !window.visualViewport) return;
+	header.style.top = (window.visualViewport.offsetTop + 16) + 'px';
+}
+
+if (window.visualViewport) {
+	window.visualViewport.addEventListener('resize', fixHeaderForVisualViewport);
+	window.visualViewport.addEventListener('scroll', fixHeaderForVisualViewport);
+}
+
 // Fade out on link click
 document.addEventListener('DOMContentLoaded', function() {
 	const links = document.querySelectorAll('a:not([target="_blank"])');
