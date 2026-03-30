@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-03-29T15:52:06-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Randy Huynh</title><subtitle>Portfolio of Randy Huynh, a visual designer a visual designer at Clockwork Labs working on BitCraft in Seattle.</subtitle><entry><title type="html">Blade Blitz @ Hella Studios</title><link href="http://localhost:4000/2024/08/01/blade-blitz.html" rel="alternate" type="text/html" title="Blade Blitz @ Hella Studios" /><published>2024-08-01T10:48:31-07:00</published><updated>2024-08-01T10:48:31-07:00</updated><id>http://localhost:4000/2024/08/01/blade-blitz</id><content type="html" xml:base="http://localhost:4000/2024/08/01/blade-blitz.html"><![CDATA[<!--- Content Captures --->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-03-29T21:55:34-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Randy Huynh</title><subtitle>Portfolio of Randy Huynh, a visual designer a visual designer at Clockwork Labs working on BitCraft in Seattle.</subtitle><entry><title type="html">Blade Blitz @ Hella Studios</title><link href="http://localhost:4000/2024/08/01/blade-blitz.html" rel="alternate" type="text/html" title="Blade Blitz @ Hella Studios" /><published>2024-08-01T10:48:31-07:00</published><updated>2024-08-01T10:48:31-07:00</updated><id>http://localhost:4000/2024/08/01/blade-blitz</id><content type="html" xml:base="http://localhost:4000/2024/08/01/blade-blitz.html"><![CDATA[<!--- Content Captures --->
 
 <!--- Includes --->
 
@@ -6,7 +6,7 @@
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mobile-margin-bottom">
 		<div class="box">
-			<h5 class="">Blade Blitz is a solo project I designed and developed from the ground up, covering visual identity, UI/UX, branding, and Unity implementation. The work spanned concept exploration, interface design, motion and feedback systems, style guide creation, and two years of public iteration through event showcases and community feedback.</h5>
+			<h5 class="">Blade Blitz is a competitive local-multiplayer sword fighting game inspired by Nidhogg, reimagined as a fast-paced 3v3 spectator sport. I designed and developed it from the ground up—visual identity, UI/UX, characters, and full Unity implementation—over two years of public iteration.</h5>
 		</div>
 		<div class="box">
 			
@@ -83,7 +83,22 @@
 					<div class="box">
 						<hr />
 						<div class="label">My Role</div>
-						<div class="value">Sole Developer &amp; Designer</div>
+						<div>
+							
+							
+							  <div class="value">Business Owner</div>
+							
+							  <div class="value">Developer</div>
+							
+							  <div class="value">Visual identity &amp; UI/UX</div>
+							
+							  <div class="value">Unity Implementation</div>
+							
+							  <div class="value">Game Design</div>
+							
+							  <div class="value">Marketing &amp; Community</div>
+							
+						</div>
 					</div>
 				</div>
 			</div>
@@ -122,7 +137,7 @@
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 		<div class="box">
-			<h2>Context</h2>
+			<h2>Outcome</h2>
 		</div>
 	</div>
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -130,7 +145,7 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="box">
-						<p>Blade Blitz started as a question: can you take the tension of Nidhogg and make it work with more players? Moving from a side-scrolling 1v1 to a top-down 3v3 introduced real design problems. With more freedom of movement, players could avoid combat entirely. Arenas needed to funnel engagement. The HUD had to stay readable across 6 characters in motion. And the whole thing needed to feel like a sport, not just a brawl.</p>
+						<p>Blade Blitz launched on Steam on March 11, 2026. Two years of public development, event showcases, and direct player feedback shaped what shipped.</p>
 						<h3></h3>
 					</div>
 				</div>
@@ -140,6 +155,72 @@
 
 			
 
+			
+				
+				
+					
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									<div class="stat">1,000+</div>
+									<div class="label">Wishlists at Launch</div>
+									<div class="value">Blade Blitz launched on Steam on March 11, 2026, surpassing 1,000 wishlists at release—meaningful for a solo title without a publisher.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									<div class="stat">350+</div>
+									<div class="label">Demo Players</div>
+									<div class="value">The standalone Steam demo reached over 350 players ahead of the full release.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Shipped solo</div>
+									<div class="value">Every system—design, code, art, and marketing—was owned and shipped by one person.</div>
+								</div>
+							</div>
+						</div>
+					
+				
 			
 		</div>
 	</div>
@@ -159,7 +240,7 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="box">
-						<p>The aesthetic is built around one idea: this is a sport. Bold, high-contrast, and immediately readable:</p>
+						<p>The visual system is built across three layers: the overall aesthetic, character readability, and a scalable UI component library, each designed to support clarity in fast-paced, competitive gameplay.</p>
 						<h3></h3>
 					</div>
 				</div>
@@ -188,8 +269,8 @@
 								<div class="box">
 									<hr />
 									
-									<div class="label">Sports-Inspired Aesthetic</div>
-									<div class="value">The visual direction draws from competitive sports broadcasts: bold typography, high-contrast team colors (red vs. blue), and clear iconography to keep matches readable regardless of on-screen activity.</div>
+									<div class="label">Sports-inspired aesthetic</div>
+									<div class="value">BBold typography, high-contrast team colors (red vs. blue), and clear iconography create immediate readability, allowing players and spectators to quickly understand the state of play at a glance.</div>
 								</div>
 							</div>
 						</div>
@@ -208,8 +289,8 @@
 								<div class="box">
 									<hr />
 									
-									<div class="label">Character Design</div>
-									<div class="value">3D characters modeled in Blender to be legible from a top-down perspective while retaining personality. The model system supports per-team color assignment without compromising the visual identity.</div>
+									<div class="label">Character design</div>
+									<div class="value">3D characters modeled in Blender for legibility from a top-down perspective, with per-team color assignment built into the outline shader.</div>
 								</div>
 							</div>
 						</div>
@@ -228,8 +309,8 @@
 								<div class="box">
 									<hr />
 									
-									<div class="label">Component System</div>
-									<div class="value">A consistent set of UI components covering buttons, panels, HUD elements, and feedback states, designed in Figma and implemented directly in Unity.</div>
+									<div class="label">Component system</div>
+									<div class="value">A consistent UI library covering buttons, panels, HUD elements, and feedback states, designed in Figma and implemented directly in Unity.</div>
 								</div>
 							</div>
 						</div>
@@ -299,7 +380,7 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="box">
-						<p>Every screen had to be fast to read and fast to navigate. Players are in sessions, not browsing:</p>
+						<p>The interface applies the component system across all screens, ensuring consistency, clarity, and scalability throughout the experience.</p>
 						<h3></h3>
 					</div>
 				</div>
@@ -328,8 +409,8 @@
 								<div class="box">
 									<hr />
 									
-									<div class="label">Menus</div>
-									<div class="value">The main menu and settings share the same visual energy as the game, ensuring a coherent experience from the moment a player launches it.</div>
+									<div class="label">Menu</div>
+									<div class="value">Menu screens use a consistent layout structure built from reusable panels and button components.</div>
 								</div>
 							</div>
 						</div>
@@ -348,8 +429,8 @@
 								<div class="box">
 									<hr />
 									
-									<div class="label">Character &amp; Level Select</div>
-									<div class="value">Selection screens were designed for speed. Players are typically mid-session and need to communicate team assignment, character, and arena quickly before the next match starts.</div>
+									<div class="label">Character select</div>
+									<div class="value">Character select extends the same component system into a more dynamic, multiplayer context.</div>
 								</div>
 							</div>
 						</div>
@@ -368,8 +449,8 @@
 								<div class="box">
 									<hr />
 									
-									<div class="label">In-Match HUD &amp; Match Flow</div>
-									<div class="value">Designed the complete match experience: the opening face-off, in-play score display, point changeover screens, arena transitions, and the final leaderboard.</div>
+									<div class="label">In-match UI</div>
+									<div class="value">The in-match HUD adapts the system for moment-to-moment gameplay.</div>
 								</div>
 							</div>
 						</div>
@@ -388,8 +469,8 @@
 								<div class="box">
 									<hr />
 									
-									<div class="label">Powerups</div>
-									<div class="value">A visual language for pickups and active powerup states that communicates clearly during 4-player combat without contributing to screen clutter.</div>
+									<div class="label">Feedback &amp; States</div>
+									<div class="value">Interactive and game-driven feedback—hover states, selections, alerts, and transitions—are all derived from the same component rules.</div>
 								</div>
 							</div>
 						</div>
@@ -534,7 +615,7 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="box">
-						<p>Public events served as the primary testing environment. Hours of real player sessions exposed friction that internal testing never surfaces. Watching someone encounter the game for the first time, without any context or instruction, was consistently the most informative design feedback available.</p>
+						<p>Public events were the primary testing environment. Hours of unmoderated player sessions at ECCC and the Seattle Indie Expo 2025 exposed friction that internal playtesting never surfaces—watching someone play for the first time, with no context or instruction, was consistently the most useful design signal available.</p>
 						<h3></h3>
 					</div>
 				</div>
@@ -544,52 +625,6 @@
 
 			
 
-			
-				
-				
-					
-					
-				
-					
-					
-						
-						
-						
-						
-						
-
-						<div class="row project-overview-data">
-							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-								<div class="box">
-									<hr />
-									
-									<div class="label">Featured at Events</div>
-									<div class="value">Selected for showcase at ECCC (Emerald City Comic Con) and the Seattle Indie Expo 2025. Hundreds of players across both shows provided direct, unfiltered feedback that solo playtesting cannot replicate.</div>
-								</div>
-							</div>
-						</div>
-					
-				
-					
-					
-						
-						
-						
-						
-						
-
-						<div class="row project-overview-data">
-							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-								<div class="box">
-									<hr />
-									
-									<div class="label">Built in Public</div>
-									<div class="value">Design decisions, iteration, and development milestones were documented publicly throughout production. This created a feedback loop that shaped the final product and established an audience before launch.</div>
-								</div>
-							</div>
-						</div>
-					
-				
 			
 		</div>
 	</div>
@@ -646,7 +681,7 @@
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 		<div class="box">
-			<h2>Outcome</h2>
+			<h2>Reflection</h2>
 		</div>
 	</div>
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -654,7 +689,7 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="box">
-						<p>Blade Blitz launched on Steam on March 11, 2026, with over 1,000 wishlists at release. Two years of public development, event showcases, and community feedback shaped the product that shipped.</p>
+						<p>This project surfaced a few hard lessons around product direction and scope.</p>
 						<h3></h3>
 					</div>
 				</div>
@@ -682,9 +717,9 @@
 							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 								<div class="box">
 									<hr />
-									<div class="stat">1,000+</div>
-									<div class="label">Wishlists at Launch</div>
-									<div class="value">Blade Blitz launched on Steam on March 11, 2026, surpassing 1,000 wishlists at release. A meaningful milestone for a solo-developed title without a publisher.</div>
+									
+									<div class="label">Platform fit matters more than technical possibility</div>
+									<div class="value">I built the game around local multiplayer, assuming Steam Remote Play would fill the gap. In practice, it didn't. Players still prefer native online experiences. If I were to do it again, I would design for online play from the start rather than relying on a workaround.</div>
 								</div>
 							</div>
 						</div>
@@ -702,9 +737,29 @@
 							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 								<div class="box">
 									<hr />
-									<div class="stat">350+</div>
-									<div class="label">Demo Players</div>
-									<div class="value">The standalone Steam demo reached over 350 players, providing a measurable signal of interest ahead of the full release.</div>
+									
+									<div class="label">Novelty is expensive, especially twice</div>
+									<div class="value">The game introduced both unfamiliar controls and unfamiliar rules. That combination made onboarding difficult and made it harder to communicate the concept quickly. I'd approach this differently by grounding one layer (controls or rules) in something familiar, so players have an anchor.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Perfection can become a trap</div>
+									<div class="value">As development progressed, the bar kept rising. Instead of converging, the scope expanded toward perfect, which slowed decision making and shipping. In hindsight, I would define clearer constraints earlier and commit to them.</div>
 								</div>
 							</div>
 						</div>
@@ -714,7 +769,7 @@
 		</div>
 	</div>
   </div>
-</section>]]></content><author><name></name></author><category term="branding" /><category term="ui-ux" /><category term="visual-design" /><category term="coding" /><summary type="html"><![CDATA[Blade Blitz is a solo project I designed and developed from the ground up, covering visual identity, UI/UX, branding, and Unity implementation. The work spanned concept exploration, interface design, motion and feedback systems, style guide creation, and two years of public iteration through event showcases and community feedback.]]></summary></entry><entry><title type="html">BitCraft Online @ Clockwork Labs</title><link href="http://localhost:4000/2024/08/01/bitcraft.html" rel="alternate" type="text/html" title="BitCraft Online @ Clockwork Labs" /><published>2024-08-01T10:48:31-07:00</published><updated>2024-08-01T10:48:31-07:00</updated><id>http://localhost:4000/2024/08/01/bitcraft</id><content type="html" xml:base="http://localhost:4000/2024/08/01/bitcraft.html"><![CDATA[<!--- Content Captures --->
+</section>]]></content><author><name></name></author><category term="branding" /><category term="ui-ux" /><category term="visual-design" /><category term="coding" /><summary type="html"><![CDATA[Blade Blitz is a competitive local-multiplayer sword fighting game inspired by Nidhogg, reimagined as a fast-paced 3v3 spectator sport. I designed and developed it from the ground up—visual identity, UI/UX, characters, and full Unity implementation—over two years of public iteration.]]></summary></entry><entry><title type="html">BitCraft Online @ Clockwork Labs</title><link href="http://localhost:4000/2024/08/01/bitcraft.html" rel="alternate" type="text/html" title="BitCraft Online @ Clockwork Labs" /><published>2024-08-01T10:48:31-07:00</published><updated>2024-08-01T10:48:31-07:00</updated><id>http://localhost:4000/2024/08/01/bitcraft</id><content type="html" xml:base="http://localhost:4000/2024/08/01/bitcraft.html"><![CDATA[<!--- Content Captures --->
 
 <!--- Includes --->
 
@@ -792,7 +847,12 @@
 					<div class="box">
 						<hr />
 						<div class="label">My Role</div>
-						<div class="value">UI/UX Designer</div>
+						<div>
+							
+							
+							  <div class="value">UI/UX Designer</div>
+							
+						</div>
 					</div>
 				</div>
 			</div>
@@ -858,6 +918,101 @@
 
 			
 
+			
+		</div>
+	</div>
+  </div>
+</section>
+
+<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Outcome</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p>BitCraft Online launched into early access and found an audience. The numbers reflect both the strength of the product and the sustained community work that preceded launch.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+				
+				
+					
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									<div class="stat">250,000+</div>
+									<div class="label">Wishlists</div>
+									<div class="value">BitCraft Online accumulated over 250,000 wishlists ahead of launch, a strong signal of community interest built through consistent public presence and marketing.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									<div class="stat">4,500+</div>
+									<div class="label">Daily CCU at Launch</div>
+									<div class="value">BitCraft Online launched with over 4,500 concurrent players daily, a strong retention signal for an independent early access MMO.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									<div class="stat">127,000+</div>
+									<div class="label">Copies Sold</div>
+									<div class="value">As of March 2026, BitCraft Online has sold an estimated 127,000+ copies on Steam, a meaningful result for an independent studio's early access title.</div>
+								</div>
+							</div>
+						</div>
+					
+				
 			
 		</div>
 	</div>
@@ -1529,101 +1684,6 @@
 			
 		</div>
 	</div>
-</section>
-
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  <hr class="spacer-vertical-lg" />
-  <div class="row">
-	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-		<div class="box">
-			<h2>Outcome</h2>
-		</div>
-	</div>
-	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-		<div class="box">
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<div class="box">
-						<p>BitCraft Online launched into early access and found an audience. The numbers reflect both the strength of the product and the sustained community work that preceded launch.</p>
-						<h3></h3>
-					</div>
-				</div>
-			</div>
-
-			
-
-			
-
-			
-				
-				
-					
-					
-				
-					
-					
-						
-						
-						
-						
-						
-
-						<div class="row project-overview-data">
-							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-								<div class="box">
-									<hr />
-									<div class="stat">250,000+</div>
-									<div class="label">Wishlists</div>
-									<div class="value">BitCraft Online accumulated over 250,000 wishlists ahead of launch, a strong signal of community interest built through consistent public presence and marketing.</div>
-								</div>
-							</div>
-						</div>
-					
-				
-					
-					
-						
-						
-						
-						
-						
-
-						<div class="row project-overview-data">
-							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-								<div class="box">
-									<hr />
-									<div class="stat">4,500+</div>
-									<div class="label">Daily CCU at Launch</div>
-									<div class="value">BitCraft Online launched with over 4,500 concurrent players daily, a strong retention signal for an independent early access MMO.</div>
-								</div>
-							</div>
-						</div>
-					
-				
-					
-					
-						
-						
-						
-						
-						
-
-						<div class="row project-overview-data">
-							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-								<div class="box">
-									<hr />
-									<div class="stat">127,000+</div>
-									<div class="label">Copies Sold</div>
-									<div class="value">As of March 2026, BitCraft Online has sold an estimated 127,000+ copies on Steam, a meaningful result for an independent studio's early access title.</div>
-								</div>
-							</div>
-						</div>
-					
-				
-			
-		</div>
-	</div>
-  </div>
 </section>]]></content><author><name></name></author><category term="branding" /><category term="ui-ux" /><category term="visual-design" /><summary type="html"><![CDATA[BitCraft Online posed a clear design challenge. Build a comprehensive UI system for a massively multiplayer game with deep simulation systems and a persistent open world. I defined the visual identity from the ground up, an art deco-inspired design language spanning type, color, spacing, and a full component library. Beyond the design itself, I built the handoff process between design and engineering, and extended the work into marketing and brand assets for TwitchCon and Steam.]]></summary></entry><entry><title type="html">SpacetimeDB @ Clockwork Labs</title><link href="http://localhost:4000/2024/08/01/spacetimedb.html" rel="alternate" type="text/html" title="SpacetimeDB @ Clockwork Labs" /><published>2024-08-01T10:48:31-07:00</published><updated>2024-08-01T10:48:31-07:00</updated><id>http://localhost:4000/2024/08/01/spacetimedb</id><content type="html" xml:base="http://localhost:4000/2024/08/01/spacetimedb.html"><![CDATA[<!--- Content Captures --->
 
 <!--- Includes --->
@@ -1701,7 +1761,12 @@
 					<div class="box">
 						<hr />
 						<div class="label">My Role</div>
-						<div class="value">Product Designer</div>
+						<div>
+							
+							
+							  <div class="value">Product Designer</div>
+							
+						</div>
 					</div>
 				</div>
 			</div>
@@ -1764,6 +1829,121 @@
 
 			
 
+			
+		</div>
+	</div>
+  </div>
+</section>
+
+<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Outcome</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p>The portal gave SpacetimeDB a complete developer product experience for the first time. The system work that followed gave it a foundation solid enough to build from.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+				
+				
+					
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									<div class="stat">75,000+</div>
+									<div class="label">Registered Users</div>
+									<div class="value">As of March 2026, SpacetimeDB has surpassed 75,000 registered users, a strong signal of developer adoption for an early-stage infrastructure product.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">A Portal Built for Developers</div>
+									<div class="value">The developer portal shipped as a complete, designed product experience, from first login through day-to-day database management.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">A Formalized Visual System</div>
+									<div class="value">What was previously an intuitive brand became a documented system: defined type scales, spacing rules, color roles, and component patterns that any future designer or engineer can work from.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Ongoing Ownership</div>
+									<div class="value">As the sole designer, I continue to drive the design direction across both product and brand as SpacetimeDB grows.</div>
+								</div>
+							</div>
+						</div>
+					
+				
 			
 		</div>
 	</div>
@@ -2178,121 +2358,6 @@
 	</div>
 </section>
 
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  <hr class="spacer-vertical-lg" />
-  <div class="row">
-	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-		<div class="box">
-			<h2>Outcome</h2>
-		</div>
-	</div>
-	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-		<div class="box">
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<div class="box">
-						<p>The portal gave SpacetimeDB a complete developer product experience for the first time. The system work that followed gave it a foundation solid enough to build from.</p>
-						<h3></h3>
-					</div>
-				</div>
-			</div>
-
-			
-
-			
-
-			
-				
-				
-					
-					
-				
-					
-					
-						
-						
-						
-						
-						
-
-						<div class="row project-overview-data">
-							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-								<div class="box">
-									<hr />
-									<div class="stat">75,000+</div>
-									<div class="label">Registered Users</div>
-									<div class="value">As of March 2026, SpacetimeDB has surpassed 75,000 registered users, a strong signal of developer adoption for an early-stage infrastructure product.</div>
-								</div>
-							</div>
-						</div>
-					
-				
-					
-					
-						
-						
-						
-						
-						
-
-						<div class="row project-overview-data">
-							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-								<div class="box">
-									<hr />
-									
-									<div class="label">A Portal Built for Developers</div>
-									<div class="value">The developer portal shipped as a complete, designed product experience, from first login through day-to-day database management.</div>
-								</div>
-							</div>
-						</div>
-					
-				
-					
-					
-						
-						
-						
-						
-						
-
-						<div class="row project-overview-data">
-							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-								<div class="box">
-									<hr />
-									
-									<div class="label">A Formalized Visual System</div>
-									<div class="value">What was previously an intuitive brand became a documented system: defined type scales, spacing rules, color roles, and component patterns that any future designer or engineer can work from.</div>
-								</div>
-							</div>
-						</div>
-					
-				
-					
-					
-						
-						
-						
-						
-						
-
-						<div class="row project-overview-data">
-							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-								<div class="box">
-									<hr />
-									
-									<div class="label">Ongoing Ownership</div>
-									<div class="value">As the sole designer, I continue to drive the design direction across both product and brand as SpacetimeDB grows.</div>
-								</div>
-							</div>
-						</div>
-					
-				
-			
-		</div>
-	</div>
-  </div>
-</section>
-
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
@@ -2419,7 +2484,12 @@
 					<div class="box">
 						<hr />
 						<div class="label">My Role</div>
-						<div class="value">3D Artist &amp; Animator</div>
+						<div>
+							
+							
+							  <div class="value">3D Artist &amp; Animator</div>
+							
+						</div>
 					</div>
 				</div>
 			</div>
@@ -2709,7 +2779,12 @@
 					<div class="box">
 						<hr />
 						<div class="label">My Role</div>
-						<div class="value">3D Artist</div>
+						<div>
+							
+							
+							  <div class="value">3D Artist</div>
+							
+						</div>
 					</div>
 				</div>
 			</div>
@@ -2847,7 +2922,12 @@
 					<div class="box">
 						<hr />
 						<div class="label">My Role</div>
-						<div class="value">Sole Designer &amp; Developer</div>
+						<div>
+							
+							
+							  <div class="value">Sole Designer &amp; Developer</div>
+							
+						</div>
 					</div>
 				</div>
 			</div>
@@ -3032,7 +3112,12 @@
 					<div class="box">
 						<hr />
 						<div class="label">My Role</div>
-						<div class="value">Sole Designer &amp; Developer</div>
+						<div>
+							
+							
+							  <div class="value">Sole Designer &amp; Developer</div>
+							
+						</div>
 					</div>
 				</div>
 			</div>
@@ -3242,7 +3327,12 @@
 					<div class="box">
 						<hr />
 						<div class="label">My Role</div>
-						<div class="value">3D Artist &amp; Animator</div>
+						<div>
+							
+							
+							  <div class="value">3D Artist &amp; Animator</div>
+							
+						</div>
 					</div>
 				</div>
 			</div>
@@ -3319,7 +3409,7 @@
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mobile-margin-bottom">
 		<div class="box">
-			<h5 class="">Stream Pirates was a side game that a streamer would run regularly throughout their stream, leveraging their audience as their army to raid islands for loot and treasures!</h5>
+			<h5 class="">Stream Pirates was a Twitch-integrated idle strategy game where a streamer's live audience became their army—raiding islands, collecting loot, and driving gameplay in real time through chat commands. A streamer would run the game as a persistent side layer during their broadcast—viewers joined via chat commands, formed crews, and raided islands together. The game needed to work visually on stream, in a browser, and feel native to the pirate theme without being generic.</h5>
 		</div>
 		<div class="box">
 			
@@ -3387,7 +3477,14 @@
 					<div class="box">
 						<hr />
 						<div class="label">My Role</div>
-						<div class="value">Senior Visual Designer</div>
+						<div>
+							
+							
+							  <div class="value">Senior Visual Designer</div>
+							
+							  <div class="value">Unity Implementation</div>
+							
+						</div>
 					</div>
 				</div>
 			</div>
@@ -3431,7 +3528,7 @@
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 		<div class="box">
-			<h2>The Approach</h2>
+			<h2>Outcome</h2>
 		</div>
 	</div>
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -3439,130 +3536,7 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="box">
-						<p>The gameplay consisted of a beautiful, timeless pixel art which scaled well because we could personalize skins for our streamer clients. At the same time, our artist created rendered illustrations that we wanted to incorperated. The challenge was combining the two styles, with the outcome that aligned with visual heirarchy goals.</p>
-						<h3></h3>
-					</div>
-				</div>
-			</div>
-
-			
-
-			
-
-			
-		</div>
-	</div>
-  </div>
-</section>
-
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  <hr class="spacer-vertical-lg" />
-  <div class="row">
-	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-		<div class="box">
-			<h2>Exploration</h2>
-		</div>
-	</div>
-	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-		<div class="box">
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<div class="box">
-						<p>I conducted a broad exploration of visual styles—color, typography, component shapes, and HUD paradigms—before narrowing into a hybrid direction that blended pixel-art textures with clean painted accents inspired by the key art. This created a visual bridge between game and brand. I then built a full UI system in Unity, including reusable prefabs, responsive layouts, iconography, and in-game feedback patterns tailored to fast, chaotic, streamer-centric gameplay. Close collaboration with the key-art illustrator ensured consistency across promotional materials, in-game visuals, and Twitch presentation.</p>
-						<h3></h3>
-					</div>
-				</div>
-			</div>
-
-			
-
-			
-
-			
-		</div>
-	</div>
-  </div>
-</section>
-
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  <hr class="spacer-vertical-lg" />
-  <div class="row">
-	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-		<div class="box">
-			<h2>Visual System</h2>
-		</div>
-	</div>
-	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-		<div class="box">
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<div class="box">
-						<p>I conducted a broad exploration of visual styles—color, typography, component shapes, and HUD paradigms—before narrowing into a hybrid direction that blended pixel-art textures with clean painted accents inspired by the key art. This created a visual bridge between game and brand. I then built a full UI system in Unity, including reusable prefabs, responsive layouts, iconography, and in-game feedback patterns tailored to fast, chaotic, streamer-centric gameplay. Close collaboration with the key-art illustrator ensured consistency across promotional materials, in-game visuals, and Twitch presentation.</p>
-						<h3></h3>
-					</div>
-				</div>
-			</div>
-
-			
-
-			
-
-			
-		</div>
-	</div>
-  </div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/01_explorations_02.png" /></div>
-			
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/01_explorations_03.png" /></div>
-			
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/01_explorations_04.png" /></div>
-			
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/01_explorations_05.png" /></div>
-			
-		</div>
-	</div>
-</section>
-
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  <hr class="spacer-vertical-lg" />
-  <div class="row">
-	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-		<div class="box">
-			<h2>Outcome &amp; Impact</h2>
-		</div>
-	</div>
-	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-		<div class="box">
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<div class="box">
-						<p>I established a unified visual direction that bridged pixel art and illustrated key art, delivered a complete UI system implemented in Unity, and enabled the team to iterate quickly with a scalable, production-ready interface. The work strengthened the game’s identity during early development and streamlined collaboration across design, art, and engineering.</p>
+						<p>The visual system shipped with the game and held up through an active closed beta.</p>
 						<h3></h3>
 					</div>
 				</div>
@@ -3631,8 +3605,8 @@
 								<div class="box">
 									<hr />
 									
-									<div class="label">Delivered a cohesive UI/UX direction</div>
-									<div class="value">Unified pixel gameplay with character-driven key art, implemented directly in Unity to accelerate development and reduce engineering overhead.</div>
+									<div class="label">Cohesive UI/UX direction</div>
+									<div class="value">Unified pixel gameplay with character-driven key art, implemented directly in Unity to accelerate development.</div>
 								</div>
 							</div>
 						</div>
@@ -3652,12 +3626,106 @@
 									<hr />
 									
 									<div class="label">Built for live audiences</div>
-									<div class="value">Designed for a network of Twitch partners and affiliates, enabling real-time audience participation and large-scale chat-driven gameplay across live streams.</div>
+									<div class="value">Designed for Twitch partners and affiliates, enabling real-time audience participation through chat-driven gameplay.</div>
 								</div>
 							</div>
 						</div>
 					
 				
+			
+		</div>
+	</div>
+  </div>
+</section>
+
+<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Visual Direction</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p>I ran a broad exploration across color palettes, typography, component shapes, and HUD paradigms before settling on a hybrid direction. Pixel textures grounded the UI in the gameplay world. Painted, slightly worn surfaces—parchment, wood grain, aged metal—bridged toward the illustrated key art. The result felt like a single world, not a collision of two production pipelines.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+		</div>
+	</div>
+  </div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/01_explorations_02.png" /></div>
+			
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/01_explorations_03.png" /></div>
+			
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/01_explorations_04.png" /></div>
+			
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/01_explorations_05.png" /></div>
+			
+		</div>
+	</div>
+</section>
+
+<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>UI System</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p>Once the direction was locked, I built out the full component library: buttons, containers, parchment panels, tooltips, icons, inputs, and the battle pass. Each component was designed to work at stream resolution—readable when compressed and overlaid on gameplay, not just in Figma at full scale.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
 			
 		</div>
 	</div>
@@ -3734,6 +3802,35 @@
 			
 		</div>
 	</div>
+</section>
+
+<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Twitch Interaction</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p>The in-game screens were the surface players actually saw during a stream. They needed to carry the brand while keeping gameplay readable in the background. I designed each screen to minimize screen real estate and keep the viewer's attention on the action—not the UI chrome.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+		</div>
+	</div>
+  </div>
 </section>
 
 <section data-aos="fade-up" class="page-section">
@@ -3815,4 +3912,4 @@
 			
 		</div>
 	</div>
-</section>]]></content><author><name></name></author><category term="ui-ux" /><category term="visual-design" /><category term="branding" /><summary type="html"><![CDATA[Stream Pirates was a side game that a streamer would run regularly throughout their stream, leveraging their audience as their army to raid islands for loot and treasures!]]></summary></entry></feed>
+</section>]]></content><author><name></name></author><category term="ui-ux" /><category term="visual-design" /><category term="branding" /><summary type="html"><![CDATA[Stream Pirates was a Twitch-integrated idle strategy game where a streamer's live audience became their army—raiding islands, collecting loot, and driving gameplay in real time through chat commands. A streamer would run the game as a persistent side layer during their broadcast—viewers joined via chat commands, formed crews, and raided islands together. The game needed to work visually on stream, in a browser, and feel native to the pirate theme without being generic.]]></summary></entry></feed>

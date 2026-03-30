@@ -724,6 +724,10 @@ footer {
 	
 }
 
+.post-footer-section {
+	margin-top: var(--spacer-3xl);
+}
+
 .container-fluid {
 	display: flex;
 	flex-direction: column;
