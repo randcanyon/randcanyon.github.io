@@ -515,6 +515,9 @@ header {
 /* Hero */
 
 .hero  {
+	--hero-reel-width: min(640px, 100%);
+	--hero-reel-height: calc(var(--hero-reel-width) * 9 / 16);
+	--hero-reel-radius: 1000px;
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
@@ -546,9 +549,9 @@ header {
 }
 
 .hero-reel-frame {
-	width: min(640px, 100%);
+	width: var(--hero-reel-width);
 	aspect-ratio: 16 / 9;
-	border-radius: 1000px;
+	border-radius: var(--hero-reel-radius);
 	overflow: hidden;
 	opacity: 1;
 	position: relative;
@@ -630,6 +633,33 @@ header {
 	mix-blend-mode: difference;
 	isolation: isolate;
 	text-shadow: 0 2px 12px rgba(0, 0, 0, 0.18);
+	border-radius: calc(var(--hero-reel-height) / 2);
+}
+
+.hero-quote::before,
+.hero-quote::after {
+	display: none;
+	content: attr(data-text);
+	position: absolute;
+	inset: 0;
+	align-items: center;
+	justify-content: center;
+	color: #111;
+	text-shadow: 0 2px 12px rgba(255, 255, 255, 0.18);
+	pointer-events: none;
+}
+
+[data-theme="light"] .hero-quote::before,
+[data-theme="light"] .hero-quote::after {
+	display: flex;
+}
+
+[data-theme="light"] .hero-quote::before {
+	clip-path: inset(0 calc(50% + (var(--hero-reel-width) / 2)) 0 0 round calc(var(--hero-reel-height) / 2));
+}
+
+[data-theme="light"] .hero-quote::after {
+	clip-path: inset(0 0 0 calc(50% + (var(--hero-reel-width) / 2)) round calc(var(--hero-reel-height) / 2));
 }
 
 .hero-footer {
@@ -880,8 +910,12 @@ footer {
 }
 
 @media (min-width: 48em) and (max-width: 63.99em) {
+	.hero {
+		--hero-reel-width: min(480px, 88%);
+		--hero-reel-height: calc(var(--hero-reel-width) / 1.5);
+	}
+
 	.hero-reel-frame {
-		width: min(480px, 88%);
 		aspect-ratio: 1.5 / 1;
 	}
 }
@@ -899,8 +933,12 @@ footer {
 		padding: var(--spacer-md);
 	}
 
+	.hero {
+		--hero-reel-width: min(240px, 88%);
+		--hero-reel-height: var(--hero-reel-width);
+	}
+
 	.hero-reel-frame {
-		width: min(240px, 88%);
 		aspect-ratio: 1 / 1;
 	}
 
