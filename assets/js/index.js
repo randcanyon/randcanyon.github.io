@@ -205,9 +205,15 @@ window.addEventListener('pageshow', function() {
 window.addEventListener('scroll', () => {
 	const scrolled = window.pageYOffset;
 	const parallaxElements = document.querySelectorAll('.hero-image-parallax');
+	const reelVideos = document.querySelectorAll('.hero-reel-video');
 	
 	parallaxElements.forEach(element => {
 		const speed = 0.2; // Adjust for parallax intensity (0.5 = half speed)
+		element.style.transform = `translateY(${scrolled * speed}px)`;
+	});
+
+	reelVideos.forEach(element => {
+		const speed = 0.12;
 		element.style.transform = `translateY(${scrolled * speed}px)`;
 	});
 });
