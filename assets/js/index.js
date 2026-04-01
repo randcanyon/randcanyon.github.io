@@ -214,7 +214,7 @@ window.addEventListener('scroll', () => {
 
 	reelVideos.forEach(element => {
 		const speed = 0.12;
-		element.style.transform = `translateY(${scrolled * speed}px)`;
+		element.style.setProperty('--hero-reel-parallax', `${scrolled * speed}px`);
 	});
 });
 
