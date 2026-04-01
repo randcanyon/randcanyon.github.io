@@ -185,7 +185,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // Color mode toggle
-const theme = localStorage.getItem('theme') || 'dark';
+const theme = localStorage.getItem('theme') || 'light';
 document.documentElement.setAttribute('data-theme', theme);
 
 document.getElementById('theme-toggle')?.addEventListener('click', () => {
