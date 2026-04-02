@@ -834,13 +834,13 @@ footer {
 	min-height: 45vh;
 	display: flex;
 	align-items: flex-end;
-	padding-top: calc(var(--header-h) + var(--spacer-2xl));
+	padding-top: calc(var(--header-h) + var(--spacer-3xl));
 	padding-bottom: var(--spacer-2xl);
 	padding-inline: var(--spacer-base);
 }
 
 .page-description .row {
-	width: 100%;
+	width: calc(100% + 2 * var(--spacer-base));
 	align-items: flex-end;
 }
 
