@@ -561,50 +561,6 @@ header {
 		0 0 0 1px rgba(255, 255, 255, 0.06),
 		0 0 32px rgba(255, 255, 255, 0.14),
 		0 0 96px rgba(116, 154, 255, 0.16);
-	animation: hero-reel-wave 3s ease-in-out infinite alternate;
-	/* Elliptical wavy mask — sw/sh are 88% of frame dims so outermost bumps stay inside */
-	--sw: calc(var(--hero-reel-width) * 0.88);
-	--sh: calc(var(--hero-reel-width) * 9 / 16 * 0.88);
-	--g: / calc(var(--sh) * 0.201) calc(var(--sh) * 0.201) radial-gradient(50% 50%, #000 99%, #0000 101%) no-repeat;
-	-webkit-mask:
-		/* Ring 1 — inner bumps at radius 0.369, 8 positions */
-		calc(50% + var(--sw)*0.369*cos(var(--wave-angle) +   0deg)) calc(50% + var(--sh)*0.369*sin(var(--wave-angle) +   0deg)) var(--g),
-		calc(50% + var(--sw)*0.369*cos(var(--wave-angle) +  45deg)) calc(50% + var(--sh)*0.369*sin(var(--wave-angle) +  45deg)) var(--g),
-		calc(50% + var(--sw)*0.369*cos(var(--wave-angle) +  90deg)) calc(50% + var(--sh)*0.369*sin(var(--wave-angle) +  90deg)) var(--g),
-		calc(50% + var(--sw)*0.369*cos(var(--wave-angle) + 135deg)) calc(50% + var(--sh)*0.369*sin(var(--wave-angle) + 135deg)) var(--g),
-		calc(50% + var(--sw)*0.369*cos(var(--wave-angle) + 180deg)) calc(50% + var(--sh)*0.369*sin(var(--wave-angle) + 180deg)) var(--g),
-		calc(50% + var(--sw)*0.369*cos(var(--wave-angle) + 225deg)) calc(50% + var(--sh)*0.369*sin(var(--wave-angle) + 225deg)) var(--g),
-		calc(50% + var(--sw)*0.369*cos(var(--wave-angle) + 270deg)) calc(50% + var(--sh)*0.369*sin(var(--wave-angle) + 270deg)) var(--g),
-		calc(50% + var(--sw)*0.369*cos(var(--wave-angle) + 315deg)) calc(50% + var(--sh)*0.369*sin(var(--wave-angle) + 315deg)) var(--g),
-		/* Subtract fills the interior — ellipse matches sw/sh axes */
-		radial-gradient(ellipse calc(var(--sw)*0.836) calc(var(--sh)*0.836) at 50% 50%, #000 99%, #0000 101%) subtract,
-		/* Ring 2 — outer bumps at radius 0.447, offset 22.5deg from ring 1 */
-		calc(50% + var(--sw)*0.447*cos(var(--wave-angle) +  22.5deg)) calc(50% + var(--sh)*0.447*sin(var(--wave-angle) +  22.5deg)) var(--g),
-		calc(50% + var(--sw)*0.447*cos(var(--wave-angle) +  67.5deg)) calc(50% + var(--sh)*0.447*sin(var(--wave-angle) +  67.5deg)) var(--g),
-		calc(50% + var(--sw)*0.447*cos(var(--wave-angle) + 112.5deg)) calc(50% + var(--sh)*0.447*sin(var(--wave-angle) + 112.5deg)) var(--g),
-		calc(50% + var(--sw)*0.447*cos(var(--wave-angle) + 157.5deg)) calc(50% + var(--sh)*0.447*sin(var(--wave-angle) + 157.5deg)) var(--g),
-		calc(50% + var(--sw)*0.447*cos(var(--wave-angle) + 202.5deg)) calc(50% + var(--sh)*0.447*sin(var(--wave-angle) + 202.5deg)) var(--g),
-		calc(50% + var(--sw)*0.447*cos(var(--wave-angle) + 247.5deg)) calc(50% + var(--sh)*0.447*sin(var(--wave-angle) + 247.5deg)) var(--g),
-		calc(50% + var(--sw)*0.447*cos(var(--wave-angle) + 292.5deg)) calc(50% + var(--sh)*0.447*sin(var(--wave-angle) + 292.5deg)) var(--g),
-		calc(50% + var(--sw)*0.447*cos(var(--wave-angle) + 337.5deg)) calc(50% + var(--sh)*0.447*sin(var(--wave-angle) + 337.5deg)) var(--g);
-	mask:
-		calc(50% + var(--sw)*0.369*cos(var(--wave-angle) +   0deg)) calc(50% + var(--sh)*0.369*sin(var(--wave-angle) +   0deg)) var(--g),
-		calc(50% + var(--sw)*0.369*cos(var(--wave-angle) +  45deg)) calc(50% + var(--sh)*0.369*sin(var(--wave-angle) +  45deg)) var(--g),
-		calc(50% + var(--sw)*0.369*cos(var(--wave-angle) +  90deg)) calc(50% + var(--sh)*0.369*sin(var(--wave-angle) +  90deg)) var(--g),
-		calc(50% + var(--sw)*0.369*cos(var(--wave-angle) + 135deg)) calc(50% + var(--sh)*0.369*sin(var(--wave-angle) + 135deg)) var(--g),
-		calc(50% + var(--sw)*0.369*cos(var(--wave-angle) + 180deg)) calc(50% + var(--sh)*0.369*sin(var(--wave-angle) + 180deg)) var(--g),
-		calc(50% + var(--sw)*0.369*cos(var(--wave-angle) + 225deg)) calc(50% + var(--sh)*0.369*sin(var(--wave-angle) + 225deg)) var(--g),
-		calc(50% + var(--sw)*0.369*cos(var(--wave-angle) + 270deg)) calc(50% + var(--sh)*0.369*sin(var(--wave-angle) + 270deg)) var(--g),
-		calc(50% + var(--sw)*0.369*cos(var(--wave-angle) + 315deg)) calc(50% + var(--sh)*0.369*sin(var(--wave-angle) + 315deg)) var(--g),
-		radial-gradient(ellipse calc(var(--sw)*0.836) calc(var(--sh)*0.836) at 50% 50%, #000 99%, #0000 101%) subtract,
-		calc(50% + var(--sw)*0.447*cos(var(--wave-angle) +  22.5deg)) calc(50% + var(--sh)*0.447*sin(var(--wave-angle) +  22.5deg)) var(--g),
-		calc(50% + var(--sw)*0.447*cos(var(--wave-angle) +  67.5deg)) calc(50% + var(--sh)*0.447*sin(var(--wave-angle) +  67.5deg)) var(--g),
-		calc(50% + var(--sw)*0.447*cos(var(--wave-angle) + 112.5deg)) calc(50% + var(--sh)*0.447*sin(var(--wave-angle) + 112.5deg)) var(--g),
-		calc(50% + var(--sw)*0.447*cos(var(--wave-angle) + 157.5deg)) calc(50% + var(--sh)*0.447*sin(var(--wave-angle) + 157.5deg)) var(--g),
-		calc(50% + var(--sw)*0.447*cos(var(--wave-angle) + 202.5deg)) calc(50% + var(--sh)*0.447*sin(var(--wave-angle) + 202.5deg)) var(--g),
-		calc(50% + var(--sw)*0.447*cos(var(--wave-angle) + 247.5deg)) calc(50% + var(--sh)*0.447*sin(var(--wave-angle) + 247.5deg)) var(--g),
-		calc(50% + var(--sw)*0.447*cos(var(--wave-angle) + 292.5deg)) calc(50% + var(--sh)*0.447*sin(var(--wave-angle) + 292.5deg)) var(--g),
-		calc(50% + var(--sw)*0.447*cos(var(--wave-angle) + 337.5deg)) calc(50% + var(--sh)*0.447*sin(var(--wave-angle) + 337.5deg)) var(--g);
 }
 
 .hero-reel-video {
@@ -1378,18 +1334,6 @@ video.responsive {
   box-shadow: 0 0 0 3px color-mix(in oklab, var(--dot) 30%, transparent) inset;
 }
 
-
-/* Hero reel wavy mask */
-@property --wave-angle {
-  syntax: '<angle>';
-  initial-value: 0deg;
-  inherits: false;
-}
-
-@keyframes hero-reel-wave {
-  from { --wave-angle: 0deg; }
-  to   { --wave-angle: 45deg; }
-}
 
 /* Base animation keyframes */
 @keyframes status-ping {
