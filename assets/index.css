@@ -1074,6 +1074,34 @@ video.responsive {
   margin-right: -4px;
 }
 
+.media-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+}
+
+.media-grid .box {
+  height: auto;
+}
+
+.media-grid .box img,
+.media-grid .box video {
+  display: block;
+}
+
+.media-grid .box .caption {
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .media-grid {
+    grid-template-columns: repeat(var(--grid-columns), minmax(0, 1fr));
+    grid-template-rows: repeat(var(--grid-rows), auto);
+    grid-auto-flow: column;
+    align-items: start;
+  }
+}
+
 .home-video {
 	position: absolute;
 	width: 100%;

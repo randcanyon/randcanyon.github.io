@@ -178,7 +178,9 @@
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
 			<div class="box">
 				<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
-					<source alt="" src="/assets/images/microsoft-azure-playfab/playfab-trophy-animated.mp4" />
+					<source src="/assets/images/microsoft-azure-playfab/playfab-trophy-animated.webm" type="video/webm" />
+					<source src="/assets/images/microsoft-azure-playfab/playfab-trophy-animated.mp4" type="video/mp4" />
+					
 				</video>
 			</div>
 		</div>
@@ -280,92 +282,71 @@
   </div>
 </section>
 
-<section data-aos="fade-up" class="page-section image-gallery">
+<section data-aos="fade-up" class="page-section image-grid">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-			<div class="scroll-container-wrapper">
-				<button class="scroll-btn scroll-btn-left" aria-label="Scroll left"><span class="material-symbols-outlined">chevron_left</span></button>
-				<button class="scroll-btn scroll-btn-right" aria-label="Scroll right"><span class="material-symbols-outlined">chevron_right</span></button>
-				<div class="scroll-container" data-scroll-fade="">
-					<div class="scroll-wrapper">
-						
-							<div class="box">
-								<img alt="Image 1" class="responsive rounded" src="/assets/images/microsoft-azure-playfab/playfab-trophy-render-03.png" />
-							</div>
-						
-						
-							<div class="box">
-								<img alt="Image 2" class="responsive rounded" src="/assets/images/microsoft-azure-playfab/playfab-trophy-render-04.png" />
-							</div>
-						
-						
-							<div class="box">
-								<img alt="Image 3" class="responsive rounded" src="/assets/images/microsoft-azure-playfab/playfab-trophy-render-06.png" />
-							</div>
-						
-						
-						
-						
-						
-						
-						
+			<div class="media-grid" style="--grid-columns: 2; --grid-rows: 2;">
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 1" class="responsive rounded" src="/assets/images/microsoft-azure-playfab/playfab-trophy-render-03.png" />
 						
 					</div>
-				</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 2" class="responsive rounded" src="/assets/images/microsoft-azure-playfab/playfab-trophy-render-04.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 3" class="responsive rounded" src="/assets/images/microsoft-azure-playfab/playfab-trophy-render-06.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 4" class="responsive rounded" src="/assets/images/microsoft-azure-playfab/playfab-trophy-render-08.png" />
+						
+					</div>
+					
+				
 			</div>
 		</div>
 	</div>
 </section>
-<script>
-(function () {
-	document.querySelectorAll('.scroll-container-wrapper').forEach(function (wrapper) {
-		var scrollContainer = wrapper.querySelector('.scroll-container');
-		var rafId = null;
-		var speed = 0;
-		var btnLeft = wrapper.querySelector('.scroll-btn-left');
-		var btnRight = wrapper.querySelector('.scroll-btn-right');
-
-		function updateButtons() {
-			var atStart = scrollContainer.scrollLeft <= 0;
-			var atEnd = scrollContainer.scrollLeft + scrollContainer.clientWidth >= scrollContainer.scrollWidth - 1;
-			btnLeft.classList.toggle('scroll-btn--hidden', atStart);
-			btnRight.classList.toggle('scroll-btn--hidden', atEnd);
-		}
-
-		scrollContainer.addEventListener('scroll', updateButtons);
-		updateButtons();
-
-		function startScroll(direction) {
-			speed = direction * 4;
-			function step() {
-				scrollContainer.scrollLeft += speed;
-				// Accelerate up to a max speed
-				if (Math.abs(speed) < 12) speed *= 1.05;
-				rafId = requestAnimationFrame(step);
-			}
-			rafId = requestAnimationFrame(step);
-		}
-
-		function stopScroll() {
-			if (rafId !== null) {
-				cancelAnimationFrame(rafId);
-				rafId = null;
-				speed = 0;
-			}
-		}
-
-		btnLeft.addEventListener('mousedown', function () { startScroll(-1); });
-		btnRight.addEventListener('mousedown', function () { startScroll(1); });
-		btnLeft.addEventListener('touchstart', function (e) { e.preventDefault(); startScroll(-1); }, { passive: false });
-		btnRight.addEventListener('touchstart', function (e) { e.preventDefault(); startScroll(1); }, { passive: false });
-
-		['mouseup', 'mouseleave', 'touchend', 'touchcancel'].forEach(function (evt) {
-			btnLeft.addEventListener(evt, stopScroll);
-			btnRight.addEventListener(evt, stopScroll);
-		});
-	});
-})();
-</script>
 
 <section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <hr class="spacer-vertical-lg" />
