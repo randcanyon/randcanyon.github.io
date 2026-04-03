@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-04-02T23:15:57-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Randy Huynh</title><subtitle>Portfolio of Randy Huynh, a visual designer a visual designer at Clockwork Labs working on BitCraft in Seattle.</subtitle><entry><title type="html">Blade Blitz @ Hella Studios</title><link href="http://localhost:4000/2024/08/01/blade-blitz.html" rel="alternate" type="text/html" title="Blade Blitz @ Hella Studios" /><published>2024-08-01T10:48:31-07:00</published><updated>2024-08-01T10:48:31-07:00</updated><id>http://localhost:4000/2024/08/01/blade-blitz</id><content type="html" xml:base="http://localhost:4000/2024/08/01/blade-blitz.html"><![CDATA[<!--- Content Captures --->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-04-03T11:36:46-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Randy Huynh</title><subtitle>Portfolio of Randy Huynh, a visual designer a visual designer at Clockwork Labs working on BitCraft in Seattle.</subtitle><entry><title type="html">Blade Blitz @ Hella Studios</title><link href="http://localhost:4000/2024/08/01/blade-blitz.html" rel="alternate" type="text/html" title="Blade Blitz @ Hella Studios" /><published>2024-08-01T10:48:31-07:00</published><updated>2024-08-01T10:48:31-07:00</updated><id>http://localhost:4000/2024/08/01/blade-blitz</id><content type="html" xml:base="http://localhost:4000/2024/08/01/blade-blitz.html"><![CDATA[<!--- Content Captures --->
 
 <!--- Includes --->
 
@@ -1018,7 +1018,7 @@
 		</div>
 	</div>
   </div>
-</section>]]></content><author><name></name></author><category term="branding" /><category term="ui-ux" /><category term="visual-design" /><category term="coding" /><summary type="html"><![CDATA[Designed and built Blade Blitz end to end. Visual identity, UI, characters, implementation, and live playtest iteration over two years.]]></summary></entry><entry><title type="html">BitCraft Online @ Clockwork Labs</title><link href="http://localhost:4000/2024/08/01/bitcraft.html" rel="alternate" type="text/html" title="BitCraft Online @ Clockwork Labs" /><published>2024-08-01T10:48:31-07:00</published><updated>2024-08-01T10:48:31-07:00</updated><id>http://localhost:4000/2024/08/01/bitcraft</id><content type="html" xml:base="http://localhost:4000/2024/08/01/bitcraft.html"><![CDATA[<!--- Content Captures --->
+</section>]]></content><author><name></name></author><category term="branding" /><category term="ui-ux" /><category term="visual-design" /><category term="coding" /><summary type="html"><![CDATA[Designed and built Blade Blitz end to end. Visual identity, UI, characters, implementation, and live playtest iteration over two years.]]></summary></entry><entry><title type="html">BitCraft Online at Clockwork Labs</title><link href="http://localhost:4000/2024/08/01/bitcraft.html" rel="alternate" type="text/html" title="BitCraft Online at Clockwork Labs" /><published>2024-08-01T10:48:31-07:00</published><updated>2024-08-01T10:48:31-07:00</updated><id>http://localhost:4000/2024/08/01/bitcraft</id><content type="html" xml:base="http://localhost:4000/2024/08/01/bitcraft.html"><![CDATA[<!--- Content Captures --->
 
 <!--- Includes --->
 
@@ -1026,7 +1026,7 @@
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mobile-margin-bottom">
 		<div class="box">
-			<h5 class="">Led BitCraft's UI/UX from visual direction through implementation support, building the design system, core game surfaces, and launch marketing assets. BitCraft needed a UI system for a complex MMO including inventory, crafting, progression, map, and social systems all running at once. My job was to make that complexity readable and cohesive across the full game.</h5>
+			<h5 class="">Led BitCraft's UI/UX from visual direction through implementation, building the design system, core game surfaces, and launch marketing assets for a complex MMO spanning inventory, crafting, progression, map, and social systems.</h5>
 		</div>
 		<div class="box">
 			
@@ -1149,7 +1149,7 @@
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 		<div class="box">
-			<h2>Outcome</h2>
+			<h2>Challenge</h2>
 		</div>
 	</div>
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -1157,7 +1157,7 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="box">
-						<p class="section-intro">The game launched into early access with strong early traction across wishlists, CCU, and sales.</p>
+						<p class="section-intro">I was brought on to define BitCraft's UI from the ground up. Working directly with the CEO, CTO, Art Director, and Game Director, the team needed a visual direction that felt native to the game's world and narrative while scaling across the broad surface area of an MMO.</p>
 						<h3></h3>
 					</div>
 				</div>
@@ -1167,72 +1167,6 @@
 
 			
 
-			
-				
-				
-					
-					
-				
-					
-					
-						
-						
-						
-						
-						
-
-						<div class="row project-overview-data">
-							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-								<div class="box">
-									<hr />
-									<div class="stat">250,000+</div>
-									<div class="label">Wishlists</div>
-									<div class="value">BitCraft Online accumulated over 250,000 wishlists ahead of launch, a strong signal of community interest built through consistent public presence and marketing.</div>
-								</div>
-							</div>
-						</div>
-					
-				
-					
-					
-						
-						
-						
-						
-						
-
-						<div class="row project-overview-data">
-							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-								<div class="box">
-									<hr />
-									<div class="stat">4,500+</div>
-									<div class="label">Daily CCU at Launch</div>
-									<div class="value">BitCraft Online launched with over 4,500 concurrent players daily, a strong retention signal for an independent early access MMO.</div>
-								</div>
-							</div>
-						</div>
-					
-				
-					
-					
-						
-						
-						
-						
-						
-
-						<div class="row project-overview-data">
-							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-								<div class="box">
-									<hr />
-									<div class="stat">127,000+</div>
-									<div class="label">Copies Sold</div>
-									<div class="value">As of March 2026, BitCraft Online has sold an estimated 127,000+ copies on Steam, a meaningful result for an independent studio's early access title.</div>
-								</div>
-							</div>
-						</div>
-					
-				
 			
 		</div>
 	</div>
@@ -1244,7 +1178,7 @@
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 		<div class="box">
-			<h2>Establishing a Cohesive Visual Language</h2>
+			<h2>Establishing a Visual Language</h2>
 		</div>
 	</div>
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -1252,7 +1186,7 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="box">
-						<p class="section-intro">I led the visual direction with leadership, narrowing broad exploration into a shared art deco-inspired system that could scale across UI and world-facing assets.</p>
+						<p class="section-intro">The visual direction was developed collaboratively with leadership, refining broad exploration into a shared Art Deco-inspired system that could scale across UI and world-facing assets.</p>
 						<h3></h3>
 					</div>
 				</div>
@@ -1271,8 +1205,8 @@
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-color-pallette.png" /></div>
-			<div class="caption">A split complementary palette with two colors flanking the complement of the primary to balance contrast and harmony across the full interface.</div>
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-concept-01.jpg" /></div>
+			<div class="caption">A concept that stays true to BitCraft's runic foundation, using clean lines, geometric forms, and restrained lighting accents to add depth. Inspired by League of Legends.</div>
 		</div>
 	</div>
 </section>
@@ -1280,8 +1214,376 @@
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-angles.png" /></div>
-			<div class="caption">A consistent system of 30° and 45° angles used throughout UI components and world elements to create structural cohesion.</div>
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-concept-02.jpg" /></div>
+			<div class="caption">A quieter direction built around desaturated neutrals, transparent layering, and minimal forms. Lightweight strokes and clean typography create a modern, polished interface with subtle magical qualities. Inspired by Frostpunk, The Legend of Zelda: Breath of the Wild, Valorant, Star Wars Jedi: Survivor, and Monument Valley.</div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-concept-03.jpg" /></div>
+			<div class="caption">A warmer, more inviting direction centered on energy, optimism, and approachability. Bright palette accents, cool shadow balance, and subtle runic textures help frame content while preserving a playful tone. Inspired by Genshin Impact, Pokemon, and Animal Crossing: New Horizons.</div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-concept-fullscreen.png" /></div>
+			<div class="caption">The final direction built on the strengths of concept 3, carrying forward its warmth, energy, and inviting tone. The system was developed across both light and dark modes, using bright palette accents, cool shadow balance, and subtle runic textures to frame content without losing clarity.</div>
+		</div>
+	</div>
+</section>
+
+<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Visual Identity</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">The visual system was built to support density, clarity, and a distinct BitCraft aesthetic.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+				
+				
+					
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Color Palette</div>
+									<div class="value">A split-complementary system with tonal variants for each primary color, designed to support layering, segmentation, and UI patterning. Light and dark modes support both daytime and low-light play.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Typography &amp; Spacing</div>
+									<div class="value">A 14px base paired with an augmented fourth scale (1.414) maintains legible hierarchy in information-dense views without oversized headers competing with game data. An 8pt spacing grid provides consistent rhythm across component layout and padding.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Shape Language</div>
+									<div class="value">The visual language draws from Art Deco geometry, using precise 30 and 45-degree angles with strict 4px and 8px stroke weights for dividers and framing elements. This gives the interface structural consistency throughout.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+			
+		</div>
+	</div>
+  </div>
+</section>
+
+<section data-aos="fade-up" class="page-section image-grid">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+			<div class="row">
+				<!-- Column 1 -->
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+					
+					<div class="box">
+						<img alt="Image 1" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-color-pallette.png" />
+						<div class="caption">A split-complementary palette with tonal variants for each primary color, balancing contrast and harmony across the interface.</div>
+					</div>
+					
+
+					
+					<div class="box">
+						<img alt="Image 2" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-rtl-lines.png" />
+						<div class="caption">Linear Runic Tech Lines used as motifs and flourishes to add structure, framing, and visual rhythm across the UI.</div>
+					</div>
+					
+				</div>
+
+				<!-- Column 2 -->
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+					
+					<div class="box">
+						<img alt="Image 3" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-angles.png" />
+						<div class="caption">A consistent system of 30° and 45° angles used throughout UI components and world elements to create structural cohesion.</div>
+					</div>
+					
+
+					
+					<div class="box">
+						<img alt="Image 4" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-rtl-square.png" />
+						<div class="caption">Square-based Runic Tech Line motifs reinforce the system's geometric language across interface surfaces.</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-modal.png" /></div>
+			
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-typeramp.png" /></div>
+			
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-spacing.png" /></div>
+			
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-spacing-example.png" /></div>
+			
+		</div>
+	</div>
+</section>
+
+<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Interface Design</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">The component library extended that system across the full MMO surface area without relying on one-off patterns.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+				
+				
+					
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Component Library</div>
+									<div class="value">Covers the full range of MMO interaction contexts, from inventory and crafting to dialogue and progression, with every component grounded in the same visual system.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Windows &amp; Panels</div>
+									<div class="value">A modular window and panel system built to handle dense information across the game's layered simulation systems without introducing unnecessary visual noise.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">HUD</div>
+									<div class="value">Keeps critical information accessible during active play without obscuring the game world, and scales with gameplay complexity as players progress.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Notifications &amp; Feedback</div>
+									<div class="value">Inline and side-panel notification variants provide contextual feedback across the game's many concurrent systems.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Cursors &amp; Entities</div>
+									<div class="value">Contextual cursor states and entity display patterns help players identify interactable objects, NPCs, and other characters at a glance in a populated open world.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+			
+		</div>
+	</div>
+  </div>
+</section>
+
+<section data-aos="fade-up" class="page-section image-grid">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+			<div class="row">
+				<!-- Column 1 -->
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+					
+					<div class="box">
+						<img alt="Image 1" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-componnets-button-primary.png" />
+						
+					</div>
+					
+
+					
+					<div class="box">
+						<img alt="Image 2" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-componnets-button-secondary.png" />
+						
+					</div>
+					
+				</div>
+
+				<!-- Column 2 -->
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+					
+					<div class="box">
+						<img alt="Image 3" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-componnets-button-diamond.png" />
+						
+					</div>
+					
+
+					
+					<div class="box">
+						<img alt="Image 4" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-componnets-action.png" />
+						
+					</div>
+					
+				</div>
+			</div>
 		</div>
 	</div>
 </section>
@@ -1290,24 +1592,125 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
 			<div class="row">
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+				<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
 					
 					<div class="box">
-						<img alt="Image 1" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-rtl-lines.png" />
-						<div class="caption">Linear Runic Tech Lines used as motifs and flourishes to add structure, framing, and visual rhythm across the UI.</div>
+						<img alt="Image 1" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-inventory.png" />
+						
+					</div>
+					
+
+					
+					<div class="box">
+						<img alt="Image 2" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-character.png" />
+						
+					</div>
+					
+
+					
+					<div class="box">
+						<img alt="Image 3" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-professions.png" />
+						
 					</div>
 					
 				</div>
 
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+				<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
 					
 					<div class="box">
-						<img alt="Image 2" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-rtl-square.png" />
-						<div class="caption">Square-based Runic Tech Line motifs used as flourishes to reinforce the system's geometric language across interface surfaces.</div>
+						<img alt="Image 4" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-foundry.png" />
+						
+					</div>
+					
+
+					
+					<div class="box">
+						<img alt="Image 5" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-compendum.png" />
+						
+					</div>
+					
+
+					
+					<div class="box">
+						<img alt="Image 6" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-tasks.png" />
+						
+					</div>
+					
+				</div>
+
+				<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+					
+					<div class="box">
+						<img alt="Image 7" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-dialogue.png" />
+						
+					</div>
+					
+
+					
+					<div class="box">
+						<img alt="Image 8" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-empire-overview.png" />
+						
+					</div>
+					
+
+					
+					<div class="box">
+						<img alt="Image 9" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-marketplace-details.png" />
+						
+					</div>
+					
+				</div>
+
+				<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+					
+					<div class="box">
+						<img alt="Image 10" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-tradefinder.png" />
+						
+					</div>
+					
+
+					
+					<div class="box">
+						<img alt="Image 11" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-waystone.png" />
+						
+					</div>
+					
+
+					
+					<div class="box">
+						<img alt="Image 12" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-empire-authority.png" />
+						
 					</div>
 					
 				</div>
 			</div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-HUD.png" /></div>
+			
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-notifications.png" /></div>
+			
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-cursors.png" /></div>
+			
 		</div>
 	</div>
 </section>
@@ -1325,7 +1728,7 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="box">
-						<p class="section-intro">Items, cargo, and collectables follow different rules. I designed their structure and presentation so players can read those differences at a glance.</p>
+						<p class="section-intro">Items, cargo, and collectables each operate under different rules. Their structure and presentation were designed so players could distinguish them at a glance.</p>
 						<h3></h3>
 					</div>
 				</div>
@@ -1355,7 +1758,7 @@
 									<hr />
 									
 									<div class="label">Items</div>
-									<div class="value">Occupy a limited inventory grid. Scarcity and placement are part of the resource management loop.</div>
+									<div class="value">Occupy a limited inventory grid, where scarcity and placement are central to the resource-management loop.</div>
 								</div>
 							</div>
 						</div>
@@ -1375,7 +1778,7 @@
 									<hr />
 									
 									<div class="label">Cargo</div>
-									<div class="value">Singular and heavier than standard items. Carrying cargo impacts player movement, introducing a physical tradeoff communicated through the interface.</div>
+									<div class="value">Heavier than standard items and singular in nature. Carrying cargo affects player movement, surfacing a meaningful tradeoff through the interface.</div>
 								</div>
 							</div>
 						</div>
@@ -1395,7 +1798,7 @@
 									<hr />
 									
 									<div class="label">Collectables</div>
-									<div class="value">Bypass inventory entirely and go directly to a vault, requiring distinct visual treatment so players understand they follow different rules.</div>
+									<div class="value">Bypass the inventory and route directly to a vault, requiring distinct visual treatment so players understand that they follow a different rule set.</div>
 								</div>
 							</div>
 						</div>
@@ -1525,7 +1928,7 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="box">
-						<p class="section-intro">Because MMO sessions run long, I paired the UI with the game's day-night cycle so light and dark modes reduce fatigue without losing readability.</p>
+						<p class="section-intro">MMO sessions are long by nature. The UI was paired with the game's day-night cycle so light and dark modes could reduce visual fatigue without compromising readability.</p>
 						<h3></h3>
 					</div>
 				</div>
@@ -1567,7 +1970,7 @@
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 		<div class="box">
-			<h2>Visual Identity</h2>
+			<h2>Designing the In-Game Map</h2>
 		</div>
 	</div>
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -1575,7 +1978,7 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="box">
-						<p class="section-intro">The visual system was built for density, clarity, and a distinct BitCraft look.</p>
+						<p class="section-intro">The map needed to communicate complex world-state information clearly across multiple zoom levels and in the minimap. I designed an icon system for players, creatures, ruins, claims, empires, and custom markers, while ensuring the map could support interactions such as claim previews, marker placement, and tracking. Biomes, borders, and sailing wind direction also needed to remain immediately readable.</p>
 						<h3></h3>
 					</div>
 				</div>
@@ -1604,8 +2007,8 @@
 								<div class="box">
 									<hr />
 									
-									<div class="label">Color Palette</div>
-									<div class="value">The palette uses a split complementary system, two colors flanking the complementary of the primary, creating visual harmony without monotony. Each primary has tonal variants for layering, segmentation, and subtle UI patterning. A light and dark mode support both casual and low-light play sessions.</div>
+									<div class="label">A Scalable Icon System</div>
+									<div class="value">Designed map icons for players, creatures, ruins, claims, empires, and custom markers, with each category remaining legible across full-map and minimap contexts.</div>
 								</div>
 							</div>
 						</div>
@@ -1624,8 +2027,8 @@
 								<div class="box">
 									<hr />
 									
-									<div class="label">Typography &amp; Spacing</div>
-									<div class="value">The type ramp is built on a 14px base with an augmented fourth scale (1.414), calibrated for information-dense interfaces where hierarchy needs to be legible without oversized headers competing with game data. An 8pt spacing grid brings rhythm to component layout and padding throughout.</div>
+									<div class="label">Readable World State</div>
+									<div class="value">Biome regions, empire borders, claim tiers and statuses, and sailing wind direction all needed to be visible at a glance without overwhelming navigation.</div>
 								</div>
 							</div>
 						</div>
@@ -1644,8 +2047,8 @@
 								<div class="box">
 									<hr />
 									
-									<div class="label">Shape Language</div>
-									<div class="value">The visual language draws from art deco geometry: precise angles, intersecting lines at 45 and 30 degrees, and a strict use of 4px and 8px stroke weights for dividers and framing elements. This gives the interface a structural consistency that reads as crafted rather than generic.</div>
+									<div class="label">Interaction &amp; Tracking</div>
+									<div class="value">The map supported interactive behaviors such as claim previews, custom marker placement, and tracking flows, so the iconography had to function as both information and interface.</div>
 								</div>
 							</div>
 						</div>
@@ -1657,182 +2060,44 @@
   </div>
 </section>
 
-<section data-aos="fade-up" class="page-section">
+<section data-aos="fade-up" class="page-section image-grid">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-modal.png" /></div>
-			
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-typeramp.png" /></div>
-			
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-spacing.png" /></div>
-			
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-spacing-example.png" /></div>
-			
-		</div>
-	</div>
-</section>
-
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  <hr class="spacer-vertical-lg" />
-  <div class="row">
-	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-		<div class="box">
-			<h2>Interface Design</h2>
-		</div>
-	</div>
-	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-		<div class="box">
 			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<!-- Column 1 -->
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+					
 					<div class="box">
-						<p class="section-intro">From that system, I built a component library that could cover the full MMO surface area without one-off patterns.</p>
-						<h3></h3>
+						<img alt="Image 1" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-minimap.png" />
+						
 					</div>
+					
+
+					
+					<div class="box">
+						<img alt="Image 2" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-mapmarkers-small.png" />
+						
+					</div>
+					
+				</div>
+
+				<!-- Column 2 -->
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+					
+					<div class="box">
+						<img alt="Image 3" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-mapmarkers-large.png" />
+						
+					</div>
+					
+
+					
+					<div class="box">
+						<img alt="Image 4" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-maptooltips.png" />
+						
+					</div>
+					
 				</div>
 			</div>
-
-			
-
-			
-
-			
-				
-				
-					
-					
-				
-					
-					
-						
-						
-						
-						
-						
-
-						<div class="row project-overview-data">
-							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-								<div class="box">
-									<hr />
-									
-									<div class="label">Component Library</div>
-									<div class="value">Built to cover the full range of MMO interaction contexts, from inventory and crafting to dialogue and progression. Every component draws from the same visual system to keep the interface coherent regardless of context.</div>
-								</div>
-							</div>
-						</div>
-					
-				
-					
-					
-						
-						
-						
-						
-						
-
-						<div class="row project-overview-data">
-							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-								<div class="box">
-									<hr />
-									
-									<div class="label">Windows &amp; Panels</div>
-									<div class="value">Modular window and panel system designed to handle dense information loads without visual noise. Built to accommodate the game's layered simulation systems.</div>
-								</div>
-							</div>
-						</div>
-					
-				
-					
-					
-						
-						
-						
-						
-						
-
-						<div class="row project-overview-data">
-							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-								<div class="box">
-									<hr />
-									
-									<div class="label">HUD</div>
-									<div class="value">The in-game heads-up display keeps critical information accessible during active play without occluding the game world. Designed to scale with gameplay complexity as players progress.</div>
-								</div>
-							</div>
-						</div>
-					
-				
-					
-					
-						
-						
-						
-						
-						
-
-						<div class="row project-overview-data">
-							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-								<div class="box">
-									<hr />
-									
-									<div class="label">Notifications &amp; Feedback</div>
-									<div class="value">A notification system covering both inline and side-panel variants, providing contextual feedback for a world where dozens of concurrent systems are always running.</div>
-								</div>
-							</div>
-						</div>
-					
-				
-					
-					
-						
-						
-						
-						
-						
-
-						<div class="row project-overview-data">
-							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-								<div class="box">
-									<hr />
-									
-									<div class="label">Cursors &amp; Entities</div>
-									<div class="value">Contextual cursor states and entity display patterns that communicate interactable objects, NPCs, and player characters at a glance in a populated open world.</div>
-								</div>
-							</div>
-						</div>
-					
-				
-			
-		</div>
-	</div>
-  </div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-componnets-button-primary.png" /></div>
-			
 		</div>
 	</div>
 </section>
@@ -1840,196 +2105,7 @@
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-componnets-button-secondary.png" /></div>
-			
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-componnets-button-diamond.png" /></div>
-			
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-componnets-action.png" /></div>
-			
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-componnets-pagination.png" /></div>
-			
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-inventory.png" /></div>
-			
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-character.png" /></div>
-			
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-professions.png" /></div>
-			
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-foundry.png" /></div>
-			
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-compendum.png" /></div>
-			
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-tasks.png" /></div>
-			
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-dialogue.png" /></div>
-			
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-empire.png" /></div>
-			
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-marketplace.png" /></div>
-			
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-tradefinder.png" /></div>
-			
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-waystone.png" /></div>
-			
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-minimap.png" /></div>
-			
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-mapmarkers.png" /></div>
-			
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-maptooltips.png" /></div>
-			
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-small.png" /></div>
-			
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-HUD.png" /></div>
-			
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-notifications.png" /></div>
-			
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-cursors.png" /></div>
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-map.png" /></div>
 			
 		</div>
 	</div>
@@ -2048,7 +2124,7 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="box">
-						<p class="section-intro">I extended the same design language into booth, merch, and Steam campaign work.</p>
+						<p class="section-intro">The design language was extended into booth design, merchandise, and Steam campaign assets.</p>
 						<h3></h3>
 					</div>
 				</div>
@@ -2078,7 +2154,7 @@
 									<hr />
 									
 									<div class="label">TwitchCon 2025 Booth</div>
-									<div class="value">Designed and modeled a 3D preview of the TwitchCon 2025 booth, giving the team a concrete visual to plan the physical presence around.</div>
+									<div class="value">Designed and modeled a 3D booth preview that gave the team a concrete visual reference for planning BitCraft's physical presence at TwitchCon 2025.</div>
 								</div>
 							</div>
 						</div>
@@ -2098,7 +2174,7 @@
 									<hr />
 									
 									<div class="label">TwitchCon Merchandise</div>
-									<div class="value">Designed and mocked the TwitchCon 2025 hoodie, creating a wearable that carries the BitCraft visual identity beyond the screen.</div>
+									<div class="value">Designed the TwitchCon 2025 hoodie, extending the BitCraft visual identity into a physical product.</div>
 								</div>
 							</div>
 						</div>
@@ -2118,7 +2194,7 @@
 									<hr />
 									
 									<div class="label">Steam &amp; Social Assets</div>
-									<div class="value">Created wishlist campaign assets and templates for the marketing team, enabling consistent, high-quality output across YouTube, Steam, and social channels.</div>
+									<div class="value">Produced wishlist campaign assets and reusable templates for the marketing team, enabling consistent output across YouTube, Steam, and social channels.</div>
 								</div>
 							</div>
 						</div>
@@ -2146,7 +2222,102 @@
 			
 		</div>
 	</div>
-</section>]]></content><author><name></name></author><category term="branding" /><category term="ui-ux" /><category term="visual-design" /><summary type="html"><![CDATA[Led BitCraft's UI/UX from visual direction through implementation support, building the design system, core game surfaces, and launch marketing assets. BitCraft needed a UI system for a complex MMO including inventory, crafting, progression, map, and social systems all running at once. My job was to make that complexity readable and cohesive across the full game.]]></summary></entry><entry><title type="html">SpacetimeDB at Clockwork Labs</title><link href="http://localhost:4000/2024/08/01/spacetimedb.html" rel="alternate" type="text/html" title="SpacetimeDB at Clockwork Labs" /><published>2024-08-01T10:48:31-07:00</published><updated>2024-08-01T10:48:31-07:00</updated><id>http://localhost:4000/2024/08/01/spacetimedb</id><content type="html" xml:base="http://localhost:4000/2024/08/01/spacetimedb.html"><![CDATA[<!--- Content Captures --->
+</section>
+
+<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Outcome</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">The game entered early access with strong traction across wishlists, concurrent players, and sales.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+				
+				
+					
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									<div class="stat">250,000+</div>
+									<div class="label">Wishlists</div>
+									<div class="value">Accumulated ahead of launch through sustained public visibility and coordinated marketing.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									<div class="stat">4,500+</div>
+									<div class="label">Peak Concurrent Players</div>
+									<div class="value">A strong retention signal for an independent early access MMO at launch.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									<div class="stat">127,000+</div>
+									<div class="label">Copies Sold</div>
+									<div class="value">Estimated Steam sales as of March 2026, representing a strong result for an independent studio's early access title.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+			
+		</div>
+	</div>
+  </div>
+</section>]]></content><author><name></name></author><category term="branding" /><category term="ui-ux" /><category term="visual-design" /><summary type="html"><![CDATA[Led BitCraft's UI/UX from visual direction through implementation, building the design system, core game surfaces, and launch marketing assets for a complex MMO spanning inventory, crafting, progression, map, and social systems.]]></summary></entry><entry><title type="html">SpacetimeDB at Clockwork Labs</title><link href="http://localhost:4000/2024/08/01/spacetimedb.html" rel="alternate" type="text/html" title="SpacetimeDB at Clockwork Labs" /><published>2024-08-01T10:48:31-07:00</published><updated>2024-08-01T10:48:31-07:00</updated><id>http://localhost:4000/2024/08/01/spacetimedb</id><content type="html" xml:base="http://localhost:4000/2024/08/01/spacetimedb.html"><![CDATA[<!--- Content Captures --->
 
 <!--- Includes --->
 
