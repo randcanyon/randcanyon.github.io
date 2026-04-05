@@ -682,8 +682,8 @@ header {
 }
 
 .hero-footer .row.center-xs.center-sm > [class*="col-"]:last-child > .box {
-	align-items: flex-end;
-	justify-content: flex-end;
+	align-items: center;
+	justify-content: center;
 }
 
 .hero-footer-line {
@@ -702,6 +702,11 @@ header {
 }
 
 @media (min-width: 48em) {
+	.hero-footer .row.center-xs.center-sm > [class*="col-"]:last-child > .box {
+		align-items: flex-end;
+		justify-content: flex-end;
+	}
+
 	.hero-see-selected-works {
 		justify-content: flex-end;
 	}
