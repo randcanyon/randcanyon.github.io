@@ -1126,21 +1126,19 @@ video.responsive {
 
 .loading-screen {
   position: fixed;
-  top: -12px;
-  right: -12px;
-  bottom: -12px;
-  left: -12px;
+  top: 50%;
+  left: 50%;
   z-index: 9999;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: auto;
-  height: auto;
-  min-width: calc(100vw + 24px);
-  min-height: calc(100vh + 24px);
-  min-height: calc(100dvh + 24px);
+  width: calc(100vw + 32px);
+  width: calc(100dvw + 32px);
+  height: calc(100vh + 32px);
+  height: calc(100dvh + 32px);
   background: var(--bg-primary);
   pointer-events: auto;
+  transform: translate(-50%, -50%);
   clip-path: inset(0 0 0 0);
   transition: clip-path 0.7s ease, visibility 0.7s ease;
 }
