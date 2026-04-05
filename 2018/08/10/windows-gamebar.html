@@ -3,21 +3,21 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Windows 10 Game Bar | Randy Huynh</title>
+<title>Windows 10 Game Bar @ Microsoft | Randy Huynh</title>
 <meta name="generator" content="Jekyll v4.3.3" />
-<meta property="og:title" content="Windows 10 Game Bar" />
+<meta property="og:title" content="Windows 10 Game Bar @ Microsoft" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="The Windows 10 Game Bar was a native overlay that gave players quick access to system and Xbox features while gaming. When I joined the project as a Visual Designer, the product was transitioning from a minimal utility into a fuller gaming hub. My task was to bring its design into alignment with the evolving Fluent Design System while introducing a new feature set focused on performance visualization and Game Mode, which optimized PC resources for gaming." />
-<meta property="og:description" content="The Windows 10 Game Bar was a native overlay that gave players quick access to system and Xbox features while gaming. When I joined the project as a Visual Designer, the product was transitioning from a minimal utility into a fuller gaming hub. My task was to bring its design into alignment with the evolving Fluent Design System while introducing a new feature set focused on performance visualization and Game Mode, which optimized PC resources for gaming." />
+<meta name="description" content="Redesigned the native Windows gaming overlay to align with Fluent Design while making capture, performance, and Game Mode features clearer for players." />
+<meta property="og:description" content="Redesigned the native Windows gaming overlay to align with Fluent Design while making capture, performance, and Game Mode features clearer for players." />
 <link rel="canonical" href="http://localhost:4000/2018/08/10/windows-gamebar.html" />
 <meta property="og:url" content="http://localhost:4000/2018/08/10/windows-gamebar.html" />
 <meta property="og:site_name" content="Randy Huynh" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2018-08-10T10:48:31-07:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Windows 10 Game Bar" />
+<meta property="twitter:title" content="Windows 10 Game Bar @ Microsoft" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2018-08-10T10:48:31-07:00","datePublished":"2018-08-10T10:48:31-07:00","description":"The Windows 10 Game Bar was a native overlay that gave players quick access to system and Xbox features while gaming. When I joined the project as a Visual Designer, the product was transitioning from a minimal utility into a fuller gaming hub. My task was to bring its design into alignment with the evolving Fluent Design System while introducing a new feature set focused on performance visualization and Game Mode, which optimized PC resources for gaming.","headline":"Windows 10 Game Bar","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2018/08/10/windows-gamebar.html"},"url":"http://localhost:4000/2018/08/10/windows-gamebar.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2018-08-10T10:48:31-07:00","datePublished":"2018-08-10T10:48:31-07:00","description":"Redesigned the native Windows gaming overlay to align with Fluent Design while making capture, performance, and Game Mode features clearer for players.","headline":"Windows 10 Game Bar @ Microsoft","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2018/08/10/windows-gamebar.html"},"url":"http://localhost:4000/2018/08/10/windows-gamebar.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,7 +29,7 @@
   <link rel="stylesheet" href="/assets/flexboxgrid.css">
   <link rel="stylesheet" href="/assets/index.css">
   <link rel="stylesheet" href="/assets/hero.css">
-  <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.11/dist/lenis.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Randy Huynh" /></head><body class="layout">
+  <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.11/dist/lenis.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Randy Huynh" /></head><body class="layout layout-post">
   
   <div id="cursor"></div>
   
@@ -37,7 +37,160 @@
     
     <div class="wrap container-fluid">
       
-      
+      <div class="loading-screen" data-loading-screen aria-hidden="true">
+	<div class="loading-screen__logo" data-loading-logo>
+		<div class="loading-screen__ring" aria-hidden="true"></div>
+		<div class="loading-screen__logo-layer loading-screen__logo-layer--loop"></div>
+		<div class="loading-screen__logo-layer loading-screen__logo-layer--descender"></div>
+	</div>
+</div>
+
+<script>
+	(function() {
+		var screen = document.querySelector('[data-loading-screen]');
+		if (!screen) return;
+		var isTransitioning = false;
+
+		function afterTransition(callback) {
+			var handled = false;
+
+			function done() {
+				if (handled) return;
+				handled = true;
+				screen.removeEventListener('transitionend', onTransitionEnd);
+				callback();
+			}
+
+			function onTransitionEnd(event) {
+				if (event.target !== screen) return;
+				done();
+			}
+
+			screen.addEventListener('transitionend', onTransitionEnd);
+			setTimeout(done, 900);
+		}
+
+		function getMediaUrls() {
+			var nodes = document.querySelectorAll('img[src], video[src], video source[src]');
+			var urls = [];
+
+			nodes.forEach(function(node) {
+				var src = node.getAttribute('src');
+				if (!src || src.indexOf('data:') === 0) return;
+				urls.push(node.src || src);
+			});
+
+			return Array.from(new Set(urls));
+		}
+
+		function preloadImage(url) {
+			return new Promise(function(resolve) {
+				var img = new Image();
+				img.onload = resolve;
+				img.onerror = resolve;
+				img.src = url;
+			});
+		}
+
+		function preloadVideo(url) {
+			return new Promise(function(resolve) {
+				var video = document.createElement('video');
+				var settled = false;
+				var done = function() {
+					if (settled) return;
+					settled = true;
+					resolve();
+				};
+
+				video.preload = 'auto';
+				video.muted = true;
+				video.playsInline = true;
+				video.onloadeddata = done;
+				video.onerror = done;
+				video.src = url;
+
+				setTimeout(done, 4000);
+			});
+		}
+
+		function preloadAllMedia() {
+			var urls = getMediaUrls();
+			var tasks = urls.map(function(url) {
+				if (/\.(mp4|webm)(\?|#|$)/i.test(url)) {
+					return preloadVideo(url);
+				}
+
+				return preloadImage(url);
+			});
+
+			return Promise.allSettled(tasks);
+		}
+
+		function dismissLoadingScreen() {
+			screen.classList.add('is-wiping-out');
+			afterTransition(function() {
+				screen.classList.remove('is-wiping-out');
+				screen.classList.add('is-hidden');
+			});
+		}
+
+		function isEligibleLink(link) {
+			if (!link || !link.href) return false;
+			if (link.target && link.target !== '_self') return false;
+			if (link.hasAttribute('download')) return false;
+			if (link.hasAttribute('data-no-loading-transition')) return false;
+			if (link.origin !== window.location.origin) return false;
+			if (link.pathname === window.location.pathname && link.hash) return false;
+			return true;
+		}
+
+		function showLoadingScreenForNavigation(url) {
+			if (isTransitioning) return;
+			isTransitioning = true;
+
+			screen.classList.remove('is-hidden', 'is-wiping-out');
+			screen.classList.add('is-pre-enter');
+
+			requestAnimationFrame(function() {
+				requestAnimationFrame(function() {
+					screen.classList.remove('is-pre-enter');
+					screen.classList.add('is-wiping-in');
+					afterTransition(function() {
+						window.location.href = url;
+					});
+				});
+			});
+		}
+
+		function bindLinkTransitions() {
+			document.addEventListener('click', function(event) {
+				var link = event.target.closest('a');
+				if (!isEligibleLink(link)) return;
+
+				event.preventDefault();
+				showLoadingScreenForNavigation(link.href);
+			});
+		}
+
+		function init() {
+			bindLinkTransitions();
+
+			Promise.race([
+				preloadAllMedia(),
+				new Promise(function(resolve) { setTimeout(resolve, 5000); })
+			]).then(dismissLoadingScreen);
+		}
+
+		if (document.readyState === 'loading') {
+			document.addEventListener('DOMContentLoaded', init, { once: true });
+		} else {
+			init();
+		}
+	})();
+</script>
+
+
+
 
 <section class="post-description page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <div class="row">
@@ -46,16 +199,16 @@
         <span class="status-label">
           Shipped
         </span>
-      </span><h1>Windows 10 Game Bar</h1>
+      </span><h1>Windows 10 Game Bar @ Microsoft</h1>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-offset-1 col-lg-offset-1 col-md-6 col-lg-6">
-      <h4 class="project-blurb text-subtle">Updating the Windows 10 Game Bar for the Fluent Design System, modernizing its visual language while introducing performance insights and a new Game Mode for PC gamers.</h4>
+      <h4 class="project-blurb text-subtle">Modernizing Windows 10 Game Bar with Fluent Design, performance insights, and Game Mode support.</h4>
     </div>
   </div>
 </section>
 
 
-  <section data-aos="fade-up" class="hero-image-section">
+  <section data-aos="fade-up" class="hero-image-section page-section">
 	<div class="hero-image-container">
 		<img alt="" class="hero-image-parallax" src="/assets/images/windows-gamebar/pc-gamebar-mockup.png" />
 	</div>
@@ -66,11 +219,11 @@
 
 <!--- Includes --->
 
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+<section class="page-section project-description-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mobile-margin-bottom">
 		<div class="box">
-			<h5 class="">The Windows 10 Game Bar was a native overlay that gave players quick access to system and Xbox features while gaming. When I joined the project as a Visual Designer, the product was transitioning from a minimal utility into a fuller gaming hub. My task was to bring its design into alignment with the evolving Fluent Design System while introducing a new feature set focused on performance visualization and Game Mode, which optimized PC resources for gaming.</h5>
+			<h5 class="">Redesigned the native Windows gaming overlay to align with Fluent Design while making capture, performance, and Game Mode features clearer for players.</h5>
 		</div>
 		<div class="box">
 			
@@ -129,7 +282,12 @@
 					<div class="box">
 						<hr />
 						<div class="label">My Role</div>
-						<div class="value">Visual Designer</div>
+						<div>
+							
+							
+							  <div class="value">Visual Designer</div>
+							
+						</div>
 					</div>
 				</div>
 			</div>
@@ -163,17 +321,17 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/windows-gamebar/pc-gamebar-screen-02.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
 
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <hr class="spacer-vertical-lg" />
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 		<div class="box">
-			<h2>Problem</h2>
+			<h2>Challenge</h2>
 		</div>
 	</div>
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -181,23 +339,23 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="box">
-						<p>The original Game Bar design lacked a cohesive identity. It was functional but visually inconsistent with the Windows 10 ecosystem and didn’t feel premium enough for PC gamers. As new features like Game Mode and performance telemetry were added, the interface risked becoming cluttered and confusing without a clear visual hierarchy or brand direction.</p>
+						<p class="section-intro">Game Bar was useful, but it lacked a clear identity and risked becoming cluttered as new features were added.</p>
 						<h3></h3>
 					</div>
 				</div>
 			</div>
+
 			
+
 			
-			
-			
-			
+
 			
 		</div>
 	</div>
   </div>
 </section>
 
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <hr class="spacer-vertical-lg" />
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -210,30 +368,35 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="box">
-						<p>To align with Fluent Design principles, I focused on:</p>
+						<p class="section-intro">To align with Fluent Design principles, I focused on:</p>
 						<h3></h3>
 					</div>
 				</div>
 			</div>
+
 			
+
 			
-			
-			
-			
+
 			
 				
 				
 					
+					
 				
+					
 					
 						
 						
 						
 						
+						
+
 						<div class="row project-overview-data">
 							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 								<div class="box">
 									<hr />
+									
 									<div class="label">Depth and Materiality</div>
 									<div class="value">Introduced acrylic layers, subtle lighting, and contrast to make the overlay feel grounded yet unobtrusive over gameplay.</div>
 								</div>
@@ -242,14 +405,18 @@
 					
 				
 					
+					
 						
 						
 						
 						
+						
+
 						<div class="row project-overview-data">
 							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 								<div class="box">
 									<hr />
+									
 									<div class="label">Information Clarity</div>
 									<div class="value">Designed real-time CPU/GPU/RAM visualizations that conveyed performance impact at a glance without overwhelming players.</div>
 								</div>
@@ -258,14 +425,18 @@
 					
 				
 					
+					
 						
 						
 						
 						
+						
+
 						<div class="row project-overview-data">
 							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 								<div class="box">
 									<hr />
+									
 									<div class="label">Contextual Adaptation</div>
 									<div class="value">Ensured accessibility and legibility across light/dark system themes and high-motion gameplay backgrounds.</div>
 								</div>
@@ -283,12 +454,12 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/windows-gamebar/pc-gamebar-capture.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
 
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <hr class="spacer-vertical-lg" />
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -301,12 +472,12 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="box">
-						<p>“Save last 30 seconds” is off by default and only activates after an intentional user toggle.</p>
+						<p class="section-intro">“Save last 30 seconds” is off by default and only activates after an intentional user toggle.</p>
 						<h3></h3>
 					</div>
 				</div>
 			</div>
-			
+
 			
 			<div>
 				<div class="box">
@@ -314,19 +485,19 @@
 						<source alt="" src="/assets/images/windows-gamebar/pc-gamebar-retro-record.mp4" />
 					</video>
 				</div>
-				<div class="caption"></div>
+				
 			</div>
 			
+
 			
-			
-			
+
 			
 		</div>
 	</div>
   </div>
 </section>
 
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <hr class="spacer-vertical-lg" />
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -339,28 +510,28 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="box">
-						<p>Mixer integration makes it easier for streamers to start broadcasting at a click.</p>
+						<p class="section-intro">Mixer integration makes it easier for streamers to start broadcasting at a click.</p>
 						<h3></h3>
 					</div>
 				</div>
 			</div>
+
 			
-			
-			
+
 			
 			<div>
 				<div class="box"><img alt="" class="responsive rounded" src="/assets/images/windows-gamebar/pc-gamebar-streaming.png" /></div>
-				<div class="caption"></div>
+				
 			</div>
 			
-			
+
 			
 		</div>
 	</div>
   </div>
 </section>
 
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <hr class="spacer-vertical-lg" />
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -373,30 +544,35 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="box">
-						<p>The updated Windows 10 Game Bar delivered a clearer, more trustworthy, and more polished gaming overlay that aligned with Fluent Design and set the foundation for future Xbox Game Bar improvements.</p>
+						<p class="section-intro">The redesign made Game Bar feel more trustworthy, polished, and aligned with the rest of Windows.</p>
 						<h3></h3>
 					</div>
 				</div>
 			</div>
+
 			
+
 			
-			
-			
-			
+
 			
 				
 				
 					
+					
 				
+					
 					
 						
 						
 						
 						
+						
+
 						<div class="row project-overview-data">
 							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 								<div class="box">
 									<hr />
+									
 									<div class="label">Stronger Trust &amp; Adoption</div>
 									<div class="value">Opt-in recording, visible status, and easy controls reduced apprehension and encouraged sharing.</div>
 								</div>
@@ -405,14 +581,18 @@
 					
 				
 					
+					
 						
 						
 						
 						
+						
+
 						<div class="row project-overview-data">
 							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 								<div class="box">
 									<hr />
+									
 									<div class="label">Clearer Performance Feedback</div>
 									<div class="value">Players understood when Game Mode helped and how their system was behaving mid-match.</div>
 								</div>
@@ -421,14 +601,18 @@
 					
 				
 					
+					
 						
 						
 						
 						
+						
+
 						<div class="row project-overview-data">
 							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 								<div class="box">
 									<hr />
+									
 									<div class="label">Ease of Use</div>
 									<div class="value">Provided the basic features that many PC gamers needed in the native OS.</div>
 								</div>
@@ -446,52 +630,59 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/windows-gamebar/pc-gamebar-product-shots.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
-<section class="page-section">
+<section class="page-section post-footer-section">
 <div class="row">
-	
+
   <div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-	  
+
 	<div class="box">
-		
+
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<h2 class="box">More projects</h2>
 			</div>
-		</div>
-		
-		<div class="row"><div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		</div><div class="row"><div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 				<a class="box thumbnail" href="/2019/03/10/microsoft-gamestack-2019.html">
-				  <img class="thumbnail-image rounded responsive" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-thumbnail2.png" />
-				  <p class="thumbnail-title">Microsoft Game Stack</p>
-				  <div class="thumbnail-tags">
-					  <p class="thumbnail-tag">Microsoft</p>
-				   </div>
+				  <div class="thumbnail-image"><img class="rounded responsive" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-thumbnail2.png" /></div>
+				  <div class="thumbnail-footer">
+				    <div class="thumbnail-footer-left">
+				      <p class="thumbnail-title">Microsoft Game Stack @ Microsoft</p>
+				      <div class="thumbnail-tags">
+				        <p class="thumbnail-tag">Unified 12+ products under one brand at GDC, driving 6,000+ PlayFab sign-ups in week one.</p>
+				      </div>
+				    </div>
+				  </div>
 				</a>
 			</div><div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 				<a class="box thumbnail" href="/2018/03/10/vr-environments.html">
-				  <img class="thumbnail-image rounded responsive" src="/assets/images/vr-environments/vr-overworld.png" />
-				  <p class="thumbnail-title">VR Home</p>
-				  <div class="thumbnail-tags">
-					  <p class="thumbnail-tag">Microsoft</p>
+				  <div class="thumbnail-image"><img class="rounded responsive" src="/assets/images/vr-environments/vr-overworld.png" /></div>
+				  <div class="thumbnail-footer">
+				    <div class="thumbnail-footer-left">
+				      <p class="thumbnail-title">VR Home @ Microsoft</p>
+				      <div class="thumbnail-tags">
+				        <p class="thumbnail-tag">Research-backed concepts that shaped Xbox's early VR home direction.</p>
+				      </div>
+				    </div>
 				  </div>
 				</a>
 			</div></div>
 	  </div>
 	</div>
   </div>
-</section><footer>
+</section>
+<footer>
   <div data-aos="fade-up" data-aos-once="true" class="row">
     <div class="col-xs-12 col-sm-12 col-md-offset-2 col-md-10 col-lg-offset-1 col-lg-10">
-      <div class="box"><h1 id="contact"><a href="mailto:hello@randyhuynh.com">Get in touch.</a></h1></div>
+      <div class="box"><h1 id="contact"><a href="mailto:ranhuynh@gmail.com">Get in touch.</a></h1></div>
     </div>
   </div>
   <div data-aos="fade-up" data-aos-once="true" class="row">
     <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-3 col-lg-offset-1 col-lg-3">
-      <div class="box"><span class="text sub-label"><a href="mailto:ranhuynh@gmail.com">ranhuynh@gmail.com</a></p></div>
+      <div class="box"><span class="text sub-label">Randy Huynh</p></div>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
       <div class="box"><span class="text sub-label">Seattle, WA<br/>United States</p></div>
@@ -518,12 +709,11 @@
 <script src="https://unpkg.com/lenis@1.3.11/dist/lenis.min.js"></script> <header data-lenis-prevent><div class="spacer-h-40">
   </div>
   <div id="header-bar" class="row">
-    <div id="post-progress"></div>
-    <a id="back" class="tab" href="/">
+    <div id="post-progress"></div><a id="back" class="tab" href="/">
       <span class="material-symbols-outlined material-symbols-adjust">arrow_back</span>
     </a>
     <span id="post-title">
-Windows 10 Game Bar
+Windows 10 Game Bar @ Microsoft
 </span>
     <a id="share" class="tab" onclick="copyURLToClipboard()">
       <span class="material-symbols-adjust material-symbols-outlined">ios_share</span>

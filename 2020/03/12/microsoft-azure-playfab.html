@@ -3,21 +3,21 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Microsoft Azure Playfab Awards | Randy Huynh</title>
+<title>Microsoft Azure Playfab Awards @ Microsoft | Randy Huynh</title>
 <meta name="generator" content="Jekyll v4.3.3" />
-<meta property="og:title" content="Microsoft Azure Playfab Awards" />
+<meta property="og:title" content="Microsoft Azure Playfab Awards @ Microsoft" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Azure PlayFab wanted a way to celebrate studios reaching major player-growth milestones on their platform. I designed a series of physical trophies—marking 100K, 1M, and 10M players—that could stand alone or interlock into a unified sculptural form. My role spanned concept development, 3D modeling, and high-fidelity visualization, exploring how material, geometry, and modularity could bring digital success to life in a tangible and memorable way. These prototypes provided a clear direction for fabrication and established a unique PlayFab recognition experience." />
-<meta property="og:description" content="Azure PlayFab wanted a way to celebrate studios reaching major player-growth milestones on their platform. I designed a series of physical trophies—marking 100K, 1M, and 10M players—that could stand alone or interlock into a unified sculptural form. My role spanned concept development, 3D modeling, and high-fidelity visualization, exploring how material, geometry, and modularity could bring digital success to life in a tangible and memorable way. These prototypes provided a clear direction for fabrication and established a unique PlayFab recognition experience." />
+<meta name="description" content="Designed a trophy series for 100K, 1M, and 10M player milestones, using modular forms and 3D visualization to guide stakeholder alignment and fabrication." />
+<meta property="og:description" content="Designed a trophy series for 100K, 1M, and 10M player milestones, using modular forms and 3D visualization to guide stakeholder alignment and fabrication." />
 <link rel="canonical" href="http://localhost:4000/2020/03/12/microsoft-azure-playfab.html" />
 <meta property="og:url" content="http://localhost:4000/2020/03/12/microsoft-azure-playfab.html" />
 <meta property="og:site_name" content="Randy Huynh" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-03-12T10:48:31-07:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Microsoft Azure Playfab Awards" />
+<meta property="twitter:title" content="Microsoft Azure Playfab Awards @ Microsoft" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2020-03-12T10:48:31-07:00","datePublished":"2020-03-12T10:48:31-07:00","description":"Azure PlayFab wanted a way to celebrate studios reaching major player-growth milestones on their platform. I designed a series of physical trophies—marking 100K, 1M, and 10M players—that could stand alone or interlock into a unified sculptural form. My role spanned concept development, 3D modeling, and high-fidelity visualization, exploring how material, geometry, and modularity could bring digital success to life in a tangible and memorable way. These prototypes provided a clear direction for fabrication and established a unique PlayFab recognition experience.","headline":"Microsoft Azure Playfab Awards","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2020/03/12/microsoft-azure-playfab.html"},"url":"http://localhost:4000/2020/03/12/microsoft-azure-playfab.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2020-03-12T10:48:31-07:00","datePublished":"2020-03-12T10:48:31-07:00","description":"Designed a trophy series for 100K, 1M, and 10M player milestones, using modular forms and 3D visualization to guide stakeholder alignment and fabrication.","headline":"Microsoft Azure Playfab Awards @ Microsoft","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2020/03/12/microsoft-azure-playfab.html"},"url":"http://localhost:4000/2020/03/12/microsoft-azure-playfab.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,7 +29,7 @@
   <link rel="stylesheet" href="/assets/flexboxgrid.css">
   <link rel="stylesheet" href="/assets/index.css">
   <link rel="stylesheet" href="/assets/hero.css">
-  <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.11/dist/lenis.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Randy Huynh" /></head><body class="layout">
+  <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.11/dist/lenis.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Randy Huynh" /></head><body class="layout layout-post">
   
   <div id="cursor"></div>
   
@@ -37,7 +37,160 @@
     
     <div class="wrap container-fluid">
       
-      
+      <div class="loading-screen" data-loading-screen aria-hidden="true">
+	<div class="loading-screen__logo" data-loading-logo>
+		<div class="loading-screen__ring" aria-hidden="true"></div>
+		<div class="loading-screen__logo-layer loading-screen__logo-layer--loop"></div>
+		<div class="loading-screen__logo-layer loading-screen__logo-layer--descender"></div>
+	</div>
+</div>
+
+<script>
+	(function() {
+		var screen = document.querySelector('[data-loading-screen]');
+		if (!screen) return;
+		var isTransitioning = false;
+
+		function afterTransition(callback) {
+			var handled = false;
+
+			function done() {
+				if (handled) return;
+				handled = true;
+				screen.removeEventListener('transitionend', onTransitionEnd);
+				callback();
+			}
+
+			function onTransitionEnd(event) {
+				if (event.target !== screen) return;
+				done();
+			}
+
+			screen.addEventListener('transitionend', onTransitionEnd);
+			setTimeout(done, 900);
+		}
+
+		function getMediaUrls() {
+			var nodes = document.querySelectorAll('img[src], video[src], video source[src]');
+			var urls = [];
+
+			nodes.forEach(function(node) {
+				var src = node.getAttribute('src');
+				if (!src || src.indexOf('data:') === 0) return;
+				urls.push(node.src || src);
+			});
+
+			return Array.from(new Set(urls));
+		}
+
+		function preloadImage(url) {
+			return new Promise(function(resolve) {
+				var img = new Image();
+				img.onload = resolve;
+				img.onerror = resolve;
+				img.src = url;
+			});
+		}
+
+		function preloadVideo(url) {
+			return new Promise(function(resolve) {
+				var video = document.createElement('video');
+				var settled = false;
+				var done = function() {
+					if (settled) return;
+					settled = true;
+					resolve();
+				};
+
+				video.preload = 'auto';
+				video.muted = true;
+				video.playsInline = true;
+				video.onloadeddata = done;
+				video.onerror = done;
+				video.src = url;
+
+				setTimeout(done, 4000);
+			});
+		}
+
+		function preloadAllMedia() {
+			var urls = getMediaUrls();
+			var tasks = urls.map(function(url) {
+				if (/\.(mp4|webm)(\?|#|$)/i.test(url)) {
+					return preloadVideo(url);
+				}
+
+				return preloadImage(url);
+			});
+
+			return Promise.allSettled(tasks);
+		}
+
+		function dismissLoadingScreen() {
+			screen.classList.add('is-wiping-out');
+			afterTransition(function() {
+				screen.classList.remove('is-wiping-out');
+				screen.classList.add('is-hidden');
+			});
+		}
+
+		function isEligibleLink(link) {
+			if (!link || !link.href) return false;
+			if (link.target && link.target !== '_self') return false;
+			if (link.hasAttribute('download')) return false;
+			if (link.hasAttribute('data-no-loading-transition')) return false;
+			if (link.origin !== window.location.origin) return false;
+			if (link.pathname === window.location.pathname && link.hash) return false;
+			return true;
+		}
+
+		function showLoadingScreenForNavigation(url) {
+			if (isTransitioning) return;
+			isTransitioning = true;
+
+			screen.classList.remove('is-hidden', 'is-wiping-out');
+			screen.classList.add('is-pre-enter');
+
+			requestAnimationFrame(function() {
+				requestAnimationFrame(function() {
+					screen.classList.remove('is-pre-enter');
+					screen.classList.add('is-wiping-in');
+					afterTransition(function() {
+						window.location.href = url;
+					});
+				});
+			});
+		}
+
+		function bindLinkTransitions() {
+			document.addEventListener('click', function(event) {
+				var link = event.target.closest('a');
+				if (!isEligibleLink(link)) return;
+
+				event.preventDefault();
+				showLoadingScreenForNavigation(link.href);
+			});
+		}
+
+		function init() {
+			bindLinkTransitions();
+
+			Promise.race([
+				preloadAllMedia(),
+				new Promise(function(resolve) { setTimeout(resolve, 5000); })
+			]).then(dismissLoadingScreen);
+		}
+
+		if (document.readyState === 'loading') {
+			document.addEventListener('DOMContentLoaded', init, { once: true });
+		} else {
+			init();
+		}
+	})();
+</script>
+
+
+
 
 <section class="post-description page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <div class="row">
@@ -46,16 +199,16 @@
         <span class="status-label">
           Concepted
         </span>
-      </span><h1>Microsoft Azure Playfab Awards</h1>
+      </span><h1>Microsoft Azure Playfab Awards @ Microsoft</h1>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-offset-1 col-lg-offset-1 col-md-6 col-lg-6">
-      <h4 class="project-blurb text-subtle">A modular physical award system celebrating PlayFab customer growth, designed to transform digital milestones into sculptural, collectible recognition pieces.</h4>
+      <h4 class="project-blurb text-subtle">A modular award system translating PlayFab growth milestones into collectible physical trophies.</h4>
     </div>
   </div>
 </section>
 
 
-  <section data-aos="fade-up" class="hero-image-section">
+  <section data-aos="fade-up" class="hero-image-section page-section">
 	<div class="hero-image-container">
 		<img alt="" class="hero-image-parallax" src="/assets/images/microsoft-azure-playfab/playfab-trophy-render-07.png" />
 	</div>
@@ -66,11 +219,11 @@
 
 <!--- Includes --->
 
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+<section class="page-section project-description-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mobile-margin-bottom">
 		<div class="box">
-			<h5 class="">Azure PlayFab wanted a way to celebrate studios reaching major player-growth milestones on their platform. I designed a series of physical trophies—marking 100K, 1M, and 10M players—that could stand alone or interlock into a unified sculptural form. My role spanned concept development, 3D modeling, and high-fidelity visualization, exploring how material, geometry, and modularity could bring digital success to life in a tangible and memorable way. These prototypes provided a clear direction for fabrication and established a unique PlayFab recognition experience.</h5>
+			<h5 class="">Designed a trophy series for 100K, 1M, and 10M player milestones, using modular forms and 3D visualization to guide stakeholder alignment and fabrication.</h5>
 		</div>
 		<div class="box">
 			
@@ -129,7 +282,12 @@
 					<div class="box">
 						<hr />
 						<div class="label">My Role</div>
-						<div class="value">Visual Designer</div>
+						<div>
+							
+							
+							  <div class="value">Visual Designer</div>
+							
+						</div>
 					</div>
 				</div>
 			</div>
@@ -155,7 +313,7 @@
 							
 							
 							  <div class="value">
-<span class="text"><a href="https://www.linkedin.com/in/nicholasrobinson/">Nick Robinson</a> (Design Manager)</span>
+<span><a href="https://www.linkedin.com/in/nicholasrobinson/">Nick Robinson</a> (Design Manager)</span>
 </div>
 							
 						</div>
@@ -173,19 +331,21 @@
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
 			<div class="box">
 				<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
-					<source alt="" src="/assets/images/microsoft-azure-playfab/playfab-trophy-animated.mp4" />
+					<source src="/assets/images/microsoft-azure-playfab/playfab-trophy-animated.webm" type="video/webm" />
+					<source src="/assets/images/microsoft-azure-playfab/playfab-trophy-animated.mp4" type="video/mp4" />
+					
 				</video>
 			</div>
 		</div>
 	</div>
 </section>
 
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <hr class="spacer-vertical-lg" />
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 		<div class="box">
-			<h2>Problem</h2>
+			<h2>Challenge</h2>
 		</div>
 	</div>
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -193,78 +353,77 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="box">
-						<p>Game developers often used Microsoft tools: Azure PlayFab, Visual Studio, Xbox Live, Direct, etc. But the ecosystem was fragmented. Each product had its own look and story, resulting in:</p>
+						<p class="section-intro">PlayFab needed milestone awards that felt premium, scalable, and feasible to manufacture.</p>
 						<h3></h3>
 					</div>
 				</div>
 			</div>
+
 			
+
 			
-			
-			
-			
+
 			
 				
 				
+					
+					
+				
+					
 					
 						
 						
 						
 						
+						
+
 						<div class="row project-overview-data">
 							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 								<div class="box">
 									<hr />
+									
 									<div class="label">Growth</div>
-									<div class="value">Represented customer loyalty and progress in a visually striking, meaningful way.</div>
+									<div class="value">Needed to represent customer progress in a visually meaningful way.</div>
 								</div>
 							</div>
 						</div>
 					
 				
 					
+					
 						
 						
 						
 						
+						
+
 						<div class="row project-overview-data">
 							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 								<div class="box">
 									<hr />
+									
 									<div class="label">Modular System</div>
-									<div class="value">Worked as individual awards, but also connected into a larger story when collected.</div>
+									<div class="value">Each award had to stand alone while also connecting into a larger story.</div>
 								</div>
 							</div>
 						</div>
 					
 				
 					
-						
-						
-						
-						
-						<div class="row project-overview-data">
-							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-								<div class="box">
-									<hr />
-									<div class="label">Competing Brands</div>
-									<div class="value">Marketing materials that felt disjointed and lacked a shared brand language.</div>
-								</div>
-							</div>
-						</div>
-					
-				
 					
 						
 						
 						
 						
+						
+
 						<div class="row project-overview-data">
 							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 								<div class="box">
 									<hr />
+									
 									<div class="label">Feasible Construction</div>
-									<div class="value">Was clear enough for fabrication partners to understand scale, materials, and assembly.</div>
+									<div class="value">The concept had to be clear enough for fabrication partners to price and build.</div>
 								</div>
 							</div>
 						</div>
@@ -276,42 +435,73 @@
   </div>
 </section>
 
-<section data-aos="fade-up" class="page-section image-gallery">
+<section data-aos="fade-up" class="page-section image-grid">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-			<div class="scroll-container-wrapper">
-				<div class="scroll-container" data-scroll-fade="">
-					<div class="scroll-wrapper">
-						
-							<div class="box">
-								<img alt="Image 1" class="responsive rounded" src="/assets/images/microsoft-azure-playfab/playfab-trophy-render-03.png" />
-							</div>
-						
-						
-							<div class="box">
-								<img alt="Image 2" class="responsive rounded" src="/assets/images/microsoft-azure-playfab/playfab-trophy-render-04.png" />
-							</div>
-						
-						
-							<div class="box">
-								<img alt="Image 3" class="responsive rounded" src="/assets/images/microsoft-azure-playfab/playfab-trophy-render-06.png" />
-							</div>
-						
-						
-						
-						
-						
-						
-						
+			<div class="media-grid" style="--grid-columns: 2; --grid-rows: 2;">
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 1" class="responsive rounded" src="/assets/images/microsoft-azure-playfab/playfab-trophy-render-03.png" />
 						
 					</div>
-				</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 2" class="responsive rounded" src="/assets/images/microsoft-azure-playfab/playfab-trophy-render-04.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 3" class="responsive rounded" src="/assets/images/microsoft-azure-playfab/playfab-trophy-render-06.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 4" class="responsive rounded" src="/assets/images/microsoft-azure-playfab/playfab-trophy-render-08.png" />
+						
+					</div>
+					
+				
 			</div>
 		</div>
 	</div>
 </section>
 
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <hr class="spacer-vertical-lg" />
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -324,16 +514,82 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="box">
-						<p>The project resulted in a modular award system that visually stacks and evolves as a studio grows from 100K to 10M players. I delivered a complete visual direction through 3D models, turntable renders, and material explorations, helping stakeholders align on form, finish, and packaging. We produced physical prototypes and evaluated them with two fabrication vendors. Although the program ultimately did not move forward for customer distribution, the work established a clear foundation for how PlayFab could celebrate developer milestones and demonstrated the potential of physical recognition within the Azure ecosystem.</p>
+						<p class="section-intro">The concept established a clear award direction, produced prototypes, and gave stakeholders a concrete fabrication path even though the program did not ship.</p>
 						<h3></h3>
 					</div>
 				</div>
 			</div>
+
 			
+
 			
+
 			
-			
-			
+				
+				
+					
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Modular Trophy Series</div>
+									<div class="value">Created three awards that work individually and combine into a larger growth story.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Fabrication-Ready Direction</div>
+									<div class="value">Delivered renders and physical prototypes that clarified material, finish, and assembly.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Clear Milestone Recognition</div>
+									<div class="value">Gave PlayFab a more memorable way to celebrate customer growth than a generic plaque.</div>
+								</div>
+							</div>
+						</div>
+					
+				
 			
 		</div>
 	</div>
@@ -344,7 +600,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-azure-playfab/playfab-trophy-photo-01.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -353,52 +609,59 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-azure-playfab/playfab-trophy-photo-03.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
-<section class="page-section">
+<section class="page-section post-footer-section">
 <div class="row">
-	
+
   <div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-	  
+
 	<div class="box">
-		
+
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<h2 class="box">More projects</h2>
 			</div>
-		</div>
-		
-		<div class="row"><div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		</div><div class="row"><div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 				<a class="box thumbnail" href="/2020/06/01/streampirates.html">
-				  <img class="thumbnail-image rounded responsive" src="/assets/images/stream-pirates/stream_pirates_thumb.png" />
-				  <p class="thumbnail-title">Stream Pirates</p>
-				  <div class="thumbnail-tags">
-					  <p class="thumbnail-tag">Captain.tv</p>
-				   </div>
+				  <div class="thumbnail-image"><img class="rounded responsive" src="/assets/images/stream-pirates/stream_pirates_pixelart.png" /></div>
+				  <div class="thumbnail-footer">
+				    <div class="thumbnail-footer-left">
+				      <p class="thumbnail-title">Stream Pirates @ Captain.tv</p>
+				      <div class="thumbnail-tags">
+				        <p class="thumbnail-tag">1,000+ concurrent viewers and 30+ streamers in closed beta.</p>
+				      </div>
+				    </div>
+				  </div>
 				</a>
 			</div><div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 				<a class="box thumbnail" href="/2020/03/10/microsoft-gamestack-2020.html">
-				  <img class="thumbnail-image rounded responsive" src="/assets/images/microsoft-gamestack-2020/mgs2020-thumbnail2.png" />
-				  <p class="thumbnail-title">Microsoft Game Stack Live</p>
-				  <div class="thumbnail-tags">
-					  <p class="thumbnail-tag">Microsoft</p>
+				  <div class="thumbnail-image"><img class="rounded responsive" src="/assets/images/microsoft-gamestack-2020/mgs2020-thumbnail2.png" /></div>
+				  <div class="thumbnail-footer">
+				    <div class="thumbnail-footer-left">
+				      <p class="thumbnail-title">Microsoft Game Stack Live @ Microsoft</p>
+				      <div class="thumbnail-tags">
+				        <p class="thumbnail-tag">Scalable, IP-driven visual system unifying Azure, Xbox, and Visual Studio.</p>
+				      </div>
+				    </div>
 				  </div>
 				</a>
 			</div></div>
 	  </div>
 	</div>
   </div>
-</section><footer>
+</section>
+<footer>
   <div data-aos="fade-up" data-aos-once="true" class="row">
     <div class="col-xs-12 col-sm-12 col-md-offset-2 col-md-10 col-lg-offset-1 col-lg-10">
-      <div class="box"><h1 id="contact"><a href="mailto:hello@randyhuynh.com">Get in touch.</a></h1></div>
+      <div class="box"><h1 id="contact"><a href="mailto:ranhuynh@gmail.com">Get in touch.</a></h1></div>
     </div>
   </div>
   <div data-aos="fade-up" data-aos-once="true" class="row">
     <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-3 col-lg-offset-1 col-lg-3">
-      <div class="box"><span class="text sub-label"><a href="mailto:ranhuynh@gmail.com">ranhuynh@gmail.com</a></p></div>
+      <div class="box"><span class="text sub-label">Randy Huynh</p></div>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
       <div class="box"><span class="text sub-label">Seattle, WA<br/>United States</p></div>
@@ -425,12 +688,11 @@
 <script src="https://unpkg.com/lenis@1.3.11/dist/lenis.min.js"></script> <header data-lenis-prevent><div class="spacer-h-40">
   </div>
   <div id="header-bar" class="row">
-    <div id="post-progress"></div>
-    <a id="back" class="tab" href="/">
+    <div id="post-progress"></div><a id="back" class="tab" href="/">
       <span class="material-symbols-outlined material-symbols-adjust">arrow_back</span>
     </a>
     <span id="post-title">
-Microsoft Azure Playfab Awards
+Microsoft Azure Playfab Awards @ Microsoft
 </span>
     <a id="share" class="tab" onclick="copyURLToClipboard()">
       <span class="material-symbols-adjust material-symbols-outlined">ios_share</span>

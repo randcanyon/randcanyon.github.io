@@ -3,21 +3,21 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>BitCraft Online | Randy Huynh</title>
+<title>BitCraft Online at Clockwork Labs | Randy Huynh</title>
 <meta name="generator" content="Jekyll v4.3.3" />
-<meta property="og:title" content="BitCraft Online" />
+<meta property="og:title" content="BitCraft Online at Clockwork Labs" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="BitCraft is an ambitious sandbox MMO in development, blending survival, exploration, and player-driven worldbuilding. As part of the core design team, I focused on shaping the UI systems and interaction patterns that support a massive, persistent online world." />
-<meta property="og:description" content="BitCraft is an ambitious sandbox MMO in development, blending survival, exploration, and player-driven worldbuilding. As part of the core design team, I focused on shaping the UI systems and interaction patterns that support a massive, persistent online world." />
+<meta name="description" content="Led BitCraft’s UI/UX from visual direction through implementation, building the design system, core game surfaces, and launch marketing assets for a complex MMO spanning inventory, crafting, progression, map, and social systems." />
+<meta property="og:description" content="Led BitCraft’s UI/UX from visual direction through implementation, building the design system, core game surfaces, and launch marketing assets for a complex MMO spanning inventory, crafting, progression, map, and social systems." />
 <link rel="canonical" href="http://localhost:4000/2024/08/01/bitcraft.html" />
 <meta property="og:url" content="http://localhost:4000/2024/08/01/bitcraft.html" />
 <meta property="og:site_name" content="Randy Huynh" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2024-08-01T10:48:31-07:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="BitCraft Online" />
+<meta property="twitter:title" content="BitCraft Online at Clockwork Labs" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-08-01T10:48:31-07:00","datePublished":"2024-08-01T10:48:31-07:00","description":"BitCraft is an ambitious sandbox MMO in development, blending survival, exploration, and player-driven worldbuilding. As part of the core design team, I focused on shaping the UI systems and interaction patterns that support a massive, persistent online world.","headline":"BitCraft Online","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2024/08/01/bitcraft.html"},"url":"http://localhost:4000/2024/08/01/bitcraft.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-08-01T10:48:31-07:00","datePublished":"2024-08-01T10:48:31-07:00","description":"Led BitCraft’s UI/UX from visual direction through implementation, building the design system, core game surfaces, and launch marketing assets for a complex MMO spanning inventory, crafting, progression, map, and social systems.","headline":"BitCraft Online at Clockwork Labs","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2024/08/01/bitcraft.html"},"url":"http://localhost:4000/2024/08/01/bitcraft.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,7 +29,7 @@
   <link rel="stylesheet" href="/assets/flexboxgrid.css">
   <link rel="stylesheet" href="/assets/index.css">
   <link rel="stylesheet" href="/assets/hero.css">
-  <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.11/dist/lenis.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Randy Huynh" /></head><body class="layout">
+  <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.11/dist/lenis.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Randy Huynh" /></head><body class="layout layout-post">
   
   <div id="cursor"></div>
   
@@ -37,38 +37,194 @@
     
     <div class="wrap container-fluid">
       
-      
+      <div class="loading-screen" data-loading-screen aria-hidden="true">
+	<div class="loading-screen__logo" data-loading-logo>
+		<div class="loading-screen__ring" aria-hidden="true"></div>
+		<div class="loading-screen__logo-layer loading-screen__logo-layer--loop"></div>
+		<div class="loading-screen__logo-layer loading-screen__logo-layer--descender"></div>
+	</div>
+</div>
+
+<script>
+	(function() {
+		var screen = document.querySelector('[data-loading-screen]');
+		if (!screen) return;
+		var isTransitioning = false;
+
+		function afterTransition(callback) {
+			var handled = false;
+
+			function done() {
+				if (handled) return;
+				handled = true;
+				screen.removeEventListener('transitionend', onTransitionEnd);
+				callback();
+			}
+
+			function onTransitionEnd(event) {
+				if (event.target !== screen) return;
+				done();
+			}
+
+			screen.addEventListener('transitionend', onTransitionEnd);
+			setTimeout(done, 900);
+		}
+
+		function getMediaUrls() {
+			var nodes = document.querySelectorAll('img[src], video[src], video source[src]');
+			var urls = [];
+
+			nodes.forEach(function(node) {
+				var src = node.getAttribute('src');
+				if (!src || src.indexOf('data:') === 0) return;
+				urls.push(node.src || src);
+			});
+
+			return Array.from(new Set(urls));
+		}
+
+		function preloadImage(url) {
+			return new Promise(function(resolve) {
+				var img = new Image();
+				img.onload = resolve;
+				img.onerror = resolve;
+				img.src = url;
+			});
+		}
+
+		function preloadVideo(url) {
+			return new Promise(function(resolve) {
+				var video = document.createElement('video');
+				var settled = false;
+				var done = function() {
+					if (settled) return;
+					settled = true;
+					resolve();
+				};
+
+				video.preload = 'auto';
+				video.muted = true;
+				video.playsInline = true;
+				video.onloadeddata = done;
+				video.onerror = done;
+				video.src = url;
+
+				setTimeout(done, 4000);
+			});
+		}
+
+		function preloadAllMedia() {
+			var urls = getMediaUrls();
+			var tasks = urls.map(function(url) {
+				if (/\.(mp4|webm)(\?|#|$)/i.test(url)) {
+					return preloadVideo(url);
+				}
+
+				return preloadImage(url);
+			});
+
+			return Promise.allSettled(tasks);
+		}
+
+		function dismissLoadingScreen() {
+			screen.classList.add('is-wiping-out');
+			afterTransition(function() {
+				screen.classList.remove('is-wiping-out');
+				screen.classList.add('is-hidden');
+			});
+		}
+
+		function isEligibleLink(link) {
+			if (!link || !link.href) return false;
+			if (link.target && link.target !== '_self') return false;
+			if (link.hasAttribute('download')) return false;
+			if (link.hasAttribute('data-no-loading-transition')) return false;
+			if (link.origin !== window.location.origin) return false;
+			if (link.pathname === window.location.pathname && link.hash) return false;
+			return true;
+		}
+
+		function showLoadingScreenForNavigation(url) {
+			if (isTransitioning) return;
+			isTransitioning = true;
+
+			screen.classList.remove('is-hidden', 'is-wiping-out');
+			screen.classList.add('is-pre-enter');
+
+			requestAnimationFrame(function() {
+				requestAnimationFrame(function() {
+					screen.classList.remove('is-pre-enter');
+					screen.classList.add('is-wiping-in');
+					afterTransition(function() {
+						window.location.href = url;
+					});
+				});
+			});
+		}
+
+		function bindLinkTransitions() {
+			document.addEventListener('click', function(event) {
+				var link = event.target.closest('a');
+				if (!isEligibleLink(link)) return;
+
+				event.preventDefault();
+				showLoadingScreenForNavigation(link.href);
+			});
+		}
+
+		function init() {
+			bindLinkTransitions();
+
+			Promise.race([
+				preloadAllMedia(),
+				new Promise(function(resolve) { setTimeout(resolve, 5000); })
+			]).then(dismissLoadingScreen);
+		}
+
+		if (document.readyState === 'loading') {
+			document.addEventListener('DOMContentLoaded', init, { once: true });
+		} else {
+			init();
+		}
+	})();
+</script>
+
+
+
 
 <section class="post-description page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5"><span class="status-pill" data-status="current role">
+    <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5"><span class="status-pill" data-status="shipped">
         <span class="status-dot" aria-hidden="true"></span>
         <span class="status-label">
-          Current role
+          Shipped
         </span>
-      </span><h1>BitCraft Online</h1>
+      </span><h1>BitCraft Online at Clockwork Labs</h1>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-offset-1 col-lg-offset-1 col-md-6 col-lg-6">
-      <h4 class="project-blurb text-subtle">A sandbox MMO in early access where I led the creation of UI systems and visual identity, and established the pipeline connecting game design, visual design, and engineering.</h4>
+      <h4 class="project-blurb text-subtle">Led UI/UX for a sandbox MMO, shaping the visual identity, component system, and design-to-engineering workflow.</h4>
     </div>
   </div>
 </section>
 
 
-  <section data-aos="fade-up">
-	<div class="row">
-		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-			<div class="box">
-				<div class="video-container">
-					<iframe 
-						src="https://www.youtube.com/embed/lnwPaLmlGpU?si=HTnGzODyazRcyT2x" 
-						title="YouTube video player" 
-						frameborder="0" 
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
-						allowfullscreen></iframe>
-				</div>
-			</div>
-		</div>
+  
+
+
+
+
+
+
+
+
+
+<section data-aos="fade-up" class="hero-image-section page-section">
+	<div class="hero-image-container">
+		<video class="responsive" loop muted autoplay playsinline>
+			<source src="/assets/images/bitcraft/bitcraft-trailer.webm" type="video/webm" />
+			<source src="/assets/images/bitcraft/bitcraft-trailer.mp4" type="video/mp4" />
+			
+		</video>
 	</div>
 </section>
 
@@ -77,11 +233,191 @@
 
 <!--- Includes --->
 
+<section class="page-section project-description-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mobile-margin-bottom">
+		<div class="box">
+			<h5 class="">Led BitCraft's UI/UX from visual direction through implementation, building the design system, core game surfaces, and launch marketing assets for a complex MMO spanning inventory, crafting, progression, map, and social systems.</h5>
+		</div>
+		<div class="box">
+			
+<span class="text"><a href="https://bitcraftonline.com/">BitCraft Online Website<span class="link material-symbols-outlined material-symbols-adjust">arrow_outward</span></a></span>
+<span class="text"><a href="https://store.steampowered.com/app/3454650/BitCraft_Online/">BitCraft Online on Steam<span class="link material-symbols-outlined material-symbols-adjust">arrow_outward</span></a></span>
+<span class="text"><a href="https://tryhardguides.com/bitcraft-online-early-access-review/">Early Access Review (Try Hard Guides)<span class="link material-symbols-outlined material-symbols-adjust">arrow_outward</span></a></span>
+<span class="text"><a href="https://wccftech.com/bitcraft-hands-on-impressions-and-interview-building-up-to-something-great/">Hands-On Impressions and Interview (WCCFtech)<span class="link material-symbols-outlined material-symbols-adjust">arrow_outward</span></a></span>
+
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">Client</div>
+						<div class="value">Clockwork Labs</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">Skills</div>
+						<div>
+							
+							
+							  <div class="value">UI/UX Design</div>
+							
+							  <div class="value">Visual Design</div>
+							
+							  <div class="value">Branding</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">Tools</div>
+						<div>
+							
+							
+							  <div class="value">Figma</div>
+							
+							  <div class="value">Unity</div>
+							
+							  <div class="value">Adobe Suite</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">My Role</div>
+						<div>
+							
+							
+							  <div class="value">UI/UX Designer</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">Timeline</div>
+						<div class="value">Q3 2024 – Present</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">Team</div>
+						<div>
+							
+							
+							  <div class="value">
+<span><a href="https://www.linkedin.com/in/tylercloutier/">Tyler Cloutier</a> (CEO)</span><br />
+<span><a href="https://www.linkedin.com/in/alessandro-asoni-6644217b/">Alessandro Asoni</a> (CTO)</span><br />
+<span><a href="https://www.linkedin.com/in/carter-minshull/">Carter Minshull</a> (Lead Game Designer)</span><br />
+<span><a href="https://www.linkedin.com/in/morgan-nyblom-088424219/">Morgan Nyblom</a> (Art Director)</span><br />
+<span><a href="https://www.linkedin.com/in/lisandroct/">Lisandro Crespo</a> (UI Engineer)</span>
+</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+  </div>
+</section>
+
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Challenge</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">I was brought on to define BitCraft's UI from the ground up. Working directly with the CEO, CTO, Art Director, and Game Director, the team needed a visual direction that felt native to the game's world and narrative while scaling across the broad surface area of an MMO.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+		</div>
+	</div>
+  </div>
+</section>
+
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Establishing a Visual Language</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">The visual direction was developed collaboratively with leadership, refining broad exploration into a shared Art Deco-inspired system that could scale across UI and world-facing assets.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+		</div>
+	</div>
+  </div>
+</section>
+
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-hero.png" /></div>
-			<div class="caption"></div>
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-concept-01.jpg" /></div>
+			<div class="caption">A concept that stays true to BitCraft's runic foundation, using clean lines, geometric forms, and restrained lighting accents to add depth. Inspired by League of Legends.</div>
 		</div>
 	</div>
 </section>
@@ -89,8 +425,187 @@
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-colors.png" /></div>
-			<div class="caption">Our color palette follows the harmony rule of split complementary colors which uses two colors across the color wheel, with those two colors lying on either side of the complementary color. For each primary color, we have subtle shifts in tone that provide a level of flexibility and utility for creating subtle patterns and segmentation of information.</div>
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-concept-02.jpg" /></div>
+			<div class="caption">A quieter direction built around desaturated neutrals, transparent layering, and minimal forms. Lightweight strokes and clean typography create a modern, polished interface with subtle magical qualities. Inspired by Frostpunk, The Legend of Zelda: Breath of the Wild, Valorant, Star Wars Jedi: Survivor, and Monument Valley.</div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-concept-03.jpg" /></div>
+			<div class="caption">A warmer, more inviting direction centered on energy, optimism, and approachability. Bright palette accents, cool shadow balance, and subtle runic textures help frame content while preserving a playful tone. Inspired by Genshin Impact, Pokemon, and Animal Crossing: New Horizons.</div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-concept-fullscreen.png" /></div>
+			<div class="caption">The final direction built on the strengths of concept 3, carrying forward its warmth, energy, and inviting tone. The system was developed across both light and dark modes, using bright palette accents, cool shadow balance, and subtle runic textures to frame content without losing clarity.</div>
+		</div>
+	</div>
+</section>
+
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Visual Identity</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">The visual system was built to support density, clarity, and a distinct BitCraft aesthetic.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+				
+				
+					
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Color Palette</div>
+									<div class="value">A split-complementary system with tonal variants for each primary color, designed to support layering, segmentation, and UI patterning. Light and dark modes support both daytime and low-light play.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Typography &amp; Spacing</div>
+									<div class="value">A 14px base paired with an augmented fourth scale (1.414) maintains legible hierarchy in information-dense views without oversized headers competing with game data. An 8pt spacing grid provides consistent rhythm across component layout and padding.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Shape Language</div>
+									<div class="value">The visual language draws from Art Deco geometry, using precise 30 and 45-degree angles with strict 4px and 8px stroke weights for dividers and framing elements. This gives the interface structural consistency throughout.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+			
+		</div>
+	</div>
+  </div>
+</section>
+
+<section data-aos="fade-up" class="page-section image-grid">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+			<div class="media-grid" style="--grid-columns: 2; --grid-rows: 2;">
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 1" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-color-pallette.png" />
+						<div class="caption">A split-complementary palette with tonal variants for each primary color, balancing contrast and harmony across the interface.</div>
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 2" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-rtl-lines.png" />
+						<div class="caption">Linear Runic Tech Lines used as motifs and flourishes to add structure, framing, and visual rhythm across the UI.</div>
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 3" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-angles.png" />
+						<div class="caption">A consistent system of 30° and 45° angles used throughout UI components and world elements to create structural cohesion.</div>
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 4" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-rtl-square.png" />
+						<div class="caption">Square-based Runic Tech Line motifs reinforce the system's geometric language across interface surfaces.</div>
+					</div>
+					
+				
+			</div>
 		</div>
 	</div>
 </section>
@@ -99,7 +614,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-modal.png" /></div>
-			<div class="caption">The default color palette for Bitcraft with a high contrast, dark on light palette. The alternative color palette for BitCraft with a dark background color enabling a more comfortable gaming experience in low-light situations.</div>
+			
 		</div>
 	</div>
 </section>
@@ -107,8 +622,8 @@
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-typeramp-spacing.png" /></div>
-			<div class="caption">A type ramp establishes a range of font sizes, styles, and weights used for different elements within a composition. It helps create a visual hierarchy and guides readers through the content by emphasizing important information and structuring the text. The augmented 4th, 1.414, is a proportion that works well for more content dense interfaces that strike balance between complex information and breathability. A font size of 14 pixels ensures that the text is legible for most users without appearing too small. It provides comfortable reading for an average viewing distance of around 20-24 inches from the screen.</div>
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-typeramp.png" /></div>
+			
 		</div>
 	</div>
 </section>
@@ -117,7 +632,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-spacing.png" /></div>
-			<div class="caption">Our art deco-inspired shape language grounds itself in highly geometric shapes. Our iconography maintains a consistent look and feel through the use of a combination of vertical, horizontal, and diagonal lines that intersect each other at 45 or 30 degree angles.</div>
+			
 		</div>
 	</div>
 </section>
@@ -125,62 +640,387 @@
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-angles.png" /></div>
-			<div class="caption">Spacing is used to create visual proximity between related information, grouping those elements together.</div>
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-spacing-example.png" /></div>
+			
 		</div>
 	</div>
 </section>
 
-<section data-aos="fade-up" class="page-section">
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Interface Design</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">The component library extended that system across the full MMO surface area without relying on one-off patterns.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+				
+				
+					
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Component Library</div>
+									<div class="value">Covers the full range of MMO interaction contexts, from inventory and crafting to dialogue and progression, with every component grounded in the same visual system.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Windows &amp; Panels</div>
+									<div class="value">A modular window and panel system built to handle dense information across the game's layered simulation systems without introducing unnecessary visual noise.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">HUD</div>
+									<div class="value">Keeps critical information accessible during active play without obscuring the game world, and scales with gameplay complexity as players progress.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Notifications &amp; Feedback</div>
+									<div class="value">Inline and side-panel notification variants provide contextual feedback across the game's many concurrent systems.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Cursors &amp; Entities</div>
+									<div class="value">Contextual cursor states and entity display patterns help players identify interactable objects, NPCs, and other characters at a glance in a populated open world.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+			
+		</div>
+	</div>
+  </div>
+</section>
+
+<section data-aos="fade-up" class="page-section image-grid">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-rtl.png" /></div>
-			<div class="caption">A core part of our shape language includes stroke dividers and patterns that frame content. These strokes should only be used in only two weights: 4px and 8px.</div>
+			<div class="media-grid" style="--grid-columns: 2; --grid-rows: 2;">
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 1" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-componnets-button-primary.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 2" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-componnets-button-secondary.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 3" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-componnets-button-diamond.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 4" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-componnets-action.png" />
+						
+					</div>
+					
+				
+			</div>
 		</div>
 	</div>
 </section>
 
-<section data-aos="fade-up" class="page-section">
+<section data-aos="fade-up" class="page-section image-grid">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-components.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
+			<div class="media-grid" style="--grid-columns: 4; --grid-rows: 3;">
+				
+					
+					
+					
+					
+					
+					
 
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
+					
+					<div class="box">
+						<img alt="Image 1" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-inventory.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
 
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-notifications.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
+					
+					<div class="box">
+						<img alt="Image 2" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-character.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
 
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-entities.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
+					
+					<div class="box">
+						<img alt="Image 3" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-professions.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
 
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-cursors.png" /></div>
-			<div class="caption"></div>
+					
+					<div class="box">
+						<img alt="Image 4" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-foundry.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 5" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-compendum.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 6" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-tasks.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 7" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-dialogue.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 8" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-empire-overview.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 9" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-marketplace-details.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 10" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-tradefinder.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 11" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-waystone.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 12" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-empire-authority.png" />
+						
+					</div>
+					
+				
+			</div>
 		</div>
 	</div>
 </section>
@@ -189,7 +1029,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-HUD.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -197,8 +1037,543 @@
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-notifications.png" /></div>
+			
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-cursors.png" /></div>
+			
+		</div>
+	</div>
+</section>
+
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Modeling Complex Game Entities</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">Items, cargo, and collectables each operate under different rules. Their structure and presentation were designed so players could distinguish them at a glance.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+				
+				
+					
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Items</div>
+									<div class="value">Occupy a limited inventory grid, where scarcity and placement are central to the resource-management loop.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Cargo</div>
+									<div class="value">Heavier than standard items and singular in nature. Carrying cargo affects player movement, surfacing a meaningful tradeoff through the interface.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Collectables</div>
+									<div class="value">Bypass the inventory and route directly to a vault, requiring distinct visual treatment so players understand that they follow a different rule set.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+			
+		</div>
+	</div>
+  </div>
+</section>
+
+<section data-aos="fade-up" class="page-section image-gallery">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+			<div class="scroll-container-wrapper">
+				<button class="scroll-btn scroll-btn-left" aria-label="Scroll left"><span class="material-symbols-outlined">chevron_left</span></button>
+				<button class="scroll-btn scroll-btn-right" aria-label="Scroll right"><span class="material-symbols-outlined">chevron_right</span></button>
+				<div class="scroll-container" data-scroll-fade="">
+					<div class="scroll-wrapper">
+						
+							<div class="box">
+								<img alt="Image 1" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-entities-items.png" />
+							</div>
+						
+						
+							<div class="box">
+								<img alt="Image 2" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-entities-cargo.png" />
+							</div>
+						
+						
+							<div class="box">
+								<img alt="Image 3" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-entities-collectable.png" />
+							</div>
+						
+						
+						
+						
+						
+						
+						
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<script>
+(function () {
+	document.querySelectorAll('.scroll-container-wrapper').forEach(function (wrapper) {
+		var scrollContainer = wrapper.querySelector('.scroll-container');
+		var rafId = null;
+		var speed = 0;
+		var btnLeft = wrapper.querySelector('.scroll-btn-left');
+		var btnRight = wrapper.querySelector('.scroll-btn-right');
+
+		function updateButtons() {
+			var atStart = scrollContainer.scrollLeft <= 0;
+			var atEnd = scrollContainer.scrollLeft + scrollContainer.clientWidth >= scrollContainer.scrollWidth - 1;
+			btnLeft.classList.toggle('scroll-btn--hidden', atStart);
+			btnRight.classList.toggle('scroll-btn--hidden', atEnd);
+		}
+
+		scrollContainer.addEventListener('scroll', updateButtons);
+		updateButtons();
+
+		function startScroll(direction) {
+			speed = direction * 4;
+			function step() {
+				scrollContainer.scrollLeft += speed;
+				// Accelerate up to a max speed
+				if (Math.abs(speed) < 12) speed *= 1.05;
+				rafId = requestAnimationFrame(step);
+			}
+			rafId = requestAnimationFrame(step);
+		}
+
+		function stopScroll() {
+			if (rafId !== null) {
+				cancelAnimationFrame(rafId);
+				rafId = null;
+				speed = 0;
+			}
+		}
+
+		btnLeft.addEventListener('mousedown', function () { startScroll(-1); });
+		btnRight.addEventListener('mousedown', function () { startScroll(1); });
+		btnLeft.addEventListener('touchstart', function (e) { e.preventDefault(); startScroll(-1); }, { passive: false });
+		btnRight.addEventListener('touchstart', function (e) { e.preventDefault(); startScroll(1); }, { passive: false });
+
+		['mouseup', 'mouseleave', 'touchend', 'touchcancel'].forEach(function (evt) {
+			btnLeft.addEventListener(evt, stopScroll);
+			btnRight.addEventListener(evt, stopScroll);
+		});
+	});
+})();
+</script>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-entities-rarities.png" /></div>
+			
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-entities-states.png" /></div>
+			
+		</div>
+	</div>
+</section>
+
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Designing for Long Play Sessions</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">MMO sessions are long by nature. The UI was paired with the game's day-night cycle so light and dark modes could reduce visual fatigue without compromising readability.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+		</div>
+	</div>
+  </div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-color-modes.png" /></div>
+			
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+			<div class="box">
+				<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
+					<source src="/assets/images/bitcraft/bitcraft-colormodes.webm" type="video/webm" />
+					<source src="/assets/images/bitcraft/bitcraft-colormodes.mp4" type="video/mp4" />
+					
+				</video>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Designing the In-Game Map</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">The map needed to communicate complex world-state information clearly across multiple zoom levels and in the minimap. I designed an icon system for players, creatures, ruins, claims, empires, and custom markers, while ensuring the map could support interactions such as claim previews, marker placement, and tracking. Biomes, borders, and sailing wind direction also needed to remain immediately readable.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+				
+				
+					
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">A Scalable Icon System</div>
+									<div class="value">Designed map icons for players, creatures, ruins, claims, empires, and custom markers, with each category remaining legible across full-map and minimap contexts.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Readable World State</div>
+									<div class="value">Biome regions, empire borders, claim tiers and statuses, and sailing wind direction all needed to be visible at a glance without overwhelming navigation.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Interaction &amp; Tracking</div>
+									<div class="value">The map supported interactive behaviors such as claim previews, custom marker placement, and tracking flows, so the iconography had to function as both information and interface.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+			
+		</div>
+	</div>
+  </div>
+</section>
+
+<section data-aos="fade-up" class="page-section image-grid">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+			<div class="media-grid" style="--grid-columns: 2; --grid-rows: 2;">
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 1" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-minimap.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 2" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-mapmarkers-small.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 3" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-mapmarkers-large.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 4" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-maptooltips.png" />
+						
+					</div>
+					
+				
+			</div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-map.png" /></div>
+			
+		</div>
+	</div>
+</section>
+
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Marketing &amp; Brand</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">The design language was extended into booth design, merchandise, and Steam campaign assets.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+				
+				
+					
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">TwitchCon 2025 Booth</div>
+									<div class="value">Designed and modeled a 3D booth preview that gave the team a concrete visual reference for planning BitCraft's physical presence at TwitchCon 2025.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">TwitchCon Merchandise</div>
+									<div class="value">Designed the TwitchCon 2025 hoodie, extending the BitCraft visual identity into a physical product.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Steam &amp; Social Assets</div>
+									<div class="value">Produced wishlist campaign assets and reusable templates for the marketing team, enabling consistent output across YouTube, Steam, and social channels.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+			
+		</div>
+	</div>
+  </div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-booth.png" /></div>
-			<div class="caption">Designed and modeled a preview of our TwitchCon 2025 booth</div>
+			
 		</div>
 	</div>
 </section>
@@ -207,136 +1582,155 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-hoodie.png" /></div>
-			<div class="caption">Designed and mocked a preview of our TwitchCon 2025 hoodies</div>
+			
 		</div>
 	</div>
 </section>
 
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-wishlist.png" /></div>
-			<div class="caption">Created wishlist assets for our marketing team</div>
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Outcome</h2>
 		</div>
 	</div>
-</section>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">The game entered early access with strong traction across wishlists, concurrent players, and sales.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
 
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  <div class="row">
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-	  <hr /><div class="box"></div>
+			
+
+			
+
+			
+				
+				
+					
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									<div class="stat">250,000+</div>
+									<div class="label">Wishlists</div>
+									<div class="value">Accumulated ahead of launch through sustained public visibility and coordinated marketing.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									<div class="stat">4,500+</div>
+									<div class="label">Peak Concurrent Players</div>
+									<div class="value">A strong retention signal for an independent early access MMO at launch.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									<div class="stat">127,000+</div>
+									<div class="label">Copies Sold</div>
+									<div class="value">Estimated Steam sales as of March 2026, representing a strong result for an independent studio's early access title.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+			
+		</div>
 	</div>
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
-	  <div class="box"></div>
-	  </div>
-	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-	  	<div class="box"><h3>Role</h3></div>
-	  </div>
-	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-offset-1 col-lg-6">
-	  <div class="box">
-		
-<ul>
-  <li>Defined the visual identity and UI systems for BitCraft, establishing the game’s look and feel across menus, HUDs, and player interfaces.</li>
-  <li>Created a pipeline connecting game design, visual design, and engineering, improving communication and reducing implementation friction across disciplines.</li>
-  <li>Developed a Notion-based documentation and handoff process to track features, specs, and component ownership, enabling smoother iteration and clearer collaboration.</li>
-  <li>Created templates for the marketing team to generate consistent and high-quality YouTube, Steam, and social media assets.</li>
-</ul>
-
-	  </div>
-	  </div>
   </div>
 </section>
 
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  <div class="row">
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-	  <hr /><div class="box"></div>
-	</div>
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
-	  <div class="box"></div>
-	  </div>
-	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-	  	<div class="box"><h3>Team</h3></div>
-	  </div>
-	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-offset-1 col-lg-6">
-	  <div class="box">
-		
-<span class="text"><a href="https://www.linkedin.com/in/tylercloutier/">Tyler Cloutier</a> (CEO)</span>
-<span class="text"><a href="https://www.linkedin.com/in/alessandro-asoni-6644217b/">Alessandro Asoni</a> (CTO)</span>
-<span class="text"><a href="https://www.linkedin.com/in/carter-minshull/">Carter Minshull</a> (Lead Game Designer)</span>
-<span class="text"><a href="https://www.linkedin.com/in/morgan-nyblom-088424219/">Morgan Nyblom</a> (Art Director)</span>
-<span class="text"><a href="https://www.linkedin.com/in/lisandroct/">Lisandro Crespo</a> (UI Engineer)</span>
-
-	  </div>
-	  </div>
-  </div>
-</section>
-
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  <div class="row">
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-	  <hr /><div class="box"></div>
-	</div>
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
-	  <div class="box"></div>
-	  </div>
-	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-		  <div class="box"><h3>Press</h3></div>
-	  </div>
-	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-offset-1 col-lg-6">
-	  <div class="box">
-		
-<span class="text"><a href="https://bitcraftonline.com/">BitCraft Online Website</a></span>
-<span class="text"><a href="https://store.steampowered.com/app/3454650/BitCraft_Online/">BitCraft Online Steam</a></span>
-<span class="text"><a href="https://tryhardguides.com/bitcraft-online-early-access-review/">BitCraft Online Early Access Review</a></span>
-<span class="text"><a href="https://wccftech.com/bitcraft-hands-on-impressions-and-interview-building-up-to-something-great/">Bitcraft Hands-On Impressions and Interview – Building Up to Something Great</a></span>
-
-	  </div>
-	  </div>
-  </div>
-</section>
-<section class="page-section">
+<section class="page-section post-footer-section">
 <div class="row">
-	
+
   <div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-	  
+
 	<div class="box">
-		
+
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<h2 class="box">More projects</h2>
 			</div>
-		</div>
-		
-		<div class="row"><div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		</div><div class="row"><div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 				<a class="box thumbnail" href="/2024/08/01/spacetimedb.html">
-				  <img class="thumbnail-image rounded responsive" src="/assets/images/spacetimedb/stdb-thumbnail.png" />
-				  <p class="thumbnail-title">SpacetimeDB</p>
-				  <div class="thumbnail-tags">
-					  <p class="thumbnail-tag">Clockwork Labs</p>
-				   </div>
+				  <div class="thumbnail-image"><video class="rounded responsive" loop muted autoplay playsinline src="/assets/images/spacetimedb/stdb-logo.mp4"></video></div>
+				  <div class="thumbnail-footer">
+				    <div class="thumbnail-footer-left">
+				      <p class="thumbnail-title">SpacetimeDB at Clockwork Labs</p>
+				      <div class="thumbnail-tags">
+				        <p class="thumbnail-tag">Built a developer portal for a platform with 75,000+ registered users.</p>
+				      </div>
+				    </div>
+				  </div>
 				</a>
 			</div><div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 				<a class="box thumbnail" href="/2023/09/09/boss-fight.html">
-				  <img class="thumbnail-image rounded responsive" src="/assets/images/boss-fight/boss-fight-thumb.png" />
-				  <p class="thumbnail-title">Boss Fight</p>
-				  <div class="thumbnail-tags">
-					  <p class="thumbnail-tag">Personal</p>
+				  <div class="thumbnail-image"><img class="rounded responsive" src="/assets/images/boss-fight/boss-fight-thumb.png" /></div>
+				  <div class="thumbnail-footer">
+				    <div class="thumbnail-footer-left">
+				      <p class="thumbnail-title">Boss Fight</p>
+				      <div class="thumbnail-tags">
+				        <p class="thumbnail-tag">3D animation entry exploring scale, character dynamics, and storytelling.</p>
+				      </div>
+				    </div>
 				  </div>
 				</a>
 			</div></div>
 	  </div>
 	</div>
   </div>
-</section><footer>
+</section>
+<footer>
   <div data-aos="fade-up" data-aos-once="true" class="row">
     <div class="col-xs-12 col-sm-12 col-md-offset-2 col-md-10 col-lg-offset-1 col-lg-10">
-      <div class="box"><h1 id="contact"><a href="mailto:hello@randyhuynh.com">Get in touch.</a></h1></div>
+      <div class="box"><h1 id="contact"><a href="mailto:ranhuynh@gmail.com">Get in touch.</a></h1></div>
     </div>
   </div>
   <div data-aos="fade-up" data-aos-once="true" class="row">
     <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-3 col-lg-offset-1 col-lg-3">
-      <div class="box"><span class="text sub-label"><a href="mailto:ranhuynh@gmail.com">ranhuynh@gmail.com</a></p></div>
+      <div class="box"><span class="text sub-label">Randy Huynh</p></div>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
       <div class="box"><span class="text sub-label">Seattle, WA<br/>United States</p></div>
@@ -363,12 +1757,11 @@
 <script src="https://unpkg.com/lenis@1.3.11/dist/lenis.min.js"></script> <header data-lenis-prevent><div class="spacer-h-40">
   </div>
   <div id="header-bar" class="row">
-    <div id="post-progress"></div>
-    <a id="back" class="tab" href="/">
+    <div id="post-progress"></div><a id="back" class="tab" href="/">
       <span class="material-symbols-outlined material-symbols-adjust">arrow_back</span>
     </a>
     <span id="post-title">
-BitCraft Online
+BitCraft Online at Clockwork Labs
 </span>
     <a id="share" class="tab" onclick="copyURLToClipboard()">
       <span class="material-symbols-adjust material-symbols-outlined">ios_share</span>

@@ -3,21 +3,21 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Xbox Project Scorpio | Randy Huynh</title>
+<title>Xbox Project Scorpio @ Microsoft | Randy Huynh</title>
 <meta name="generator" content="Jekyll v4.3.3" />
-<meta property="og:title" content="Xbox Project Scorpio" />
+<meta property="og:title" content="Xbox Project Scorpio @ Microsoft" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="As part of the Xbox org, I explored how Microsoft’s new Fluent Design System could shape the UI for Project Scorpio, the most powerful Xbox console to date. My role was to brainstorm and illustrate a wide range of interface concepts across games, movies, messaging, and social features. I applied Fluent’s principles—light, depth, acrylic material, and subtle physicality to create modern, immersive UI explorations that pushed the console experience forward and aligned with Xbox’s design vision." />
-<meta property="og:description" content="As part of the Xbox org, I explored how Microsoft’s new Fluent Design System could shape the UI for Project Scorpio, the most powerful Xbox console to date. My role was to brainstorm and illustrate a wide range of interface concepts across games, movies, messaging, and social features. I applied Fluent’s principles—light, depth, acrylic material, and subtle physicality to create modern, immersive UI explorations that pushed the console experience forward and aligned with Xbox’s design vision." />
+<meta name="description" content="As part of the Xbox org, I explored how Microsoft’s new Fluent Design System could shape the UI for Project Scorpio, the most powerful Xbox console to date. My role was to brainstorm and illustrate a wide range of interface concepts across games, movies, messaging, and social features. I applied Fluent’s principles like light, depth, acrylic material, and subtle physicality to create modern, immersive UI explorations that pushed the console experience forward and aligned with Xbox’s design vision." />
+<meta property="og:description" content="As part of the Xbox org, I explored how Microsoft’s new Fluent Design System could shape the UI for Project Scorpio, the most powerful Xbox console to date. My role was to brainstorm and illustrate a wide range of interface concepts across games, movies, messaging, and social features. I applied Fluent’s principles like light, depth, acrylic material, and subtle physicality to create modern, immersive UI explorations that pushed the console experience forward and aligned with Xbox’s design vision." />
 <link rel="canonical" href="http://localhost:4000/2017/06/10/xbox-project-scorpio.html" />
 <meta property="og:url" content="http://localhost:4000/2017/06/10/xbox-project-scorpio.html" />
 <meta property="og:site_name" content="Randy Huynh" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2017-06-10T10:48:31-07:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Xbox Project Scorpio" />
+<meta property="twitter:title" content="Xbox Project Scorpio @ Microsoft" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2017-06-10T10:48:31-07:00","datePublished":"2017-06-10T10:48:31-07:00","description":"As part of the Xbox org, I explored how Microsoft’s new Fluent Design System could shape the UI for Project Scorpio, the most powerful Xbox console to date. My role was to brainstorm and illustrate a wide range of interface concepts across games, movies, messaging, and social features. I applied Fluent’s principles—light, depth, acrylic material, and subtle physicality to create modern, immersive UI explorations that pushed the console experience forward and aligned with Xbox’s design vision.","headline":"Xbox Project Scorpio","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2017/06/10/xbox-project-scorpio.html"},"url":"http://localhost:4000/2017/06/10/xbox-project-scorpio.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2017-06-10T10:48:31-07:00","datePublished":"2017-06-10T10:48:31-07:00","description":"As part of the Xbox org, I explored how Microsoft’s new Fluent Design System could shape the UI for Project Scorpio, the most powerful Xbox console to date. My role was to brainstorm and illustrate a wide range of interface concepts across games, movies, messaging, and social features. I applied Fluent’s principles like light, depth, acrylic material, and subtle physicality to create modern, immersive UI explorations that pushed the console experience forward and aligned with Xbox’s design vision.","headline":"Xbox Project Scorpio @ Microsoft","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2017/06/10/xbox-project-scorpio.html"},"url":"http://localhost:4000/2017/06/10/xbox-project-scorpio.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,7 +29,7 @@
   <link rel="stylesheet" href="/assets/flexboxgrid.css">
   <link rel="stylesheet" href="/assets/index.css">
   <link rel="stylesheet" href="/assets/hero.css">
-  <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.11/dist/lenis.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Randy Huynh" /></head><body class="layout">
+  <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.11/dist/lenis.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Randy Huynh" /></head><body class="layout layout-post">
   
   <div id="cursor"></div>
   
@@ -37,11 +37,164 @@
     
     <div class="wrap container-fluid">
       
-      
+      <div class="loading-screen" data-loading-screen aria-hidden="true">
+	<div class="loading-screen__logo" data-loading-logo>
+		<div class="loading-screen__ring" aria-hidden="true"></div>
+		<div class="loading-screen__logo-layer loading-screen__logo-layer--loop"></div>
+		<div class="loading-screen__logo-layer loading-screen__logo-layer--descender"></div>
+	</div>
+</div>
+
+<script>
+	(function() {
+		var screen = document.querySelector('[data-loading-screen]');
+		if (!screen) return;
+		var isTransitioning = false;
+
+		function afterTransition(callback) {
+			var handled = false;
+
+			function done() {
+				if (handled) return;
+				handled = true;
+				screen.removeEventListener('transitionend', onTransitionEnd);
+				callback();
+			}
+
+			function onTransitionEnd(event) {
+				if (event.target !== screen) return;
+				done();
+			}
+
+			screen.addEventListener('transitionend', onTransitionEnd);
+			setTimeout(done, 900);
+		}
+
+		function getMediaUrls() {
+			var nodes = document.querySelectorAll('img[src], video[src], video source[src]');
+			var urls = [];
+
+			nodes.forEach(function(node) {
+				var src = node.getAttribute('src');
+				if (!src || src.indexOf('data:') === 0) return;
+				urls.push(node.src || src);
+			});
+
+			return Array.from(new Set(urls));
+		}
+
+		function preloadImage(url) {
+			return new Promise(function(resolve) {
+				var img = new Image();
+				img.onload = resolve;
+				img.onerror = resolve;
+				img.src = url;
+			});
+		}
+
+		function preloadVideo(url) {
+			return new Promise(function(resolve) {
+				var video = document.createElement('video');
+				var settled = false;
+				var done = function() {
+					if (settled) return;
+					settled = true;
+					resolve();
+				};
+
+				video.preload = 'auto';
+				video.muted = true;
+				video.playsInline = true;
+				video.onloadeddata = done;
+				video.onerror = done;
+				video.src = url;
+
+				setTimeout(done, 4000);
+			});
+		}
+
+		function preloadAllMedia() {
+			var urls = getMediaUrls();
+			var tasks = urls.map(function(url) {
+				if (/\.(mp4|webm)(\?|#|$)/i.test(url)) {
+					return preloadVideo(url);
+				}
+
+				return preloadImage(url);
+			});
+
+			return Promise.allSettled(tasks);
+		}
+
+		function dismissLoadingScreen() {
+			screen.classList.add('is-wiping-out');
+			afterTransition(function() {
+				screen.classList.remove('is-wiping-out');
+				screen.classList.add('is-hidden');
+			});
+		}
+
+		function isEligibleLink(link) {
+			if (!link || !link.href) return false;
+			if (link.target && link.target !== '_self') return false;
+			if (link.hasAttribute('download')) return false;
+			if (link.hasAttribute('data-no-loading-transition')) return false;
+			if (link.origin !== window.location.origin) return false;
+			if (link.pathname === window.location.pathname && link.hash) return false;
+			return true;
+		}
+
+		function showLoadingScreenForNavigation(url) {
+			if (isTransitioning) return;
+			isTransitioning = true;
+
+			screen.classList.remove('is-hidden', 'is-wiping-out');
+			screen.classList.add('is-pre-enter');
+
+			requestAnimationFrame(function() {
+				requestAnimationFrame(function() {
+					screen.classList.remove('is-pre-enter');
+					screen.classList.add('is-wiping-in');
+					afterTransition(function() {
+						window.location.href = url;
+					});
+				});
+			});
+		}
+
+		function bindLinkTransitions() {
+			document.addEventListener('click', function(event) {
+				var link = event.target.closest('a');
+				if (!isEligibleLink(link)) return;
+
+				event.preventDefault();
+				showLoadingScreenForNavigation(link.href);
+			});
+		}
+
+		function init() {
+			bindLinkTransitions();
+
+			Promise.race([
+				preloadAllMedia(),
+				new Promise(function(resolve) { setTimeout(resolve, 5000); })
+			]).then(dismissLoadingScreen);
+		}
+
+		if (document.readyState === 'loading') {
+			document.addEventListener('DOMContentLoaded', init, { once: true });
+		} else {
+			init();
+		}
+	})();
+</script>
+
+
+
 
 <section class="post-description page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5"><h1>Xbox Project Scorpio</h1>
+    <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5"><h1>Xbox Project Scorpio @ Microsoft</h1>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-offset-1 col-lg-offset-1 col-md-6 col-lg-6">
       <h4 class="project-blurb text-subtle">Explored how Microsoft’s Fluent Design System could redefine the Xbox interface through light, depth, and material</h4>
@@ -86,7 +239,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/xbox-project-scorpio/scorpio-guide.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -107,7 +260,7 @@
 		
 <ul>
   <li>Explored how Microsoft’s Fluent Design System could translate to the Xbox experience, providing fresh visual directions and concept mockups across core surfaces such as Home, Guide, and media interfaces.</li>
-  <li>Created a wide range of UI explorations that applied Fluent principles—light, depth, material, and motion—to envision how the console’s interface could feel more immersive, modern, and cohesive.</li>
+  <li>Created a wide range of UI explorations that applied Fluent principles like light, depth, material, and motion to envision how the console’s interface could feel more immersive, modern, and cohesive.</li>
 </ul>
 
 	  </div>
@@ -129,7 +282,7 @@
 	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-offset-1 col-lg-6">
 	  <div class="box">
 		
-<span class="text"><a href="https://www.linkedin.com/in/megan-mcmillan/">Megan McMillan</a> (Design Manager)</span>
+<span><a href="https://www.linkedin.com/in/megan-mcmillan/">Megan McMillan</a> (Design Manager)</span>
 
 	  </div>
 	  </div>
@@ -150,47 +303,50 @@
 	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-offset-1 col-lg-6">
 	  <div class="box">
 		
-<span class="text"><a href="https://www.youtube.com/watch?v=F1dRgWpGePs">What is Xbox Project Scorpio?</a></span>
-<span class="text"><a href="https://fluent1.microsoft.design/">Microsoft Fluent 1 Design System</a></span>
+<span class="text"><a href="https://www.youtube.com/watch?v=F1dRgWpGePs">What is Xbox Project Scorpio?<span class="link material-symbols-outlined material-symbols-adjust">arrow_outward</span></a></span>
+<span class="text"><a href="https://fluent1.microsoft.design/">Microsoft Fluent 1 Design System<span class="link material-symbols-outlined material-symbols-adjust">arrow_outward</span></a></span>
 
 	  </div>
 	  </div>
   </div>
 </section>
-<section class="page-section">
+<section class="page-section post-footer-section">
 <div class="row">
-	
+
   <div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-	  
+
 	<div class="box">
-		
+
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<h2 class="box">More projects</h2>
 			</div>
-		</div>
-		
-		<div class="row"><div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-				<a class="box thumbnail" href="/2018/03/10/vr-environments.html">
-				  <img class="thumbnail-image rounded responsive" src="/assets/images/vr-environments/vr-overworld.png" />
-				  <p class="thumbnail-title">VR Home</p>
-				  <div class="thumbnail-tags">
-					  <p class="thumbnail-tag">Microsoft</p>
-				   </div>
+		</div><div class="row"><div class="empty rounded col-xs-12 col-sm-12 col-md-6 col-lg-6"></div><div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+				<a class="box thumbnail" href="/2024/08/01/spacetimedb.html">
+				  <div class="thumbnail-image"><video class="rounded responsive" loop muted autoplay playsinline src="/assets/images/spacetimedb/stdb-logo.mp4"></video></div>
+				  <div class="thumbnail-footer">
+				    <div class="thumbnail-footer-left">
+				      <p class="thumbnail-title">SpacetimeDB at Clockwork Labs</p>
+				      <div class="thumbnail-tags">
+				        <p class="thumbnail-tag">Built a developer portal for a platform with 75,000+ registered users.</p>
+				      </div>
+				    </div>
+				  </div>
 				</a>
-			</div><div class="empty rounded col-xs-12 col-sm-12 col-md-6 col-lg-6"></div></div>
+			</div></div>
 	  </div>
 	</div>
   </div>
-</section><footer>
+</section>
+<footer>
   <div data-aos="fade-up" data-aos-once="true" class="row">
     <div class="col-xs-12 col-sm-12 col-md-offset-2 col-md-10 col-lg-offset-1 col-lg-10">
-      <div class="box"><h1 id="contact"><a href="mailto:hello@randyhuynh.com">Get in touch.</a></h1></div>
+      <div class="box"><h1 id="contact"><a href="mailto:ranhuynh@gmail.com">Get in touch.</a></h1></div>
     </div>
   </div>
   <div data-aos="fade-up" data-aos-once="true" class="row">
     <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-3 col-lg-offset-1 col-lg-3">
-      <div class="box"><span class="text sub-label"><a href="mailto:ranhuynh@gmail.com">ranhuynh@gmail.com</a></p></div>
+      <div class="box"><span class="text sub-label">Randy Huynh</p></div>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
       <div class="box"><span class="text sub-label">Seattle, WA<br/>United States</p></div>
@@ -217,12 +373,11 @@
 <script src="https://unpkg.com/lenis@1.3.11/dist/lenis.min.js"></script> <header data-lenis-prevent><div class="spacer-h-40">
   </div>
   <div id="header-bar" class="row">
-    <div id="post-progress"></div>
-    <a id="back" class="tab" href="/">
+    <div id="post-progress"></div><a id="back" class="tab" href="/">
       <span class="material-symbols-outlined material-symbols-adjust">arrow_back</span>
     </a>
     <span id="post-title">
-Xbox Project Scorpio
+Xbox Project Scorpio @ Microsoft
 </span>
     <a id="share" class="tab" onclick="copyURLToClipboard()">
       <span class="material-symbols-adjust material-symbols-outlined">ios_share</span>

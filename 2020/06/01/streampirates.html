@@ -3,21 +3,21 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Stream Pirates | Randy Huynh</title>
+<title>Stream Pirates @ Captain.tv | Randy Huynh</title>
 <meta name="generator" content="Jekyll v4.3.3" />
-<meta property="og:title" content="Stream Pirates" />
+<meta property="og:title" content="Stream Pirates @ Captain.tv" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Captain.tv was a startup company creating games designed for streamers and their viewers with the goal of enabling collaborative, community-building gaming experiences. Not seeking to compete with the likes of main stream games, Stream Pirates was the second game following the major success of Stream Raiders, to act as a side game that a streamer would run regularly throughout their stream. I was brought on as the sole UX and UI designer for this the game. As the Senior Visual Designer at Captain.tv, I was responsible for shaping the UI/UX of Stream Pirates during its development phase. Working closely with the art team, I explored multiple visual and interaction directions, created the full UI system, and implemented every screen, component, and transition directly in Unity. My work aligned a diverse set of visual influences—pixel art gameplay, painted key art, and streamer-friendly readability—into a unified experience." />
-<meta property="og:description" content="Captain.tv was a startup company creating games designed for streamers and their viewers with the goal of enabling collaborative, community-building gaming experiences. Not seeking to compete with the likes of main stream games, Stream Pirates was the second game following the major success of Stream Raiders, to act as a side game that a streamer would run regularly throughout their stream. I was brought on as the sole UX and UI designer for this the game. As the Senior Visual Designer at Captain.tv, I was responsible for shaping the UI/UX of Stream Pirates during its development phase. Working closely with the art team, I explored multiple visual and interaction directions, created the full UI system, and implemented every screen, component, and transition directly in Unity. My work aligned a diverse set of visual influences—pixel art gameplay, painted key art, and streamer-friendly readability—into a unified experience." />
+<meta name="description" content="Designed a pirate-themed visual system and stream-friendly UI for a chat-driven game where viewers joined live broadcasts as the player’s crew." />
+<meta property="og:description" content="Designed a pirate-themed visual system and stream-friendly UI for a chat-driven game where viewers joined live broadcasts as the player’s crew." />
 <link rel="canonical" href="http://localhost:4000/2020/06/01/streampirates.html" />
 <meta property="og:url" content="http://localhost:4000/2020/06/01/streampirates.html" />
 <meta property="og:site_name" content="Randy Huynh" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-06-01T10:48:31-07:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Stream Pirates" />
+<meta property="twitter:title" content="Stream Pirates @ Captain.tv" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2020-06-01T10:48:31-07:00","datePublished":"2020-06-01T10:48:31-07:00","description":"Captain.tv was a startup company creating games designed for streamers and their viewers with the goal of enabling collaborative, community-building gaming experiences. Not seeking to compete with the likes of main stream games, Stream Pirates was the second game following the major success of Stream Raiders, to act as a side game that a streamer would run regularly throughout their stream. I was brought on as the sole UX and UI designer for this the game. As the Senior Visual Designer at Captain.tv, I was responsible for shaping the UI/UX of Stream Pirates during its development phase. Working closely with the art team, I explored multiple visual and interaction directions, created the full UI system, and implemented every screen, component, and transition directly in Unity. My work aligned a diverse set of visual influences—pixel art gameplay, painted key art, and streamer-friendly readability—into a unified experience.","headline":"Stream Pirates","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2020/06/01/streampirates.html"},"url":"http://localhost:4000/2020/06/01/streampirates.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2020-06-01T10:48:31-07:00","datePublished":"2020-06-01T10:48:31-07:00","description":"Designed a pirate-themed visual system and stream-friendly UI for a chat-driven game where viewers joined live broadcasts as the player’s crew.","headline":"Stream Pirates @ Captain.tv","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2020/06/01/streampirates.html"},"url":"http://localhost:4000/2020/06/01/streampirates.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,7 +29,7 @@
   <link rel="stylesheet" href="/assets/flexboxgrid.css">
   <link rel="stylesheet" href="/assets/index.css">
   <link rel="stylesheet" href="/assets/hero.css">
-  <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.11/dist/lenis.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Randy Huynh" /></head><body class="layout">
+  <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.11/dist/lenis.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Randy Huynh" /></head><body class="layout layout-post">
   
   <div id="cursor"></div>
   
@@ -37,7 +37,160 @@
     
     <div class="wrap container-fluid">
       
-      
+      <div class="loading-screen" data-loading-screen aria-hidden="true">
+	<div class="loading-screen__logo" data-loading-logo>
+		<div class="loading-screen__ring" aria-hidden="true"></div>
+		<div class="loading-screen__logo-layer loading-screen__logo-layer--loop"></div>
+		<div class="loading-screen__logo-layer loading-screen__logo-layer--descender"></div>
+	</div>
+</div>
+
+<script>
+	(function() {
+		var screen = document.querySelector('[data-loading-screen]');
+		if (!screen) return;
+		var isTransitioning = false;
+
+		function afterTransition(callback) {
+			var handled = false;
+
+			function done() {
+				if (handled) return;
+				handled = true;
+				screen.removeEventListener('transitionend', onTransitionEnd);
+				callback();
+			}
+
+			function onTransitionEnd(event) {
+				if (event.target !== screen) return;
+				done();
+			}
+
+			screen.addEventListener('transitionend', onTransitionEnd);
+			setTimeout(done, 900);
+		}
+
+		function getMediaUrls() {
+			var nodes = document.querySelectorAll('img[src], video[src], video source[src]');
+			var urls = [];
+
+			nodes.forEach(function(node) {
+				var src = node.getAttribute('src');
+				if (!src || src.indexOf('data:') === 0) return;
+				urls.push(node.src || src);
+			});
+
+			return Array.from(new Set(urls));
+		}
+
+		function preloadImage(url) {
+			return new Promise(function(resolve) {
+				var img = new Image();
+				img.onload = resolve;
+				img.onerror = resolve;
+				img.src = url;
+			});
+		}
+
+		function preloadVideo(url) {
+			return new Promise(function(resolve) {
+				var video = document.createElement('video');
+				var settled = false;
+				var done = function() {
+					if (settled) return;
+					settled = true;
+					resolve();
+				};
+
+				video.preload = 'auto';
+				video.muted = true;
+				video.playsInline = true;
+				video.onloadeddata = done;
+				video.onerror = done;
+				video.src = url;
+
+				setTimeout(done, 4000);
+			});
+		}
+
+		function preloadAllMedia() {
+			var urls = getMediaUrls();
+			var tasks = urls.map(function(url) {
+				if (/\.(mp4|webm)(\?|#|$)/i.test(url)) {
+					return preloadVideo(url);
+				}
+
+				return preloadImage(url);
+			});
+
+			return Promise.allSettled(tasks);
+		}
+
+		function dismissLoadingScreen() {
+			screen.classList.add('is-wiping-out');
+			afterTransition(function() {
+				screen.classList.remove('is-wiping-out');
+				screen.classList.add('is-hidden');
+			});
+		}
+
+		function isEligibleLink(link) {
+			if (!link || !link.href) return false;
+			if (link.target && link.target !== '_self') return false;
+			if (link.hasAttribute('download')) return false;
+			if (link.hasAttribute('data-no-loading-transition')) return false;
+			if (link.origin !== window.location.origin) return false;
+			if (link.pathname === window.location.pathname && link.hash) return false;
+			return true;
+		}
+
+		function showLoadingScreenForNavigation(url) {
+			if (isTransitioning) return;
+			isTransitioning = true;
+
+			screen.classList.remove('is-hidden', 'is-wiping-out');
+			screen.classList.add('is-pre-enter');
+
+			requestAnimationFrame(function() {
+				requestAnimationFrame(function() {
+					screen.classList.remove('is-pre-enter');
+					screen.classList.add('is-wiping-in');
+					afterTransition(function() {
+						window.location.href = url;
+					});
+				});
+			});
+		}
+
+		function bindLinkTransitions() {
+			document.addEventListener('click', function(event) {
+				var link = event.target.closest('a');
+				if (!isEligibleLink(link)) return;
+
+				event.preventDefault();
+				showLoadingScreenForNavigation(link.href);
+			});
+		}
+
+		function init() {
+			bindLinkTransitions();
+
+			Promise.race([
+				preloadAllMedia(),
+				new Promise(function(resolve) { setTimeout(resolve, 5000); })
+			]).then(dismissLoadingScreen);
+		}
+
+		if (document.readyState === 'loading') {
+			document.addEventListener('DOMContentLoaded', init, { once: true });
+		} else {
+			init();
+		}
+	})();
+</script>
+
+
+
 
 <section class="post-description page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <div class="row">
@@ -46,16 +199,16 @@
         <span class="status-label">
           Shipped
         </span>
-      </span><h1>Stream Pirates</h1>
+      </span><h1>Stream Pirates @ Captain.tv</h1>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-offset-1 col-lg-offset-1 col-md-6 col-lg-6">
-      <h4 class="project-blurb text-subtle">A fast-paced Twitch-integrated game where I led the visual direction, UI/UX design, and Unity implementation—defining a cohesive aesthetic that bridged pixel-art gameplay and illustrated key art.</h4>
+      <h4 class="project-blurb text-subtle">UI and visual design for a Twitch-integrated idle strategy game.</h4>
     </div>
   </div>
 </section>
 
 
-  <section data-aos="fade-up" class="hero-image-section">
+  <section data-aos="fade-up" class="hero-image-section page-section">
 	<div class="hero-image-container">
 		<img alt="" class="hero-image-parallax" src="/assets/images/stream-pirates/stream_pirates_hero.png" />
 	</div>
@@ -66,16 +219,16 @@
 
 <!--- Includes --->
 
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+<section class="page-section project-description-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mobile-margin-bottom">
 		<div class="box">
-			<h5 class="">Captain.tv was a startup company creating games designed for streamers and their viewers with the goal of enabling collaborative, community-building gaming experiences. Not seeking to compete with the likes of main stream games, Stream Pirates was the second game following the major success of Stream Raiders, to act as a side game that a streamer would run regularly throughout their stream. I was brought on as the sole UX and UI designer for this the game. As the Senior Visual Designer at Captain.tv, I was responsible for shaping the UI/UX of Stream Pirates during its development phase. Working closely with the art team, I explored multiple visual and interaction directions, created the full UI system, and implemented every screen, component, and transition directly in Unity. My work aligned a diverse set of visual influences—pixel art gameplay, painted key art, and streamer-friendly readability—into a unified experience.</h5>
+			<h5 class="">Designed a pirate-themed visual system and stream-friendly UI for a chat-driven game where viewers joined live broadcasts as the player's crew.</h5>
 		</div>
 		<div class="box">
 			
-<span text="text"><a href="https://www.youtube.com/watch?v=vfR9U-g8qDI&amp;t=1s">Stream Captain Alpha 4 Reactions<span class="link material-symbols-outlined material-symbols-adjust">arrow_outward</span></a></span>
-<span text="text"><a href="https://www.youtube.com/channel/UCkeeWa8ZFLMhVFOJK7Og24g">Stream Captain Youtube Channel<span class="link material-symbols-outlined material-symbols-adjust">arrow_outward</span></a></span>
+<span class="text"><a href="https://www.youtube.com/watch?v=vfR9U-g8qDI&amp;t=1s">Stream Captain Alpha 4 Reactions<span class="link material-symbols-outlined material-symbols-adjust">arrow_outward</span></a></span>
+<span class="text"><a href="https://www.youtube.com/channel/UCkeeWa8ZFLMhVFOJK7Og24g">Stream Captain Youtube Channel<span class="link material-symbols-outlined material-symbols-adjust">arrow_outward</span></a></span>
 
 		</div>
 	</div>
@@ -138,7 +291,14 @@
 					<div class="box">
 						<hr />
 						<div class="label">My Role</div>
-						<div class="value">Senior Visual Designer</div>
+						<div>
+							
+							
+							  <div class="value">Senior Visual Designer</div>
+							
+							  <div class="value">Unity Implementation</div>
+							
+						</div>
 					</div>
 				</div>
 			</div>
@@ -164,7 +324,7 @@
 							
 							
 							  <div class="value">
-<span text="text"><a href="https://www.linkedin.com/in/stephchowdesign/">Steph Chow</a> (Design Consultant)</span>
+<span><a href="https://www.linkedin.com/in/stephchowdesign/">Steph Chow</a> (Design Consultant)</span>
 </div>
 							
 						</div>
@@ -177,12 +337,12 @@
   </div>
 </section>
 
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <hr class="spacer-vertical-lg" />
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 		<div class="box">
-			<h2>Problem</h2>
+			<h2>Outcome</h2>
 		</div>
 	</div>
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -190,37 +350,114 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="box">
-						<p>The game’s early development included multiple competing visual styles and evolving gameplay systems, making it difficult to establish a cohesive brand and UI direction. The challenge was to create an interface that felt native to the pixel-art world while still supporting the broader illustration-based marketing identity. The UI also needed to scale across streamer overlays, gameplay views, and interactive elements used by both players and viewers.</p>
+						<p class="section-intro">The visual system shipped and supported an active closed beta with stream-facing gameplay.</p>
 						<h3></h3>
 					</div>
 				</div>
 			</div>
+
 			
+
 			
+
 			
-			
-			
+				
+				
+					
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									<div class="stat">1,000+</div>
+									<div class="label">Peak Concurrent Viewers</div>
+									<div class="value">Reached over 1,000 concurrent viewers on Twitch during peak gameplay sessions.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									<div class="stat">30+</div>
+									<div class="label">Streamers in Closed Beta</div>
+									<div class="value">Played by 30+ streamers simultaneously during the closed beta, stress-testing the live gameplay systems.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Cohesive UI/UX direction</div>
+									<div class="value">Unified pixel gameplay with character-driven key art, implemented directly in Unity to accelerate development.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Built for live audiences</div>
+									<div class="value">Designed for Twitch partners and affiliates, enabling real-time audience participation through chat-driven gameplay.</div>
+								</div>
+							</div>
+						</div>
+					
+				
 			
 		</div>
 	</div>
   </div>
 </section>
 
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/01_explorations_01.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <hr class="spacer-vertical-lg" />
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 		<div class="box">
-			<h2>Design Process</h2>
+			<h2>Visual Direction</h2>
 		</div>
 	</div>
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -228,16 +465,16 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="box">
-						<p>I conducted a broad exploration of visual styles—color, typography, component shapes, and HUD paradigms—before narrowing into a hybrid direction that blended pixel-art textures with clean painted accents inspired by the key art. This created a visual bridge between game and brand. I then built a full UI system in Unity, including reusable prefabs, responsive layouts, iconography, and in-game feedback patterns tailored to fast, chaotic, streamer-centric gameplay. Close collaboration with the key-art illustrator ensured consistency across promotional materials, in-game visuals, and Twitch presentation.</p>
+						<p class="section-intro">I combined pixel gameplay art with painted UI surfaces so the game felt cohesive on stream, in menus, and in-browser.</p>
 						<h3></h3>
 					</div>
 				</div>
 			</div>
+
 			
+
 			
-			
-			
-			
+
 			
 		</div>
 	</div>
@@ -248,112 +485,16 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/01_explorations_02.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  <hr class="spacer-vertical-lg" />
-  <div class="row">
-	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-		<div class="box">
-			<h2>Outcome &amp; Impact</h2>
-		</div>
-	</div>
-	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-		<div class="box">
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<div class="box">
-						<p>I established a unified visual direction that bridged pixel art and illustrated key art, delivered a complete UI system implemented in Unity, and enabled the team to iterate quickly with a scalable, production-ready interface. The work strengthened the game’s identity during early development and streamlined collaboration across design, art, and engineering.</p>
-						<h3></h3>
-					</div>
-				</div>
-			</div>
-			
-			
-			
-			
-			
-			
-				
-				
-					
-						
-						
-						
-						
-						<div class="row project-overview-data">
-							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-								<div class="box">
-									<hr />
-									<div class="label">Delivered a cohesive UI/UX direction...</div>
-									<div class="value">that unified pixel gameplay with character-driven key art.</div>
-								</div>
-							</div>
-						</div>
-					
-				
-					
-						
-						
-						
-						
-						<div class="row project-overview-data">
-							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-								<div class="box">
-									<hr />
-									<div class="label">Implemented the complete UI in Unity...</div>
-									<div class="value">accelerating development and reducing engineering overhead.</div>
-								</div>
-							</div>
-						</div>
-					
-				
-					
-						
-						
-						
-						
-						<div class="row project-overview-data">
-							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-								<div class="box">
-									<hr />
-									<div class="label">Provided a flexible UI system...</div>
-									<div class="value">That supported rapid iteration as the game’s mechanics evolved.</div>
-								</div>
-							</div>
-						</div>
-					
-				
-					
-						
-						
-						
-						
-						<div class="row project-overview-data">
-							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-								<div class="box">
-									<hr />
-									<div class="label">Strengthened the brand identity...</div>
-									<div class="value">During a crucial phase of the startup’s development.</div>
-								</div>
-							</div>
-						</div>
-					
-				
 			
 		</div>
 	</div>
-  </div>
 </section>
 
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/01_explorations_03.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -362,7 +503,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/01_explorations_04.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -371,16 +512,45 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/01_explorations_05.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
+</section>
+
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>UI System</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">I built the component library around stream readability, not just full-resolution mockups.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+		</div>
+	</div>
+  </div>
 </section>
 
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/02_elements_01_buttons.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -389,7 +559,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/02_elements_02_containers.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -398,7 +568,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/02_elements_03_parchment.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -407,7 +577,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/02_elements_04_tooltips.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -416,7 +586,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/02_elements_05_icons.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -425,7 +595,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/02_elements_06_inputs.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -434,7 +604,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/03_components_01_battlepass.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -443,16 +613,45 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/03_components_02_modals.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
+</section>
+
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Twitch Interaction</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">The stream-facing screens kept branding present without overwhelming the gameplay behind them.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+		</div>
+	</div>
+  </div>
 </section>
 
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/04_stream_pirate_screen_1.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -461,7 +660,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/04_stream_pirate_screen_2.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -470,7 +669,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/04_stream_pirate_screen_3.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -479,7 +678,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/04_stream_pirate_screen_4.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -488,7 +687,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/04_stream_pirate_screen_5.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -497,7 +696,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/04_stream_pirate_screen_6.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -506,7 +705,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/04_stream_pirate_screen_7.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -515,7 +714,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/04_stream_pirate_screen_8.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -524,52 +723,59 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/04_stream_pirate_screen_9.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
-<section class="page-section">
+<section class="page-section post-footer-section">
 <div class="row">
-	
+
   <div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-	  
+
 	<div class="box">
-		
+
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<h2 class="box">More projects</h2>
 			</div>
-		</div>
-		
-		<div class="row"><div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		</div><div class="row"><div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 				<a class="box thumbnail" href="/2021/08/06/endless-engines.html">
-				  <img class="thumbnail-image rounded responsive" src="/assets/images/endless-engines/endless-engines-thumb.png" />
-				  <p class="thumbnail-title">Endless Engines</p>
-				  <div class="thumbnail-tags">
-					  <p class="thumbnail-tag">Personal</p>
-				   </div>
+				  <div class="thumbnail-image"><img class="rounded responsive" src="/assets/images/endless-engines/endless-engines-thumb.png" /></div>
+				  <div class="thumbnail-footer">
+				    <div class="thumbnail-footer-left">
+				      <p class="thumbnail-title">Endless Engines</p>
+				      <div class="thumbnail-tags">
+				        <p class="thumbnail-tag">Featured in the official Endless Engines community montage.</p>
+				      </div>
+				    </div>
+				  </div>
 				</a>
 			</div><div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 				<a class="box thumbnail" href="/2020/03/12/microsoft-azure-playfab.html">
-				  <img class="thumbnail-image rounded responsive" src="/assets/images/microsoft-azure-playfab/playfab-trophy-thumb.png" />
-				  <p class="thumbnail-title">Microsoft Azure Playfab Awards</p>
-				  <div class="thumbnail-tags">
-					  <p class="thumbnail-tag">Microsoft</p>
+				  <div class="thumbnail-image"><img class="rounded responsive" src="/assets/images/microsoft-azure-playfab/playfab-trophy-render-07.png" /></div>
+				  <div class="thumbnail-footer">
+				    <div class="thumbnail-footer-left">
+				      <p class="thumbnail-title">Microsoft Azure Playfab Awards @ Microsoft</p>
+				      <div class="thumbnail-tags">
+				        <p class="thumbnail-tag">Modular trophy system turning player-growth milestones into collectible physical awards.</p>
+				      </div>
+				    </div>
 				  </div>
 				</a>
 			</div></div>
 	  </div>
 	</div>
   </div>
-</section><footer>
+</section>
+<footer>
   <div data-aos="fade-up" data-aos-once="true" class="row">
     <div class="col-xs-12 col-sm-12 col-md-offset-2 col-md-10 col-lg-offset-1 col-lg-10">
-      <div class="box"><h1 id="contact"><a href="mailto:hello@randyhuynh.com">Get in touch.</a></h1></div>
+      <div class="box"><h1 id="contact"><a href="mailto:ranhuynh@gmail.com">Get in touch.</a></h1></div>
     </div>
   </div>
   <div data-aos="fade-up" data-aos-once="true" class="row">
     <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-3 col-lg-offset-1 col-lg-3">
-      <div class="box"><span class="text sub-label"><a href="mailto:ranhuynh@gmail.com">ranhuynh@gmail.com</a></p></div>
+      <div class="box"><span class="text sub-label">Randy Huynh</p></div>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
       <div class="box"><span class="text sub-label">Seattle, WA<br/>United States</p></div>
@@ -596,12 +802,11 @@
 <script src="https://unpkg.com/lenis@1.3.11/dist/lenis.min.js"></script> <header data-lenis-prevent><div class="spacer-h-40">
   </div>
   <div id="header-bar" class="row">
-    <div id="post-progress"></div>
-    <a id="back" class="tab" href="/">
+    <div id="post-progress"></div><a id="back" class="tab" href="/">
       <span class="material-symbols-outlined material-symbols-adjust">arrow_back</span>
     </a>
     <span id="post-title">
-Stream Pirates
+Stream Pirates @ Captain.tv
 </span>
     <a id="share" class="tab" onclick="copyURLToClipboard()">
       <span class="material-symbols-adjust material-symbols-outlined">ios_share</span>

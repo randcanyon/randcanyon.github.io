@@ -1,20 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-12-21T20:40:24-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Randy Huynh</title><subtitle>Portfolio of Randy Huynh, a visual designer a visual designer at Clockwork Labs working on BitCraft in Seattle.</subtitle><entry><title type="html">Blade Blitz</title><link href="http://localhost:4000/2024/08/01/blade-blitz.html" rel="alternate" type="text/html" title="Blade Blitz" /><published>2024-08-01T10:48:31-07:00</published><updated>2024-08-01T10:48:31-07:00</updated><id>http://localhost:4000/2024/08/01/blade-blitz</id><content type="html" xml:base="http://localhost:4000/2024/08/01/blade-blitz.html"><![CDATA[<!--- Content Captures --->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-04-04T18:27:23-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Randy Huynh</title><subtitle>Portfolio of Randy Huynh, a visual designer a visual designer at Clockwork Labs working on BitCraft in Seattle.</subtitle><entry><title type="html">Blade Blitz @ Hella Studios</title><link href="http://localhost:4000/2024/08/01/blade-blitz.html" rel="alternate" type="text/html" title="Blade Blitz @ Hella Studios" /><published>2024-08-01T10:48:31-07:00</published><updated>2024-08-01T10:48:31-07:00</updated><id>http://localhost:4000/2024/08/01/blade-blitz</id><content type="html" xml:base="http://localhost:4000/2024/08/01/blade-blitz.html"><![CDATA[<!--- Content Captures --->
 
 <!--- Includes --->
 
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+<section class="page-section project-description-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mobile-margin-bottom">
 		<div class="box">
-			<h5 class="">I am the solo designer and developer of Blade Blitz, responsible for the game’s visual identity, UI/UX design, branding, and implementation. My role spans concept exploration, interface design, motion and feedback systems, style guide creation, and real-world playtesting through public showcases. I also documented the process through social media to gather feedback and build an audience throughout development.</h5>
+			<h5 class="">Designed and built Blade Blitz end to end. Visual identity, UI, characters, implementation, and live playtest iteration over two years.</h5>
 		</div>
 		<div class="box">
 			
 <span class="text"><a href="https://store.steampowered.com/app/3161450/Blade_Blitz/">Blade Blitz on Steam<span class="link material-symbols-outlined material-symbols-adjust">arrow_outward</span></a></span>
 <span class="text"><a href="https://store.steampowered.com/app/3629420/Blade_Blitz_Demo/">Blade Blitz Demo on Steam<span class="link material-symbols-outlined material-symbols-adjust">arrow_outward</span></a></span>
 <span class="text"><a href="https://six.seattleindies.org/">Blade Blitz Featured at Seattle Indie Expo 2025<span class="link material-symbols-outlined material-symbols-adjust">arrow_outward</span></a></span>
-
-
 
 		</div>
 	</div>
@@ -26,7 +24,7 @@
 					<div class="box">
 						<hr />
 						<div class="label">Client</div>
-						<div class="value">Personal</div>
+						<div class="value">Hella Studios</div>
 					</div>
 				</div>
 			</div>
@@ -85,7 +83,12 @@
 					<div class="box">
 						<hr />
 						<div class="label">My Role</div>
-						<div class="value">Sole Developer &amp; Designer</div>
+						<div>
+							
+							
+							  <div class="value">Founder &amp; Sole Developer</div>
+							
+						</div>
 					</div>
 				</div>
 			</div>
@@ -96,7 +99,7 @@
 					<div class="box">
 						<hr />
 						<div class="label">Timeline</div>
-						<div class="value">Q1 2024 - Q1 2026</div>
+						<div class="value">Q1 2024 - March 2026</div>
 					</div>
 				</div>
 			</div>
@@ -112,19 +115,21 @@
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
 			<div class="box">
 				<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
-					<source alt="/assets/images/bladeblitz/bladeblitz-hero.png" src="/assets/images/bladeblitz/bladeblitz-mainmenu.mp4" />
+					<source src="/assets/images/bladeblitz/bladeblitz-mainmenu.webm" type="video/webm" />
+					<source src="/assets/images/bladeblitz/bladeblitz-mainmenu.mp4" type="video/mp4" />
+					
 				</video>
 			</div>
 		</div>
 	</div>
 </section>
 
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <hr class="spacer-vertical-lg" />
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 		<div class="box">
-			<h2></h2>
+			<h2>Challenge</h2>
 		</div>
 	</div>
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -132,16 +137,458 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="box">
-						<p></p>
+						<p class="section-intro">I wanted to make my first solo-developed game. The inspiration was Nidhogg — a tight 1v1 sword-fighting game I kept seeing in arcade cabinets at bars and venues around Seattle. It's a great game, but I always wished there was a bigger party version of it. That gap became the brief: take the core tension of Nidhogg and redesign it for a larger group.</p>
 						<h3></h3>
 					</div>
 				</div>
 			</div>
+
 			
+
 			
+
 			
+		</div>
+	</div>
+  </div>
+</section>
+
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Combat</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">The combat system is a three-way rock-paper-scissors: hold beats swing, dash beats hold, swing beats dash. Defeating the opposing team shifts possession and pushes your team toward your scoring end, like football. Levels are designed with more obstacles near either end of the arena, naturally pushing teams back toward center and keeping the match contested.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
 			
+			<div>
+				<div class="box">
+					<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
+						<source alt="" src="/assets/images/bladeblitz/bladeblitz-combat.mp4" />
+					</video>
+				</div>
+				
+			</div>
 			
+
+			
+
+			
+				
+				
+					
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Hold</div>
+									<div class="value">Blocks incoming swings. Punishes player who dash at them with a stun.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Dash</div>
+									<div class="value">Quick attack that closes a big distance.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Swing</div>
+									<div class="value">Builds up force, stunning players that block, however opens up opportunities to dash at them.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+			
+		</div>
+	</div>
+  </div>
+</section>
+
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Power-ups</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">Teams scored upon choose from two random power-ups.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+			<div>
+				<div class="box">
+					<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
+						<source alt="" src="/assets/images/bladeblitz/bladeblitz-powerups.mp4" />
+					</video>
+				</div>
+				
+			</div>
+			
+
+			
+
+			
+				
+				
+					
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Scored on? Pick a power-up.</div>
+									<div class="value">When a team concedes a point, they choose from two random power-ups — invincibility, a speed boost, extra lives, and more. Falling behind doesn't mean falling out. Power-ups keep both teams competitive and inject unpredictability into every comeback.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+			
+		</div>
+	</div>
+  </div>
+</section>
+
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Readability</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">Two decisions shaped how readable the game felt under pressure.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+			<div>
+				<div class="box">
+					<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
+						<source alt="" src="/assets/images/bladeblitz/bladeblitz-levelcontrast.mp4" />
+					</video>
+				</div>
+				
+			</div>
+			
+
+			
+
+			
+				
+				
+					
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Dark levels, bright characters</div>
+									<div class="value">Levels were kept dark in value so player characters would contrast sharply against the environment and stay easy to track in chaotic four-player moments.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Dropped the player labels</div>
+									<div class="value">Early versions showed name labels above each character. Testing showed the opposite of what I expected — labels added visual noise and made players harder to track, not easier. Removing them forced players to rely on character color and silhouette, which turned out to be more than enough.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+			
+		</div>
+	</div>
+  </div>
+</section>
+
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Outcome</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">Blade Blitz launched on Steam on March 11, 2026 after two years of public iteration and event testing.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+				
+				
+					
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									<div class="stat">1,000+</div>
+									<div class="label">Wishlists at launch</div>
+									<div class="value">Blade Blitz launched on Steam on March 11, 2026, surpassing 1,000 wishlists at release, which is meaningful for a solo title without a publisher.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									<div class="stat">350+</div>
+									<div class="label">Demo players</div>
+									<div class="value">The standalone Steam demo reached over 350 players ahead of the full release.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									<div class="stat">3800+</div>
+									<div class="label">Likes on Tiktok</div>
+									<div class="value">A single Blade Blitz clip reached 3,800+ likes on TikTok, driving a meaningful spike in Steam wishlist traffic ahead of launch.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+			
+		</div>
+	</div>
+  </div>
+</section>
+
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Visual System</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">The visual system balances spectator clarity, character readability, and a reusable UI library.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+				
+				
+					
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Sports-inspired aesthetic</div>
+									<div class="value">Bold type, high-contrast team colors, and clear iconography make the match state readable for both players and spectators.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Character design</div>
+									<div class="value">3D characters modeled in Blender for legibility from a top-down perspective, with per-team color assignment built into the outline shader.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Component system</div>
+									<div class="value">A consistent UI library covering buttons, panels, HUD elements, and feedback states, designed and implemented directly in Unity with no handoff gap between design intent and the shipped product.</div>
+								</div>
+							</div>
+						</div>
+					
+				
 			
 		</div>
 	</div>
@@ -151,108 +598,249 @@
 <section data-aos="fade-up" class="page-section image-grid">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-			<div class="row">
-				<!-- Column 1 -->
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-					<div class="box">
-						<img alt="Image 1" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-components.png" />
-						
-					</div>
-					<div class="box">
-						<img alt="Image 2" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-components.png" />
-						
-					</div>
-				</div>
+			<div class="media-grid" style="--grid-columns: 2; --grid-rows: 2;">
 				
-				<!-- Column 2 -->
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+					
+					
+					
+					
+					
+					
+
+					
 					<div class="box">
-						<img alt="Image 3" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-components.png" />
+						<img alt="Image 1" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-components-banners.png" />
 						
 					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
 					<div class="box">
-						<img alt="Image 4" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-components.png" />
+						<img alt="Image 2" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-components-buttons.png" />
 						
 					</div>
-				</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 3" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-components-hud.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 4" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-components-progress.png" />
+						
+					</div>
+					
+				
 			</div>
 		</div>
 	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-components-score.png" /></div>
+			
+		</div>
+	</div>
+</section>
+
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Interface Design</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">I applied the same component rules across menus, character select, HUD, and feedback states.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+				
+				
+					
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Menu</div>
+									<div class="value">Menu screens use a consistent layout structure built from reusable panels and button components.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Character select</div>
+									<div class="value">Character select extends the same component system into a more dynamic, multiplayer context.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">In-match UI</div>
+									<div class="value">The in-match HUD adapts the system for moment-to-moment gameplay.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Feedback &amp; States</div>
+									<div class="value">Interactive and game-driven feedback like hover states, selections, alerts, and transitions all derive from the same component rules.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+			
+		</div>
+	</div>
+  </div>
 </section>
 
 <section data-aos="fade-up" class="page-section image-grid">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-			<div class="row">
-				<!-- Column 1 -->
-				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-					<div class="box">
-						<img alt="Image 1" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-components.png" />
-					</div>
-					<div class="box">
-						<img alt="Image 2" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-components.png" />
-					</div>
-				</div>
+			<div class="media-grid" style="--grid-columns: 2; --grid-rows: 1;">
 				
-				<!-- Column 2 -->
-				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					
+					
+					
+					
+					
+					
+
+					
+					
+					
+					
+					
+					
+					
+					
 					<div class="box">
-						<img alt="Image 3" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-components.png" />
+						<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
+							<source src="/assets/images/bladeblitz/bladeblitz-startmenu.webm" type="video/webm" />
+							<source src="/assets/images/bladeblitz/bladeblitz-startmenu.mp4" type="video/mp4" />
+							
+						</video>
+						
 					</div>
-					<div class="box">
-						<img alt="Image 4" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-components.png" />
-					</div>
-				</div>
+					
 				
-				<!-- Column 3 -->
-				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					
+					
+					
+					
+					
+					
+
+					
+					
+					
+					
+					
+					
+					
+					
 					<div class="box">
-						<img alt="Image 5" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-components.png" />
+						<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
+							<source src="/assets/images/bladeblitz/bladeblitz-character-select.webm" type="video/webm" />
+							<source src="/assets/images/bladeblitz/bladeblitz-character-select.mp4" type="video/mp4" />
+							
+						</video>
+						
 					</div>
-					<div class="box">
-						<img alt="Image 6" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-components.png" />
-					</div>
-				</div>
+					
+				
 			</div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-components.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-model.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-			<div class="box">
-				<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
-					<source alt="/assets/images/bladeblitz/bladeblitz-start.png" src="/assets/images/bladeblitz/bladeblitz-startmenu.mp4" />
-				</video>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-characterselect.png" /></div>
-			<div class="caption"></div>
 		</div>
 	</div>
 </section>
@@ -261,40 +849,117 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-levelselect.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
 
-<section data-aos="fade-up" class="page-section">
+<section data-aos="fade-up" class="page-section image-grid">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-			<div class="box">
-				<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
-					<source alt="/assets/images/bladeblitz/bladeblitz-faceoff.png" src="/assets/images/bladeblitz/bitcraft-matchstart.mp4" />
-				</video>
+			<div class="media-grid" style="--grid-columns: 2; --grid-rows: 2;">
+				
+					
+					
+					
+					
+					
+					
+
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="box">
+						<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
+							<source src="/assets/images/bladeblitz/bitcraft-matchstart.webm" type="video/webm" />
+							<source src="/assets/images/bladeblitz/bitcraft-matchstart.mp4" type="video/mp4" />
+							
+						</video>
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="box">
+						<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
+							<source src="/assets/images/bladeblitz/bitcraft-leaderboard.webm" type="video/webm" />
+							<source src="/assets/images/bladeblitz/bitcraft-leaderboard.mp4" type="video/mp4" />
+							
+						</video>
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="box">
+						<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
+							<source src="/assets/images/bladeblitz/bitcraft-nextarena.webm" type="video/webm" />
+							<source src="/assets/images/bladeblitz/bitcraft-nextarena.mp4" type="video/mp4" />
+							
+						</video>
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="box">
+						<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
+							<source src="/assets/images/bladeblitz/bitcraft-score.webm" type="video/webm" />
+							<source src="/assets/images/bladeblitz/bitcraft-score.mp4" type="video/mp4" />
+							
+						</video>
+						
+					</div>
+					
+				
 			</div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-			<div class="box">
-				<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
-					<source alt="/assets/images/bladeblitz/bladeblitz-blu.png" src="/assets/images/bladeblitz/bitcraft-changeover.mp4" />
-				</video>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-score.png" /></div>
-			<div class="caption"></div>
 		</div>
 	</div>
 </section>
@@ -303,43 +968,102 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-powerups.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
 
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-eccc-01.jpg" /></div>
-			<div class="caption"></div>
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Playtesting &amp; Showcase</h2>
 		</div>
 	</div>
-</section>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">Public showcases at ECCC and SIX exposed onboarding and readability issues that internal playtests missed.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
 
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-eccc-02.jpg" /></div>
-			<div class="caption"></div>
+			
+
+			
+
+			
 		</div>
 	</div>
+  </div>
 </section>
 
-<section data-aos="fade-up" class="page-section">
+<section data-aos="fade-up" class="page-section image-grid">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-eccc-03.jpg" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
+			<div class="media-grid" style="--grid-columns: 2; --grid-rows: 2;">
+				
+					
+					
+					
+					
+					
+					
 
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-six-01.jpg" /></div>
-			<div class="caption"></div>
+					
+					<div class="box">
+						<img alt="Image 1" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-eccc-01.jpg" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 2" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-eccc-02.jpg" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 3" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-eccc-03.jpg" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 4" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-six-01.jpg" />
+						
+					</div>
+					
+				
+			</div>
 		</div>
 	</div>
 </section>
@@ -348,18 +1072,293 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bladeblitz/bladeblitz-six-02.jpg" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
-</section>]]></content><author><name></name></author><category term="branding" /><category term="ui-ux" /><category term="visual-design" /><category term="coding" /><summary type="html"><![CDATA[I am the solo designer and developer of Blade Blitz, responsible for the game’s visual identity, UI/UX design, branding, and implementation. My role spans concept exploration, interface design, motion and feedback systems, style guide creation, and real-world playtesting through public showcases. I also documented the process through social media to gather feedback and build an audience throughout development.]]></summary></entry><entry><title type="html">BitCraft Online</title><link href="http://localhost:4000/2024/08/01/bitcraft.html" rel="alternate" type="text/html" title="BitCraft Online" /><published>2024-08-01T10:48:31-07:00</published><updated>2024-08-01T10:48:31-07:00</updated><id>http://localhost:4000/2024/08/01/bitcraft</id><content type="html" xml:base="http://localhost:4000/2024/08/01/bitcraft.html"><![CDATA[<!--- Content Captures --->
+</section>
+
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Reflection</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">The project clarified three product lessons I would carry into the next game.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+				
+				
+					
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Platform fit matters more than technical possibility</div>
+									<div class="value">I built the game around local multiplayer, assuming Steam Remote Play would fill the gap. In practice, it didn't. Players still prefer native online experiences. If I were to do it again, I would design for online play from the start rather than relying on a workaround.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Novelty is expensive, especially twice</div>
+									<div class="value">The game introduced both unfamiliar controls and unfamiliar rules. That combination made onboarding difficult and made it harder to communicate the concept quickly. I'd approach this differently by grounding one layer (controls or rules) in something familiar, so players have an anchor.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Perfection can become a trap</div>
+									<div class="value">As development progressed, the bar kept rising. Instead of converging, the scope expanded toward perfect, which slowed decision making and shipping. In hindsight, I would define clearer constraints earlier and commit to them.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+			
+		</div>
+	</div>
+  </div>
+</section>]]></content><author><name></name></author><category term="branding" /><category term="ui-ux" /><category term="visual-design" /><category term="coding" /><summary type="html"><![CDATA[Designed and built Blade Blitz end to end. Visual identity, UI, characters, implementation, and live playtest iteration over two years.]]></summary></entry><entry><title type="html">BitCraft Online at Clockwork Labs</title><link href="http://localhost:4000/2024/08/01/bitcraft.html" rel="alternate" type="text/html" title="BitCraft Online at Clockwork Labs" /><published>2024-08-01T10:48:31-07:00</published><updated>2024-08-01T10:48:31-07:00</updated><id>http://localhost:4000/2024/08/01/bitcraft</id><content type="html" xml:base="http://localhost:4000/2024/08/01/bitcraft.html"><![CDATA[<!--- Content Captures --->
 
 <!--- Includes --->
+
+<section class="page-section project-description-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mobile-margin-bottom">
+		<div class="box">
+			<h5 class="">Led BitCraft's UI/UX from visual direction through implementation, building the design system, core game surfaces, and launch marketing assets for a complex MMO spanning inventory, crafting, progression, map, and social systems.</h5>
+		</div>
+		<div class="box">
+			
+<span class="text"><a href="https://bitcraftonline.com/">BitCraft Online Website<span class="link material-symbols-outlined material-symbols-adjust">arrow_outward</span></a></span>
+<span class="text"><a href="https://store.steampowered.com/app/3454650/BitCraft_Online/">BitCraft Online on Steam<span class="link material-symbols-outlined material-symbols-adjust">arrow_outward</span></a></span>
+<span class="text"><a href="https://tryhardguides.com/bitcraft-online-early-access-review/">Early Access Review (Try Hard Guides)<span class="link material-symbols-outlined material-symbols-adjust">arrow_outward</span></a></span>
+<span class="text"><a href="https://wccftech.com/bitcraft-hands-on-impressions-and-interview-building-up-to-something-great/">Hands-On Impressions and Interview (WCCFtech)<span class="link material-symbols-outlined material-symbols-adjust">arrow_outward</span></a></span>
+
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">Client</div>
+						<div class="value">Clockwork Labs</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">Skills</div>
+						<div>
+							
+							
+							  <div class="value">UI/UX Design</div>
+							
+							  <div class="value">Visual Design</div>
+							
+							  <div class="value">Branding</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">Tools</div>
+						<div>
+							
+							
+							  <div class="value">Figma</div>
+							
+							  <div class="value">Unity</div>
+							
+							  <div class="value">Adobe Suite</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">My Role</div>
+						<div>
+							
+							
+							  <div class="value">UI/UX Designer</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">Timeline</div>
+						<div class="value">Q3 2024 – Present</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">Team</div>
+						<div>
+							
+							
+							  <div class="value">
+<span><a href="https://www.linkedin.com/in/tylercloutier/">Tyler Cloutier</a> (CEO)</span><br />
+<span><a href="https://www.linkedin.com/in/alessandro-asoni-6644217b/">Alessandro Asoni</a> (CTO)</span><br />
+<span><a href="https://www.linkedin.com/in/carter-minshull/">Carter Minshull</a> (Lead Game Designer)</span><br />
+<span><a href="https://www.linkedin.com/in/morgan-nyblom-088424219/">Morgan Nyblom</a> (Art Director)</span><br />
+<span><a href="https://www.linkedin.com/in/lisandroct/">Lisandro Crespo</a> (UI Engineer)</span>
+</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+  </div>
+</section>
+
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Challenge</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">I was brought on to define BitCraft's UI from the ground up. Working directly with the CEO, CTO, Art Director, and Game Director, the team needed a visual direction that felt native to the game's world and narrative while scaling across the broad surface area of an MMO.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+		</div>
+	</div>
+  </div>
+</section>
+
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Establishing a Visual Language</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">The visual direction was developed collaboratively with leadership, refining broad exploration into a shared Art Deco-inspired system that could scale across UI and world-facing assets.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+		</div>
+	</div>
+  </div>
+</section>
 
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-hero.png" /></div>
-			<div class="caption"></div>
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-concept-01.jpg" /></div>
+			<div class="caption">A concept that stays true to BitCraft's runic foundation, using clean lines, geometric forms, and restrained lighting accents to add depth. Inspired by League of Legends.</div>
 		</div>
 	</div>
 </section>
@@ -367,8 +1366,187 @@
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-colors.png" /></div>
-			<div class="caption">Our color palette follows the harmony rule of split complementary colors which uses two colors across the color wheel, with those two colors lying on either side of the complementary color. For each primary color, we have subtle shifts in tone that provide a level of flexibility and utility for creating subtle patterns and segmentation of information.</div>
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-concept-02.jpg" /></div>
+			<div class="caption">A quieter direction built around desaturated neutrals, transparent layering, and minimal forms. Lightweight strokes and clean typography create a modern, polished interface with subtle magical qualities. Inspired by Frostpunk, The Legend of Zelda: Breath of the Wild, Valorant, Star Wars Jedi: Survivor, and Monument Valley.</div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-concept-03.jpg" /></div>
+			<div class="caption">A warmer, more inviting direction centered on energy, optimism, and approachability. Bright palette accents, cool shadow balance, and subtle runic textures help frame content while preserving a playful tone. Inspired by Genshin Impact, Pokemon, and Animal Crossing: New Horizons.</div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-concept-fullscreen.png" /></div>
+			<div class="caption">The final direction built on the strengths of concept 3, carrying forward its warmth, energy, and inviting tone. The system was developed across both light and dark modes, using bright palette accents, cool shadow balance, and subtle runic textures to frame content without losing clarity.</div>
+		</div>
+	</div>
+</section>
+
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Visual Identity</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">The visual system was built to support density, clarity, and a distinct BitCraft aesthetic.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+				
+				
+					
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Color Palette</div>
+									<div class="value">A split-complementary system with tonal variants for each primary color, designed to support layering, segmentation, and UI patterning. Light and dark modes support both daytime and low-light play.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Typography &amp; Spacing</div>
+									<div class="value">A 14px base paired with an augmented fourth scale (1.414) maintains legible hierarchy in information-dense views without oversized headers competing with game data. An 8pt spacing grid provides consistent rhythm across component layout and padding.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Shape Language</div>
+									<div class="value">The visual language draws from Art Deco geometry, using precise 30 and 45-degree angles with strict 4px and 8px stroke weights for dividers and framing elements. This gives the interface structural consistency throughout.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+			
+		</div>
+	</div>
+  </div>
+</section>
+
+<section data-aos="fade-up" class="page-section image-grid">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+			<div class="media-grid" style="--grid-columns: 2; --grid-rows: 2;">
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 1" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-color-pallette.png" />
+						<div class="caption">A split-complementary palette with tonal variants for each primary color, balancing contrast and harmony across the interface.</div>
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 2" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-rtl-lines.png" />
+						<div class="caption">Linear Runic Tech Lines used as motifs and flourishes to add structure, framing, and visual rhythm across the UI.</div>
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 3" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-angles.png" />
+						<div class="caption">A consistent system of 30° and 45° angles used throughout UI components and world elements to create structural cohesion.</div>
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 4" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-rtl-square.png" />
+						<div class="caption">Square-based Runic Tech Line motifs reinforce the system's geometric language across interface surfaces.</div>
+					</div>
+					
+				
+			</div>
 		</div>
 	</div>
 </section>
@@ -377,7 +1555,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-modal.png" /></div>
-			<div class="caption">The default color palette for Bitcraft with a high contrast, dark on light palette. The alternative color palette for BitCraft with a dark background color enabling a more comfortable gaming experience in low-light situations.</div>
+			
 		</div>
 	</div>
 </section>
@@ -385,8 +1563,8 @@
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-typeramp-spacing.png" /></div>
-			<div class="caption">A type ramp establishes a range of font sizes, styles, and weights used for different elements within a composition. It helps create a visual hierarchy and guides readers through the content by emphasizing important information and structuring the text. The augmented 4th, 1.414, is a proportion that works well for more content dense interfaces that strike balance between complex information and breathability. A font size of 14 pixels ensures that the text is legible for most users without appearing too small. It provides comfortable reading for an average viewing distance of around 20-24 inches from the screen.</div>
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-typeramp.png" /></div>
+			
 		</div>
 	</div>
 </section>
@@ -395,7 +1573,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-spacing.png" /></div>
-			<div class="caption">Our art deco-inspired shape language grounds itself in highly geometric shapes. Our iconography maintains a consistent look and feel through the use of a combination of vertical, horizontal, and diagonal lines that intersect each other at 45 or 30 degree angles.</div>
+			
 		</div>
 	</div>
 </section>
@@ -403,62 +1581,387 @@
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-angles.png" /></div>
-			<div class="caption">Spacing is used to create visual proximity between related information, grouping those elements together.</div>
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-spacing-example.png" /></div>
+			
 		</div>
 	</div>
 </section>
 
-<section data-aos="fade-up" class="page-section">
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Interface Design</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">The component library extended that system across the full MMO surface area without relying on one-off patterns.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+				
+				
+					
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Component Library</div>
+									<div class="value">Covers the full range of MMO interaction contexts, from inventory and crafting to dialogue and progression, with every component grounded in the same visual system.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Windows &amp; Panels</div>
+									<div class="value">A modular window and panel system built to handle dense information across the game's layered simulation systems without introducing unnecessary visual noise.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">HUD</div>
+									<div class="value">Keeps critical information accessible during active play without obscuring the game world, and scales with gameplay complexity as players progress.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Notifications &amp; Feedback</div>
+									<div class="value">Inline and side-panel notification variants provide contextual feedback across the game's many concurrent systems.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Cursors &amp; Entities</div>
+									<div class="value">Contextual cursor states and entity display patterns help players identify interactable objects, NPCs, and other characters at a glance in a populated open world.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+			
+		</div>
+	</div>
+  </div>
+</section>
+
+<section data-aos="fade-up" class="page-section image-grid">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-rtl.png" /></div>
-			<div class="caption">A core part of our shape language includes stroke dividers and patterns that frame content. These strokes should only be used in only two weights: 4px and 8px.</div>
+			<div class="media-grid" style="--grid-columns: 2; --grid-rows: 2;">
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 1" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-componnets-button-primary.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 2" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-componnets-button-secondary.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 3" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-componnets-button-diamond.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 4" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-componnets-action.png" />
+						
+					</div>
+					
+				
+			</div>
 		</div>
 	</div>
 </section>
 
-<section data-aos="fade-up" class="page-section">
+<section data-aos="fade-up" class="page-section image-grid">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-components.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
+			<div class="media-grid" style="--grid-columns: 4; --grid-rows: 3;">
+				
+					
+					
+					
+					
+					
+					
 
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
+					
+					<div class="box">
+						<img alt="Image 1" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-inventory.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
 
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-notifications.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
+					
+					<div class="box">
+						<img alt="Image 2" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-character.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
 
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-entities.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
+					
+					<div class="box">
+						<img alt="Image 3" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-professions.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
 
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-cursors.png" /></div>
-			<div class="caption"></div>
+					
+					<div class="box">
+						<img alt="Image 4" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-foundry.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 5" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-compendum.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 6" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-tasks.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 7" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-dialogue.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 8" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-empire-overview.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 9" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-marketplace-details.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 10" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-tradefinder.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 11" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-waystone.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 12" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-empire-authority.png" />
+						
+					</div>
+					
+				
+			</div>
 		</div>
 	</div>
 </section>
@@ -467,7 +1970,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-HUD.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -475,8 +1978,543 @@
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-notifications.png" /></div>
+			
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-cursors.png" /></div>
+			
+		</div>
+	</div>
+</section>
+
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Modeling Complex Game Entities</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">Items, cargo, and collectables each operate under different rules. Their structure and presentation were designed so players could distinguish them at a glance.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+				
+				
+					
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Items</div>
+									<div class="value">Occupy a limited inventory grid, where scarcity and placement are central to the resource-management loop.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Cargo</div>
+									<div class="value">Heavier than standard items and singular in nature. Carrying cargo affects player movement, surfacing a meaningful tradeoff through the interface.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Collectables</div>
+									<div class="value">Bypass the inventory and route directly to a vault, requiring distinct visual treatment so players understand that they follow a different rule set.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+			
+		</div>
+	</div>
+  </div>
+</section>
+
+<section data-aos="fade-up" class="page-section image-gallery">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+			<div class="scroll-container-wrapper">
+				<button class="scroll-btn scroll-btn-left" aria-label="Scroll left"><span class="material-symbols-outlined">chevron_left</span></button>
+				<button class="scroll-btn scroll-btn-right" aria-label="Scroll right"><span class="material-symbols-outlined">chevron_right</span></button>
+				<div class="scroll-container" data-scroll-fade="">
+					<div class="scroll-wrapper">
+						
+							<div class="box">
+								<img alt="Image 1" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-entities-items.png" />
+							</div>
+						
+						
+							<div class="box">
+								<img alt="Image 2" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-entities-cargo.png" />
+							</div>
+						
+						
+							<div class="box">
+								<img alt="Image 3" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-entities-collectable.png" />
+							</div>
+						
+						
+						
+						
+						
+						
+						
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<script>
+(function () {
+	document.querySelectorAll('.scroll-container-wrapper').forEach(function (wrapper) {
+		var scrollContainer = wrapper.querySelector('.scroll-container');
+		var rafId = null;
+		var speed = 0;
+		var btnLeft = wrapper.querySelector('.scroll-btn-left');
+		var btnRight = wrapper.querySelector('.scroll-btn-right');
+
+		function updateButtons() {
+			var atStart = scrollContainer.scrollLeft <= 0;
+			var atEnd = scrollContainer.scrollLeft + scrollContainer.clientWidth >= scrollContainer.scrollWidth - 1;
+			btnLeft.classList.toggle('scroll-btn--hidden', atStart);
+			btnRight.classList.toggle('scroll-btn--hidden', atEnd);
+		}
+
+		scrollContainer.addEventListener('scroll', updateButtons);
+		updateButtons();
+
+		function startScroll(direction) {
+			speed = direction * 4;
+			function step() {
+				scrollContainer.scrollLeft += speed;
+				// Accelerate up to a max speed
+				if (Math.abs(speed) < 12) speed *= 1.05;
+				rafId = requestAnimationFrame(step);
+			}
+			rafId = requestAnimationFrame(step);
+		}
+
+		function stopScroll() {
+			if (rafId !== null) {
+				cancelAnimationFrame(rafId);
+				rafId = null;
+				speed = 0;
+			}
+		}
+
+		btnLeft.addEventListener('mousedown', function () { startScroll(-1); });
+		btnRight.addEventListener('mousedown', function () { startScroll(1); });
+		btnLeft.addEventListener('touchstart', function (e) { e.preventDefault(); startScroll(-1); }, { passive: false });
+		btnRight.addEventListener('touchstart', function (e) { e.preventDefault(); startScroll(1); }, { passive: false });
+
+		['mouseup', 'mouseleave', 'touchend', 'touchcancel'].forEach(function (evt) {
+			btnLeft.addEventListener(evt, stopScroll);
+			btnRight.addEventListener(evt, stopScroll);
+		});
+	});
+})();
+</script>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-entities-rarities.png" /></div>
+			
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-entities-states.png" /></div>
+			
+		</div>
+	</div>
+</section>
+
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Designing for Long Play Sessions</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">MMO sessions are long by nature. The UI was paired with the game's day-night cycle so light and dark modes could reduce visual fatigue without compromising readability.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+		</div>
+	</div>
+  </div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-color-modes.png" /></div>
+			
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+			<div class="box">
+				<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
+					<source src="/assets/images/bitcraft/bitcraft-colormodes.webm" type="video/webm" />
+					<source src="/assets/images/bitcraft/bitcraft-colormodes.mp4" type="video/mp4" />
+					
+				</video>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Designing the In-Game Map</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">The map needed to communicate complex world-state information clearly across multiple zoom levels and in the minimap. I designed an icon system for players, creatures, ruins, claims, empires, and custom markers, while ensuring the map could support interactions such as claim previews, marker placement, and tracking. Biomes, borders, and sailing wind direction also needed to remain immediately readable.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+				
+				
+					
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">A Scalable Icon System</div>
+									<div class="value">Designed map icons for players, creatures, ruins, claims, empires, and custom markers, with each category remaining legible across full-map and minimap contexts.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Readable World State</div>
+									<div class="value">Biome regions, empire borders, claim tiers and statuses, and sailing wind direction all needed to be visible at a glance without overwhelming navigation.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Interaction &amp; Tracking</div>
+									<div class="value">The map supported interactive behaviors such as claim previews, custom marker placement, and tracking flows, so the iconography had to function as both information and interface.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+			
+		</div>
+	</div>
+  </div>
+</section>
+
+<section data-aos="fade-up" class="page-section image-grid">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+			<div class="media-grid" style="--grid-columns: 2; --grid-rows: 2;">
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 1" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-minimap.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 2" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-mapmarkers-small.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 3" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-mapmarkers-large.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 4" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-maptooltips.png" />
+						
+					</div>
+					
+				
+			</div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-windows-map.png" /></div>
+			
+		</div>
+	</div>
+</section>
+
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Marketing &amp; Brand</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">The design language was extended into booth design, merchandise, and Steam campaign assets.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+				
+				
+					
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">TwitchCon 2025 Booth</div>
+									<div class="value">Designed and modeled a 3D booth preview that gave the team a concrete visual reference for planning BitCraft's physical presence at TwitchCon 2025.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">TwitchCon Merchandise</div>
+									<div class="value">Designed the TwitchCon 2025 hoodie, extending the BitCraft visual identity into a physical product.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Steam &amp; Social Assets</div>
+									<div class="value">Produced wishlist campaign assets and reusable templates for the marketing team, enabling consistent output across YouTube, Steam, and social channels.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+			
+		</div>
+	</div>
+  </div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-booth.png" /></div>
-			<div class="caption">Designed and modeled a preview of our TwitchCon 2025 booth</div>
+			
 		</div>
 	</div>
 </section>
@@ -485,210 +2523,1049 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-hoodie.png" /></div>
-			<div class="caption">Designed and mocked a preview of our TwitchCon 2025 hoodies</div>
+			
 		</div>
 	</div>
+</section>
+
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Outcome</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">The game entered early access with strong traction across wishlists, concurrent players, and sales.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+				
+				
+					
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									<div class="stat">250,000+</div>
+									<div class="label">Wishlists</div>
+									<div class="value">Accumulated ahead of launch through sustained public visibility and coordinated marketing.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									<div class="stat">4,500+</div>
+									<div class="label">Peak Concurrent Players</div>
+									<div class="value">A strong retention signal for an independent early access MMO at launch.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									<div class="stat">127,000+</div>
+									<div class="label">Copies Sold</div>
+									<div class="value">Estimated Steam sales as of March 2026, representing a strong result for an independent studio's early access title.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+			
+		</div>
+	</div>
+  </div>
+</section>]]></content><author><name></name></author><category term="branding" /><category term="ui-ux" /><category term="visual-design" /><summary type="html"><![CDATA[Led BitCraft's UI/UX from visual direction through implementation, building the design system, core game surfaces, and launch marketing assets for a complex MMO spanning inventory, crafting, progression, map, and social systems.]]></summary></entry><entry><title type="html">SpacetimeDB at Clockwork Labs</title><link href="http://localhost:4000/2024/08/01/spacetimedb.html" rel="alternate" type="text/html" title="SpacetimeDB at Clockwork Labs" /><published>2024-08-01T10:48:31-07:00</published><updated>2024-08-01T10:48:31-07:00</updated><id>http://localhost:4000/2024/08/01/spacetimedb</id><content type="html" xml:base="http://localhost:4000/2024/08/01/spacetimedb.html"><![CDATA[<!--- Content Captures --->
+
+<!--- Includes --->
+
+<section class="page-section project-description-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mobile-margin-bottom">
+		<div class="box">
+			<h5 class="">Built on an existing brand foundation to create a cohesive developer product experience, while strengthening the underlying typography, spacing, and color system.</h5>
+		</div>
+		<div class="box">
+			
+<span class="text"><a href="https://spacetimedb.com">SpacetimeDB Website<span class="link material-symbols-outlined material-symbols-adjust">arrow_outward</span></a></span>
+
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">Client</div>
+						<div class="value">Clockwork Labs</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">Skills</div>
+						<div>
+							
+							
+							  <div class="value">UI/UX Design</div>
+							
+							  <div class="value">Branding</div>
+							
+							  <div class="value">Motion Design</div>
+							
+							  <div class="value">3D</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">Tools</div>
+						<div>
+							
+							
+							  <div class="value">Figma</div>
+							
+							  <div class="value">Blender</div>
+							
+							  <div class="value">After Effects</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">My Role</div>
+						<div>
+							
+							
+							  <div class="value">Product Designer</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">Timeline</div>
+						<div class="value">Q3 2024 – Present</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">Team</div>
+						<div>
+							
+							
+							  <div class="value">
+<span><a href="https://www.linkedin.com/in/tylercloutier/">Tyler Cloutier</a> (Co-Founder &amp; CEO)</span><br />
+<span><a href="https://www.linkedin.com/in/alessandro-asoni-6644217b/">Alessandro Asoni</a> (Co-Founder &amp; CTO)</span>
+</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+  </div>
+</section>
+
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Challenge</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">SpacetimeDB needed a developer portal designed from the ground up, capable of supporting database creation, usage monitoring, metrics, table and function inspection, logs, and organization management. Each screen is information-dense and intended for technical users who need to move quickly and trust what they are seeing. The brand foundation existed, but it had not yet been formalized into a system robust enough to support a product of this complexity.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+		</div>
+	</div>
+  </div>
 </section>
 
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/bitcraft/bitcraft-wishlist.png" /></div>
-			<div class="caption">Created wishlist assets for our marketing team</div>
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/spacetimedb/stdb_01_approach.png" /></div>
+			
 		</div>
 	</div>
 </section>
 
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
   <div class="row">
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-	  <hr /><div class="box"></div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Designing the Portal</h2>
+		</div>
 	</div>
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
-	  <div class="box"></div>
-	  </div>
-	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-	  	<div class="box"><h3>Role</h3></div>
-	  </div>
-	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-offset-1 col-lg-6">
-	  <div class="box">
-		
-<ul>
-  <li>Defined the visual identity and UI systems for BitCraft, establishing the game’s look and feel across menus, HUDs, and player interfaces.</li>
-  <li>Created a pipeline connecting game design, visual design, and engineering, improving communication and reducing implementation friction across disciplines.</li>
-  <li>Developed a Notion-based documentation and handoff process to track features, specs, and component ownership, enabling smoother iteration and clearer collaboration.</li>
-  <li>Created templates for the marketing team to generate consistent and high-quality YouTube, Steam, and social media assets.</li>
-</ul>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">I designed each key screen around its specific job, rather than forcing a single template across fundamentally different types of content.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
 
-	  </div>
-	  </div>
+			
+
+			
+
+			
+				
+				
+					
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Project Listing &amp; Account Settings</div>
+									<div class="value">The first screen after login, providing a project overview with quick-access controls and account management.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Project Dashboard: Overview</div>
+									<div class="value">A high-level view of database health and recent activity, without requiring users to drill into details.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Project Dashboard: Metrics</div>
+									<div class="value">Performance telemetry over time, presented clearly without forcing users to parse raw data.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Project Dashboard: Tables &amp; Functions</div>
+									<div class="value">The core daily workflow for browsing data structures, inspecting records, and reviewing server-side logic.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+			
+		</div>
+	</div>
   </div>
 </section>
 
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
   <div class="row">
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-	  <hr /><div class="box"></div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Typography &amp; Spacing</h2>
+		</div>
 	</div>
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
-	  <div class="box"></div>
-	  </div>
-	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-	  	<div class="box"><h3>Team</h3></div>
-	  </div>
-	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-offset-1 col-lg-6">
-	  <div class="box">
-		
-<span class="text"><a href="https://www.linkedin.com/in/tylercloutier/">Tyler Cloutier</a> (CEO)</span>
-<span class="text"><a href="https://www.linkedin.com/in/alessandro-asoni-6644217b/">Alessandro Asoni</a> (CTO)</span>
-<span class="text"><a href="https://www.linkedin.com/in/carter-minshull/">Carter Minshull</a> (Lead Game Designer)</span>
-<span class="text"><a href="https://www.linkedin.com/in/morgan-nyblom-088424219/">Morgan Nyblom</a> (Art Director)</span>
-<span class="text"><a href="https://www.linkedin.com/in/lisandroct/">Lisandro Crespo</a> (UI Engineer)</span>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">I introduced a formal typography and spacing system designed for dense developer tooling.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
 
-	  </div>
-	  </div>
+			
+
+			
+
+			
+				
+				
+					
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">14px Base, 1.200 Scale</div>
+									<div class="value">Dense screens such as tables, metrics, and code views require clear hierarchy at small sizes. A minor third scale from a 14px base provided that structure without oversized headers competing with the data.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Consistent Type Styles</div>
+									<div class="value">Defined styles for headings, labels, body, caption, and code so every surface could draw from the same system.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Spacing via 8pt Grid</div>
+									<div class="value">An 8pt grid brought consistency to component spacing and layout gaps, especially in tables and metrics where dense layouts make inconsistency immediately visible.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+			
+		</div>
+	</div>
   </div>
 </section>
 
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  <div class="row">
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-	  <hr /><div class="box"></div>
+<section data-aos="fade-up" class="page-section image-grid">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+			<div class="media-grid" style="--grid-columns: 2; --grid-rows: 2;">
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 1" class="responsive rounded" src="/assets/images/spacetimedb/stdb_04_type_01_example.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 2" class="responsive rounded" src="/assets/images/spacetimedb/stdb_04_type_02_typeramp.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 3" class="responsive rounded" src="/assets/images/spacetimedb/stdb_04_type_03_spacing.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 4" class="responsive rounded" src="/assets/images/spacetimedb/stdb_04_type_04_styles.png" />
+						
+					</div>
+					
+				
+			</div>
+		</div>
 	</div>
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
-	  <div class="box"></div>
-	  </div>
-	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-		  <div class="box"><h3>Press</h3></div>
-	  </div>
-	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-offset-1 col-lg-6">
-	  <div class="box">
-		
-<span class="text"><a href="https://bitcraftonline.com/">BitCraft Online Website</a></span>
-<span class="text"><a href="https://store.steampowered.com/app/3454650/BitCraft_Online/">BitCraft Online Steam</a></span>
-<span class="text"><a href="https://tryhardguides.com/bitcraft-online-early-access-review/">BitCraft Online Early Access Review</a></span>
-<span class="text"><a href="https://wccftech.com/bitcraft-hands-on-impressions-and-interview-building-up-to-something-great/">Bitcraft Hands-On Impressions and Interview – Building Up to Something Great</a></span>
+</section>
 
-	  </div>
-	  </div>
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Visual Language &amp; Color</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">I refined the brand in three areas that had the greatest impact on cohesion and usability.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+				
+				
+					
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Radial Patterns</div>
+									<div class="value">The brand included a radial motif in the hero, but it had not been extended elsewhere. I developed it into a broader library used throughout the portal and related surfaces.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Color Recalibration</div>
+									<div class="value">Near-black on near-white created unnecessary strain during extended reading. I shifted the neutrals lighter with a cooler tone, preserving the dark aesthetic while allowing the green accent to feel more natural.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Component Sizing</div>
+									<div class="value">Buttons and controls were sized for dense screens, smaller than typical interfaces but proportionate to the data they sit alongside.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+			
+		</div>
+	</div>
   </div>
-</section>]]></content><author><name></name></author><category term="branding" /><category term="ui-ux" /><category term="visual-design" /><summary type="html"><![CDATA[BitCraft is an ambitious sandbox MMO in development, blending survival, exploration, and player-driven worldbuilding. As part of the core design team, I focused on shaping the UI systems and interaction patterns that support a massive, persistent online world.]]></summary></entry><entry><title type="html">SpacetimeDB</title><link href="http://localhost:4000/2024/08/01/spacetimedb.html" rel="alternate" type="text/html" title="SpacetimeDB" /><published>2024-08-01T10:48:31-07:00</published><updated>2024-08-01T10:48:31-07:00</updated><id>http://localhost:4000/2024/08/01/spacetimedb</id><content type="html" xml:base="http://localhost:4000/2024/08/01/spacetimedb.html"><![CDATA[<!--- Content Captures --->
+</section>
 
-<!--- Includes --->
+<section data-aos="fade-up" class="page-section image-grid">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+			<div class="media-grid" style="--grid-columns: 3; --grid-rows: 1;">
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 1" class="responsive rounded" src="/assets/images/spacetimedb/stdb_03_radials_01_stdb.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 2" class="responsive rounded" src="/assets/images/spacetimedb/stdb_03_radials_02_reticle.png" />
+						
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 3" class="responsive rounded" src="/assets/images/spacetimedb/stdb_03_radials_03_orbits.png" />
+						
+					</div>
+					
+				
+			</div>
+		</div>
+	</div>
+</section>
 
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
 			<div class="box">
 				<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
-					<source alt="" src="/assets/images/spacetimedb/stdb-blender.mp4" />
+					<source src="/assets/images/spacetimedb/stdb-radial_2026_0325_01.webm" type="video/webm" />
+					<source src="/assets/images/spacetimedb/stdb-radial_2026_0325_01.mp4" type="video/mp4" />
+					
 				</video>
 			</div>
 		</div>
 	</div>
 </section>
 
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  <div class="row">
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-	  <hr /><div class="box"></div>
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/spacetimedb/stdb_05_colors.png" /></div>
+			
+		</div>
 	</div>
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
-	  <div class="box"></div>
-	  </div>
-	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-	  	<div class="box"><h3>Role</h3></div>
-	  </div>
-	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-offset-1 col-lg-6">
-	  <div class="box">
-		
-<ul>
-  <li>Conceptualized and storyboarded the motion identity inspired by black hole physics and gravitational light distortion.</li>
-  <li>Modeled and animated the sequence in Blender, using procedural light effects to simulate lensing and motion depth.</li>
-  <li>Composited and polished the final render in After Effects, ensuring smooth transitions and precise logo integration.</li>
-</ul>
-
-	  </div>
-	  </div>
-  </div>
 </section>
 
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  <div class="row">
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-	  <hr /><div class="box"></div>
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/spacetimedb/stdb_06_widgets.png" /></div>
+			
+		</div>
 	</div>
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
-	  <div class="box"></div>
-	  </div>
-	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-	  	<div class="box"><h3>Team</h3></div>
-	  </div>
-	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-offset-1 col-lg-6">
-	  <div class="box">
-		
-<span class="text"><a href="https://www.linkedin.com/in/tylercloutier/">Tyler Cloutier</a> (CEO)</span>
-
-	  </div>
-	  </div>
-  </div>
 </section>
 
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  <div class="row">
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-	  <hr /><div class="box"></div>
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/spacetimedb/stdb_08_icons.png" /></div>
+			
+		</div>
 	</div>
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
-	  <div class="box"></div>
-	  </div>
-	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-		  <div class="box"><h3>Links</h3></div>
-	  </div>
-	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-offset-1 col-lg-6">
-	  <div class="box">
-		
-<span class="text"><a href="https://spacetimedb.com/@randyclockwork">SpacetimeDB Website</a></span>
-
-	  </div>
-	  </div>
-  </div>
-</section>]]></content><author><name></name></author><category term="branding" /><category term="three-d" /><category term="motion" /><summary type="html"><![CDATA[I designed and animated the logo reveal for SpacetimeDB, a distributed database technology project by Clockwork Labs. Using Blender and After Effects, I created a visual narrative inspired by gravitational lensing, light bending around a black hole, culminating in the reveal of the logo. The animation established a cinematic yet scientific tone that reflected the brand’s focus on scale, depth, and innovation.]]></summary></entry><entry><title type="html">Boss Fight</title><link href="http://localhost:4000/2023/09/09/boss-fight.html" rel="alternate" type="text/html" title="Boss Fight" /><published>2023-09-09T10:48:31-07:00</published><updated>2023-09-09T10:48:31-07:00</updated><id>http://localhost:4000/2023/09/09/boss-fight</id><content type="html" xml:base="http://localhost:4000/2023/09/09/boss-fight.html"><![CDATA[<!--- Content Captures --->
-
-<!--- Includes --->
+</section>
 
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
 			<div class="box">
 				<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
-					<source alt="" src="/assets/images/boss-fight/boss-fight-playblast.mp4" />
+					<source src="/assets/images/spacetimedb/stdb_10_landing.webm" type="video/webm" />
+					<source src="/assets/images/spacetimedb/stdb_10_landing.mp4" type="video/mp4" />
+					
 				</video>
 			</div>
 		</div>
 	</div>
 </section>
 
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  <div class="row">
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-	  <hr /><div class="box"></div>
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/spacetimedb/stdb_09_screens_01_project.png" /></div>
+			
+		</div>
 	</div>
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
-	  <div class="box"></div>
-	  </div>
-	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-		  <div class="box"><h3>Press</h3></div>
-	  </div>
-	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-offset-1 col-lg-6">
-	  <div class="box">
-		
-<span text="text"><a href="https://www.youtube.com/watch?v=wgiRK8_iKdg">Top 100 renders montage</a></span>
+</section>
 
-	  </div>
-	  </div>
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/spacetimedb/stdb_09_screens_02_usage.png" /></div>
+			
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/spacetimedb/stdb_09_screens_03_tables.png" /></div>
+			
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/spacetimedb/stdb_09_screens_04_log.png" /></div>
+			
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/spacetimedb/stdb_09_screens_05_users.png" /></div>
+			
+		</div>
+	</div>
+</section>
+
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Outcome</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">The result was a shipped portal and a design system the team could continue to build on.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+				
+				
+					
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									<div class="stat">75,000+</div>
+									<div class="label">Registered Users</div>
+									<div class="value">Strong developer adoption for an early-stage infrastructure product.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">A Portal Built for Developers</div>
+									<div class="value">Delivered as a complete product experience, from first login through day-to-day database management.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">A Formalized Visual System</div>
+									<div class="value">Established typography scales, spacing rules, color roles, and component patterns that designers and engineers could build from.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Ongoing Ownership</div>
+									<div class="value">I continue to drive design direction across product and brand as SpacetimeDB grows.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+			
+		</div>
+	</div>
   </div>
-</section>]]></content><author><name></name></author><category term="three-d" /><category term="motion" /><summary type="html"><![CDATA[I created an entry for the Boss Fight 3D challenge, where artists were given a starter template and tasked with animating a scene featuring a hero facing a towering villain. Similar to the Endless Engines challenge, this project pushed me to practice modeling, texturing, rigging, and animation within a focused brief, while experimenting with scale, character dynamics, and storytelling through motion.]]></summary></entry><entry><title type="html">Silent Hill Ascension</title><link href="http://localhost:4000/2023/06/01/silenthill-ascension.html" rel="alternate" type="text/html" title="Silent Hill Ascension" /><published>2023-06-01T10:48:31-07:00</published><updated>2023-06-01T10:48:31-07:00</updated><id>http://localhost:4000/2023/06/01/silenthill-ascension</id><content type="html" xml:base="http://localhost:4000/2023/06/01/silenthill-ascension.html"><![CDATA[<!--- Content Captures --->
+</section>]]></content><author><name></name></author><category term="branding" /><category term="ui-ux" /><category term="three-d" /><category term="motion" /><summary type="html"><![CDATA[Built on an existing brand foundation to create a cohesive developer product experience, while strengthening the underlying typography, spacing, and color system.]]></summary></entry><entry><title type="html">Boss Fight</title><link href="http://localhost:4000/2023/09/09/boss-fight.html" rel="alternate" type="text/html" title="Boss Fight" /><published>2023-09-09T10:48:31-07:00</published><updated>2023-09-09T10:48:31-07:00</updated><id>http://localhost:4000/2023/09/09/boss-fight</id><content type="html" xml:base="http://localhost:4000/2023/09/09/boss-fight.html"><![CDATA[<!--- Content Captures --->
+
+<!--- Includes --->
+
+<section class="page-section project-description-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mobile-margin-bottom">
+		<div class="box">
+			<h5 class="">I created an entry for the Boss Fight 3D challenge, where artists were given a starter template and tasked with animating a scene featuring a hero facing a towering villain. Similar to the Endless Engines challenge, this project pushed me to practice modeling, texturing, rigging, and animation within a focused brief, while experimenting with scale, character dynamics, and storytelling through motion.</h5>
+		</div>
+		<div class="box">
+			
+<span class="text"><a href="https://www.youtube.com/watch?v=wgiRK8_iKdg">Top 100 renders montage<span class="link material-symbols-outlined material-symbols-adjust">arrow_outward</span></a></span>
+
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">Client</div>
+						<div class="value">Personal</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">Skills</div>
+						<div>
+							
+							
+							  <div class="value">3D Modeling</div>
+							
+							  <div class="value">Animation</div>
+							
+							  <div class="value">Rigging</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">Tools</div>
+						<div>
+							
+							
+							  <div class="value">Blender</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">My Role</div>
+						<div>
+							
+							
+							  <div class="value">3D Artist &amp; Animator</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">Timeline</div>
+						<div class="value">2023</div>
+					</div>
+				</div>
+			</div>
+			
+			
+		</div>
+	</div>
+  </div>
+</section>
+
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Context</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">The Boss Fight challenge gave artists a shared template and a brief: animate a hero facing a towering villain. The constraint forces clarity. With a fixed starting point, the differentiation comes entirely from character design, movement, and the story told in a few seconds of animation. Scale, timing, and weight were the core design problems.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+		</div>
+	</div>
+  </div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+			<div class="box">
+				<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
+					<source src="/assets/images/boss-fight/boss-fight-playblast.webm" type="video/webm" />
+					<source src="/assets/images/boss-fight/boss-fight-playblast.mp4" type="video/mp4" />
+					
+				</video>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/boss-fight/boss-fight-frame.png" /></div>
+			
+		</div>
+	</div>
+</section>]]></content><author><name></name></author><category term="three-d" /><category term="motion" /><summary type="html"><![CDATA[I created an entry for the Boss Fight 3D challenge, where artists were given a starter template and tasked with animating a scene featuring a hero facing a towering villain. Similar to the Endless Engines challenge, this project pushed me to practice modeling, texturing, rigging, and animation within a focused brief, while experimenting with scale, character dynamics, and storytelling through motion.]]></summary></entry><entry><title type="html">Silent Hill Ascension @ Genvid Entertainment</title><link href="http://localhost:4000/2023/06/01/silenthill-ascension.html" rel="alternate" type="text/html" title="Silent Hill Ascension @ Genvid Entertainment" /><published>2023-06-01T10:48:31-07:00</published><updated>2023-06-01T10:48:31-07:00</updated><id>http://localhost:4000/2023/06/01/silenthill-ascension</id><content type="html" xml:base="http://localhost:4000/2023/06/01/silenthill-ascension.html"><![CDATA[<!--- Content Captures --->
 
 <!--- Includes --->
 
@@ -696,7 +3573,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/silenthill-ascension/sha-active-decisions.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -705,7 +3582,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/silenthill-ascension/sha-battlepass.webp" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -714,7 +3591,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/silenthill-ascension/sha-chat-overlay.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -723,7 +3600,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/silenthill-ascension/sha-chyron.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -732,7 +3609,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/silenthill-ascension/sha-mainhub.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -741,7 +3618,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/silenthill-ascension/sha-scene-select.webp" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -750,7 +3627,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/silenthill-ascension/sha-voting.webp" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -759,7 +3636,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/silenthill-ascension/sha-watch-01.webp" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -768,7 +3645,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/silenthill-ascension/sha-watch-02.webp" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -811,10 +3688,10 @@
 	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-offset-1 col-lg-6">
 	  <div class="box">
 		
-<span class="text"><a href="https://www.linkedin.com/in/james-lipscomb-ux/">James Lipcomb</a> (UI/UX Director)</span>
-<span class="text"><a href="https://www.linkedin.com/in/toddcolby/">Todd Colby</a> (Senior Visual Designer)</span>
-<span class="text"><a href="https://www.linkedin.com/in/mattywebster/">Matt Webster</a> (Senior Visual Designer)</span>
-<span class="text"><a href="https://www.linkedin.com/in/sophieshao/">Sophie Shao</a> (Senior UX Designer)</span>
+<span><a href="https://www.linkedin.com/in/james-lipscomb-ux/">James Lipcomb</a> (UI/UX Director)</span><br />
+<span><a href="https://www.linkedin.com/in/toddcolby/">Todd Colby</a> (Senior Visual Designer)</span><br />
+<span><a href="https://www.linkedin.com/in/mattywebster/">Matt Webster</a> (Senior Visual Designer)</span><br />
+<span><a href="https://www.linkedin.com/in/sophieshao/">Sophie Shao</a> (Senior UX Designer)</span>
 
 	  </div>
 	  </div>
@@ -835,7 +3712,7 @@
 	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-offset-1 col-lg-6">
 	  <div class="box">
 		
-<span class="text"><a href="https://genvid.com/titles/silent-hill-ascension/">Silent Hill Ascension</a></span>
+<span class="text"><a href="https://genvid.com/titles/silent-hill-ascension/">Silent Hill Ascension<span class="link material-symbols-outlined material-symbols-adjust">arrow_outward</span></a></span>
 
 	  </div>
 	  </div>
@@ -844,158 +3721,680 @@
 
 <!--- Includes --->
 
+<section class="page-section project-description-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mobile-margin-bottom">
+		<div class="box">
+			<h5 class="">During the COVID-19 pandemic, I challenged myself to learn Blender by modeling and rendering different sections of my apartment. Working in an orthographic perspective, I treated each room as both a design study and a storytelling canvas.</h5>
+		</div>
+		<div class="box">
+			
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">Client</div>
+						<div class="value">Personal</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">Skills</div>
+						<div>
+							
+							
+							  <div class="value">3D Modeling</div>
+							
+							  <div class="value">Lighting</div>
+							
+							  <div class="value">Rendering</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">Tools</div>
+						<div>
+							
+							
+							  <div class="value">Blender</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">My Role</div>
+						<div>
+							
+							
+							  <div class="value">3D Artist</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">Timeline</div>
+						<div class="value">2022</div>
+					</div>
+				</div>
+			</div>
+			
+			
+		</div>
+	</div>
+  </div>
+</section>
+
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Context</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">During the COVID-19 lockdown, I used the time to learn Blender from scratch. Rather than following tutorials, I set myself a concrete project: model and render the spaces I was living in. The apartment became the subject. Each room got its own render, treated as a small design problem: how to convey space, light, and personality in a flat orthographic view.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+		</div>
+	</div>
+  </div>
+</section>
+
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/apartment/apartment-livingroom.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
-
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/apartment/apartment-balcony.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
-
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/apartment/apartment-kitchen.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
-
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/apartment/apartment-bathroom.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>]]></content><author><name></name></author><category term="three-d" /><summary type="html"><![CDATA[During the COVID-19 pandemic, I challenged myself to learn Blender by modeling and rendering different sections of my apartment. Working in an orthographic perspective, I treated each room as both a design study and a storytelling canvas.]]></summary></entry><entry><title type="html">You’re Not Alone</title><link href="http://localhost:4000/2022/02/12/youre-not-alone.html" rel="alternate" type="text/html" title="You’re Not Alone" /><published>2022-02-12T09:48:31-08:00</published><updated>2022-02-12T09:48:31-08:00</updated><id>http://localhost:4000/2022/02/12/youre-not-alone</id><content type="html" xml:base="http://localhost:4000/2022/02/12/youre-not-alone.html"><![CDATA[<!--- Content Captures --->
 
 <!--- Includes --->
 
+<section class="page-section project-description-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mobile-margin-bottom">
+		<div class="box">
+			<h5 class="">You're Not Alone is a short game I designed and developed for the Brackeys Game Jam 2022.2. Built in under a week around the theme "You're Not Alone," the project placed 58th out of 1,075 entries and served as an exercise in rapid prototyping and cohesive visual design under tight creative constraints.</h5>
+		</div>
+		<div class="box">
+			
+<span class="text"><a href="https://randyhuynh.itch.io/youre-not-alone">Play You're Not Alone on Itch.io<span class="link material-symbols-outlined material-symbols-adjust">arrow_outward</span></a></span>
+
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">Client</div>
+						<div class="value">Personal</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">Skills</div>
+						<div>
+							
+							
+							  <div class="value">Game Design</div>
+							
+							  <div class="value">UI/UX Design</div>
+							
+							  <div class="value">Coding</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">My Role</div>
+						<div>
+							
+							
+							  <div class="value">Sole Designer &amp; Developer</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">Timeline</div>
+						<div class="value">2022</div>
+					</div>
+				</div>
+			</div>
+			
+			
+		</div>
+	</div>
+  </div>
+</section>
+
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Context</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">The Brackeys Game Jam gives participants one week and a theme. The constraint is the point; there is no time to over-engineer, so every decision has to be immediate and committed. For 2022.2, the theme was You're Not Alone. The entire scope of concept, design, development, and polish had to fit inside that window.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+		</div>
+	</div>
+  </div>
+</section>
+
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/youre-not-alone/youre-not-alone-01.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
-
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/youre-not-alone/youre-not-alone-02.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
-
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/youre-not-alone/youre-not-alone-03.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
 
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
   <div class="row">
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-	  <hr /><div class="box"></div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Outcome</h2>
+		</div>
 	</div>
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
-	  <div class="box"></div>
-	  </div>
-	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-		  <div class="box"><h3>Links</h3></div>
-	  </div>
-	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-offset-1 col-lg-6">
-	  <div class="box">
-		
-<span class="text"><a href="https://randyhuynh.itch.io/youre-not-alone">Play You're Not Alone on Itch.io</a></span>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro"></p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
 
-	  </div>
-	  </div>
+			
+
+			
+
+			
+				
+				
+					
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									<div class="stat">58th</div>
+									<div class="label">Overall out of 1,075 Entries</div>
+									<div class="value">You're Not Alone placed 58th overall out of 1,075 submissions in the Brackeys Game Jam 2022.2, completing within a day to spare.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+			
+		</div>
+	</div>
   </div>
-</section>]]></content><author><name></name></author><category term="gamejam" /><category term="coding" /><summary type="html"><![CDATA[You're Not Alone is a short game I designed and developed for the Brackeys Game Jam 2022.2. Built in under a week around the theme “You’re Not Alone,” the project placed 58th out of 1,075 entries and served as an exercise in rapid prototyping and cohesive visual design under tight creative constraints.]]></summary></entry><entry><title type="html">Chaos Rains</title><link href="http://localhost:4000/2022/02/12/chaos-rains.html" rel="alternate" type="text/html" title="Chaos Rains" /><published>2022-02-12T09:48:31-08:00</published><updated>2022-02-12T09:48:31-08:00</updated><id>http://localhost:4000/2022/02/12/chaos-rains</id><content type="html" xml:base="http://localhost:4000/2022/02/12/chaos-rains.html"><![CDATA[<!--- Content Captures --->
+</section>]]></content><author><name></name></author><category term="gamejam" /><category term="coding" /><summary type="html"><![CDATA[You're Not Alone is a short game I designed and developed for the Brackeys Game Jam 2022.2. Built in under a week around the theme "You're Not Alone," the project placed 58th out of 1,075 entries and served as an exercise in rapid prototyping and cohesive visual design under tight creative constraints.]]></summary></entry><entry><title type="html">Chaos Rains</title><link href="http://localhost:4000/2022/02/12/chaos-rains.html" rel="alternate" type="text/html" title="Chaos Rains" /><published>2022-02-12T09:48:31-08:00</published><updated>2022-02-12T09:48:31-08:00</updated><id>http://localhost:4000/2022/02/12/chaos-rains</id><content type="html" xml:base="http://localhost:4000/2022/02/12/chaos-rains.html"><![CDATA[<!--- Content Captures --->
 
 <!--- Includes --->
+
+<section class="page-section project-description-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mobile-margin-bottom">
+		<div class="box">
+			<h5 class="">I designed and developed Chaos Rains for the Brackeys Game Jam 2021.2, where the theme was "Let There Be Chaos." Built in under a week, the game was a test of rapid ideation, design, and development under tight constraints. I created the concept, mechanics, and visuals, completing the project with over a day to spare. Out of 1,735 entries, Chaos Rains placed 109th overall.</h5>
+		</div>
+		<div class="box">
+			
+<span class="text"><a href="https://randyhuynh.itch.io/chaos-rains">Play Chaos Rains on Itch.io<span class="link material-symbols-outlined material-symbols-adjust">arrow_outward</span></a></span>
+
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">Client</div>
+						<div class="value">Personal</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">Skills</div>
+						<div>
+							
+							
+							  <div class="value">Game Design</div>
+							
+							  <div class="value">UI/UX Design</div>
+							
+							  <div class="value">Coding</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">My Role</div>
+						<div>
+							
+							
+							  <div class="value">Sole Designer &amp; Developer</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">Timeline</div>
+						<div class="value">2021</div>
+					</div>
+				</div>
+			</div>
+			
+			
+		</div>
+	</div>
+  </div>
+</section>
+
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Context</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">The Brackeys Game Jam gives participants one week and a theme. For 2021.2, the theme was Let There Be Chaos. The constraint forces prioritization: concept, mechanics, art, and polish all have to fit inside the same window. I built Chaos Rains to lean directly into the theme: fast-paced, unpredictable, and designed to feel like controlled disorder.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+		</div>
+	</div>
+  </div>
+</section>
 
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/chaos-rains/chaos-rains-hero.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
-
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/chaos-rains/chaos-rains-01.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
-
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/chaos-rains/chaos-rains-02.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
-
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/chaos-rains/chaos-rains-03.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
 
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
   <div class="row">
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-	  <hr /><div class="box"></div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Outcome</h2>
+		</div>
 	</div>
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
-	  <div class="box"></div>
-	  </div>
-	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-		  <div class="box"><h3>Links</h3></div>
-	  </div>
-	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-offset-1 col-lg-6">
-	  <div class="box">
-		
-<span class="text"><a href="https://randyhuynh.itch.io/chaos-rains">Play Chaos Rains on Itch.io</a></span>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro"></p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
 
-	  </div>
-	  </div>
+			
+
+			
+
+			
+				
+				
+					
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									<div class="stat">109th</div>
+									<div class="label">Overall out of 1,735 Entries</div>
+									<div class="value">Chaos Rains placed 109th overall out of 1,735 submissions in the Brackeys Game Jam 2021.2, completed with over a day to spare.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+			
+		</div>
+	</div>
   </div>
-</section>]]></content><author><name></name></author><category term="gamejam" /><category term="coding" /><summary type="html"><![CDATA[I designed and developed Chaos Rains for the Brackeys Game Jam 2021.2, where the theme was “Let There Be Chaos.” Built in under a week, the game was a test of rapid ideation, design, and development under tight constraints. I created the concept, mechanics, and visuals, completing the project with over a day to spare. Out of 1,735 entries, Chaos Rains placed 109th overall.]]></summary></entry><entry><title type="html">Endless Engines</title><link href="http://localhost:4000/2021/08/06/endless-engines.html" rel="alternate" type="text/html" title="Endless Engines" /><published>2021-08-06T10:48:31-07:00</published><updated>2021-08-06T10:48:31-07:00</updated><id>http://localhost:4000/2021/08/06/endless-engines</id><content type="html" xml:base="http://localhost:4000/2021/08/06/endless-engines.html"><![CDATA[<!--- Content Captures --->
+</section>]]></content><author><name></name></author><category term="gamejam" /><category term="coding" /><summary type="html"><![CDATA[I designed and developed Chaos Rains for the Brackeys Game Jam 2021.2, where the theme was "Let There Be Chaos." Built in under a week, the game was a test of rapid ideation, design, and development under tight constraints. I created the concept, mechanics, and visuals, completing the project with over a day to spare. Out of 1,735 entries, Chaos Rains placed 109th overall.]]></summary></entry><entry><title type="html">Endless Engines</title><link href="http://localhost:4000/2021/08/06/endless-engines.html" rel="alternate" type="text/html" title="Endless Engines" /><published>2021-08-06T10:48:31-07:00</published><updated>2021-08-06T10:48:31-07:00</updated><id>http://localhost:4000/2021/08/06/endless-engines</id><content type="html" xml:base="http://localhost:4000/2021/08/06/endless-engines.html"><![CDATA[<!--- Content Captures --->
 
 <!--- Includes --->
+
+<section class="page-section project-description-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mobile-margin-bottom">
+		<div class="box">
+			<h5 class="">I created a submission for the Endless Engines community challenge run by Clint Jones, where artists built animated 3D vehicle scenes from a shared template. Using a sci-fi theme, I designed a futuristic freeway chase featuring a drone as the centerpiece. This project was an opportunity to strengthen my skills in modeling, texturing, and animation within a focused creative brief, culminating in a render showcased in the official community montage.</h5>
+		</div>
+		<div class="box">
+			
+<span class="text"><a href="https://www.youtube.com/watch?v=L-v7QPjtyaI">Endless Engines 3D Community Challenge!<span class="link material-symbols-outlined material-symbols-adjust">arrow_outward</span></a></span>
+<span class="text"><a href="https://www.youtube.com/watch?v=mIDlU_sKto0">Top 100 3D Vehicle Montage | ENDLESS ENGINES<span class="link material-symbols-outlined material-symbols-adjust">arrow_outward</span></a></span>
+<span class="text"><a href="https://www.youtube.com/watch?v=7Tnv3eVsoM0">What 30 YEARS of communal 3D art looks like | ENDLESS ENGINES<span class="link material-symbols-outlined material-symbols-adjust">arrow_outward</span></a> (My render at 2:36:54)</span>
+
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">Client</div>
+						<div class="value">Personal</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">Skills</div>
+						<div>
+							
+							
+							  <div class="value">3D Modeling</div>
+							
+							  <div class="value">Animation</div>
+							
+							  <div class="value">Texturing</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">Tools</div>
+						<div>
+							
+							
+							  <div class="value">Blender</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">My Role</div>
+						<div>
+							
+							
+							  <div class="value">3D Artist &amp; Animator</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row project-overview-data">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<hr />
+						<div class="label">Timeline</div>
+						<div class="value">2021</div>
+					</div>
+				</div>
+			</div>
+			
+			
+		</div>
+	</div>
+  </div>
+</section>
+
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Context</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">Endless Engines was a community 3D art challenge where all participants started from the same vehicle template. The brief was open: pick a theme, build a world around it, and animate the result. I went sci-fi, designing a drone chasing through a futuristic freeway. The shared starting point makes the challenge useful as a skill exercise; the creative decisions are fully exposed with no room to hide behind the model.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+		</div>
+	</div>
+  </div>
+</section>
 
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/endless-engines/endless-engines-hero.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -1005,66 +4404,27 @@
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
 			<div class="box">
 				<video class="responsive rounded" loop="" muted="" autoplay="" playsinline="">
-					<source alt="" src="/assets/images/endless-engines/endless-engines-playblast.mp4" />
+					<source src="/assets/images/endless-engines/endless-engines-playblast.webm" type="video/webm" />
+					<source src="/assets/images/endless-engines/endless-engines-playblast.mp4" type="video/mp4" />
+					
 				</video>
 			</div>
 		</div>
 	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/endless-engines/endless-engines-front.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/endless-engines/endless-engines-angle.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  <div class="row">
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-	  <hr /><div class="box"></div>
-	</div>
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-1">
-	  <div class="box"></div>
-	  </div>
-	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
-		  <div class="box"><h3>Links</h3></div>
-	  </div>
-	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-offset-1 col-lg-6">
-	  <div class="box">
-		
-<span class="text"><a href="https://www.youtube.com/watch?v=L-v7QPjtyaI">Endless Engines 3D Community Challenge!</a></span>
-<span class="text"><a href="https://www.youtube.com/watch?v=mIDlU_sKto0">Top 100 3D Vehicle Montage | ENDLESS ENGINES</a></span>
-<span class="text"><a href="https://www.youtube.com/watch?v=7Tnv3eVsoM0">What 30 YEARS of communal 3D art looks like | ENDLESS ENGINES</a> (My render at 2:36:54)</span>
-
-	  </div>
-	  </div>
-  </div>
-</section>]]></content><author><name></name></author><category term="three-d" /><category term="motion" /><summary type="html"><![CDATA[I created a submission for the Endless Engines community challenge run by Clint Jones, where artists built animated 3D vehicle scenes from a shared template. Using a sci-fi theme, I designed a futuristic freeway chase featuring a drone as the centerpiece. This project was an opportunity to strengthen my skills in modeling, texturing, and animation within a focused creative brief, culminating in a render showcased in the official community montage.]]></summary></entry><entry><title type="html">Stream Pirates</title><link href="http://localhost:4000/2020/06/01/streampirates.html" rel="alternate" type="text/html" title="Stream Pirates" /><published>2020-06-01T10:48:31-07:00</published><updated>2020-06-01T10:48:31-07:00</updated><id>http://localhost:4000/2020/06/01/streampirates</id><content type="html" xml:base="http://localhost:4000/2020/06/01/streampirates.html"><![CDATA[<!--- Content Captures --->
+</section>]]></content><author><name></name></author><category term="three-d" /><category term="motion" /><summary type="html"><![CDATA[I created a submission for the Endless Engines community challenge run by Clint Jones, where artists built animated 3D vehicle scenes from a shared template. Using a sci-fi theme, I designed a futuristic freeway chase featuring a drone as the centerpiece. This project was an opportunity to strengthen my skills in modeling, texturing, and animation within a focused creative brief, culminating in a render showcased in the official community montage.]]></summary></entry><entry><title type="html">Stream Pirates @ Captain.tv</title><link href="http://localhost:4000/2020/06/01/streampirates.html" rel="alternate" type="text/html" title="Stream Pirates @ Captain.tv" /><published>2020-06-01T10:48:31-07:00</published><updated>2020-06-01T10:48:31-07:00</updated><id>http://localhost:4000/2020/06/01/streampirates</id><content type="html" xml:base="http://localhost:4000/2020/06/01/streampirates.html"><![CDATA[<!--- Content Captures --->
 
 <!--- Includes --->
 
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+<section class="page-section project-description-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mobile-margin-bottom">
 		<div class="box">
-			<h5 class="">Captain.tv was a startup company creating games designed for streamers and their viewers with the goal of enabling collaborative, community-building gaming experiences. Not seeking to compete with the likes of main stream games, Stream Pirates was the second game following the major success of Stream Raiders, to act as a side game that a streamer would run regularly throughout their stream. I was brought on as the sole UX and UI designer for this the game. As the Senior Visual Designer at Captain.tv, I was responsible for shaping the UI/UX of Stream Pirates during its development phase. Working closely with the art team, I explored multiple visual and interaction directions, created the full UI system, and implemented every screen, component, and transition directly in Unity. My work aligned a diverse set of visual influences—pixel art gameplay, painted key art, and streamer-friendly readability—into a unified experience.</h5>
+			<h5 class="">Designed a pirate-themed visual system and stream-friendly UI for a chat-driven game where viewers joined live broadcasts as the player's crew.</h5>
 		</div>
 		<div class="box">
 			
-<span text="text"><a href="https://www.youtube.com/watch?v=vfR9U-g8qDI&amp;t=1s">Stream Captain Alpha 4 Reactions<span class="link material-symbols-outlined material-symbols-adjust">arrow_outward</span></a></span>
-<span text="text"><a href="https://www.youtube.com/channel/UCkeeWa8ZFLMhVFOJK7Og24g">Stream Captain Youtube Channel<span class="link material-symbols-outlined material-symbols-adjust">arrow_outward</span></a></span>
+<span class="text"><a href="https://www.youtube.com/watch?v=vfR9U-g8qDI&amp;t=1s">Stream Captain Alpha 4 Reactions<span class="link material-symbols-outlined material-symbols-adjust">arrow_outward</span></a></span>
+<span class="text"><a href="https://www.youtube.com/channel/UCkeeWa8ZFLMhVFOJK7Og24g">Stream Captain Youtube Channel<span class="link material-symbols-outlined material-symbols-adjust">arrow_outward</span></a></span>
 
 		</div>
 	</div>
@@ -1127,7 +4487,14 @@
 					<div class="box">
 						<hr />
 						<div class="label">My Role</div>
-						<div class="value">Senior Visual Designer</div>
+						<div>
+							
+							
+							  <div class="value">Senior Visual Designer</div>
+							
+							  <div class="value">Unity Implementation</div>
+							
+						</div>
 					</div>
 				</div>
 			</div>
@@ -1153,7 +4520,7 @@
 							
 							
 							  <div class="value">
-<span text="text"><a href="https://www.linkedin.com/in/stephchowdesign/">Steph Chow</a> (Design Consultant)</span>
+<span><a href="https://www.linkedin.com/in/stephchowdesign/">Steph Chow</a> (Design Consultant)</span>
 </div>
 							
 						</div>
@@ -1166,12 +4533,12 @@
   </div>
 </section>
 
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <hr class="spacer-vertical-lg" />
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 		<div class="box">
-			<h2>Problem</h2>
+			<h2>Outcome</h2>
 		</div>
 	</div>
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -1179,37 +4546,114 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="box">
-						<p>The game’s early development included multiple competing visual styles and evolving gameplay systems, making it difficult to establish a cohesive brand and UI direction. The challenge was to create an interface that felt native to the pixel-art world while still supporting the broader illustration-based marketing identity. The UI also needed to scale across streamer overlays, gameplay views, and interactive elements used by both players and viewers.</p>
+						<p class="section-intro">The visual system shipped and supported an active closed beta with stream-facing gameplay.</p>
 						<h3></h3>
 					</div>
 				</div>
 			</div>
+
 			
+
 			
+
 			
-			
-			
+				
+				
+					
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									<div class="stat">1,000+</div>
+									<div class="label">Peak Concurrent Viewers</div>
+									<div class="value">Reached over 1,000 concurrent viewers on Twitch during peak gameplay sessions.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									<div class="stat">30+</div>
+									<div class="label">Streamers in Closed Beta</div>
+									<div class="value">Played by 30+ streamers simultaneously during the closed beta, stress-testing the live gameplay systems.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Cohesive UI/UX direction</div>
+									<div class="value">Unified pixel gameplay with character-driven key art, implemented directly in Unity to accelerate development.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Built for live audiences</div>
+									<div class="value">Designed for Twitch partners and affiliates, enabling real-time audience participation through chat-driven gameplay.</div>
+								</div>
+							</div>
+						</div>
+					
+				
 			
 		</div>
 	</div>
   </div>
 </section>
 
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/01_explorations_01.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <hr class="spacer-vertical-lg" />
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 		<div class="box">
-			<h2>Design Process</h2>
+			<h2>Visual Direction</h2>
 		</div>
 	</div>
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -1217,16 +4661,16 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="box">
-						<p>I conducted a broad exploration of visual styles—color, typography, component shapes, and HUD paradigms—before narrowing into a hybrid direction that blended pixel-art textures with clean painted accents inspired by the key art. This created a visual bridge between game and brand. I then built a full UI system in Unity, including reusable prefabs, responsive layouts, iconography, and in-game feedback patterns tailored to fast, chaotic, streamer-centric gameplay. Close collaboration with the key-art illustrator ensured consistency across promotional materials, in-game visuals, and Twitch presentation.</p>
+						<p class="section-intro">I combined pixel gameplay art with painted UI surfaces so the game felt cohesive on stream, in menus, and in-browser.</p>
 						<h3></h3>
 					</div>
 				</div>
 			</div>
+
 			
+
 			
-			
-			
-			
+
 			
 		</div>
 	</div>
@@ -1237,17 +4681,44 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/01_explorations_02.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
 
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/01_explorations_03.png" /></div>
+			
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/01_explorations_04.png" /></div>
+			
+		</div>
+	</div>
+</section>
+
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/01_explorations_05.png" /></div>
+			
+		</div>
+	</div>
+</section>
+
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <hr class="spacer-vertical-lg" />
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 		<div class="box">
-			<h2>Outcome &amp; Impact</h2>
+			<h2>UI System</h2>
 		</div>
 	</div>
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -1255,83 +4726,16 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="box">
-						<p>I established a unified visual direction that bridged pixel art and illustrated key art, delivered a complete UI system implemented in Unity, and enabled the team to iterate quickly with a scalable, production-ready interface. The work strengthened the game’s identity during early development and streamlined collaboration across design, art, and engineering.</p>
+						<p class="section-intro">I built the component library around stream readability, not just full-resolution mockups.</p>
 						<h3></h3>
 					</div>
 				</div>
 			</div>
+
 			
+
 			
-			
-			
-			
-			
-				
-				
-					
-						
-						
-						
-						
-						<div class="row project-overview-data">
-							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-								<div class="box">
-									<hr />
-									<div class="label">Delivered a cohesive UI/UX direction...</div>
-									<div class="value">that unified pixel gameplay with character-driven key art.</div>
-								</div>
-							</div>
-						</div>
-					
-				
-					
-						
-						
-						
-						
-						<div class="row project-overview-data">
-							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-								<div class="box">
-									<hr />
-									<div class="label">Implemented the complete UI in Unity...</div>
-									<div class="value">accelerating development and reducing engineering overhead.</div>
-								</div>
-							</div>
-						</div>
-					
-				
-					
-						
-						
-						
-						
-						<div class="row project-overview-data">
-							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-								<div class="box">
-									<hr />
-									<div class="label">Provided a flexible UI system...</div>
-									<div class="value">That supported rapid iteration as the game’s mechanics evolved.</div>
-								</div>
-							</div>
-						</div>
-					
-				
-					
-						
-						
-						
-						
-						<div class="row project-overview-data">
-							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-								<div class="box">
-									<hr />
-									<div class="label">Strengthened the brand identity...</div>
-									<div class="value">During a crucial phase of the startup’s development.</div>
-								</div>
-							</div>
-						</div>
-					
-				
+
 			
 		</div>
 	</div>
@@ -1341,35 +4745,8 @@
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/01_explorations_03.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/01_explorations_04.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/01_explorations_05.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/02_elements_01_buttons.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -1378,7 +4755,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/02_elements_02_containers.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -1387,7 +4764,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/02_elements_03_parchment.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -1396,7 +4773,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/02_elements_04_tooltips.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -1405,7 +4782,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/02_elements_05_icons.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -1414,7 +4791,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/02_elements_06_inputs.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -1423,7 +4800,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/03_components_01_battlepass.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -1432,16 +4809,45 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/03_components_02_modals.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
+</section>
+
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Twitch Interaction</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">The stream-facing screens kept branding present without overwhelming the gameplay behind them.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+		</div>
+	</div>
+  </div>
 </section>
 
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/04_stream_pirate_screen_1.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -1450,7 +4856,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/04_stream_pirate_screen_2.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -1459,7 +4865,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/04_stream_pirate_screen_3.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -1468,7 +4874,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/04_stream_pirate_screen_4.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -1477,7 +4883,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/04_stream_pirate_screen_5.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -1486,7 +4892,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/04_stream_pirate_screen_6.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -1495,7 +4901,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/04_stream_pirate_screen_7.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -1504,7 +4910,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/04_stream_pirate_screen_8.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -1513,7 +4919,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/stream-pirates/04_stream_pirate_screen_9.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
-</section>]]></content><author><name></name></author><category term="ui-ux" /><category term="visual-design" /><category term="branding" /><summary type="html"><![CDATA[Captain.tv was a startup company creating games designed for streamers and their viewers with the goal of enabling collaborative, community-building gaming experiences. Not seeking to compete with the likes of main stream games, Stream Pirates was the second game following the major success of Stream Raiders, to act as a side game that a streamer would run regularly throughout their stream. I was brought on as the sole UX and UI designer for this the game. As the Senior Visual Designer at Captain.tv, I was responsible for shaping the UI/UX of Stream Pirates during its development phase. Working closely with the art team, I explored multiple visual and interaction directions, created the full UI system, and implemented every screen, component, and transition directly in Unity. My work aligned a diverse set of visual influences—pixel art gameplay, painted key art, and streamer-friendly readability—into a unified experience.]]></summary></entry></feed>
+</section>]]></content><author><name></name></author><category term="ui-ux" /><category term="visual-design" /><category term="branding" /><summary type="html"><![CDATA[Designed a pirate-themed visual system and stream-friendly UI for a chat-driven game where viewers joined live broadcasts as the player's crew.]]></summary></entry></feed>

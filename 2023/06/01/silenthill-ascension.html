@@ -3,9 +3,9 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Silent Hill Ascension | Randy Huynh</title>
+<title>Silent Hill Ascension @ Genvid Entertainment | Randy Huynh</title>
 <meta name="generator" content="Jekyll v4.3.3" />
-<meta property="og:title" content="Silent Hill Ascension" />
+<meta property="og:title" content="Silent Hill Ascension @ Genvid Entertainment" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="I was a UI/UX Designer on Silent Hill Ascension, a new form of interactive entertainment developed by Genvid that blended television with gaming. The experience allowed viewers to participate in live storylines by playing minigames to earn points, which were then used to vote on key narrative decisions. Votes were tallied weekly, with the story progressing based on community input. My role was to design the user experience and interface systems that supported this hybrid format, ensuring gameplay, voting, and storytelling were intuitive and engaging for a global audience." />
 <meta property="og:description" content="I was a UI/UX Designer on Silent Hill Ascension, a new form of interactive entertainment developed by Genvid that blended television with gaming. The experience allowed viewers to participate in live storylines by playing minigames to earn points, which were then used to vote on key narrative decisions. Votes were tallied weekly, with the story progressing based on community input. My role was to design the user experience and interface systems that supported this hybrid format, ensuring gameplay, voting, and storytelling were intuitive and engaging for a global audience." />
@@ -15,9 +15,9 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2023-06-01T10:48:31-07:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Silent Hill Ascension" />
+<meta property="twitter:title" content="Silent Hill Ascension @ Genvid Entertainment" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-06-01T10:48:31-07:00","datePublished":"2023-06-01T10:48:31-07:00","description":"I was a UI/UX Designer on Silent Hill Ascension, a new form of interactive entertainment developed by Genvid that blended television with gaming. The experience allowed viewers to participate in live storylines by playing minigames to earn points, which were then used to vote on key narrative decisions. Votes were tallied weekly, with the story progressing based on community input. My role was to design the user experience and interface systems that supported this hybrid format, ensuring gameplay, voting, and storytelling were intuitive and engaging for a global audience.","headline":"Silent Hill Ascension","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2023/06/01/silenthill-ascension.html"},"url":"http://localhost:4000/2023/06/01/silenthill-ascension.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-06-01T10:48:31-07:00","datePublished":"2023-06-01T10:48:31-07:00","description":"I was a UI/UX Designer on Silent Hill Ascension, a new form of interactive entertainment developed by Genvid that blended television with gaming. The experience allowed viewers to participate in live storylines by playing minigames to earn points, which were then used to vote on key narrative decisions. Votes were tallied weekly, with the story progressing based on community input. My role was to design the user experience and interface systems that supported this hybrid format, ensuring gameplay, voting, and storytelling were intuitive and engaging for a global audience.","headline":"Silent Hill Ascension @ Genvid Entertainment","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2023/06/01/silenthill-ascension.html"},"url":"http://localhost:4000/2023/06/01/silenthill-ascension.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,7 +29,7 @@
   <link rel="stylesheet" href="/assets/flexboxgrid.css">
   <link rel="stylesheet" href="/assets/index.css">
   <link rel="stylesheet" href="/assets/hero.css">
-  <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.11/dist/lenis.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Randy Huynh" /></head><body class="layout">
+  <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.11/dist/lenis.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Randy Huynh" /></head><body class="layout layout-post">
   
   <div id="cursor"></div>
   
@@ -37,7 +37,160 @@
     
     <div class="wrap container-fluid">
       
-      
+      <div class="loading-screen" data-loading-screen aria-hidden="true">
+	<div class="loading-screen__logo" data-loading-logo>
+		<div class="loading-screen__ring" aria-hidden="true"></div>
+		<div class="loading-screen__logo-layer loading-screen__logo-layer--loop"></div>
+		<div class="loading-screen__logo-layer loading-screen__logo-layer--descender"></div>
+	</div>
+</div>
+
+<script>
+	(function() {
+		var screen = document.querySelector('[data-loading-screen]');
+		if (!screen) return;
+		var isTransitioning = false;
+
+		function afterTransition(callback) {
+			var handled = false;
+
+			function done() {
+				if (handled) return;
+				handled = true;
+				screen.removeEventListener('transitionend', onTransitionEnd);
+				callback();
+			}
+
+			function onTransitionEnd(event) {
+				if (event.target !== screen) return;
+				done();
+			}
+
+			screen.addEventListener('transitionend', onTransitionEnd);
+			setTimeout(done, 900);
+		}
+
+		function getMediaUrls() {
+			var nodes = document.querySelectorAll('img[src], video[src], video source[src]');
+			var urls = [];
+
+			nodes.forEach(function(node) {
+				var src = node.getAttribute('src');
+				if (!src || src.indexOf('data:') === 0) return;
+				urls.push(node.src || src);
+			});
+
+			return Array.from(new Set(urls));
+		}
+
+		function preloadImage(url) {
+			return new Promise(function(resolve) {
+				var img = new Image();
+				img.onload = resolve;
+				img.onerror = resolve;
+				img.src = url;
+			});
+		}
+
+		function preloadVideo(url) {
+			return new Promise(function(resolve) {
+				var video = document.createElement('video');
+				var settled = false;
+				var done = function() {
+					if (settled) return;
+					settled = true;
+					resolve();
+				};
+
+				video.preload = 'auto';
+				video.muted = true;
+				video.playsInline = true;
+				video.onloadeddata = done;
+				video.onerror = done;
+				video.src = url;
+
+				setTimeout(done, 4000);
+			});
+		}
+
+		function preloadAllMedia() {
+			var urls = getMediaUrls();
+			var tasks = urls.map(function(url) {
+				if (/\.(mp4|webm)(\?|#|$)/i.test(url)) {
+					return preloadVideo(url);
+				}
+
+				return preloadImage(url);
+			});
+
+			return Promise.allSettled(tasks);
+		}
+
+		function dismissLoadingScreen() {
+			screen.classList.add('is-wiping-out');
+			afterTransition(function() {
+				screen.classList.remove('is-wiping-out');
+				screen.classList.add('is-hidden');
+			});
+		}
+
+		function isEligibleLink(link) {
+			if (!link || !link.href) return false;
+			if (link.target && link.target !== '_self') return false;
+			if (link.hasAttribute('download')) return false;
+			if (link.hasAttribute('data-no-loading-transition')) return false;
+			if (link.origin !== window.location.origin) return false;
+			if (link.pathname === window.location.pathname && link.hash) return false;
+			return true;
+		}
+
+		function showLoadingScreenForNavigation(url) {
+			if (isTransitioning) return;
+			isTransitioning = true;
+
+			screen.classList.remove('is-hidden', 'is-wiping-out');
+			screen.classList.add('is-pre-enter');
+
+			requestAnimationFrame(function() {
+				requestAnimationFrame(function() {
+					screen.classList.remove('is-pre-enter');
+					screen.classList.add('is-wiping-in');
+					afterTransition(function() {
+						window.location.href = url;
+					});
+				});
+			});
+		}
+
+		function bindLinkTransitions() {
+			document.addEventListener('click', function(event) {
+				var link = event.target.closest('a');
+				if (!isEligibleLink(link)) return;
+
+				event.preventDefault();
+				showLoadingScreenForNavigation(link.href);
+			});
+		}
+
+		function init() {
+			bindLinkTransitions();
+
+			Promise.race([
+				preloadAllMedia(),
+				new Promise(function(resolve) { setTimeout(resolve, 5000); })
+			]).then(dismissLoadingScreen);
+		}
+
+		if (document.readyState === 'loading') {
+			document.addEventListener('DOMContentLoaded', init, { once: true });
+		} else {
+			init();
+		}
+	})();
+</script>
+
+
+
 
 <section class="post-description page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <div class="row">
@@ -46,7 +199,7 @@
         <span class="status-label">
           Shipped
         </span>
-      </span><h1>Silent Hill Ascension</h1>
+      </span><h1>Silent Hill Ascension @ Genvid Entertainment</h1>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-offset-1 col-lg-offset-1 col-md-6 col-lg-6">
       <h4 class="project-blurb text-subtle">A community-driven interactive horror series where I helped define the UI’s visual direction.</h4>
@@ -55,7 +208,7 @@
 </section>
 
 
-  <section data-aos="fade-up" class="hero-image-section">
+  <section data-aos="fade-up" class="hero-image-section page-section">
 	<div class="hero-image-container">
 		<img alt="" class="hero-image-parallax" src="/assets/images/silenthill-ascension/sha-hero.webp" />
 	</div>
@@ -70,7 +223,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/silenthill-ascension/sha-active-decisions.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -79,7 +232,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/silenthill-ascension/sha-battlepass.webp" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -88,7 +241,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/silenthill-ascension/sha-chat-overlay.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -97,7 +250,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/silenthill-ascension/sha-chyron.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -106,7 +259,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/silenthill-ascension/sha-mainhub.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -115,7 +268,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/silenthill-ascension/sha-scene-select.webp" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -124,7 +277,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/silenthill-ascension/sha-voting.webp" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -133,7 +286,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/silenthill-ascension/sha-watch-01.webp" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -142,7 +295,7 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/silenthill-ascension/sha-watch-02.webp" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -185,10 +338,10 @@
 	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-offset-1 col-lg-6">
 	  <div class="box">
 		
-<span class="text"><a href="https://www.linkedin.com/in/james-lipscomb-ux/">James Lipcomb</a> (UI/UX Director)</span>
-<span class="text"><a href="https://www.linkedin.com/in/toddcolby/">Todd Colby</a> (Senior Visual Designer)</span>
-<span class="text"><a href="https://www.linkedin.com/in/mattywebster/">Matt Webster</a> (Senior Visual Designer)</span>
-<span class="text"><a href="https://www.linkedin.com/in/sophieshao/">Sophie Shao</a> (Senior UX Designer)</span>
+<span><a href="https://www.linkedin.com/in/james-lipscomb-ux/">James Lipcomb</a> (UI/UX Director)</span><br />
+<span><a href="https://www.linkedin.com/in/toddcolby/">Todd Colby</a> (Senior Visual Designer)</span><br />
+<span><a href="https://www.linkedin.com/in/mattywebster/">Matt Webster</a> (Senior Visual Designer)</span><br />
+<span><a href="https://www.linkedin.com/in/sophieshao/">Sophie Shao</a> (Senior UX Designer)</span>
 
 	  </div>
 	  </div>
@@ -209,54 +362,49 @@
 	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-offset-1 col-lg-6">
 	  <div class="box">
 		
-<span class="text"><a href="https://genvid.com/titles/silent-hill-ascension/">Silent Hill Ascension</a></span>
+<span class="text"><a href="https://genvid.com/titles/silent-hill-ascension/">Silent Hill Ascension<span class="link material-symbols-outlined material-symbols-adjust">arrow_outward</span></a></span>
 
 	  </div>
 	  </div>
   </div>
 </section>
-<section class="page-section">
+<section class="page-section post-footer-section">
 <div class="row">
-	
+
   <div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-	  
+
 	<div class="box">
-		
+
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<h2 class="box">More projects</h2>
 			</div>
-		</div>
-		
-		<div class="row"><div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-				<a class="box thumbnail" href="/2023/09/09/boss-fight.html">
-				  <img class="thumbnail-image rounded responsive" src="/assets/images/boss-fight/boss-fight-thumb.png" />
-				  <p class="thumbnail-title">Boss Fight</p>
-				  <div class="thumbnail-tags">
-					  <p class="thumbnail-tag">Personal</p>
-				   </div>
-				</a>
-			</div><div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-				<a class="box thumbnail" href="/2022/03/05/room-renders.html">
-				  <img class="thumbnail-image rounded responsive" src="/assets/images/apartment/apartment-thumb.png" />
-				  <p class="thumbnail-title">Room Renders</p>
-				  <div class="thumbnail-tags">
-					  <p class="thumbnail-tag">Personal</p>
+		</div><div class="row"><div class="empty rounded col-xs-12 col-sm-12 col-md-6 col-lg-6"></div><div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+				<a class="box thumbnail" href="/2024/08/01/spacetimedb.html">
+				  <div class="thumbnail-image"><video class="rounded responsive" loop muted autoplay playsinline src="/assets/images/spacetimedb/stdb-logo.mp4"></video></div>
+				  <div class="thumbnail-footer">
+				    <div class="thumbnail-footer-left">
+				      <p class="thumbnail-title">SpacetimeDB at Clockwork Labs</p>
+				      <div class="thumbnail-tags">
+				        <p class="thumbnail-tag">Built a developer portal for a platform with 75,000+ registered users.</p>
+				      </div>
+				    </div>
 				  </div>
 				</a>
 			</div></div>
 	  </div>
 	</div>
   </div>
-</section><footer>
+</section>
+<footer>
   <div data-aos="fade-up" data-aos-once="true" class="row">
     <div class="col-xs-12 col-sm-12 col-md-offset-2 col-md-10 col-lg-offset-1 col-lg-10">
-      <div class="box"><h1 id="contact"><a href="mailto:hello@randyhuynh.com">Get in touch.</a></h1></div>
+      <div class="box"><h1 id="contact"><a href="mailto:ranhuynh@gmail.com">Get in touch.</a></h1></div>
     </div>
   </div>
   <div data-aos="fade-up" data-aos-once="true" class="row">
     <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-3 col-lg-offset-1 col-lg-3">
-      <div class="box"><span class="text sub-label"><a href="mailto:ranhuynh@gmail.com">ranhuynh@gmail.com</a></p></div>
+      <div class="box"><span class="text sub-label">Randy Huynh</p></div>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
       <div class="box"><span class="text sub-label">Seattle, WA<br/>United States</p></div>
@@ -283,12 +431,11 @@
 <script src="https://unpkg.com/lenis@1.3.11/dist/lenis.min.js"></script> <header data-lenis-prevent><div class="spacer-h-40">
   </div>
   <div id="header-bar" class="row">
-    <div id="post-progress"></div>
-    <a id="back" class="tab" href="/">
+    <div id="post-progress"></div><a id="back" class="tab" href="/">
       <span class="material-symbols-outlined material-symbols-adjust">arrow_back</span>
     </a>
     <span id="post-title">
-Silent Hill Ascension
+Silent Hill Ascension @ Genvid Entertainment
 </span>
     <a id="share" class="tab" onclick="copyURLToClipboard()">
       <span class="material-symbols-adjust material-symbols-outlined">ios_share</span>

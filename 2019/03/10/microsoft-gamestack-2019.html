@@ -3,21 +3,21 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Microsoft Game Stack | Randy Huynh</title>
+<title>Microsoft Game Stack @ Microsoft | Randy Huynh</title>
 <meta name="generator" content="Jekyll v4.3.3" />
-<meta property="og:title" content="Microsoft Game Stack" />
+<meta property="og:title" content="Microsoft Game Stack @ Microsoft" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="In 2019, Microsoft launched Game Stack to streamline its offering to game developers. The tools existed—but they were scattered across different Microsoft organizations, each with its own visual language. Game Stack aimed to bring these products together under a single umbrella, making it easy for developers to understand how Microsoft supports them from ideation to development, testing, launch, and live operations. As part of the brand team, I led the visual design and styleguide development, creating a unified identity that expressed Microsoft’s developer-friendly values while feeling modern, bold, and relevant to the game industry." />
-<meta property="og:description" content="In 2019, Microsoft launched Game Stack to streamline its offering to game developers. The tools existed—but they were scattered across different Microsoft organizations, each with its own visual language. Game Stack aimed to bring these products together under a single umbrella, making it easy for developers to understand how Microsoft supports them from ideation to development, testing, launch, and live operations. As part of the brand team, I led the visual design and styleguide development, creating a unified identity that expressed Microsoft’s developer-friendly values while feeling modern, bold, and relevant to the game industry." />
+<meta name="description" content="Defined a unified brand for Microsoft’s game development tools so Azure, Xbox, PlayFab, and Visual Studio could tell one clearer story to developers." />
+<meta property="og:description" content="Defined a unified brand for Microsoft’s game development tools so Azure, Xbox, PlayFab, and Visual Studio could tell one clearer story to developers." />
 <link rel="canonical" href="http://localhost:4000/2019/03/10/microsoft-gamestack-2019.html" />
 <meta property="og:url" content="http://localhost:4000/2019/03/10/microsoft-gamestack-2019.html" />
 <meta property="og:site_name" content="Randy Huynh" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-03-10T10:48:31-07:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Microsoft Game Stack" />
+<meta property="twitter:title" content="Microsoft Game Stack @ Microsoft" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2019-03-10T10:48:31-07:00","datePublished":"2019-03-10T10:48:31-07:00","description":"In 2019, Microsoft launched Game Stack to streamline its offering to game developers. The tools existed—but they were scattered across different Microsoft organizations, each with its own visual language. Game Stack aimed to bring these products together under a single umbrella, making it easy for developers to understand how Microsoft supports them from ideation to development, testing, launch, and live operations. As part of the brand team, I led the visual design and styleguide development, creating a unified identity that expressed Microsoft’s developer-friendly values while feeling modern, bold, and relevant to the game industry.","headline":"Microsoft Game Stack","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2019/03/10/microsoft-gamestack-2019.html"},"url":"http://localhost:4000/2019/03/10/microsoft-gamestack-2019.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2019-03-10T10:48:31-07:00","datePublished":"2019-03-10T10:48:31-07:00","description":"Defined a unified brand for Microsoft’s game development tools so Azure, Xbox, PlayFab, and Visual Studio could tell one clearer story to developers.","headline":"Microsoft Game Stack @ Microsoft","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2019/03/10/microsoft-gamestack-2019.html"},"url":"http://localhost:4000/2019/03/10/microsoft-gamestack-2019.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,7 +29,7 @@
   <link rel="stylesheet" href="/assets/flexboxgrid.css">
   <link rel="stylesheet" href="/assets/index.css">
   <link rel="stylesheet" href="/assets/hero.css">
-  <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.11/dist/lenis.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Randy Huynh" /></head><body class="layout">
+  <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.11/dist/lenis.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Randy Huynh" /></head><body class="layout layout-post">
   
   <div id="cursor"></div>
   
@@ -37,7 +37,160 @@
     
     <div class="wrap container-fluid">
       
-      
+      <div class="loading-screen" data-loading-screen aria-hidden="true">
+	<div class="loading-screen__logo" data-loading-logo>
+		<div class="loading-screen__ring" aria-hidden="true"></div>
+		<div class="loading-screen__logo-layer loading-screen__logo-layer--loop"></div>
+		<div class="loading-screen__logo-layer loading-screen__logo-layer--descender"></div>
+	</div>
+</div>
+
+<script>
+	(function() {
+		var screen = document.querySelector('[data-loading-screen]');
+		if (!screen) return;
+		var isTransitioning = false;
+
+		function afterTransition(callback) {
+			var handled = false;
+
+			function done() {
+				if (handled) return;
+				handled = true;
+				screen.removeEventListener('transitionend', onTransitionEnd);
+				callback();
+			}
+
+			function onTransitionEnd(event) {
+				if (event.target !== screen) return;
+				done();
+			}
+
+			screen.addEventListener('transitionend', onTransitionEnd);
+			setTimeout(done, 900);
+		}
+
+		function getMediaUrls() {
+			var nodes = document.querySelectorAll('img[src], video[src], video source[src]');
+			var urls = [];
+
+			nodes.forEach(function(node) {
+				var src = node.getAttribute('src');
+				if (!src || src.indexOf('data:') === 0) return;
+				urls.push(node.src || src);
+			});
+
+			return Array.from(new Set(urls));
+		}
+
+		function preloadImage(url) {
+			return new Promise(function(resolve) {
+				var img = new Image();
+				img.onload = resolve;
+				img.onerror = resolve;
+				img.src = url;
+			});
+		}
+
+		function preloadVideo(url) {
+			return new Promise(function(resolve) {
+				var video = document.createElement('video');
+				var settled = false;
+				var done = function() {
+					if (settled) return;
+					settled = true;
+					resolve();
+				};
+
+				video.preload = 'auto';
+				video.muted = true;
+				video.playsInline = true;
+				video.onloadeddata = done;
+				video.onerror = done;
+				video.src = url;
+
+				setTimeout(done, 4000);
+			});
+		}
+
+		function preloadAllMedia() {
+			var urls = getMediaUrls();
+			var tasks = urls.map(function(url) {
+				if (/\.(mp4|webm)(\?|#|$)/i.test(url)) {
+					return preloadVideo(url);
+				}
+
+				return preloadImage(url);
+			});
+
+			return Promise.allSettled(tasks);
+		}
+
+		function dismissLoadingScreen() {
+			screen.classList.add('is-wiping-out');
+			afterTransition(function() {
+				screen.classList.remove('is-wiping-out');
+				screen.classList.add('is-hidden');
+			});
+		}
+
+		function isEligibleLink(link) {
+			if (!link || !link.href) return false;
+			if (link.target && link.target !== '_self') return false;
+			if (link.hasAttribute('download')) return false;
+			if (link.hasAttribute('data-no-loading-transition')) return false;
+			if (link.origin !== window.location.origin) return false;
+			if (link.pathname === window.location.pathname && link.hash) return false;
+			return true;
+		}
+
+		function showLoadingScreenForNavigation(url) {
+			if (isTransitioning) return;
+			isTransitioning = true;
+
+			screen.classList.remove('is-hidden', 'is-wiping-out');
+			screen.classList.add('is-pre-enter');
+
+			requestAnimationFrame(function() {
+				requestAnimationFrame(function() {
+					screen.classList.remove('is-pre-enter');
+					screen.classList.add('is-wiping-in');
+					afterTransition(function() {
+						window.location.href = url;
+					});
+				});
+			});
+		}
+
+		function bindLinkTransitions() {
+			document.addEventListener('click', function(event) {
+				var link = event.target.closest('a');
+				if (!isEligibleLink(link)) return;
+
+				event.preventDefault();
+				showLoadingScreenForNavigation(link.href);
+			});
+		}
+
+		function init() {
+			bindLinkTransitions();
+
+			Promise.race([
+				preloadAllMedia(),
+				new Promise(function(resolve) { setTimeout(resolve, 5000); })
+			]).then(dismissLoadingScreen);
+		}
+
+		if (document.readyState === 'loading') {
+			document.addEventListener('DOMContentLoaded', init, { once: true });
+		} else {
+			init();
+		}
+	})();
+</script>
+
+
+
 
 <section class="post-description page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <div class="row">
@@ -46,18 +199,18 @@
         <span class="status-label">
           Shipped
         </span>
-      </span><h1>Microsoft Game Stack</h1>
+      </span><h1>Microsoft Game Stack @ Microsoft</h1>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-offset-1 col-lg-offset-1 col-md-6 col-lg-6">
-      <h4 class="project-blurb text-subtle">Microsoft Game Stack was a new brand initiative unifying Microsoft’s tools for game developers across Azure, Xbox, and Visual Studio. I was the visual designer responsible for defining the brand identity and building a cohesive, flexible design system that could scale across digital, marketing, and event touchpoints.</h4>
+      <h4 class="project-blurb text-subtle">Built the launch brand system for Microsoft Game Stack across web, event, and marketing touchpoints.</h4>
     </div>
   </div>
 </section>
 
 
-  <section data-aos="fade-up" class="hero-image-section">
+  <section data-aos="fade-up" class="hero-image-section page-section">
 	<div class="hero-image-container">
-		<img alt="" class="hero-image-parallax" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-thumbnail2.png" />
+		<img alt="" class="hero-image-parallax" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-thumbnail2.jpg" />
 	</div>
 </section>
 
@@ -66,16 +219,16 @@
 
 <!--- Includes --->
 
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+<section class="page-section project-description-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mobile-margin-bottom">
 		<div class="box">
-			<h5 class="">In 2019, Microsoft launched Game Stack to streamline its offering to game developers. The tools existed—but they were scattered across different Microsoft organizations, each with its own visual language. Game Stack aimed to bring these products together under a single umbrella, making it easy for developers to understand how Microsoft supports them from ideation to development, testing, launch, and live operations. As part of the brand team, I led the visual design and styleguide development, creating a unified identity that expressed Microsoft’s developer-friendly values while feeling modern, bold, and relevant to the game industry.</h5>
+			<h5 class="">Defined a unified brand for Microsoft's game development tools so Azure, Xbox, PlayFab, and Visual Studio could tell one clearer story to developers.</h5>
 		</div>
 		<div class="box">
 			
 <span class="text"><a href="https://www.forbes.com/sites/kevinmurnane/2019/07/07/game-stack-turns-microsofts-data-centers-into-game-development-platforms/#6499324637eb">Game Stack Turns Microsoft's Data Centers Into Game Development Platforms<span class="link material-symbols-outlined material-symbols-adjust">arrow_outward</span></a></span>
-<span class="text"><a href="https://stevivor.com/features/interviews/james-gwertzman-microsoft-game-stack-benefits/">Microsoft’s James Gwertzman on the benefits of Game Stack<span class="link material-symbols-outlined material-symbols-adjust">arrow_outward</span></a></span>
+<span class="text"><a href="https://stevivor.com/features/interviews/james-gwertzman-microsoft-game-stack-benefits/">Microsoft's James Gwertzman on the benefits of Game Stack<span class="link material-symbols-outlined material-symbols-adjust">arrow_outward</span></a></span>
 
 		</div>
 	</div>
@@ -134,7 +287,12 @@
 					<div class="box">
 						<hr />
 						<div class="label">My Role</div>
-						<div class="value">Visual Designer</div>
+						<div>
+							
+							
+							  <div class="value">Visual Designer</div>
+							
+						</div>
 					</div>
 				</div>
 			</div>
@@ -175,12 +333,12 @@
   </div>
 </section>
 
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <hr class="spacer-vertical-lg" />
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 		<div class="box">
-			<h2>Problem</h2>
+			<h2>Challenge</h2>
 		</div>
 	</div>
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -188,28 +346,35 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="box">
-						<p>Game developers often used Microsoft tools: Azure PlayFab, Visual Studio, Xbox Live, Direct, etc. But the ecosystem was fragmented. Each product had its own look and story, resulting in:</p>
+						<p class="section-intro">Microsoft had the tools, but not a unified story for game developers.</p>
 						<h3></h3>
 					</div>
 				</div>
 			</div>
+
 			
+
 			
-			
-			
-			
+
 			
 				
 				
+					
+					
+				
+					
 					
 						
 						
 						
 						
+						
+
 						<div class="row project-overview-data">
 							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 								<div class="box">
 									<hr />
+									
 									<div class="label">Lack of Cohesion</div>
 									<div class="value">Visual inconsistency across teams and channels.</div>
 								</div>
@@ -218,15 +383,19 @@
 					
 				
 					
+					
 						
 						
 						
 						
+						
+
 						<div class="row project-overview-data">
 							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 								<div class="box">
 									<hr />
-									<div class="label">No Wholistic Story</div>
+									
+									<div class="label">No Holistic Story</div>
 									<div class="value">No central narrative explaining how Microsoft supports end-to-end game development.</div>
 								</div>
 							</div>
@@ -234,32 +403,40 @@
 					
 				
 					
+					
 						
 						
 						
 						
+						
+
 						<div class="row project-overview-data">
 							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 								<div class="box">
 									<hr />
+									
 									<div class="label">Competing Brands</div>
-									<div class="value">Marketing materials that felt disjointed and lacked a shared brand language.</div>
+									<div class="value">Marketing materials felt disjointed and lacked a shared language.</div>
 								</div>
 							</div>
 						</div>
 					
 				
 					
+					
 						
 						
 						
 						
+						
+
 						<div class="row project-overview-data">
 							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 								<div class="box">
 									<hr />
+									
 									<div class="label">Hard to Discern</div>
-									<div class="value">Difficulty for developers to understand what to use and when.</div>
+									<div class="value">Developers had to piece together what tools to use and when.</div>
 								</div>
 							</div>
 						</div>
@@ -274,210 +451,70 @@
 <section data-aos="fade-up" class="page-section image-grid">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-			<div class="row">
-				<!-- Column 1 -->
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+			<div class="media-grid" style="--grid-columns: 2; --grid-rows: 2;">
+				
+					
+					
+					
+					
+					
+					
+
+					
 					<div class="box">
 						<img alt="Image 1" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-previous-gdc.png" />
 						
 					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
 					<div class="box">
 						<img alt="Image 2" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-previous-xbox.png" />
 						
 					</div>
-				</div>
+					
 				
-				<!-- Column 2 -->
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+					
+					
+					
+					
+					
+					
+
+					
 					<div class="box">
 						<img alt="Image 3" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-previous-azure.png" />
 						
 					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
 					<div class="box">
 						<img alt="Image 4" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-previous-playfab.png" />
 						
 					</div>
-				</div>
+					
+				
 			</div>
 		</div>
 	</div>
 </section>
 
-<section data-aos="fade-up" class="page-section">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-icons.png" /></div>
-			<div class="caption"></div>
-		</div>
-	</div>
-</section>
-
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  <hr class="spacer-vertical-lg" />
-  <div class="row">
-	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-		<div class="box">
-			<h2>Design Process</h2>
-		</div>
-	</div>
-	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-		<div class="box">
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<div class="box">
-						<p>Before designing visuals, we defined what Microsoft Game Stack needed to express as a brand. The core values were:</p>
-						<h3></h3>
-					</div>
-				</div>
-			</div>
-			
-			
-			
-			
-			
-			
-				
-				
-					
-						
-						
-						
-						
-						<div class="row project-overview-data">
-							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-								<div class="box">
-									<hr />
-									<div class="label">We know games and want to empower you to create worlds.</div>
-									<div class="value">Game Stack needed to feel like it belonged in the industry — modern, energetic, and visually aligned with the tools developers use every day. The brand should reflect creativity and innovation while still carrying Microsoft’s trust and engineering credibility.</div>
-								</div>
-							</div>
-						</div>
-					
-				
-					
-						
-						
-						
-						
-						<div class="row project-overview-data">
-							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-								<div class="box">
-									<hr />
-									<div class="label">We have the tools for developers from beginning to end.</div>
-									<div class="value">The brand had to communicate a complete ecosystem — from ideation to live ops. It needed to visually simplify and clarify how all of Microsoft’s technologies (Azure, Xbox, Visual Studio, PlayFab, etc.) work together.</div>
-								</div>
-							</div>
-						</div>
-					
-				
-					
-						
-						
-						
-						
-						<div class="row project-overview-data">
-							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-								<div class="box">
-									<hr />
-									<div class="label">“We support indie teams just as much as AAA studios.”</div>
-									<div class="value">The visual system couldn’t feel too enterprise or too “big studio.” It needed warmth, approachability, and flexibility — appealing to hobbyists, independent developers, and large game companies alike.</div>
-								</div>
-							</div>
-						</div>
-					
-				
-					
-						
-						
-						
-						
-						<div class="row project-overview-data">
-							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-								<div class="box">
-									<hr />
-									<div class="label">“Our tools are part of one ecosystem that works together throughout your development pipeline.”</div>
-									<div class="value">This value drives consistency. The identity had to unify products that historically looked and felt disconnected, giving developers a single, coherent experience.</div>
-								</div>
-							</div>
-						</div>
-					
-				
-			
-		</div>
-	</div>
-  </div>
-</section>
-
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  <hr class="spacer-vertical-lg" />
-  <div class="row">
-	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-		<div class="box">
-			<h2>Visual Identity</h2>
-		</div>
-	</div>
-	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-		<div class="box">
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<div class="box">
-						<p>These four values directly informed the design system from the ground up.</p>
-						<h3></h3>
-					</div>
-				</div>
-			</div>
-			
-			
-			
-			
-			
-			
-		</div>
-	</div>
-  </div>
-</section>
-
-<section data-aos="fade-up" class="page-section image-grid">
-	<div class="row">
-		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-			<div class="row">
-				<!-- Column 1 -->
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-					<div class="box">
-						<img alt="Image 1" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-direction-icons.png" />
-						
-						<div class="caption">To ground the brand in the aesthetics of game development, we designed a visual system inspired by the RTS (real-time strategy) camera viewpoint.</div>
-						
-					</div>
-					<div class="box">
-						<img alt="Image 2" class="responsive rounded" src="" />
-						
-						<div class="caption">To represent the full development pipeline, ideation to launch to live operations, we built the brand around a continuous line motif.</div>
-						
-					</div>
-				</div>
-				
-				<!-- Column 2 -->
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-					<div class="box">
-						<img alt="Image 3" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-direction-3D.png" />
-						
-						<div class="caption">The 3D illustration style was intentionally friendly, simplified, and slightly cartoony, creating a visual tone that was inviting for indies, not enterprise-intimidating.</div>
-						
-					</div>
-					<div class="box">
-						<img alt="Image 4" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-direction-cobranding.png" />
-						
-						<div class="caption">To tie together products across Azure, Xbox, PlayFab, and Visual Studio, we built co-branding directly into the visual language.</div>
-						
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   <hr class="spacer-vertical-lg" />
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -490,78 +527,117 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="box">
-						<p>Microsoft Game Stack launched with a strong, cohesive brand identity that visually unified more than a dozen previously disconnected developer products. The brand system was adopted across:</p>
+						<p class="section-intro">Game Stack launched with one brand system across products, web, events, and campaigns.</p>
 						<h3></h3>
 					</div>
 				</div>
 			</div>
+
 			
+
 			
-			
-			
-			
+
 			
 				
 				
+					
+					
+				
+					
 					
 						
 						
 						
 						
+						
+
 						<div class="row project-overview-data">
 							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 								<div class="box">
 									<hr />
+									<div class="stat">6,000+</div>
+									<div class="label">PlayFab Sign-Ups in Week One</div>
+									<div class="value">PlayFab saw a major sign-up lift in the first week after GDC.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
 									<div class="label">Microsoft Website</div>
-									<div class="value">Established a web resource on https://developer.microsoft.com/en-us/games/</div>
+									<div class="value">Established a central web destination for Microsoft's game development offering.</div>
 								</div>
 							</div>
 						</div>
 					
 				
 					
+					
 						
 						
 						
 						
+						
+
 						<div class="row project-overview-data">
 							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 								<div class="box">
 									<hr />
-									<div class="label">Expos and Conferences</div>
-									<div class="value">Presented at GDC and major gaming conferences</div>
+									
+									<div class="label">Event Rollout</div>
+									<div class="value">Launched across GDC and other game industry touchpoints.</div>
 								</div>
 							</div>
 						</div>
 					
 				
 					
+					
 						
 						
 						
 						
+						
+
 						<div class="row project-overview-data">
 							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 								<div class="box">
 									<hr />
-									<div class="label">Created a unified Microsoft narrative</div>
-									<div class="value">For game development, helping developers understand the full ecosystem at a glance.</div>
+									
+									<div class="label">Unified Narrative</div>
+									<div class="value">Helped developers understand the Microsoft ecosystem at a glance.</div>
 								</div>
 							</div>
 						</div>
 					
 				
 					
+					
 						
 						
 						
 						
+						
+
 						<div class="row project-overview-data">
 							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 								<div class="box">
 									<hr />
-									<div class="label">Strengthened Microsoft’s position</div>
-									<div class="value">As a partner for game studios by presenting a polished, coherent brand.</div>
+									
+									<div class="label">Stronger Market Position</div>
+									<div class="value">Presented Microsoft as a more coherent partner for game studios.</div>
 								</div>
 							</div>
 						</div>
@@ -573,10 +649,246 @@
   </div>
 </section>
 
+<section data-aos="fade-up" class="page-section">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-icons.png" /></div>
+			
+		</div>
+	</div>
+</section>
+
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Design Process</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">Before touching visuals, we aligned on what the brand needed to achieve. These goals became the principles that guided every decision.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+				
+				
+					
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Earn industry credibility</div>
+									<div class="value">The brand had to feel native to game development — modern and energetic — while still carrying Microsoft's weight. If it felt too corporate, developers would tune it out.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Tell an end-to-end story</div>
+									<div class="value">Azure, Xbox, PlayFab, and Visual Studio each had their own presence. The system needed to show how they work together across the full development lifecycle, not just sit next to each other.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Speak to indie and AAA alike</div>
+									<div class="value">The tone had to scale. A solo dev and a large studio both needed to feel like this was built for them — approachable enough for hobbyists, credible enough for enterprise.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+					
+					
+						
+						
+						
+						
+						
+
+						<div class="row project-overview-data">
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+								<div class="box">
+									<hr />
+									
+									<div class="label">Build one ecosystem identity</div>
+									<div class="value">Products that looked and sounded disconnected needed a shared visual language — one that could flex across channels without losing coherence.</div>
+								</div>
+							</div>
+						</div>
+					
+				
+			
+		</div>
+	</div>
+  </div>
+</section>
+
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>Visual Identity</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">Those principles shaped the visual system from the ground up.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+		</div>
+	</div>
+  </div>
+</section>
+
+<section data-aos="fade-up" class="page-section image-grid">
+	<div class="row">
+		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+			<div class="media-grid" style="--grid-columns: 2; --grid-rows: 2;">
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 1" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-direction-icons.png" />
+						<div class="caption">To ground the brand in game development, we built a visual system inspired by the RTS camera viewpoint.</div>
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 2" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-direction-3D.png" />
+						<div class="caption">The 3D illustration style was intentionally simplified and friendly so the brand felt approachable to indie teams.</div>
+					</div>
+					
+				
+					
+					
+					
+					
+					
+					
+
+					
+					<div class="box">
+						<img alt="Image 3" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-direction-cobranding.png" />
+						<div class="caption">Co-branding rules tied together Azure, Xbox, PlayFab, and Visual Studio under one language.</div>
+					</div>
+					
+				
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="page-section project-section-block col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+  <hr class="spacer-vertical-lg" />
+  <div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<h2>GDC 2019</h2>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		<div class="box">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="box">
+						<p class="section-intro">The brand debuted on the show floor at GDC 2019. The booth and website were both structured around the developer journey, from prototyping through to live operations, which put the end-to-end story front and center instead of leading with individual products. Developers could see where each tool fit in their workflow rather than having to piece it together themselves.</p>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+
+			
+
+			
+
+			
+		</div>
+	</div>
+  </div>
+</section>
+
 <section data-aos="fade-up" class="page-section image-gallery">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
 			<div class="scroll-container-wrapper">
+				<button class="scroll-btn scroll-btn-left" aria-label="Scroll left"><span class="material-symbols-outlined">chevron_left</span></button>
+				<button class="scroll-btn scroll-btn-right" aria-label="Scroll right"><span class="material-symbols-outlined">chevron_right</span></button>
 				<div class="scroll-container" data-scroll-fade="">
 					<div class="scroll-wrapper">
 						
@@ -631,12 +943,62 @@
 		</div>
 	</div>
 </section>
+<script>
+(function () {
+	document.querySelectorAll('.scroll-container-wrapper').forEach(function (wrapper) {
+		var scrollContainer = wrapper.querySelector('.scroll-container');
+		var rafId = null;
+		var speed = 0;
+		var btnLeft = wrapper.querySelector('.scroll-btn-left');
+		var btnRight = wrapper.querySelector('.scroll-btn-right');
+
+		function updateButtons() {
+			var atStart = scrollContainer.scrollLeft <= 0;
+			var atEnd = scrollContainer.scrollLeft + scrollContainer.clientWidth >= scrollContainer.scrollWidth - 1;
+			btnLeft.classList.toggle('scroll-btn--hidden', atStart);
+			btnRight.classList.toggle('scroll-btn--hidden', atEnd);
+		}
+
+		scrollContainer.addEventListener('scroll', updateButtons);
+		updateButtons();
+
+		function startScroll(direction) {
+			speed = direction * 4;
+			function step() {
+				scrollContainer.scrollLeft += speed;
+				// Accelerate up to a max speed
+				if (Math.abs(speed) < 12) speed *= 1.05;
+				rafId = requestAnimationFrame(step);
+			}
+			rafId = requestAnimationFrame(step);
+		}
+
+		function stopScroll() {
+			if (rafId !== null) {
+				cancelAnimationFrame(rafId);
+				rafId = null;
+				speed = 0;
+			}
+		}
+
+		btnLeft.addEventListener('mousedown', function () { startScroll(-1); });
+		btnRight.addEventListener('mousedown', function () { startScroll(1); });
+		btnLeft.addEventListener('touchstart', function (e) { e.preventDefault(); startScroll(-1); }, { passive: false });
+		btnRight.addEventListener('touchstart', function (e) { e.preventDefault(); startScroll(1); }, { passive: false });
+
+		['mouseup', 'mouseleave', 'touchend', 'touchcancel'].forEach(function (evt) {
+			btnLeft.addEventListener(evt, stopScroll);
+			btnRight.addEventListener(evt, stopScroll);
+		});
+	});
+})();
+</script>
 
 <section data-aos="fade-up" class="page-section">
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-social-media.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
@@ -645,52 +1007,59 @@
 	<div class="row">
 		<div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
   			<div class="box"><img alt="" class="responsive rounded" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-website.png" /></div>
-			<div class="caption"></div>
+			
 		</div>
 	</div>
 </section>
-<section class="page-section">
+<section class="page-section post-footer-section">
 <div class="row">
-	
+
   <div class="col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-	  
+
 	<div class="box">
-		
+
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<h2 class="box">More projects</h2>
 			</div>
-		</div>
-		
-		<div class="row"><div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+		</div><div class="row"><div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 				<a class="box thumbnail" href="/2020/03/10/microsoft-gamestack-2020.html">
-				  <img class="thumbnail-image rounded responsive" src="/assets/images/microsoft-gamestack-2020/mgs2020-thumbnail2.png" />
-				  <p class="thumbnail-title">Microsoft Game Stack Live</p>
-				  <div class="thumbnail-tags">
-					  <p class="thumbnail-tag">Microsoft</p>
-				   </div>
+				  <div class="thumbnail-image"><img class="rounded responsive" src="/assets/images/microsoft-gamestack-2020/mgs2020-thumbnail2.png" /></div>
+				  <div class="thumbnail-footer">
+				    <div class="thumbnail-footer-left">
+				      <p class="thumbnail-title">Microsoft Game Stack Live @ Microsoft</p>
+				      <div class="thumbnail-tags">
+				        <p class="thumbnail-tag">Scalable, IP-driven visual system unifying Azure, Xbox, and Visual Studio.</p>
+				      </div>
+				    </div>
+				  </div>
 				</a>
 			</div><div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 				<a class="box thumbnail" href="/2018/08/10/windows-gamebar.html">
-				  <img class="thumbnail-image rounded responsive" src="/assets/images/windows-gamebar/pc-gamebar-thumbnail.png" />
-				  <p class="thumbnail-title">Windows 10 Game Bar</p>
-				  <div class="thumbnail-tags">
-					  <p class="thumbnail-tag">Microsoft</p>
+				  <div class="thumbnail-image"><img class="rounded responsive" src="/assets/images/windows-gamebar/pc-gamebar-thumbnail.png" /></div>
+				  <div class="thumbnail-footer">
+				    <div class="thumbnail-footer-left">
+				      <p class="thumbnail-title">Windows 10 Game Bar @ Microsoft</p>
+				      <div class="thumbnail-tags">
+				        <p class="thumbnail-tag">Modernized Game Bar under Fluent Design with performance insights and Game Mode.</p>
+				      </div>
+				    </div>
 				  </div>
 				</a>
 			</div></div>
 	  </div>
 	</div>
   </div>
-</section><footer>
+</section>
+<footer>
   <div data-aos="fade-up" data-aos-once="true" class="row">
     <div class="col-xs-12 col-sm-12 col-md-offset-2 col-md-10 col-lg-offset-1 col-lg-10">
-      <div class="box"><h1 id="contact"><a href="mailto:hello@randyhuynh.com">Get in touch.</a></h1></div>
+      <div class="box"><h1 id="contact"><a href="mailto:ranhuynh@gmail.com">Get in touch.</a></h1></div>
     </div>
   </div>
   <div data-aos="fade-up" data-aos-once="true" class="row">
     <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-3 col-lg-offset-1 col-lg-3">
-      <div class="box"><span class="text sub-label"><a href="mailto:ranhuynh@gmail.com">ranhuynh@gmail.com</a></p></div>
+      <div class="box"><span class="text sub-label">Randy Huynh</p></div>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
       <div class="box"><span class="text sub-label">Seattle, WA<br/>United States</p></div>
@@ -717,12 +1086,11 @@
 <script src="https://unpkg.com/lenis@1.3.11/dist/lenis.min.js"></script> <header data-lenis-prevent><div class="spacer-h-40">
   </div>
   <div id="header-bar" class="row">
-    <div id="post-progress"></div>
-    <a id="back" class="tab" href="/">
+    <div id="post-progress"></div><a id="back" class="tab" href="/">
       <span class="material-symbols-outlined material-symbols-adjust">arrow_back</span>
     </a>
     <span id="post-title">
-Microsoft Game Stack
+Microsoft Game Stack @ Microsoft
 </span>
     <a id="share" class="tab" onclick="copyURLToClipboard()">
       <span class="material-symbols-adjust material-symbols-outlined">ios_share</span>
