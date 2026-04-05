@@ -1,6 +1,16 @@
 document.body.onmousemove = function(e) {
-  document.documentElement.style.setProperty('--x', e.clientX + 'px');
-  document.documentElement.style.setProperty('--y', e.clientY + 'px');
+  document.documentElement.style.setProperty (
+  '--x', (
+	e.clientX+window.scrollX
+  )
+  + 'px'
+  );
+  document.documentElement.style.setProperty (
+  '--y', (
+	e.clientY+window.scrollY
+  ) 
+  + 'px'
+  );
 }
 
 // Initialize Lenis
@@ -141,44 +151,23 @@ function setHeaderHeightVar() {
 window.addEventListener('load', setHeaderHeightVar);
 window.addEventListener('resize', setHeaderHeightVar);
 
-// Fix Chrome mobile: keep header anchored to the visual viewport
-// when the URL bar shows/hides and shifts the layout viewport.
-function fixHeaderForVisualViewport() {
-	const header = document.querySelector('header');
-	if (!header || !window.visualViewport) return;
-	header.style.top = (window.visualViewport.offsetTop + 16) + 'px';
-}
-
-if (window.visualViewport) {
-	window.visualViewport.addEventListener('resize', fixHeaderForVisualViewport);
-}
-
 // Fade out on link click
 document.addEventListener('DOMContentLoaded', function() {
 	const links = document.querySelectorAll('a:not([target="_blank"])');
 	const page = document.querySelector('.page');
-
+	
 	links.forEach(link => {
 		link.addEventListener('click', function(e) {
-			const href = this.getAttribute('href');
-
-			// Smooth scroll for hash anchors
-			if (href && href.startsWith('#')) {
-				const target = document.querySelector(href);
-				if (target) {
-					e.preventDefault();
-					target.scrollIntoView({ behavior: 'smooth' });
-				}
-				return;
-			}
-
-			// Fade for internal page navigation
+			// Only fade for internal links
 			if (this.hostname === window.location.hostname) {
 				e.preventDefault();
+				const href = this.getAttribute('href');
+				
 				page.classList.add('fade-out');
+				
 				setTimeout(() => {
 					window.location.href = href;
-				}, 300);
+				}, 300); // Match CSS transition duration
 			}
 		});
 	});
@@ -205,16 +194,10 @@ window.addEventListener('pageshow', function() {
 window.addEventListener('scroll', () => {
 	const scrolled = window.pageYOffset;
 	const parallaxElements = document.querySelectorAll('.hero-image-parallax');
-	const reelVideos = document.querySelectorAll('.hero-reel-video');
 	
 	parallaxElements.forEach(element => {
 		const speed = 0.2; // Adjust for parallax intensity (0.5 = half speed)
 		element.style.transform = `translateY(${scrolled * speed}px)`;
-	});
-
-	reelVideos.forEach(element => {
-		const speed = 0.12;
-		element.style.setProperty('--hero-reel-parallax', `${scrolled * speed}px`);
 	});
 });
 
@@ -232,7 +215,7 @@ window.addEventListener('scroll', () => {
 			function updateMask() {
 				const scrollLeft = container.scrollLeft;
 				const maxScroll = container.scrollWidth - container.clientWidth;
-				const fadeWidth = 24;
+				const fadeWidth = 100;
 				
 				if (maxScroll <= 0) {
 					// No scrolling needed, no mask

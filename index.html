@@ -28,7 +28,7 @@
   <link rel="stylesheet" href="/assets/flexboxgrid.css">
   <link rel="stylesheet" href="/assets/index.css">
   <link rel="stylesheet" href="/assets/hero.css">
-  <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.11/dist/lenis.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Randy Huynh" /></head><body class="layout layout-home">
+  <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.11/dist/lenis.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Randy Huynh" /></head><body class="layout">
   
   <div id="cursor"></div>
   
@@ -36,253 +36,214 @@
     
     <div class="wrap container-fluid">
       
-      
-
-<div class="loading-screen" data-loading-screen aria-hidden="true">
-	<div class="loading-screen__logo" data-loading-logo>RH</div>
-</div>
-
-<script>
-	(function() {
-		var screen = document.querySelector('[data-loading-screen]');
-		if (!screen) return;
-
-		function getMediaUrls() {
-			var nodes = document.querySelectorAll('img[src], video[src], video source[src]');
-			var urls = [];
-
-			nodes.forEach(function(node) {
-				var src = node.getAttribute('src');
-				if (!src || src.indexOf('data:') === 0) return;
-				urls.push(node.src || src);
-			});
-
-			return Array.from(new Set(urls));
-		}
-
-		function preloadImage(url) {
-			return new Promise(function(resolve) {
-				var img = new Image();
-				img.onload = resolve;
-				img.onerror = resolve;
-				img.src = url;
-			});
-		}
-
-		function preloadVideo(url) {
-			return new Promise(function(resolve) {
-				var video = document.createElement('video');
-				var settled = false;
-				var done = function() {
-					if (settled) return;
-					settled = true;
-					resolve();
-				};
-
-				video.preload = 'auto';
-				video.muted = true;
-				video.playsInline = true;
-				video.onloadeddata = done;
-				video.onerror = done;
-				video.src = url;
-
-				setTimeout(done, 4000);
-			});
-		}
-
-		function preloadAllMedia() {
-			var urls = getMediaUrls();
-			var tasks = urls.map(function(url) {
-				if (/\.(mp4|webm)(\?|#|$)/i.test(url)) {
-					return preloadVideo(url);
-				}
-
-				return preloadImage(url);
-			});
-
-			return Promise.allSettled(tasks);
-		}
-
-		function dismissLoadingScreen() {
-			screen.classList.add('is-exiting');
-			screen.addEventListener('transitionend', function handleTransitionEnd() {
-				screen.removeEventListener('transitionend', handleTransitionEnd);
-				screen.remove();
-			});
-
-			setTimeout(function() {
-				if (screen && screen.parentNode) {
-					screen.remove();
-				}
-			}, 900);
-		}
-
-		function init() {
-			Promise.race([
-				preloadAllMedia(),
-				new Promise(function(resolve) { setTimeout(resolve, 5000); })
-			]).then(dismissLoadingScreen);
-		}
-
-		if (document.readyState === 'loading') {
-			document.addEventListener('DOMContentLoaded', init, { once: true });
-		} else {
-			init();
-		}
-	})();
-</script>
-
-
- <!-- HERO -->
+       <!-- HERO -->
 <section class="hero col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-1 col-lg-10">
-  <div class="row hero-content" data-aos="zoom-in" data-aos-delay="400">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-      <div class="hero-reel" aria-hidden="true">
-        <div class="hero-reel-frame">
-          <video class="hero-reel-video" autoplay loop muted playsinline>
-            <source src="/assets/images/portfolio-reel.webm" type="video/webm" />
-            <source src="/assets/images/portfolio-reel.mp4" type="video/mp4" />
-          </video>
+  <div class="row center-xs center-sm center-md center-lg">
+       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
+         <div class="box">
+             <img data-aos="fade-up" data-aos-delay="200" id="avatar" class="responsive" src="assets/images/profile.jpeg" />
+         </div>
+       </div>
+   </div>
+   <div class="row center-xs center-sm center-md center-lg">
+       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+         <div class="box">
+             <h1 data-aos="fade-up" data-aos-delay="300" class="hero-quote">
+               <div>I'm Randy, and I love making</div>
+               <div class="animated-text">
+                <span class="word">cool things</span>
+                <span class="word">fun games</span>
+                <span class="word">immersive visuals</span>
+                <span class="word">personal art</span>
+                <span class="word">interesting stories</span>
+                <span class="word">unique experiences</span>
+                <span class="word">cool things</span>
+                <span class="word">fun games</span>
+                <span class="word">immersive visuals</span>
+                <span class="word">personal art</span>
+               </div>
+               <div>that make people smile.</div>
+             </h1>
+         </div>
+       </div>
+   </div>
+   <div data-aos="fade-up" data-aos-delay="400" class="row hero-footer caption">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="box">
+          <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <div class="box">
+                    <div>Currently designing at <a href="https://clockworklabs.io/"> Clockwork Labs</a>. Based in Seattle, Washington.</div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <div class="box">
+                    <div class="hero-see-selected-works">See selected works <span class="material-symbols-outlined">arrow_circle_down</span></div>
+                </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="box hero-footer-line">
+                </div>
+            </div>
+          </div>
         </div>
       </div>
-      <h1 class="hero-quote" data-text="Designer and builder focused on games and interactive systems.">Designer and builder focused on games and interactive systems.</h1>
-    </div>
-  </div>
-  <div data-aos="zoom-in" data-aos-delay="400" class="row hero-footer caption">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-      <div class="box">
-        <div class="row center-xs center-sm">
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-              <div class="box">
-                  <div class="hero-bio">I'm Randy Huynh, a senior designer experienced in Unity development and shipping end-to-end products. Currently designing <a href="https://bitcraftonline.com/">BitCraft Online</a> at <a href="https://clockworklabs.io/"> Clockwork Labs</a>. Based in Seattle, Washington.</div>
-              </div>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-              <div class="box">
-                  <p class="hero-see-selected-works">See selected works <span class="material-symbols-outlined">arrow_circle_down</span></p>
-              </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-              <div class="box hero-footer-line">
-              </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
  </section>
 
 <!-- PROJECTS -->
 
 <section class="page-section col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
-  <div id="projects" class="projects-grid"><a data-aos="zoom-in" data-aos-once="true"
-       class=" branding  ui-ux  visual-design  coding project thumbnail span-2"
+<div class="row top-xs top-sm top-md top-lg">
+  <div id="projects" class="col-xs col-sm col-md col-lg">
+    <div class="box"><a data-aos="fade-up" data-aos-once="true"
+       class=" branding  ui-ux  visual-design  coding project thumbnail col-xs-12 col-sm-12 col-md-6 col-lg-6"
        href="/2024/08/01/blade-blitz.html">
 
-      <div class="thumbnail-image"><video class="rounded responsive" loop muted autoplay playsinline><source src="/assets/images/bladeblitz/bladeblitz-animation.webm" type="video/webm" /><source src="/assets/images/bladeblitz/bladeblitz-animation.mp4" type="video/mp4" /></video></div>
-      <div class="thumbnail-footer">
-        <div class="thumbnail-footer-left">
-          <p class="thumbnail-title">Blade Blitz @ Hella Studios</p>
-          <div class="thumbnail-tags">
-            <p class="thumbnail-tag">1,000+ wishlists and 350+ demo players as a solo-designed and developed title.</p>
-          </div>
-        </div></div>
-    </a><a data-aos="zoom-in" data-aos-once="true"
-       class=" branding  ui-ux  three-d  motion project thumbnail span-1"
+       <div class="thumbnail-image"><span class="status-pill status-pill-thumbnail-position" data-status="current role">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span class="status-label">
+            Current role
+          </span>
+        </span><img class="rounded responsive" src="/assets/images/bladeblitz/bladeblitz-thumbnail.png" />
+      </div>
+      <p class="thumbnail-title">Blade Blitz</p>
+      <div class="thumbnail-tags">
+        <p class="thumbnail-tag">Personal</p>
+      </div>
+    </a><a data-aos="fade-up" data-aos-once="true"
+       class=" branding  three-d  motion project thumbnail col-xs-12 col-sm-12 col-md-6 col-lg-6"
        href="/2024/08/01/spacetimedb.html">
 
-      <div class="thumbnail-image"><video class="rounded responsive" loop muted autoplay playsinline><source src="/assets/images/spacetimedb/stdb-logo.webm" type="video/webm" /><source src="/assets/images/spacetimedb/stdb-logo.mp4" type="video/mp4" /></video></div>
-      <div class="thumbnail-footer">
-        <div class="thumbnail-footer-left">
-          <p class="thumbnail-title">SpacetimeDB at Clockwork Labs</p>
-          <div class="thumbnail-tags">
-            <p class="thumbnail-tag">Built a developer portal for a platform with 75,000+ registered users.</p>
-          </div>
-        </div></div>
-    </a><a data-aos="zoom-in" data-aos-once="true"
-       class=" branding  ui-ux  visual-design project thumbnail span-1"
+       <div class="thumbnail-image"><span class="status-pill status-pill-thumbnail-position" data-status="current role">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span class="status-label">
+            Current role
+          </span>
+        </span><img class="rounded responsive" src="/assets/images/spacetimedb/stdb-thumbnail.png" />
+      </div>
+      <p class="thumbnail-title">SpacetimeDB</p>
+      <div class="thumbnail-tags">
+        <p class="thumbnail-tag">Clockwork Labs</p>
+      </div>
+    </a><a data-aos="fade-up" data-aos-once="true"
+       class=" branding  ui-ux  visual-design project thumbnail col-xs-12 col-sm-12 col-md-6 col-lg-6"
        href="/2024/08/01/bitcraft.html">
 
-      <div class="thumbnail-image"><img class="rounded responsive" src="/assets/images/bitcraft/bitcraft-shooting-star.png" /></div>
-      <div class="thumbnail-footer">
-        <div class="thumbnail-footer-left">
-          <p class="thumbnail-title">BitCraft Online at Clockwork Labs</p>
-          <div class="thumbnail-tags">
-            <p class="thumbnail-tag">250,000+ players, 4,500+ peak concurrent, 127,000+ wishlists at early access launch.</p>
-          </div>
-        </div></div>
-    </a><a data-aos="zoom-in" data-aos-once="true"
-       class=" ui-ux  visual-design  branding project thumbnail span-1"
+       <div class="thumbnail-image"><span class="status-pill status-pill-thumbnail-position" data-status="current role">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span class="status-label">
+            Current role
+          </span>
+        </span><img class="rounded responsive" src="/assets/images/bitcraft/bitcraft-thumb.png" />
+      </div>
+      <p class="thumbnail-title">BitCraft Online</p>
+      <div class="thumbnail-tags">
+        <p class="thumbnail-tag">Clockwork Labs</p>
+      </div>
+    </a><a data-aos="fade-up" data-aos-once="true"
+       class=" ui-ux  visual-design project thumbnail col-xs-12 col-sm-12 col-md-6 col-lg-6"
+       href="/2023/06/01/silenthill-ascension.html">
+
+       <div class="thumbnail-image"><span class="status-pill status-pill-thumbnail-position" data-status="shipped">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span class="status-label">
+            Shipped
+          </span>
+        </span><img class="rounded responsive" src="/assets/images/silenthill-ascension/sha-thumbnail.png" />
+      </div>
+      <p class="thumbnail-title">Silent Hill Ascension</p>
+      <div class="thumbnail-tags">
+        <p class="thumbnail-tag">Genvid Entertainment</p>
+      </div>
+    </a><a data-aos="fade-up" data-aos-once="true"
+       class=" ui-ux  visual-design  branding project thumbnail col-xs-12 col-sm-12 col-md-6 col-lg-6"
        href="/2020/06/01/streampirates.html">
 
-      <div class="thumbnail-image"><img class="rounded responsive" src="/assets/images/stream-pirates/stream_pirates_pixelart.png" /></div>
-      <div class="thumbnail-footer">
-        <div class="thumbnail-footer-left">
-          <p class="thumbnail-title">Stream Pirates @ Captain.tv</p>
-          <div class="thumbnail-tags">
-            <p class="thumbnail-tag">1,000+ concurrent viewers and 30+ streamers in closed beta.</p>
-          </div>
-        </div></div>
-    </a><a data-aos="zoom-in" data-aos-once="true"
-       class=" three-d  branding project thumbnail span-1"
+       <div class="thumbnail-image"><span class="status-pill status-pill-thumbnail-position" data-status="shipped">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span class="status-label">
+            Shipped
+          </span>
+        </span><img class="rounded responsive" src="/assets/images/stream-pirates/stream_pirates_thumb.png" />
+      </div>
+      <p class="thumbnail-title">Stream Pirates</p>
+      <div class="thumbnail-tags">
+        <p class="thumbnail-tag">Captain.tv</p>
+      </div>
+    </a><a data-aos="fade-up" data-aos-once="true"
+       class=" three-d  branding project thumbnail col-xs-12 col-sm-12 col-md-6 col-lg-6"
        href="/2020/03/12/microsoft-azure-playfab.html">
 
-      <div class="thumbnail-image"><img class="rounded responsive" src="/assets/images/microsoft-azure-playfab/playfab-trophy-render-07.png" /></div>
-      <div class="thumbnail-footer">
-        <div class="thumbnail-footer-left">
-          <p class="thumbnail-title">Microsoft Azure Playfab Awards @ Microsoft</p>
-          <div class="thumbnail-tags">
-            <p class="thumbnail-tag">Modular trophy system turning player-growth milestones into collectible physical awards.</p>
-          </div>
-        </div></div>
-    </a><a data-aos="zoom-in" data-aos-once="true"
-       class=" branding  visual-design project thumbnail span-1"
+       <div class="thumbnail-image"><span class="status-pill status-pill-thumbnail-position" data-status="concepted">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span class="status-label">
+            Concepted
+          </span>
+        </span><img class="rounded responsive" src="/assets/images/microsoft-azure-playfab/playfab-trophy-thumb.png" />
+      </div>
+      <p class="thumbnail-title">Microsoft Azure Playfab Awards</p>
+      <div class="thumbnail-tags">
+        <p class="thumbnail-tag">Microsoft</p>
+      </div>
+    </a><a data-aos="fade-up" data-aos-once="true"
+       class=" branding  visual-design project thumbnail col-xs-12 col-sm-12 col-md-6 col-lg-6"
        href="/2020/03/10/microsoft-gamestack-2020.html">
 
-      <div class="thumbnail-image"><img class="rounded responsive" src="/assets/images/microsoft-gamestack-2020/mgs2020-thumbnail2.png" /></div>
-      <div class="thumbnail-footer">
-        <div class="thumbnail-footer-left">
-          <p class="thumbnail-title">Microsoft Game Stack Live @ Microsoft</p>
-          <div class="thumbnail-tags">
-            <p class="thumbnail-tag">Scalable, IP-driven visual system unifying Azure, Xbox, and Visual Studio.</p>
-          </div>
-        </div></div>
-    </a><a data-aos="zoom-in" data-aos-once="true"
-       class=" branding  visual-design project thumbnail span-1"
+       <div class="thumbnail-image"><span class="status-pill status-pill-thumbnail-position" data-status="shipped">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span class="status-label">
+            Shipped
+          </span>
+        </span><img class="rounded responsive" src="/assets/images/microsoft-gamestack-2020/mgs2020-thumbnail2.png" />
+      </div>
+      <p class="thumbnail-title">Microsoft Game Stack Live</p>
+      <div class="thumbnail-tags">
+        <p class="thumbnail-tag">Microsoft</p>
+      </div>
+    </a><a data-aos="fade-up" data-aos-once="true"
+       class=" branding  visual-design project thumbnail col-xs-12 col-sm-12 col-md-6 col-lg-6"
        href="/2019/03/10/microsoft-gamestack-2019.html">
 
-      <div class="thumbnail-image"><img class="rounded responsive" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-thumbnail2.png" /></div>
-      <div class="thumbnail-footer">
-        <div class="thumbnail-footer-left">
-          <p class="thumbnail-title">Microsoft Game Stack @ Microsoft</p>
-          <div class="thumbnail-tags">
-            <p class="thumbnail-tag">Unified 12+ products under one brand at GDC, driving 6,000+ PlayFab sign-ups in week one.</p>
-          </div>
-        </div></div>
-    </a><a data-aos="zoom-in" data-aos-once="true"
-       class=" ui-ux  visual-design project thumbnail span-1"
+       <div class="thumbnail-image"><span class="status-pill status-pill-thumbnail-position" data-status="shipped">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span class="status-label">
+            Shipped
+          </span>
+        </span><img class="rounded responsive" src="/assets/images/microsoft-gamestack-2019/microsoft-gamestack-thumbnail2.png" />
+      </div>
+      <p class="thumbnail-title">Microsoft Game Stack</p>
+      <div class="thumbnail-tags">
+        <p class="thumbnail-tag">Microsoft</p>
+      </div>
+    </a><a data-aos="fade-up" data-aos-once="true"
+       class=" ui-ux  visual-design project thumbnail col-xs-12 col-sm-12 col-md-6 col-lg-6"
        href="/2018/08/10/windows-gamebar.html">
 
-      <div class="thumbnail-image"><img class="rounded responsive" src="/assets/images/windows-gamebar/pc-gamebar-thumbnail.png" /></div>
-      <div class="thumbnail-footer">
-        <div class="thumbnail-footer-left">
-          <p class="thumbnail-title">Windows 10 Game Bar @ Microsoft</p>
-          <div class="thumbnail-tags">
-            <p class="thumbnail-tag">Modernized Game Bar under Fluent Design with performance insights and Game Mode.</p>
-          </div>
-        </div></div>
+       <div class="thumbnail-image"><span class="status-pill status-pill-thumbnail-position" data-status="shipped">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span class="status-label">
+            Shipped
+          </span>
+        </span><img class="rounded responsive" src="/assets/images/windows-gamebar/pc-gamebar-thumbnail.png" />
+      </div>
+      <p class="thumbnail-title">Windows 10 Game Bar</p>
+      <div class="thumbnail-tags">
+        <p class="thumbnail-tag">Microsoft</p>
+      </div>
     </a></div>
+    </div>
+  </div>
 </section><footer>
   <div data-aos="fade-up" data-aos-once="true" class="row">
     <div class="col-xs-12 col-sm-12 col-md-offset-2 col-md-10 col-lg-offset-1 col-lg-10">
-      <div class="box"><h1 id="contact"><a href="mailto:ranhuynh@gmail.com">Get in touch.</a></h1></div>
+      <div class="box"><h1 id="contact"><a href="mailto:hello@randyhuynh.com">Get in touch.</a></h1></div>
     </div>
   </div>
   <div data-aos="fade-up" data-aos-once="true" class="row">
     <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-3 col-lg-offset-1 col-lg-3">
-      <div class="box"><span class="text sub-label">Randy Huynh</p></div>
+      <div class="box"><span class="text sub-label"><a href="mailto:ranhuynh@gmail.com">ranhuynh@gmail.com</a></p></div>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
       <div class="box"><span class="text sub-label">Seattle, WA<br/>United States</p></div>
@@ -317,7 +278,10 @@
     <span id="theme-toggle-light" class="material-symbols-outlined">light_mode</span>
     <span id="theme-toggle-dark" class="material-symbols-outlined">dark_mode</span>
   </button>
-</header>
+</header><button id="theme-toggle">
+  <span id="theme-toggle-light" class="material-symbols-outlined">light_mode</span>
+  <span id="theme-toggle-dark" class="material-symbols-outlined">dark_mode</span>
+</button>
       
     </div>
   
